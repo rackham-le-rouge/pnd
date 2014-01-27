@@ -20,7 +20,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 	numthr=6;
 
-
+	// Adding some useless comment
 	#pragma omp parallel private(nbth, tid) num_threads(numthr)
 	{
 		tid = omp_get_thread_num();
