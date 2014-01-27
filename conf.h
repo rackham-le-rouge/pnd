@@ -110,7 +110,7 @@ typedef struct structProgramInfo_
 #include "main.h"
 #include "drawing.h"
 #include "multithread.h"
-
+#include "signalmanagement.h"
 
 
 
