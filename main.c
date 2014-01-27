@@ -134,6 +134,8 @@ int main(int argc, char** argv)
 	// Just drawing, no command here
 	drawMainMenu(g_iLigne, g_iColonne);
 
+	// Re-routing signals of the system
+	initialisationOfTheSignal();
 
 	createAllComputingThreads(structCommon);
 
@@ -155,6 +157,7 @@ int main(int argc, char** argv)
 		case 1:
 		{
 			LOG_WRITE("Start/Stop function selected")
+			while(1);
 			break;
 		}
 		case 2:
@@ -187,7 +190,6 @@ int main(int argc, char** argv)
 			LOG_WRITE("Error in the menu choice. No corresponding function")
 			break;
 		}
-
 	}
 
 

@@ -32,6 +32,7 @@ extern void drawMainMenu(int p_iRow, int p_iCol);
 extern int isItAPrimeNumber(mpz_t p_mpzNumber);
 extern int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber);
 extern void createAllComputingThreads(structProgramInfo* p_structCommon);
+extern void initialisationOfTheSignal(void);
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
 
 #endif
