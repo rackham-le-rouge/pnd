@@ -20,13 +20,12 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 	numthr=6;
 
-	// Adding some useless comment
 	#pragma omp parallel private(nbth, tid) num_threads(numthr)
 	{
 		tid = omp_get_thread_num();
 		usleep(20000*tid);
 
-		#pragma omp critical (writelog)
+ 		#pragma omp critical (writelog) /* just a name for the section */
 		{
 			LOG_WRITE("I am in a Thread")
 			LOG_WRITE_LONG((long int)tid)

@@ -6,7 +6,7 @@ EXEC=pnd
 all: $(EXEC)
 allc: mrproper $(EXEC)
 
-pnd: drawing.o compute.o multithread.o main.o
+pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 	@$(CC) -o $@ $^ $(LDFLAGS)
 	@echo [LD] $@
 
