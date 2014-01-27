@@ -36,6 +36,7 @@
 #include <ncurses.h>
 #include <gmp.h>
 #include <omp.h>
+#include <signals.h>
 
 
 // Some constants
