@@ -13,24 +13,22 @@
 #include "conf.h"
 
 
-
-
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
 
 	int tid, nbth, numthr;
 
-	numthr=3;
+	numthr=6;
 
 
 	#pragma omp parallel private(nbth, tid) num_threads(numthr)
 	{
 		tid = omp_get_thread_num();
-		usleep(10000*tid);
+		usleep(20000*tid);
 
 		#pragma omp critical (writelog)
 		{
-			LOG_WRITE("i am in tid")
+			LOG_WRITE("I am in a Thread")
 			LOG_WRITE_LONG((long int)tid)
 		}
 	}
