@@ -16,9 +16,9 @@
 
 /**
   *
-  * In the algorithm we only can use prime number. These numbers are not really long, thus there
+  * In the miller-rabin algorithm we only can use prime number. These numbers are not really long, thus there
   * is no need to improve this algorithm. We just need to know if the number is a prime number,
-  * and after we can do 2^N - 1 and start the bug computing
+  * and after we can do 2^N - 1 and start the big computing
   *
   * Simple prime number testing -> check all number since sqrt(n) is reached
   */
@@ -77,6 +77,125 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 
 	return FALSE;
 }
+
+
+
+
+
+
+/**
+  * An other basic function in order to find if it is a prime number.
+  *
+  * This one is design to be used with multithread calls. We are able to
+  * split all computation in some many parts in order to execute each one
+  * in their own thread.
+  *
+  * But it is still the same poor algo than the function isItAPrimeNumber
+  * and thus, there is any optimisation here...
+  */
+
+
+int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection)
+{
+	int l_bReturnOfFunction = FALSE;
+	mpz_t l_mpzEndOfSearchArea;
+	mpz_t l_mpzBeginOfSearchArea;
+	mpz_t l_mpzSQRT;
+	mpz_t l_mpzIterator;
+
+	mpz_init(l_mpzBeginOfSearchArea);
+	mpz_init(l_mpzEndOfSearchArea);
+	mpz_init(l_mpzSQRT);
+	mpz_init(l_mpzIterator);
+
+	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
+
+	// Do the SQRT
+	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
+
+	// Copy number in end and beginning variables in order to create the iterator boundaries.
+	mpz_set(l_mpzEndOfSearchArea, p_mpzNumber);
+	mpz_set(l_mpzBeginOfSearchArea, p_mpzNumber);
+
+	mpz_sub(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, l_mpzSQRT);
+	mpz_sub(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, l_mpzSQRT);
+
+	mpz_mul_ui(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, p_iSectionNumber + 1);
+	mpz_mul_ui(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, p_iSectionNumber);
+
+	mpz_cdiv_q_ui(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, p_iTotalSection);
+	mpz_cdiv_q_ui(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, p_iTotalSection);
+
+	mpz_add(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, l_mpzSQRT);
+	mpz_add(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, l_mpzSQRT);
+
+	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number.
+	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
+
+	// Make iterator odd number
+	if(!mpz_odd_p(l_mpzIterator))
+	{
+		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
+	}
+
+
+	// Start to divide by all people between the number his own sqrt
+	for(;;)
+	{
+		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible
+									// we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number.
+		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
+
+		if(l_bReturnOfFunction)	{break;}			// else, we continue...
+
+		l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); //Compare begining of search area and Iterator. Return a positive value if Begin > Iterator
+		if(l_bReturnOfFunction > 0)
+		{
+			// Clean...
+			mpz_clear(l_mpzSQRT);
+			mpz_clear(l_mpzIterator);
+			mpz_clear(l_mpzBeginOfSearchArea);
+			mpz_clear(l_mpzEndOfSearchArea);
+			mpz_clear(l_mpzIterator);
+
+			LOG_WRITE("Compute: yes it seem to be ! for the section number")
+			LOG_WRITE_LONG((unsigned long)p_iSectionNumber)
+			LOG_WRITE("of")
+			LOG_WRITE_LONG((unsigned long)p_iTotalSection)
+
+			return TRUE;
+		}
+	}
+
+	// Clean...
+	mpz_clear(l_mpzSQRT);
+	mpz_clear(l_mpzIterator);
+	mpz_clear(l_mpzBeginOfSearchArea);
+	mpz_clear(l_mpzEndOfSearchArea);
+	mpz_clear(p_mpzNumber);
+
+	LOG_WRITE("Compute: no it is not... for section")
+	LOG_WRITE_LONG((unsigned long)p_iSectionNumber)
+	LOG_WRITE("of")
+	LOG_WRITE_LONG((unsigned long)p_iTotalSection)
+
+	return FALSE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
