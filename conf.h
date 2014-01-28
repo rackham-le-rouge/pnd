@@ -96,9 +96,10 @@ char __macroTemporaryBuffer[MACRO_LENGHT_OF_BUFFER_FOR_INT];
 typedef struct structProgramInfo_
 {
 	int iMersenneOrder;
-	int iThreadNumber;
-	int bIsComputing;
-	int bNeedToRedrawProgressBar;
+	unsigned char iThreadNumber;					/* we can put it in char, more than 256 thread is suspicious... */
+	char bIsComputing;
+	char bNeedToRedrawProgressBar;
+	char bDead;							/* when at least one thread found at least one divider */
 }structProgramInfo;
 
 
