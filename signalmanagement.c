@@ -68,10 +68,11 @@ void signalHandler(int p_iSignalNo)
 	/* In order to quit the program properly */
 	if(p_iSignalNo == SIGTERM || p_iSignalNo == SIGINT)
 	{
-		LOG_WRITE("Anormal termination of the program...  sigterm or sigint send against me. Saving context")
+		LOG_WRITE("Sigterm or sigint send against me. Saving context")
 		commonSignalEnding();
 	}
 }
+
 
 
 /**
