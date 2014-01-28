@@ -22,7 +22,7 @@
 
 
 void createAllComputingThreads(structProgramInfo* p_structCommon);
-
+extern int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection);
 
 
 #endif
