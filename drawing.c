@@ -289,9 +289,9 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "4. Settings         ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "5. XX               ");
+	strcpy(l_cBuffer, "5. About PND        ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "6. About PND        ");
+	strcpy(l_cBuffer, "6. Quit             ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 
 
