@@ -52,6 +52,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->iThreadNumber = 1;
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
+	p_structStructure->bDead = FALSE;
 }
 
 
@@ -61,7 +62,8 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 int main(int argc, char** argv)
 {
 	int l_iTmp = 0;
-	int l_bAsk = TRUE;
+	char l_bAsk = TRUE;
+	char l_bQuitProgram = FALSE;
 	structProgramInfo* structCommon = NULL;
 
 	LOG_WRITE("------------------------------------------------")
@@ -140,55 +142,61 @@ int main(int argc, char** argv)
 	createAllComputingThreads(structCommon);
 
 
-	// Do what the user request
-	LOG_WRITE("Main menu : Wainting for a user choice...")
-	do
+
+	while(!l_bQuitProgram)
 	{
-		// Get the keyboark key
-		l_iTmp = getch();
-		l_iTmp -= 48;
+		// Do what the user request
+		LOG_WRITE("Main menu : Wainting for a user choice...")
+		do
+		{
+			// Get the keyboark key
+			l_iTmp = getch();
+			l_iTmp -= 48;
 
-		l_bAsk = (l_iTmp > 0 && l_iTmp < 6) ? FALSE : TRUE;
-	}while(l_bAsk);
+			l_bAsk = (l_iTmp > 0 && l_iTmp < 6) ? FALSE : TRUE;
+		}while(l_bAsk);
 
 
-	switch(l_iTmp)
-	{
-		case 1:
+		switch(l_iTmp)
 		{
-			LOG_WRITE("Start/Stop function selected")
-			while(1);
-			break;
-		}
-		case 2:
-		{
-			LOG_WRITE("Set a new order function selected")
-			break;
-		}
-		case 3:
-		{
-			LOG_WRITE("Minitoring the screen function selected")
-			break;
-		}
-		case 4:
-		{
-			LOG_WRITE("XX function selected")
-			break;
-		}
-		case 5:
-		{
-			LOG_WRITE("XX function selected")
-			break;
-		}
-		case 6:
-		{
-			LOG_WRITE("XX function selected")
-			break;
-		}
-		default:
-		{
-			LOG_WRITE("Error in the menu choice. No corresponding function")
-			break;
+			case 1:
+			{
+				LOG_WRITE("Start/Stop function selected")
+				createAllComputingThreads(structCommon);
+				break;
+			}
+			case 2:
+			{
+				LOG_WRITE("Set a new order function selected")
+				break;
+			}
+			case 3:
+			{
+				LOG_WRITE("Minitoring the screen function selected")
+				break;
+			}
+			case 4:
+			{
+				LOG_WRITE("Infinite loop selected")
+				while(1);
+				break;
+			}
+			case 5:
+			{
+				LOG_WRITE("XX function selected")
+				break;
+			}
+			case 6:
+			{
+				LOG_WRITE("Quit the program")
+				l_bQuitProgram = TRUE;
+				break;
+			}
+			default:
+			{
+				LOG_WRITE("Error in the menu choice. No corresponding function")
+				break;
+			}
 		}
 	}
 
