@@ -25832,3 +25832,46 @@ Main menu : Wainting for a user choice...
 Start/Stop function selected
 Anormal termination of the program... sigterm or sigint send against me. Saving context
 Anormal end of the program... Hope to see you again !
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+I am in a Thread
+0
+I am in a Thread
+1
+I am in a Thread
+2
+I am in a Thread
+3
+I am in a Thread
+4
+I am in a Thread
+5
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Anormal termination of the program... sigterm or sigint send against me. Saving context
+Anormal end of the program... Hope to see you again !
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+I am in a Thread
+0
+I am in a Thread
+1
+I am in a Thread
+2
+I am in a Thread
+3
+I am in a Thread
+4
+I am in a Thread
+5
+Main menu : Wainting for a user choice...
+Sigterm or sigint send against me. Saving context
+Anormal end of the program... Hope to see you again !
