@@ -13,22 +13,68 @@
 #include "conf.h"
 
 
+
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
+	int l_iThreadNumber = p_structCommon->iThreadNumber;
+	int l_iCurrentThread;
 
-	int tid, nbth, numthr;
 
-	numthr=6;
+	p_structCommon->bIsComputing = TRUE;
+	p_structCommon->bDead = FALSE;
 
-	#pragma omp parallel private(nbth, tid) num_threads(numthr)
+
+	/*
+	 ****************************************
+	 *
+	 *	     PARALLEL SECTION
+	 *
+	 ****************************************
+	 */
+
+
+	#pragma omp parallel private(l_iCurrentThread) num_threads(l_iThreadNumber)
 	{
-		tid = omp_get_thread_num();
-		usleep(20000*tid);
+		l_iCurrentThread = omp_get_thread_num();
 
- 		#pragma omp critical (writelog) /* just a name for the section */
+		mpz_t l_mpzPrimeNumberToTest;
+		mpz_init(l_mpzPrimeNumberToTest);
+
+		/* Create the Mersenne number 2^n - 1 */
+		mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
+		mpz_sub_ui(l_mpzPrimeNumberToTest, l_mpzPrimeNumberToTest, 1);
+
+ 		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 		{
-			LOG_WRITE("I am in a Thread")
-			LOG_WRITE_LONG((long int)tid)
+			LOG_WRITE("Multithread starting. Number is :")
+			LOG_WRITE_LONG((long int)l_iCurrentThread)
 		}
+
+		/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
+		 * the current part is l_iCurrentThread */
+		if(isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber) == FALSE)
+		{
+			/* We found at least one divider */
+			p_structCommon->bDead = TRUE;
+		}
+	}
+
+	/*
+	 ****************************************
+	 *
+	 *	    / PARALLEL SECTION
+	 *
+	 ****************************************
+	 */
+
+	p_structCommon->bIsComputing = FALSE;
+
+	if(p_structCommon->bDead == TRUE)
+	{
+		WRITE_LOG("This is a prime number ! :)")
+	}
+	else
+	{
+		WRITE_LOG("This is not a prime number :(")
 	}
 }
