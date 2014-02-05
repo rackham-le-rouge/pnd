@@ -381,3 +381,27 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 	// We need to see each time the bar is changed
 	refresh();
 }
+
+
+/**
+  * Cleaning the working screen
+  *
+  * In order to provide a clean screen for other application, without erase the first and the last line
+  * of the screen.
+  *
+  */
+void eraseWorkingScreen(int p_iRow, int p_iCol)
+{
+	int l_iIterator;
+	int l_iMatrixIterator;
+
+	for(l_iIterator = 1; l_iIterator < p_iRow - 1; l_iIterator++)
+	{
+		for(l_iMatrixIterator = 0; l_iMatrixIterator < p_iCol ; l_iMatrixIterator++)
+		{
+			drawElement(l_iMatrixIterator, l_iIterator, ' ', enumNoir);
+		}
+	}
+
+	refresh();
+}
