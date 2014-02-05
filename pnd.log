@@ -25875,3 +25875,1355 @@ I am in a Thread
 Main menu : Wainting for a user choice...
 Sigterm or sigint send against me. Saving context
 Anormal end of the program... Hope to see you again !
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: no it is not... for section
+0
+of
+1
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: no it is not... for section
+0
+of
+1
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: no it is not... for section
+0
+of
+1
+Main menu : Wainting for a user choice...
+Sigterm or sigint send against me. Saving context
+Anormal end of the program... Hope to see you again !
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: yes it seem to be ! for the section number
+0
+of
+1
+This is not a prime number.
+Main menu : Wainting for a user choice...
+Sigterm or sigint send against me. Saving context
+Anormal end of the program... Hope to see you again !
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: yes it seem to be ! for the section number
+0
+of
+1
+This is not a prime number.
+Main menu : Wainting for a user choice...
+Quit the program
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+127
+Multithread starting. Number is :
+0
+Compute: Try to find if a simple number is prime number or not
+Compute: yes it seem to be ! for the section number
+0
+of
+1
+This is not a prime number.
+Main menu : Wainting for a user choice...
+Quit the program
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+127
+Compute: Try to find if a simple number is prime number or not
+Multithread starting. Number is :
+Compute: yes it seem to be ! for the section number
+1
+0
+127
+Compute: Try to find if a simple number is prime number or not
+of
+2
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Tested number is :
+127
+Compute: Try to find if a simple number is prime number or not
+Multithread starting. Number is :
+Compute: yes it seem to be ! for the section number
+1
+0
+Tested number is :
+of
+127
+2
+Compute: Try to find if a simple number is prime number or not
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Tested number is :
+127
+Compute: Try to find if a simple number is prime number or not
+Compute: yes it seem to be ! for the section number
+0
+of
+2
+This is not a prime number.
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+------------------------------------------------
+Starting new instance...
+Screen element initialisation...
+Now screen lenght is :
+145
+Writing the default configuration in the common stuctProgramInfo
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+Multithread starting. Number is :
+0
+Tested number is :
+127
+Compute: Try to find if a simple number is prime number or not
+Compute: yes it seem to be ! for the section number
+0
+of
+1
+This is not a prime number.
+Main menu : Wainting for a user choice...
+Start/Stop function selected
+main.c 69 ------------------------------------------------
+main.c 70 Starting new instance...
+main.c 85 Screen element initialisation...
+drawing.c 336 Now screen lenght is :
+145
+main.c 50 Writing the default configuration in the common stuctProgramInfo
+main.c 147 Main menu : Wainting for a user choice...
+main.c 189 Quit the program
+main.c 211 End of the program. See you
+[main.c] 69 ------------------------------------------------
+[main.c] 70 Starting new instance...
+[main.c] 85 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 189 Quit the program
+[main.c] 211 End of the program. See you
+[main.c] 69 ------------------------------------------------
+[main.c] 70 Starting new instance...
+[main.c] 85 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 162 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 162 Start/Stop function selected
+[main.c] 69 ------------------------------------------------
+[main.c] 70 Starting new instance...
+[main.c] 85 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 166 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 166 Start/Stop function selected
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 222 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 222 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 222 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 206 TRACE
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 206 TRACE
+[main.c] 208 TRACE
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 206 TRACE
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 206 TRACE
+[main.c] 208 TRACE
+[main.c] 213 TRACE
+[main.c] 216 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 108 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 64 Tested number is :
+[multithread.c] 65 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 84 Compute: yes it seem to be ! for the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 112 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 38 trace
+[multithread.c] 42 trace
+[multithread.c] 46 trace
+[multithread.c] 50 trace
+[multithread.c] 55 trace
+[multithread.c] 59 Multithread starting. Number is :
+[multithread.c] 60 0
+[multithread.c] 65 Tested number is :
+[multithread.c] 66 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 85 Compute: yes it seem to be ! for the section number
+[multithread.c] 87 1
+[multithread.c] 88 of
+[multithread.c] 89 1
+[multithread.c] 113 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 38 trace
+[multithread.c] 42 trace
+[multithread.c] 46 trace
+[multithread.c] 50 trace
+[multithread.c] 55 trace
+[multithread.c] 59 Multithread starting. Number is :
+[multithread.c] 60 0
+[multithread.c] 65 Tested number is :
+[multithread.c] 66 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 85 Compute: yes it seem to be ! for the section number
+[multithread.c] 87 1
+[multithread.c] 88 of
+[multithread.c] 89 1
+[multithread.c] 113 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 80 Compute: no it is not ! For the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 108 This is a prime number !
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 80 Compute: no it is not ! For the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 108 This is a prime number !
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 80 Compute: no it is not ! For the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 108 This is a prime number !
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 80 Compute: no it is not ! For the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 108 This is a prime number !
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[multithread.c] 80 Compute: no it is not ! For the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 108 This is a prime number !
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[multithread.c] 37 trace
+[multithread.c] 41 trace
+[multithread.c] 45 trace
+[multithread.c] 49 trace
+[multithread.c] 54 trace
+[multithread.c] 58 Multithread starting. Number is :
+[multithread.c] 59 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 84 Compute: yes it seem to be ! for the section number
+[multithread.c] 86 1
+[multithread.c] 87 of
+[multithread.c] 88 1
+[multithread.c] 112 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 26 trace
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[multithread.c] 107 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[multithread.c] 107 This is not a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 511
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 75 Compute: no it is not ! For the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 511
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 75 Compute: no it is not ! For the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 511
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 75 Compute: no it is not ! For the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 511
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 75 Compute: no it is not ! For the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 1
+[multithread.c] 86
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 1
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 1
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 55 0
+[multithread.c] 60 Tested number is :
+[multithread.c] 61 127
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 54 Multithread starting. Number is :
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 55 1
+[multithread.c] 60 Tested number is :
+[multithread.c] 82 1
+[multithread.c] 61 127
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 87
+[multithread.c] 82 2
+[multithread.c] 83 of
+[multithread.c] 84 2
+[multithread.c] 87
+[multithread.c] 91
+[multithread.c] 102
+[multithread.c] 110 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 54 1
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 2
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 2
+[multithread.c] 82 of
+[multithread.c] 83 2
+[multithread.c] 106 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 1
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 127
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 54 0
+[multithread.c] 81 2
+[multithread.c] 59 Tested number is :
+[multithread.c] 82 of
+[multithread.c] 60 127
+[multithread.c] 83 2
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 2
+[multithread.c] 106 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 1
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 127
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 54 0
+[multithread.c] 81 2
+[multithread.c] 59 Tested number is :
+[multithread.c] 82 of
+[multithread.c] 60 127
+[multithread.c] 83 2
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 82 of
+[multithread.c] 83 2
+[multithread.c] 106 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 59 Tested number is :
+[multithread.c] 60 127
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 54 1
+[multithread.c] 81 1
+[multithread.c] 59 Tested number is :
+[multithread.c] 82 of
+[multithread.c] 60 127
+[multithread.c] 83 2
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 2
+[multithread.c] 82 of
+[multithread.c] 83 2
+[multithread.c] 106 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 1
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 54 0
+[multithread.c] 54 0
+[multithread.c] 81 1
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 0
+[multithread.c] 103 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 54 1
+[multithread.c] 81 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 103 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is :
+[multithread.c] 54 0
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 54 1
+[multithread.c] 81 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 79 Compute: yes it seem to be ! for the section number
+[multithread.c] 81 1
+[multithread.c] 103 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 55 Multithread starting. Number is : 1
+[multithread.c] 55 Multithread starting. Number is : 0
+[multithread.c] 55 Multithread starting. Number is : 0
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 82 1
+[multithread.c] 80 Compute: yes it seem to be ! for the section number
+[multithread.c] 82 0
+[multithread.c] 104 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not 0
+[compute.c] 107 Compute: Try to find if a simple number is prime number or not 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is pri
+[compute.c] 107 Compute: Try to find if a simple number is pri
+[compute.c] 108 Start : End 0 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[compute.c] 108 Start : End 0 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 137 Start : End 69 127
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[compute.c] 137 Start : End 11 69
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 6369051672525772 -1
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 12738103345051545 6369051672525772
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 1518500249 1152921505366097100
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 1152921505366097100 2305843009213693951

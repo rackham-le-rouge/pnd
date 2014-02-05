@@ -34,8 +34,8 @@
 #include <unistd.h>
 #include <time.h>
 #include <ncurses.h>
-#include <gmp.h>
 #include <omp.h>
+#include <gmp.h>
 #include <signal.h>
 
 
@@ -88,9 +88,12 @@ typedef enum
 
 char __macroTemporaryBuffer[MACRO_LENGHT_OF_BUFFER_FOR_INT];
 
-#define LOG_WRITE(macro_sString)	if(TRACE_EXEC) {system("echo " macro_sString " >> pnd.log");}
-#define LOG_WRITE_STRING(macro_sString)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo %s >> pnd.log", macro_sString); system(__macroTemporaryBuffer);}
-#define LOG_WRITE_LONG(macro_lLong)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo %ld >> pnd.log", macro_lLong); system(__macroTemporaryBuffer);}
+#define LOG_WRITE(macro_sString)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBuffer);		/*system("echo " __FILE__ " " macro_sString " >> pnd.log");*/}
+#define LOG_WRITE_STRING(macro_sString)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBuffer);}
+#define LOG_WRITE_LONG(macro_lLong)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld >> pnd.log", __FILE__, __LINE__, macro_lLong); system(__macroTemporaryBuffer);}
+#define LOG_WRITE_STRING_LONG(macro_sString, macro_lLong)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s  %ld >> pnd.log", __FILE__, __LINE__, macro_sString, macro_lLong); system(__macroTemporaryBuffer);}
+#define LOG_WRITE_LONG_LONG(macro_lLong1, macro_lLong2)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld  %ld >> pnd.log", __FILE__, __LINE__, macro_lLong1, macro_lLong2); system(__macroTemporaryBuffer);}
+#define LOG_WRITE_STRING_LONG_LONG(macro_sString, macro_lLong1, macro_lLong2)	if(TRACE_EXEC) {snprintf(__macroTemporaryBuffer, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s  %ld  %ld >> pnd.log", __FILE__, __LINE__, macro_sString, macro_lLong1, macro_lLong2); system(__macroTemporaryBuffer);}
 
 
 typedef struct structProgramInfo_

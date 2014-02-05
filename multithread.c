@@ -32,9 +32,13 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-
-	#pragma omp parallel private(l_iCurrentThread) num_threads(l_iThreadNumber)
+	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon), num_threads(l_iThreadNumber)
 	{
+		#ifdef DEBUG
+		/*char l_cBufferNumber[200];*/
+		#endif
+
+		char l_bResultOfPrimeFunction = FALSE;
 		l_iCurrentThread = omp_get_thread_num();
 
 		mpz_t l_mpzPrimeNumberToTest;
@@ -46,17 +50,36 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
  		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 		{
-			LOG_WRITE("Multithread starting. Number is :")
-			LOG_WRITE_LONG((long int)l_iCurrentThread)
+			LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
+
+
+			#ifdef UNDEFINED
+			mpz_get_str(l_cBufferNumber, 10, l_mpzPrimeNumberToTest);
+			LOG_WRITE("Tested number is : ")
+			LOG_WRITE_STRING(l_cBufferNumber)
+			#endif
 		}
 
 		/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 		 * the current part is l_iCurrentThread */
-		if(isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber) == FALSE)
+		l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+
+ 		#pragma omp critical (computeSection) 			/* just a name for the section */
 		{
-			/* We found at least one divider */
-			p_structCommon->bDead = TRUE;
+			if(l_bResultOfPrimeFunction == FALSE)
+			{
+				/* We found at least one divider */
+				p_structCommon->bDead = TRUE;
+
+				LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
+			}
+			else
+			{
+				LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
+			}
 		}
+		// Clear all
+		///mpz_clear(l_mpzPrimeNumberToTest);
 	}
 
 	/*
@@ -71,10 +94,10 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 	if(p_structCommon->bDead == TRUE)
 	{
-		WRITE_LOG("This is a prime number ! :)")
+		LOG_WRITE("This is not a prime number !")
 	}
 	else
 	{
-		WRITE_LOG("This is not a prime number :(")
+		LOG_WRITE("This is a prime number.")
 	}
 }

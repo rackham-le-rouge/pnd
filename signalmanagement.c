@@ -80,6 +80,9 @@ void signalHandler(int p_iSignalNo)
   */
 void commonSignalEnding(void)
 {
+	/* Show the cursor */
+        curs_set(1);
+
 	/* close windows */
 	endwin();
 

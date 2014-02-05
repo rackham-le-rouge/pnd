@@ -48,8 +48,8 @@ int g_iColonne  =		0;
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 {
 	LOG_WRITE("Writing the default configuration in the common stuctProgramInfo")
-	p_structStructure->iMersenneOrder = 15;   		// Today the max is 17425170;
-	p_structStructure->iThreadNumber = 1;
+	p_structStructure->iMersenneOrder = 61;   		// Today the max is 17425170;
+	p_structStructure->iThreadNumber = 2;
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
@@ -66,8 +66,11 @@ int main(int argc, char** argv)
 	char l_bQuitProgram = FALSE;
 	structProgramInfo* structCommon = NULL;
 
-	LOG_WRITE("------------------------------------------------")
-	LOG_WRITE("Starting new instance...")
+	LOG_WRITE(" ")
+	LOG_WRITE(" ")
+	LOG_WRITE("---------------------------------------------------------------------")
+	LOG_WRITE("                    Starting new instance")
+	LOG_WRITE("---------------------------------------------------------------------")
 
 	// Start the graphic mode
 	initscr();
@@ -116,7 +119,7 @@ int main(int argc, char** argv)
 	}
 
 	// Don't ask Enter key in order to complete a getch()
-	nodelay(stdscr, 1);
+	nodelay(stdscr, TRUE);
 
 
 	// Right message on the bottom bar
@@ -139,22 +142,24 @@ int main(int argc, char** argv)
 	// Re-routing signals of the system
 	initialisationOfTheSignal();
 
-	createAllComputingThreads(structCommon);
-
 
 
 	while(!l_bQuitProgram)
 	{
 		// Do what the user request
 		LOG_WRITE("Main menu : Wainting for a user choice...")
+
+		// Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop
+		nodelay(stdscr, FALSE);
 		do
 		{
 			// Get the keyboark key
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
-			l_bAsk = (l_iTmp > 0 && l_iTmp < 6) ? FALSE : TRUE;
+			l_bAsk = (l_iTmp > 0 && l_iTmp < 7) ? FALSE : TRUE;
 		}while(l_bAsk);
+		nodelay(stdscr, TRUE);
 
 
 		switch(l_iTmp)
@@ -201,22 +206,15 @@ int main(int argc, char** argv)
 	}
 
 
-#ifdef	DEBUG
-	// Ask Enter key in order to complete a getch()
-	//LOG_WRITE("")
-	nodelay(stdscr, 0);
-	refresh();
-//	getch();
-#endif
+	// Show the cursor
+	curs_set(TRUE);
 
 	// Stop the program and leave the graphic mode ! Very important !
 	LOG_WRITE("End of the program. See you");
 	endwin();
 
-
 	// Clean
-	free(structCommon);
-
+	free(structCommon);  // Create a seg fault !! why ??
 
 	return 0;
 }

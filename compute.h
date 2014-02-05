@@ -22,6 +22,6 @@
 
 int isItAPrimeNumber(mpz_t p_mpzNumber);
 int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber);
-int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection);
+int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure);
 
 #endif

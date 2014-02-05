@@ -58,22 +58,18 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 		if(l_bReturnOfFunction > 0)
 		{
 			// Clean...
-			mpz_clear(l_mpzSQRT);
-			mpz_clear(l_mpzIterator);
-			mpz_clear(p_mpzNumber);
-
-			LOG_WRITE("Compute: yes it is !")
+			///mpz_clear(l_mpzSQRT);
+			///mpz_clear(l_mpzIterator);
+			///mpz_clear(p_mpzNumber);
 
 			return TRUE;
 		}
 	}
 
 	// Clean...
-	mpz_clear(l_mpzSQRT);
-	mpz_clear(l_mpzIterator);
-	mpz_clear(p_mpzNumber);
-
-	LOG_WRITE("Compute: no it is not...")
+	///mpz_clear(l_mpzSQRT);
+	///mpz_clear(l_mpzIterator);
+	///mpz_clear(p_mpzNumber);
 
 	return FALSE;
 }
@@ -95,7 +91,7 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
   */
 
 
-int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection)
+int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 {
 	int l_bReturnOfFunction = FALSE;
 	mpz_t l_mpzEndOfSearchArea;
@@ -108,7 +104,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_init(l_mpzSQRT);
 	mpz_init(l_mpzIterator);
 
-	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
+	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
 
 	// Do the SQRT
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
@@ -138,6 +134,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
 	}
 
+	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
+
 
 	// Start to divide by all people between the number his own sqrt
 	for(;;)
@@ -152,32 +150,22 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		if(l_bReturnOfFunction > 0)
 		{
 			// Clean...
-			mpz_clear(l_mpzSQRT);
-			mpz_clear(l_mpzIterator);
-			mpz_clear(l_mpzBeginOfSearchArea);
-			mpz_clear(l_mpzEndOfSearchArea);
-			mpz_clear(l_mpzIterator);
-
-			LOG_WRITE("Compute: yes it seem to be ! for the section number")
-			LOG_WRITE_LONG((unsigned long)p_iSectionNumber)
-			LOG_WRITE("of")
-			LOG_WRITE_LONG((unsigned long)p_iTotalSection)
+			///mpz_clear(l_mpzSQRT);
+			///mpz_clear(l_mpzIterator);
+			///mpz_clear(l_mpzBeginOfSearchArea);
+			///mpz_clear(l_mpzEndOfSearchArea);
+			///mpz_clear(l_mpzIterator);
 
 			return TRUE;
 		}
 	}
 
 	// Clean...
-	mpz_clear(l_mpzSQRT);
-	mpz_clear(l_mpzIterator);
-	mpz_clear(l_mpzBeginOfSearchArea);
-	mpz_clear(l_mpzEndOfSearchArea);
-	mpz_clear(p_mpzNumber);
-
-	LOG_WRITE("Compute: no it is not... for section")
-	LOG_WRITE_LONG((unsigned long)p_iSectionNumber)
-	LOG_WRITE("of")
-	LOG_WRITE_LONG((unsigned long)p_iTotalSection)
+	///mpz_clear(l_mpzSQRT);
+	///mpz_clear(l_mpzIterator);
+	///mpz_clear(l_mpzBeginOfSearchArea);
+	///mpz_clear(l_mpzEndOfSearchArea);
+	///mpz_clear(p_mpzNumber);
 
 	return FALSE;
 }
