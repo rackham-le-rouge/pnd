@@ -94,15 +94,27 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 {
 	int l_bReturnOfFunction = FALSE;
+	int l_iPercent;
+	struct timespec timeStructureNow;
+	struct timespec timeStructurePast;
 	mpz_t l_mpzEndOfSearchArea;
 	mpz_t l_mpzBeginOfSearchArea;
 	mpz_t l_mpzSQRT;
 	mpz_t l_mpzIterator;
+	mpz_t l_mpzArea;
+	mpz_t l_mpzCurrentPosition;
+	mpz_t l_mpzPercent;
+	mpz_t l_mpzTmp;
 
 	mpz_init(l_mpzBeginOfSearchArea);
 	mpz_init(l_mpzEndOfSearchArea);
 	mpz_init(l_mpzSQRT);
 	mpz_init(l_mpzIterator);
+	mpz_init(l_mpzArea);
+	mpz_init(l_mpzCurrentPosition);
+	mpz_init(l_mpzPercent);
+	mpz_init(l_mpzTmp);
+
 
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
 
@@ -125,6 +137,9 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_add(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, l_mpzSQRT);
 	mpz_add(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, l_mpzSQRT);
 
+	// Compute search area
+	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
+
 	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number.
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
 
@@ -137,9 +152,27 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
 
 
+	// First recup of the time
+	clock_gettime(CLOCK_REALTIME, &timeStructureNow);
+	clock_gettime(CLOCK_REALTIME, &timeStructurePast);int a=0;
+
 	// Start to divide by all people between the number his own sqrt
 	for(;;)
 	{
+		if((timeStructureNow.tv_sec - timeStructurePast.tv_sec) > TIME_BETWEEN_PROGRESSBAR_REFRESH)
+		{
+			mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
+			mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
+
+			l_iPercent = mpz_get_ui(l_mpzPercent);
+			LOG_WRITE_STRING_MPZ("Current position ", l_mpzCurrentPosition)
+
+			drawLoadingBar(p_iSectionNumber + 1, a++, 100, -1, enumBleu);
+			timeStructurePast = timeStructureNow;
+		}
+		clock_gettime(CLOCK_REALTIME, &timeStructureNow);
+
+		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
 		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible
 									// we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number.
 		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
