@@ -6,7 +6,7 @@ TODO
 [x]	Find how to estimate a percent of the search area.
 [x]	Call the progresss bar function for each thread
 [ ]	Saving context function
-[ ]	
+[ ]	Fixing the mpz_clear issue. Find a solution to clear them, and not let them run away in memory at the end of the program...
 [ ]	
 [ ]	
 [ ]	
