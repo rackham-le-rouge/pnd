@@ -47,7 +47,6 @@
 #define	MIN_SCREEN_LENGHT	40
 #define MIN_ARGC		3
 
-#define TIME_BETWEEN_PROGRESSBAR_REFRESH	1
 
 // logic stuff
 #define TRUE			1
@@ -64,6 +63,7 @@
 // Details about progress bar
 #define PROGRESS_BAR_BODY_CHARACTER	'-'
 #define PROGRESS_BAR_HEAD_CHARACTER	'>'
+#define PROGRESS_BAR_COLOR		enumCyan	/* Avaible colors at the end of this file - Refer the enum block */
 
 
 // Colors of element in a single matrix
@@ -83,10 +83,11 @@ typedef enum
 	enumBlanc =	11
 }g_enumJeuxDeCouleursDispo;
 
-#define MACRO_LENGHT_OF_BUFFER_FOR_INT	500
 
 #define	DEBUG_T1	{mvprintw(1, 1, "/%d/", 314);refresh();getch();}
 #define	DEBUG_T2	{mvprintw(1, 1, "/%d/", 235);refresh();getch();}
+
+#define MACRO_LENGHT_OF_BUFFER_FOR_INT	500
 
 char __macroTemporaryBuffer[MACRO_LENGHT_OF_BUFFER_FOR_INT];
 

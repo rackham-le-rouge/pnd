@@ -27227,3 +27227,5961 @@ main.c 211 End of the program. See you
 [compute.c] 137 Start : End 1518500249 1152921505366097100
 [compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
 [compute.c] 137 Start : End 1152921505366097100 2305843009213693951
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 137 Start : End 724 262506
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 262506 524287
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 724 262506
+[compute.c] 137 Start : End 262506 524287
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 724 262506
+[compute.c] 137 Start : End 262506 524287
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 724 262506
+[compute.c] 137 Start : End 262506 524287
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 1073764994 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 137 Start : End 1073764994 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 196 Quit the program
+[main.c] 213 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 137 Start : End 1073764994 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 150 Main menu : Wainting for a user choice...
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 1073764994 2147483647
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 1073764994 2147483647
+[compute.c] 137 Start : End 46340 1073764994
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 1073764994 2147483647
+[compute.c] 137 Start : End 46340 1073764994
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 1073764994 2147483647
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 150 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 1073764994 2147483647
+[compute.c] 137 Start : End 46340 1073764994
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 137 Start : End 1073764994 2147483647
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End 46340 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 197 Quit the program
+[main.c] 214 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 137 Start : End 46340 1073764994
+[compute.c] 137 Start : End 1073764994 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 197 Quit the program
+[main.c] 214 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 148 Start : End - 2147483647
+[compute.c] 148 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 197 Quit the program
+[main.c] 214 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 ComMultithread starting. Thread number is : 0
+[compute.c] 114 ComMultithread starting. Thread number is : 0
+[compute.c] 148 Start : End - 2147483647
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 148 Start : End - 1073764994
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 169 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 148 Start : End - 2147483647
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 148 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 197 Quit the program
+[main.c] 214 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 135 Start : End - 2147483647
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 135 Start : End - 2147483647
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - 2147483647
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[compute.c] 135 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 1073764994
+[compute.c] 135 Start : End - 2147483647
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - *2147483647*
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[compute.c] 135 Start : End - *1073764994* 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 135 Start : End - *2147483647*
+[compute.c] 114 Compute: Try to find if a simple number is prime for thread 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[compute.c] 135 Start : End - *1073764994* 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread107 53 ComMultithread starting. Thread number is : 0
+[multithread107 53 ComMultithread starting. Thread number is : 0
+[compute.c] 137 Start : End *1073764994* 1073764994 *2147483647*
+[compute.c] 107 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 137 Start : End *46340* 46340 *1073764994* 1073764994
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 150 Start : End *46340* *1073764994*
+[compute.c] 150 Start : End *1073764994* *2147483647*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 117 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 150 Start : End *46340* *1073764994*
+[compute.c] 150 Start : End *1073764994* *2147483647*
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is pri
+[compute.c] 119 Compute: Try to find if a simple number is pri
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[compute.c] 170 1
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 170 1698
+[compute.c] 170 1738
+[compute.c] 170 1700
+[compute.c] 170 1740
+[compute.c] 170 1702
+[compute.c] 170 1992
+[compute.c] 170 1848
+[compute.c] 170 2184
+[compute.c] 170 1850
+[compute.c] 170 2186
+[compute.c] 170 1852
+[compute.c] 170 2416
+[compute.c] 170 2004
+[compute.c] 170 2418
+[compute.c] 170 2006
+[compute.c] 170 2420
+[compute.c] 170 2008
+[compute.c] 170 2422
+[compute.c] 170 2250
+[compute.c] 170 2478
+[compute.c] 170 2252
+[compute.c] 170 2480
+[compute.c] 170 2254
+[compute.c] 170 2482
+[compute.c] 170 2256
+[compute.c] 170 2484
+[compute.c] 170 2258
+[compute.c] 170 2486
+[compute.c] 170 2260
+[compute.c] 170 2488
+[compute.c] 170 2262
+[compute.c] 170 2738
+[compute.c] 170 2264
+[compute.c] 170 2740
+[compute.c] 170 2266
+[compute.c] 170 2742
+[compute.c] 170 2268
+[compute.c] 170 2744
+[compute.c] 170 2446
+[compute.c] 170 2746
+[compute.c] 170 2448
+[compute.c] 170 2748
+[compute.c] 170 2450
+[compute.c] 170 2750
+[compute.c] 170 2452
+[compute.c] 170 2752
+[compute.c] 170 2454
+[compute.c] 170 2754
+[compute.c] 170 2456
+[compute.c] 170 2756
+[compute.c] 170 2592
+[compute.c] 170 2946
+[compute.c] 170 2594
+[compute.c] 170 2948
+[compute.c] 170 2596
+[compute.c] 170 3284
+[compute.c] 170 2836
+[compute.c] 170 3286
+[compute.c] 170 2838
+[compute.c] 170 3288
+[compute.c] 170 2840
+[compute.c] 170 3290
+[compute.c] 170 2842
+[compute.c] 170 3292
+[compute.c] 170 2844
+[compute.c] 170 3294
+[compute.c] 170 2846
+[compute.c] 170 3296
+[compute.c] 170 2848
+[compute.c] 170 3298
+[compute.c] 170 2850
+[compute.c] 170 3300
+[compute.c] 170 2852
+[compute.c] 170 3302
+[compute.c] 170 3192
+[compute.c] 170 3356
+[compute.c] 170 3194
+[compute.c] 170 3640
+[compute.c] 170 3420
+[compute.c] 170 3658
+[compute.c] 170 3422
+[compute.c] 170 3660
+[compute.c] 170 3424
+[compute.c] 170 3662
+[compute.c] 170 3426
+[compute.c] 170 3664
+[compute.c] 170 3428
+[compute.c] 170 3666
+[compute.c] 170 3668
+[compute.c] 170 3430
+[compute.c] 170 3432
+[compute.c] 170 3996
+[compute.c] 170 3754
+[compute.c] 170 4266
+[compute.c] 170 3964
+[compute.c] 170 4268
+[compute.c] 170 3966
+[compute.c] 170 4270
+[compute.c] 170 3968
+[compute.c] 170 4272
+[compute.c] 170 3970
+[compute.c] 170 4274
+[compute.c] 170 3972
+[compute.c] 170 4276
+[compute.c] 170 3974
+[compute.c] 170 4278
+[compute.c] 170 3976
+[compute.c] 170 3978
+[compute.c] 170 3980
+[compute.c] 170 4176
+[compute.c] 170 4420
+[compute.c] 170 4596
+[compute.c] 170 4648
+[compute.c] 170 4810
+[compute.c] 170 4908
+[compute.c] 170 4280
+[compute.c] 170 4970
+[compute.c] 170 4282
+[compute.c] 170 4996
+[compute.c] 170 4310
+[compute.c] 170 4998
+[compute.c] 170 4312
+[compute.c] 170 5000
+[compute.c] 170 4314
+[compute.c] 170 5002
+[compute.c] 170 4316
+[compute.c] 170 5004
+[compute.c] 170 4318
+[compute.c] 170 5006
+[compute.c] 170 4320
+[compute.c] 170 5008
+[compute.c] 170 4322
+[compute.c] 170 5010
+[compute.c] 170 4324
+[compute.c] 170 5012
+[compute.c] 170 4326
+[compute.c] 170 5014
+[compute.c] 170 4328
+[compute.c] 170 5016
+[compute.c] 170 4614
+[compute.c] 170 5242
+[compute.c] 170 4616
+[compute.c] 170 5244
+[compute.c] 170 4618
+[compute.c] 170 5246
+[compute.c] 170 4620
+[compute.c] 170 5248
+[compute.c] 170 4622
+[compute.c] 170 5250
+[compute.c] 170 4624
+[compute.c] 170 5252
+[compute.c] 170 4626
+[compute.c] 170 5556
+[compute.c] 170 4842
+[compute.c] 170 5558
+[compute.c] 170 4844
+[compute.c] 170 5560
+[compute.c] 170 4846
+[compute.c] 170 5562
+[compute.c] 170 5136
+[compute.c] 170 5782
+[compute.c] 170 5138
+[compute.c] 170 5784
+[compute.c] 170 5140
+[compute.c] 170 5786
+[compute.c] 170 5142
+[compute.c] 170 5788
+[compute.c] 170 5144
+[compute.c] 170 5790
+[compute.c] 170 5146
+[compute.c] 170 5792
+[compute.c] 170 5148
+[compute.c] 170 6098
+[compute.c] 170 5388
+[compute.c] 170 6100
+[compute.c] 170 5390
+[compute.c] 170 6102
+[compute.c] 170 5392
+[compute.c] 170 6104
+[compute.c] 170 6328
+[compute.c] 170 5664
+[compute.c] 170 5666
+[compute.c] 170 5666
+[compute.c] 170 5668
+[compute.c] 170 5668
+[compute.c] 170 6334
+[compute.c] 170 5670
+[compute.c] 170 5758
+[compute.c] 170 5758
+[compute.c] 170 5878
+[compute.c] 170 5878
+[compute.c] 170 6574
+[compute.c] 170 5880
+[compute.c] 170 5882
+[compute.c] 170 5882
+[compute.c] 170 6052
+[compute.c] 170 6052
+[compute.c] 170 6184
+[compute.c] 170 6184
+[compute.c] 170 6242
+[compute.c] 170 6818
+[compute.c] 170 6436
+[compute.c] 170 6820
+[compute.c] 170 6438
+[compute.c] 170 6822
+[compute.c] 170 6440
+[compute.c] 170 6824
+[compute.c] 170 6442
+[compute.c] 170 6826
+[compute.c] 170 6828
+[compute.c] 170 6828
+[compute.c] 170 6446
+[compute.c] 170 6830
+[compute.c] 170 6524
+[compute.c] 170 7004
+[compute.c] 170 6594
+[compute.c] 170 7006
+[compute.c] 170 6596
+[compute.c] 170 7008
+[compute.c] 170 6638
+[compute.c] 170 7010
+[compute.c] 170 6640
+[compute.c] 170 7012
+[compute.c] 170 6642
+[compute.c] 170 7014
+[compute.c] 170 6644
+[compute.c] 170 7016
+[compute.c] 170 6646
+[compute.c] 170 7018
+[compute.c] 170 6648
+[compute.c] 170 7020
+[compute.c] 170 7022
+[compute.c] 170 7264
+[compute.c] 170 7312
+[compute.c] 170 7314
+[compute.c] 170 7316
+[compute.c] 170 7612
+[compute.c] 170 7944
+[compute.c] 170 6650
+[compute.c] 170 6652
+[compute.c] 170 8172
+[compute.c] 170 6900
+[compute.c] 170 6902
+[compute.c] 170 7206
+[compute.c] 170 7552
+[compute.c] 170 7836
+[compute.c] 170 8174
+[compute.c] 170 8182
+[compute.c] 170 8352
+[compute.c] 170 8648
+[compute.c] 170 8952
+[compute.c] 170 9294
+[compute.c] 170 9616
+[compute.c] 170 8176
+[compute.c] 170 9934
+[compute.c] 170 8178
+[compute.c] 170 10200
+[compute.c] 170 8180
+[compute.c] 170 10202
+[compute.c] 170 8182
+[compute.c] 170 10204
+[compute.c] 170 8184
+[compute.c] 170 10206
+[compute.c] 170 8186
+[compute.c] 170 10208
+[compute.c] 170 8188
+[compute.c] 170 10210
+[compute.c] 170 8190
+[compute.c] 170 8192
+[compute.c] 170 8456
+[compute.c] 170 8456
+[compute.c] 170 8576
+[compute.c] 170 8576
+[compute.c] 170 8578
+[compute.c] 170 8578
+[compute.c] 170 8676
+[compute.c] 170 8676
+[compute.c] 170 8836
+[compute.c] 170 8836
+[compute.c] 170 8838
+[compute.c] 170 8838
+[compute.c] 170 8894
+[compute.c] 170 8894
+[compute.c] 170 10924
+[compute.c] 170 8896
+[compute.c] 170 10926
+[compute.c] 170 10926
+[compute.c] 170 8904
+[compute.c] 170 10928
+[compute.c] 170 10930
+[compute.c] 170 10930
+[compute.c] 170 10932
+[compute.c] 170 8908
+[compute.c] 170 8910
+[compute.c] 170 8910
+[compute.c] 170 8928
+[compute.c] 170 8928
+[compute.c] 170 8930
+[compute.c] 170 10960
+[compute.c] 170 10962
+[compute.c] 170 10962
+[compute.c] 170 10996
+[compute.c] 170 10996
+[compute.c] 170 11158
+[compute.c] 170 11158
+[compute.c] 170 11320
+[compute.c] 170 11320
+[compute.c] 170 11322
+[compute.c] 170 11322
+[compute.c] 170 11378
+[compute.c] 170 11378
+[compute.c] 170 11546
+[compute.c] 170 11546
+[compute.c] 170 11572
+[compute.c] 170 11572
+[compute.c] 170 9572
+[compute.c] 170 9572
+[compute.c] 170 9574
+[compute.c] 170 9574
+[compute.c] 170 9622
+[compute.c] 170 9622
+[compute.c] 170 11630
+[compute.c] 170 9624
+[compute.c] 170 11752
+[compute.c] 170 11752
+[compute.c] 170 11946
+[compute.c] 170 10098
+[compute.c] 170 10100
+[compute.c] 170 11946
+[compute.c] 170 10428
+[compute.c] 170 10430
+[compute.c] 170 11948
+[compute.c] 170 10538
+[compute.c] 170 11950
+[compute.c] 170 10540
+[compute.c] 170 11952
+[compute.c] 170 10542
+[compute.c] 170 11954
+[compute.c] 170 10544
+[compute.c] 170 11956
+[compute.c] 170 10684
+[compute.c] 170 12112
+[compute.c] 170 10686
+[compute.c] 170 12114
+[compute.c] 170 12116
+[compute.c] 170 10688
+[compute.c] 170 12280
+[compute.c] 170 12282
+[compute.c] 170 10690
+[compute.c] 170 12412
+[compute.c] 170 12412
+[compute.c] 170 12576
+[compute.c] 170 12576
+[compute.c] 170 12806
+[compute.c] 170 10728
+[compute.c] 170 12996
+[compute.c] 170 10730
+[compute.c] 170 12998
+[compute.c] 170 10888
+[compute.c] 170 13000
+[compute.c] 170 10890
+[compute.c] 170 13002
+[compute.c] 170 10892
+[compute.c] 170 13004
+[compute.c] 170 11144
+[compute.c] 170 13006
+[compute.c] 170 11146
+[compute.c] 170 13008
+[compute.c] 170 11148
+[compute.c] 170 13010
+[compute.c] 170 13012
+[compute.c] 170 13278
+[compute.c] 170 13586
+[compute.c] 170 11150
+[compute.c] 170 13880
+[compute.c] 170 14000
+[compute.c] 170 14000
+[compute.c] 170 11154
+[compute.c] 170 14002
+[compute.c] 170 11220
+[compute.c] 170 14004
+[compute.c] 170 11222
+[compute.c] 170 14006
+[compute.c] 170 11296
+[compute.c] 170 14206
+[compute.c] 170 11298
+[compute.c] 170 14208
+[compute.c] 170 11300
+[compute.c] 170 14210
+[compute.c] 170 11302
+[compute.c] 170 14212
+[compute.c] 170 11304
+[compute.c] 170 14214
+[compute.c] 170 11306
+[compute.c] 170 14216
+[compute.c] 170 11308
+[compute.c] 170 14218
+[compute.c] 170 11310
+[compute.c] 170 14220
+[compute.c] 170 11312
+[compute.c] 170 14222
+[compute.c] 170 11314
+[compute.c] 170 14224
+[compute.c] 170 11520
+[compute.c] 170 14564
+[compute.c] 170 11802
+[compute.c] 170 14770
+[compute.c] 170 11804
+[compute.c] 170 14772
+[compute.c] 170 11806
+[compute.c] 170 14774
+[compute.c] 170 11808
+[compute.c] 170 14776
+[compute.c] 170 11810
+[compute.c] 170 14778
+[compute.c] 170 11812
+[compute.c] 170 14780
+[compute.c] 170 11814
+[compute.c] 170 14782
+[compute.c] 170 11816
+[compute.c] 170 14818
+[compute.c] 170 11962
+[compute.c] 170 14820
+[compute.c] 170 12044
+[compute.c] 170 15056
+[compute.c] 170 12046
+[compute.c] 170 15058
+[compute.c] 170 12048
+[compute.c] 170 15060
+[compute.c] 170 12050
+[compute.c] 170 15062
+[compute.c] 170 12052
+[compute.c] 170 15064
+[compute.c] 170 12054
+[compute.c] 170 15066
+[compute.c] 170 12056
+[compute.c] 170 15068
+[compute.c] 170 12058
+[compute.c] 170 15070
+[compute.c] 170 12060
+[compute.c] 170 15072
+[compute.c] 170 12062
+[compute.c] 170 15074
+[compute.c] 170 12064
+[compute.c] 170 15076
+[compute.c] 170 12278
+[compute.c] 170 15380
+[compute.c] 170 12280
+[compute.c] 170 15382
+[compute.c] 170 12282
+[compute.c] 170 15384
+[compute.c] 170 12284
+[compute.c] 170 15386
+[compute.c] 170 12286
+[compute.c] 170 15388
+[compute.c] 170 12288
+[compute.c] 170 15390
+[compute.c] 170 12290
+[compute.c] 170 15392
+[compute.c] 170 12292
+[compute.c] 170 15394
+[compute.c] 170 12294
+[compute.c] 170 15396
+[compute.c] 170 12296
+[compute.c] 170 12298
+[compute.c] 170 12578
+[compute.c] 170 12774
+[compute.c] 170 15398
+[compute.c] 170 12944
+[compute.c] 170 15400
+[compute.c] 170 12946
+[compute.c] 170 15616
+[compute.c] 170 13176
+[compute.c] 170 15618
+[compute.c] 170 13178
+[compute.c] 170 15620
+[compute.c] 170 13180
+[compute.c] 170 15622
+[compute.c] 170 13182
+[compute.c] 170 15624
+[compute.c] 170 13184
+[compute.c] 170 15626
+[compute.c] 170 13186
+[compute.c] 170 15628
+[compute.c] 170 13188
+[compute.c] 170 15630
+[compute.c] 170 13190
+[compute.c] 170 15632
+[compute.c] 170 13192
+[compute.c] 170 15634
+[compute.c] 170 13194
+[compute.c] 170 15636
+[compute.c] 170 13196
+[compute.c] 170 15638
+[compute.c] 170 13198
+[compute.c] 170 15640
+[compute.c] 170 13200
+[compute.c] 170 15642
+[compute.c] 170 13202
+[compute.c] 170 15644
+[compute.c] 170 13204
+[compute.c] 170 15646
+[compute.c] 170 13206
+[compute.c] 170 15648
+[compute.c] 170 13208
+[compute.c] 170 15650
+[compute.c] 170 13210
+[compute.c] 170 15652
+[compute.c] 170 13212
+[compute.c] 170 15654
+[compute.c] 170 13428
+[compute.c] 170 15980
+[compute.c] 170 13714
+[compute.c] 170 16168
+[compute.c] 170 13716
+[compute.c] 170 16170
+[compute.c] 170 13718
+[compute.c] 170 16172
+[compute.c] 170 13720
+[compute.c] 170 16316
+[compute.c] 170 13722
+[compute.c] 170 16318
+[compute.c] 170 13724
+[compute.c] 170 16320
+[compute.c] 170 13726
+[compute.c] 170 16322
+[compute.c] 170 13728
+[compute.c] 170 16324
+[compute.c] 170 13730
+[compute.c] 170 16326
+[compute.c] 170 13732
+[compute.c] 170 16328
+[compute.c] 170 13734
+[compute.c] 170 16330
+[compute.c] 170 13736
+[compute.c] 170 16332
+[compute.c] 170 13738
+[compute.c] 170 16334
+[compute.c] 170 13740
+[compute.c] 170 16336
+[compute.c] 170 13960
+[compute.c] 170 16636
+[compute.c] 170 14178
+[compute.c] 170 16836
+[compute.c] 170 14180
+[compute.c] 170 16838
+[compute.c] 170 14182
+[compute.c] 170 16840
+[compute.c] 170 14184
+[compute.c] 170 16842
+[compute.c] 170 14186
+[compute.c] 170 16844
+[compute.c] 170 14188
+[compute.c] 170 16846
+[compute.c] 170 14190
+[compute.c] 170 16848
+[compute.c] 170 14192
+[compute.c] 170 16850
+[compute.c] 170 14194
+[compute.c] 170 16852
+[compute.c] 170 14196
+[compute.c] 170 16854
+[compute.c] 170 14466
+[compute.c] 170 17026
+[compute.c] 170 14468
+[compute.c] 170 17028
+[compute.c] 170 14470
+[compute.c] 170 17030
+[compute.c] 170 14472
+[compute.c] 170 17228
+[compute.c] 170 14474
+[compute.c] 170 17230
+[compute.c] 170 14476
+[compute.c] 170 17232
+[compute.c] 170 14478
+[compute.c] 170 17234
+[compute.c] 170 14480
+[compute.c] 170 17236
+[compute.c] 170 14482
+[compute.c] 170 17238
+[compute.c] 170 14484
+[compute.c] 170 17240
+[compute.c] 170 14486
+[compute.c] 170 17242
+[compute.c] 170 14488
+[compute.c] 170 17244
+[compute.c] 170 14490
+[compute.c] 170 17246
+[compute.c] 170 14492
+[compute.c] 170 17248
+[compute.c] 170 14694
+[compute.c] 170 17574
+[compute.c] 170 14980
+[compute.c] 170 17776
+[compute.c] 170 14982
+[compute.c] 170 17778
+[compute.c] 170 14984
+[compute.c] 170 17780
+[compute.c] 170 14986
+[compute.c] 170 17782
+[compute.c] 170 14988
+[compute.c] 170 17784
+[compute.c] 170 14990
+[compute.c] 170 17786
+[compute.c] 170 14992
+[compute.c] 170 17788
+[compute.c] 170 14994
+[compute.c] 170 17790
+[compute.c] 170 14996
+[compute.c] 170 17792
+[compute.c] 170 15300
+[compute.c] 170 18042
+[compute.c] 170 15302
+[compute.c] 170 18044
+[compute.c] 170 18296
+[compute.c] 170 15304
+[compute.c] 170 18298
+[compute.c] 170 15306
+[compute.c] 170 18458
+[compute.c] 170 15308
+[compute.c] 170 18460
+[compute.c] 170 15310
+[compute.c] 170 18462
+[compute.c] 170 15312
+[compute.c] 170 18464
+[compute.c] 170 15314
+[compute.c] 170 18466
+[compute.c] 170 15316
+[compute.c] 170 18468
+[compute.c] 170 15318
+[compute.c] 170 18470
+[compute.c] 170 15320
+[compute.c] 170 18472
+[compute.c] 170 15322
+[compute.c] 170 18474
+[compute.c] 170 15324
+[compute.c] 170 18476
+[compute.c] 170 15326
+[compute.c] 170 18478
+[compute.c] 170 15542
+[compute.c] 170 18780
+[compute.c] 170 15544
+[compute.c] 170 18782
+[compute.c] 170 15546
+[compute.c] 170 18784
+[compute.c] 170 15548
+[compute.c] 170 18786
+[compute.c] 170 15550
+[compute.c] 170 18788
+[compute.c] 170 15552
+[compute.c] 170 18790
+[compute.c] 170 15554
+[compute.c] 170 18792
+[compute.c] 170 15556
+[compute.c] 170 18794
+[compute.c] 170 15558
+[compute.c] 170 18796
+[compute.c] 170 15560
+[compute.c] 170 18798
+[compute.c] 170 15562
+[compute.c] 170 18800
+[compute.c] 170 15770
+[compute.c] 170 19132
+[compute.c] 170 16052
+[compute.c] 170 19322
+[compute.c] 170 19324
+[compute.c] 170 16054
+[compute.c] 170 16056
+[compute.c] 170 16056
+[compute.c] 170 16058
+[compute.c] 170 16058
+[compute.c] 170 16060
+[compute.c] 170 16060
+[compute.c] 170 16090
+[compute.c] 170 16090
+[compute.c] 170 19462
+[compute.c] 170 19462
+[compute.c] 170 19490
+[compute.c] 170 19490
+[compute.c] 170 19492
+[compute.c] 170 19492
+[compute.c] 170 19584
+[compute.c] 170 19584
+[compute.c] 170 16270
+[compute.c] 170 16270
+[compute.c] 170 16392
+[compute.c] 170 16392
+[compute.c] 170 16556
+[compute.c] 170 16556
+[compute.c] 170 20070
+[compute.c] 170 16558
+[compute.c] 170 20292
+[compute.c] 170 20294
+[compute.c] 170 20294
+[compute.c] 170 20296
+[compute.c] 170 20296
+[compute.c] 170 20406
+[compute.c] 170 20406
+[compute.c] 170 20408
+[compute.c] 170 20408
+[compute.c] 170 20462
+[compute.c] 170 20462
+[compute.c] 170 20464
+[compute.c] 170 20464
+[compute.c] 170 20522
+[compute.c] 170 20522
+[compute.c] 170 20528
+[compute.c] 170 16734
+[compute.c] 170 16736
+[compute.c] 170 16736
+[compute.c] 170 16790
+[compute.c] 170 16790
+[compute.c] 170 16912
+[compute.c] 170 16912
+[compute.c] 170 16942
+[compute.c] 170 16942
+[compute.c] 170 17092
+[compute.c] 170 17092
+[compute.c] 170 21062
+[compute.c] 170 17094
+[compute.c] 170 17144
+[compute.c] 170 17144
+[compute.c] 170 17172
+[compute.c] 170 21190
+[compute.c] 170 21538
+[compute.c] 170 21710
+[compute.c] 170 17172
+[compute.c] 170 22016
+[compute.c] 170 17174
+[compute.c] 170 17176
+[compute.c] 170 17438
+[compute.c] 170 22018
+[compute.c] 170 17470
+[compute.c] 170 22020
+[compute.c] 170 17472
+[compute.c] 170 22022
+[compute.c] 170 17474
+[compute.c] 170 22024
+[compute.c] 170 17476
+[compute.c] 170 22026
+[compute.c] 170 17478
+[compute.c] 170 22028
+[compute.c] 170 17480
+[compute.c] 170 22030
+[compute.c] 170 17482
+[compute.c] 170 22032
+[compute.c] 170 17484
+[compute.c] 170 22034
+[compute.c] 170 17486
+[compute.c] 170 22036
+[compute.c] 170 17488
+[compute.c] 170 22038
+[compute.c] 170 17490
+[compute.c] 170 22040
+[compute.c] 170 17492
+[compute.c] 170 22042
+[compute.c] 170 17494
+[compute.c] 170 22044
+[compute.c] 170 17496
+[compute.c] 170 22046
+[compute.c] 170 17498
+[compute.c] 170 22048
+[compute.c] 170 17500
+[compute.c] 170 22050
+[compute.c] 170 17502
+[compute.c] 170 22052
+[compute.c] 170 17504
+[compute.c] 170 22054
+[compute.c] 170 17506
+[compute.c] 170 22056
+[compute.c] 170 17508
+[compute.c] 170 22058
+[compute.c] 170 17510
+[compute.c] 170 22060
+[compute.c] 170 17512
+[compute.c] 170 22062
+[compute.c] 170 17514
+[compute.c] 170 22064
+[compute.c] 170 17516
+[compute.c] 170 22066
+[compute.c] 170 17518
+[compute.c] 170 22068
+[compute.c] 170 17520
+[compute.c] 170 22070
+[compute.c] 170 17522
+[compute.c] 170 22072
+[compute.c] 170 17524
+[compute.c] 170 22074
+[compute.c] 170 17526
+[compute.c] 170 22076
+[compute.c] 170 17528
+[compute.c] 170 22078
+[compute.c] 170 17530
+[compute.c] 170 22080
+[compute.c] 170 17532
+[compute.c] 170 22082
+[compute.c] 170 17736
+[compute.c] 170 22162
+[compute.c] 170 17738
+[compute.c] 170 22164
+[compute.c] 170 17740
+[compute.c] 170 22166
+[compute.c] 170 17742
+[compute.c] 170 22168
+[compute.c] 170 17744
+[compute.c] 170 22170
+[compute.c] 170 17746
+[compute.c] 170 22172
+[compute.c] 170 17748
+[compute.c] 170 22174
+[compute.c] 170 17750
+[compute.c] 170 22176
+[compute.c] 170 17752
+[compute.c] 170 22178
+[compute.c] 170 17814
+[compute.c] 170 22180
+[compute.c] 170 17846
+[compute.c] 170 22184
+[compute.c] 170 17896
+[compute.c] 170 17898
+[compute.c] 170 17898
+[compute.c] 170 17900
+[compute.c] 170 17900
+[compute.c] 170 17902
+[compute.c] 170 17902
+[compute.c] 170 17904
+[compute.c] 170 17904
+[compute.c] 170 17944
+[compute.c] 170 17944
+[compute.c] 170 18020
+[compute.c] 170 18020
+[compute.c] 170 18112
+[compute.c] 170 18112
+[compute.c] 170 22530
+[compute.c] 170 22530
+[compute.c] 170 18124
+[compute.c] 170 18124
+[compute.c] 170 22534
+[compute.c] 170 22534
+[compute.c] 170 22536
+[compute.c] 170 22536
+[compute.c] 170 22540
+[compute.c] 170 22540
+[compute.c] 170 18136
+[compute.c] 170 18136
+[compute.c] 170 22544
+[compute.c] 170 22544
+[compute.c] 170 22546
+[compute.c] 170 22546
+[compute.c] 170 18188
+[compute.c] 170 22548
+[compute.c] 170 18204
+[compute.c] 170 22550
+[compute.c] 170 18206
+[compute.c] 170 22552
+[compute.c] 170 22554
+[compute.c] 170 22554
+[compute.c] 170 22584
+[compute.c] 170 22584
+[compute.c] 170 22668
+[compute.c] 170 22668
+[compute.c] 170 22714
+[compute.c] 170 22714
+[compute.c] 170 22716
+[compute.c] 170 18578
+[compute.c] 170 18580
+[compute.c] 170 18580
+[compute.c] 170 18664
+[compute.c] 170 18664
+[compute.c] 170 18744
+[compute.c] 170 23164
+[compute.c] 170 23472
+[compute.c] 170 23690
+[compute.c] 170 24062
+[compute.c] 170 18744
+[compute.c] 170 24440
+[compute.c] 170 18746
+[compute.c] 170 24442
+[compute.c] 170 18748
+[compute.c] 170 24444
+[compute.c] 170 18750
+[compute.c] 170 18876
+[compute.c] 170 24502
+[compute.c] 170 24504
+[compute.c] 170 24732
+[compute.c] 170 24944
+[compute.c] 170 25148
+[compute.c] 170 24504
+[compute.c] 170 25478
+[compute.c] 170 19238
+[compute.c] 170 25480
+[compute.c] 170 19240
+[compute.c] 170 25482
+[compute.c] 170 19242
+[compute.c] 170 25484
+[compute.c] 170 19244
+[compute.c] 170 25486
+[compute.c] 170 19246
+[compute.c] 170 25488
+[compute.c] 170 19248
+[compute.c] 170 25490
+[compute.c] 170 19250
+[compute.c] 170 25492
+[compute.c] 170 19252
+[compute.c] 170 25494
+[compute.c] 170 19254
+[compute.c] 170 25496
+[compute.c] 170 19256
+[compute.c] 170 25498
+[compute.c] 170 19258
+[compute.c] 170 25500
+[compute.c] 170 19260
+[compute.c] 170 25502
+[compute.c] 170 19262
+[compute.c] 170 25532
+[compute.c] 170 19494
+[compute.c] 170 25534
+[compute.c] 170 19598
+[compute.c] 170 19600
+[compute.c] 170 19600
+[compute.c] 170 25538
+[compute.c] 170 19602
+[compute.c] 170 25540
+[compute.c] 170 25540
+[compute.c] 170 25542
+[compute.c] 170 25542
+[compute.c] 170 25598
+[compute.c] 170 25598
+[compute.c] 170 25638
+[compute.c] 170 25638
+[compute.c] 170 25820
+[compute.c] 170 25820
+[compute.c] 170 25988
+[compute.c] 170 25988
+[compute.c] 170 26048
+[compute.c] 170 26048
+[compute.c] 170 26112
+[compute.c] 170 26112
+[compute.c] 170 26172
+[compute.c] 170 26172
+[compute.c] 170 26338
+[compute.c] 170 26338
+[compute.c] 170 26420
+[compute.c] 170 26420
+[compute.c] 170 26422
+[compute.c] 170 26422
+[compute.c] 170 26424
+[compute.c] 170 26424
+[compute.c] 170 26426
+[compute.c] 170 20672
+[compute.c] 170 26558
+[compute.c] 170 26558
+[compute.c] 170 26702
+[compute.c] 170 26702
+[compute.c] 170 26854
+[compute.c] 170 26854
+[compute.c] 170 26856
+[compute.c] 170 26856
+[compute.c] 170 21238
+[compute.c] 170 21238
+[compute.c] 170 21240
+[compute.c] 170 21240
+[compute.c] 170 21252
+[compute.c] 170 21252
+[compute.c] 170 26876
+[compute.c] 170 26876
+[compute.c] 170 26882
+[compute.c] 170 26882
+[compute.c] 170 21268
+[compute.c] 170 21294
+[compute.c] 170 21514
+[compute.c] 170 21726
+[compute.c] 170 22094
+[compute.c] 170 22470
+[compute.c] 170 26884
+[compute.c] 170 22774
+[compute.c] 170 22776
+[compute.c] 170 26886
+[compute.c] 170 26888
+[compute.c] 170 27060
+[compute.c] 170 22786
+[compute.c] 170 27288
+[compute.c] 170 22788
+[compute.c] 170 27290
+[compute.c] 170 27292
+[compute.c] 170 22790
+[compute.c] 170 27598
+[compute.c] 170 22792
+[compute.c] 170 27798
+[compute.c] 170 22794
+[compute.c] 170 27800
+[compute.c] 170 27802
+[compute.c] 170 27862
+[compute.c] 170 22796
+[compute.c] 170 28214
+[compute.c] 170 28314
+[compute.c] 170 28662
+[compute.c] 170 22798
+[compute.c] 170 23020
+[compute.c] 170 22798
+[compute.c] 170 23360
+[compute.c] 170 28896
+[compute.c] 170 23362
+[compute.c] 170 28898
+[compute.c] 170 23364
+[compute.c] 170 28900
+[compute.c] 170 23366
+[compute.c] 170 23368
+[compute.c] 170 28902
+[compute.c] 170 23670
+[compute.c] 170 28904
+[compute.c] 170 23828
+[compute.c] 170 28906
+[compute.c] 170 23830
+[compute.c] 170 28908
+[compute.c] 170 23832
+[compute.c] 170 28910
+[compute.c] 170 23834
+[compute.c] 170 28912
+[compute.c] 170 23836
+[compute.c] 170 28914
+[compute.c] 170 23838
+[compute.c] 170 28916
+[compute.c] 170 23840
+[compute.c] 170 28918
+[compute.c] 170 23842
+[compute.c] 170 28920
+[compute.c] 170 23844
+[compute.c] 170 28922
+[compute.c] 170 23846
+[compute.c] 170 28924
+[compute.c] 170 23848
+[compute.c] 170 29198
+[compute.c] 170 24018
+[compute.c] 170 29200
+[compute.c] 170 24020
+[compute.c] 170 29202
+[compute.c] 170 24022
+[compute.c] 170 29204
+[compute.c] 170 24024
+[compute.c] 170 29206
+[compute.c] 170 24026
+[compute.c] 170 29208
+[compute.c] 170 24028
+[compute.c] 170 29210
+[compute.c] 170 24030
+[compute.c] 170 29212
+[compute.c] 170 24032
+[compute.c] 170 29214
+[compute.c] 170 24034
+[compute.c] 170 29216
+[compute.c] 170 24036
+[compute.c] 170 29218
+[compute.c] 170 24038
+[compute.c] 170 24040
+[compute.c] 170 29424
+[compute.c] 170 24242
+[compute.c] 170 29426
+[compute.c] 170 24244
+[compute.c] 170 29428
+[compute.c] 170 24398
+[compute.c] 170 29430
+[compute.c] 170 24400
+[compute.c] 170 29432
+[compute.c] 170 24402
+[compute.c] 170 29434
+[compute.c] 170 24404
+[compute.c] 170 29436
+[compute.c] 170 24406
+[compute.c] 170 29438
+[compute.c] 170 24408
+[compute.c] 170 29440
+[compute.c] 170 24410
+[compute.c] 170 29442
+[compute.c] 170 24412
+[compute.c] 170 29444
+[compute.c] 170 24414
+[compute.c] 170 29446
+[compute.c] 170 24416
+[compute.c] 170 29448
+[compute.c] 170 24418
+[compute.c] 170 29644
+[compute.c] 170 24756
+[compute.c] 170 29926
+[compute.c] 170 24758
+[compute.c] 170 30084
+[compute.c] 170 24972
+[compute.c] 170 30086
+[compute.c] 170 24974
+[compute.c] 170 30088
+[compute.c] 170 24976
+[compute.c] 170 30090
+[compute.c] 170 24978
+[compute.c] 170 30092
+[compute.c] 170 24980
+[compute.c] 170 30094
+[compute.c] 170 24982
+[compute.c] 170 30096
+[compute.c] 170 24984
+[compute.c] 170 30098
+[compute.c] 170 24986
+[compute.c] 170 30100
+[compute.c] 170 24988
+[compute.c] 170 30102
+[compute.c] 170 24990
+[compute.c] 170 30372
+[compute.c] 170 24992
+[compute.c] 170 30374
+[compute.c] 170 30408
+[compute.c] 170 30408
+[compute.c] 170 25280
+[compute.c] 170 25280
+[compute.c] 170 30430
+[compute.c] 170 30430
+[compute.c] 170 25292
+[compute.c] 170 25292
+[compute.c] 170 25294
+[compute.c] 170 25294
+[compute.c] 170 25338
+[compute.c] 170 25338
+[compute.c] 170 25370
+[compute.c] 170 25370
+[compute.c] 170 25420
+[compute.c] 170 25420
+[compute.c] 170 30592
+[compute.c] 170 30592
+[compute.c] 170 25622
+[compute.c] 170 25622
+[compute.c] 170 30664
+[compute.c] 170 30664
+[compute.c] 170 30700
+[compute.c] 170 30700
+[compute.c] 170 30702
+[compute.c] 170 25802
+[compute.c] 170 30834
+[compute.c] 170 25986
+[compute.c] 170 30836
+[compute.c] 170 26102
+[compute.c] 170 30838
+[compute.c] 170 26276
+[compute.c] 170 31072
+[compute.c] 170 26490
+[compute.c] 170 26492
+[compute.c] 170 26492
+[compute.c] 170 31076
+[compute.c] 170 31076
+[compute.c] 170 31150
+[compute.c] 170 31150
+[compute.c] 170 31280
+[compute.c] 170 31280
+[compute.c] 170 31370
+[compute.c] 170 31370
+[compute.c] 170 26866
+[compute.c] 170 26866
+[compute.c] 170 31374
+[compute.c] 170 31374
+[compute.c] 170 31376
+[compute.c] 170 31376
+[compute.c] 170 26876
+[compute.c] 170 26876
+[compute.c] 170 26888
+[compute.c] 170 26888
+[compute.c] 170 26890
+[compute.c] 170 26890
+[compute.c] 170 26892
+[compute.c] 170 26894
+[compute.c] 170 27158
+[compute.c] 170 27466
+[compute.c] 170 27794
+[compute.c] 170 28132
+[compute.c] 170 28474
+[compute.c] 170 28840
+[compute.c] 170 29178
+[compute.c] 170 31414
+[compute.c] 170 29426
+[compute.c] 170 31416
+[compute.c] 170 31418
+[compute.c] 170 29428
+[compute.c] 170 29430
+[compute.c] 170 31420
+[compute.c] 170 29528
+[compute.c] 170 31422
+[compute.c] 170 29530
+[compute.c] 170 31424
+[compute.c] 170 29532
+[compute.c] 170 31426
+[compute.c] 170 29534
+[compute.c] 170 31428
+[compute.c] 170 29536
+[compute.c] 170 31430
+[compute.c] 170 29538
+[compute.c] 170 31432
+[compute.c] 170 29540
+[compute.c] 170 31434
+[compute.c] 170 29542
+[compute.c] 170 31436
+[compute.c] 170 29646
+[compute.c] 170 31606
+[compute.c] 170 29648
+[compute.c] 170 31608
+[compute.c] 170 29650
+[compute.c] 170 31910
+[compute.c] 170 29854
+[compute.c] 170 31912
+[compute.c] 170 31914
+[compute.c] 170 29856
+[compute.c] 170 32148
+[compute.c] 170 29858
+[compute.c] 170 32150
+[compute.c] 170 30022
+[compute.c] 170 32152
+[compute.c] 170 30076
+[compute.c] 170 32352
+[compute.c] 170 30078
+[compute.c] 170 32354
+[compute.c] 170 30080
+[compute.c] 170 32356
+[compute.c] 170 30082
+[compute.c] 170 32358
+[compute.c] 170 30084
+[compute.c] 170 32360
+[compute.c] 170 30086
+[compute.c] 170 32506
+[compute.c] 170 30266
+[compute.c] 170 32508
+[compute.c] 170 30268
+[compute.c] 170 32510
+[compute.c] 170 30270
+[compute.c] 170 32512
+[compute.c] 170 30272
+[compute.c] 170 32514
+[compute.c] 170 30274
+[compute.c] 170 32516
+[compute.c] 170 30576
+[compute.c] 170 32694
+[compute.c] 170 30578
+[compute.c] 170 32696
+[compute.c] 170 30580
+[compute.c] 170 32698
+[compute.c] 170 30582
+[compute.c] 170 32700
+[compute.c] 170 30584
+[compute.c] 170 32936
+[compute.c] 170 30738
+[compute.c] 170 32938
+[compute.c] 170 30740
+[compute.c] 170 32940
+[compute.c] 170 30742
+[compute.c] 170 32942
+[compute.c] 170 30744
+[compute.c] 170 32944
+[compute.c] 170 30746
+[compute.c] 170 32946
+[compute.c] 170 30748
+[compute.c] 170 32948
+[compute.c] 170 30750
+[compute.c] 170 33116
+[compute.c] 170 30838
+[compute.c] 170 33394
+[compute.c] 170 30962
+[compute.c] 170 33660
+[compute.c] 170 30990
+[compute.c] 170 33662
+[compute.c] 170 31228
+[compute.c] 170 33900
+[compute.c] 170 31472
+[compute.c] 170 34154
+[compute.c] 170 31730
+[compute.c] 170 34412
+[compute.c] 170 31946
+[compute.c] 170 34564
+[compute.c] 170 32210
+[compute.c] 170 34820
+[compute.c] 170 32464
+[compute.c] 170 35080
+[compute.c] 170 32712
+[compute.c] 170 35342
+[compute.c] 170 32922
+[compute.c] 170 35518
+[compute.c] 170 33176
+[compute.c] 170 35770
+[compute.c] 170 33418
+[compute.c] 170 35940
+[compute.c] 170 33660
+[compute.c] 170 36192
+[compute.c] 170 33724
+[compute.c] 170 36412
+[compute.c] 170 33986
+[compute.c] 170 36670
+[compute.c] 170 34248
+[compute.c] 170 36928
+[compute.c] 170 34512
+[compute.c] 170 37190
+[compute.c] 170 34728
+[compute.c] 170 37314
+[compute.c] 170 34974
+[compute.c] 170 37568
+[compute.c] 170 35238
+[compute.c] 170 37830
+[compute.c] 170 35504
+[compute.c] 170 38094
+[compute.c] 170 35624
+[compute.c] 170 38204
+[compute.c] 170 35880
+[compute.c] 170 38464
+[compute.c] 170 36144
+[compute.c] 170 38720
+[compute.c] 170 36412
+[compute.c] 170 38950
+[compute.c] 170 36482
+[compute.c] 170 39294
+[compute.c] 170 36748
+[compute.c] 170 39488
+[compute.c] 170 36750
+[compute.c] 170 39490
+[compute.c] 170 36964
+[compute.c] 170 39664
+[compute.c] 170 37114
+[compute.c] 170 39868
+[compute.c] 170 37354
+[compute.c] 170 40066
+[compute.c] 170 37356
+[compute.c] 170 40254
+[compute.c] 170 37552
+[compute.c] 170 40342
+[compute.c] 170 37554
+[compute.c] 170 40552
+[compute.c] 170 37770
+[compute.c] 170 40730
+[compute.c] 170 37984
+[compute.c] 170 40906
+[compute.c] 170 38208
+[compute.c] 170 41056
+[compute.c] 170 38266
+[compute.c] 170 41228
+[compute.c] 170 38506
+[compute.c] 170 41414
+[compute.c] 170 38738
+[compute.c] 170 41608
+[compute.c] 170 38974
+[compute.c] 170 41702
+[compute.c] 170 38976
+[compute.c] 170 41888
+[compute.c] 170 39160
+[compute.c] 170 42020
+[compute.c] 170 39374
+[compute.c] 170 42154
+[compute.c] 170 39584
+[compute.c] 170 42252
+[compute.c] 170 39654
+[compute.c] 170 42406
+[compute.c] 170 40020
+[compute.c] 170 42548
+[compute.c] 170 40208
+[compute.c] 170 42550
+[compute.c] 170 40210
+[compute.c] 170 42552
+[compute.c] 170 40212
+[compute.c] 170 42554
+[compute.c] 170 40214
+[compute.c] 170 42556
+[compute.c] 170 40216
+[compute.c] 170 42558
+[compute.c] 170 40218
+[compute.c] 170 42560
+[compute.c] 170 40220
+[compute.c] 170 42562
+[compute.c] 170 40222
+[compute.c] 170 42564
+[compute.c] 170 40224
+[compute.c] 170 42566
+[compute.c] 170 40486
+[compute.c] 170 42596
+[compute.c] 170 40804
+[compute.c] 170 42720
+[compute.c] 170 40806
+[compute.c] 170 42722
+[compute.c] 170 40850
+[compute.c] 170 42724
+[compute.c] 170 40852
+[compute.c] 170 42726
+[compute.c] 170 40854
+[compute.c] 170 42728
+[compute.c] 170 40856
+[compute.c] 170 42730
+[compute.c] 170 40858
+[compute.c] 170 42732
+[compute.c] 170 40860
+[compute.c] 170 42734
+[compute.c] 170 40862
+[compute.c] 170 42736
+[compute.c] 170 40864
+[compute.c] 170 42738
+[compute.c] 170 40866
+[compute.c] 170 42740
+[compute.c] 170 40868
+[compute.c] 170 42742
+[compute.c] 170 40870
+[compute.c] 170 42962
+[compute.c] 170 41184
+[compute.c] 170 43244
+[compute.c] 170 41396
+[compute.c] 170 43246
+[compute.c] 170 41398
+[compute.c] 170 43248
+[compute.c] 170 41400
+[compute.c] 170 43250
+[compute.c] 170 41402
+[compute.c] 170 43252
+[compute.c] 170 41404
+[compute.c] 170 43254
+[compute.c] 170 41406
+[compute.c] 170 43256
+[compute.c] 170 41408
+[compute.c] 170 43258
+[compute.c] 170 41410
+[compute.c] 170 43260
+[compute.c] 170 43508
+[compute.c] 170 41412
+[compute.c] 170 43750
+[compute.c] 170 41414
+[compute.c] 170 43752
+[compute.c] 170 41416
+[compute.c] 170 43754
+[compute.c] 170 41690
+[compute.c] 170 43984
+[compute.c] 170 41692
+[compute.c] 170 43986
+[compute.c] 170 41694
+[compute.c] 170 43988
+[compute.c] 170 41696
+[compute.c] 170 43990
+[compute.c] 170 41698
+[compute.c] 170 43992
+[compute.c] 170 41700
+[compute.c] 170 43994
+[compute.c] 170 41702
+[compute.c] 170 43996
+[compute.c] 170 41704
+[compute.c] 170 44292
+[compute.c] 170 41942
+[compute.c] 170 44294
+[compute.c] 170 41944
+[compute.c] 170 44296
+[compute.c] 170 42244
+[compute.c] 170 44542
+[compute.c] 170 42272
+[compute.c] 170 44544
+[compute.c] 170 42274
+[compute.c] 170 44546
+[compute.c] 170 42470
+[compute.c] 170 44548
+[compute.c] 170 42472
+[compute.c] 170 44550
+[compute.c] 170 42474
+[compute.c] 170 44552
+[compute.c] 170 42552
+[compute.c] 170 44752
+[compute.c] 170 42554
+[compute.c] 170 44754
+[compute.c] 170 42556
+[compute.c] 170 44756
+[compute.c] 170 42558
+[compute.c] 170 44758
+[compute.c] 170 42560
+[compute.c] 170 44760
+[compute.c] 170 42562
+[compute.c] 170 45060
+[compute.c] 170 45062
+[compute.c] 170 42760
+[compute.c] 170 45292
+[compute.c] 170 42762
+[compute.c] 170 45294
+[compute.c] 170 42802
+[compute.c] 170 45520
+[compute.c] 170 42804
+[compute.c] 170 45522
+[compute.c] 170 42806
+[compute.c] 170 45524
+[compute.c] 170 42808
+[compute.c] 170 45526
+[compute.c] 170 42810
+[compute.c] 170 45528
+[compute.c] 170 42812
+[compute.c] 170 45530
+[compute.c] 170 42814
+[compute.c] 170 45532
+[compute.c] 170 42816
+[compute.c] 170 45534
+[compute.c] 170 42818
+[compute.c] 170 45536
+[compute.c] 170 42820
+[compute.c] 170 45538
+[compute.c] 170 42822
+[compute.c] 170 45540
+[compute.c] 170 43076
+[compute.c] 170 45704
+[compute.c] 170 43078
+[compute.c] 170 45706
+[compute.c] 170 43080
+[compute.c] 170 45708
+[compute.c] 170 43082
+[compute.c] 170 45710
+[compute.c] 170 43084
+[compute.c] 170 45712
+[compute.c] 170 43086
+[compute.c] 170 45714
+[compute.c] 170 43088
+[compute.c] 170 45716
+[compute.c] 170 43090
+[compute.c] 170 45718
+[compute.c] 170 43092
+[compute.c] 170 45720
+[compute.c] 170 43094
+[compute.c] 170 45722
+[compute.c] 170 43096
+[compute.c] 170 45724
+[compute.c] 170 45968
+[compute.c] 170 43306
+[compute.c] 170 1069134
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 1688
+[compute.c] 170 1726
+[compute.c] 170 1690
+[compute.c] 170 1728
+[compute.c] 170 1692
+[compute.c] 170 1730
+[compute.c] 170 1694
+[compute.c] 170 1732
+[compute.c] 170 1696
+[compute.c] 170 1734
+[compute.c] 170 1964
+[compute.c] 170 2006
+[compute.c] 170 2242
+[compute.c] 170 2292
+[compute.c] 170 2514
+[compute.c] 170 2564
+[compute.c] 170 2762
+[compute.c] 170 2778
+[compute.c] 170 3044
+[compute.c] 170 3064
+[compute.c] 170 3324
+[compute.c] 170 3354
+[compute.c] 170 3482
+[compute.c] 170 3628
+[compute.c] 170 3694
+[compute.c] 170 3876
+[compute.c] 170 3980
+[compute.c] 170 4164
+[compute.c] 170 4252
+[compute.c] 170 4452
+[compute.c] 170 4540
+[compute.c] 170 4734
+[compute.c] 170 4748
+[compute.c] 170 4886
+[compute.c] 170 4750
+[compute.c] 170 4888
+[compute.c] 170 4936
+[compute.c] 170 5126
+[compute.c] 170 5178
+[compute.c] 170 5350
+[compute.c] 170 5282
+[compute.c] 170 5446
+[compute.c] 170 5532
+[compute.c] 170 5714
+[compute.c] 170 5780
+[compute.c] 170 5988
+[compute.c] 170 6028
+[compute.c] 170 6058
+[compute.c] 170 6234
+[compute.c] 170 6312
+[compute.c] 170 6450
+[compute.c] 170 6314
+[compute.c] 170 6528
+[compute.c] 170 6508
+[compute.c] 170 6530
+[compute.c] 170 6510
+[compute.c] 170 6766
+[compute.c] 170 6512
+[compute.c] 170 6768
+[compute.c] 170 6514
+[compute.c] 170 6770
+[compute.c] 170 6516
+[compute.c] 170 6772
+[compute.c] 170 6724
+[compute.c] 170 6774
+[compute.c] 170 6726
+[compute.c] 170 6776
+[compute.c] 170 6728
+[compute.c] 170 6778
+[compute.c] 170 6766
+[compute.c] 170 6986
+[compute.c] 170 6768
+[compute.c] 170 6988
+[compute.c] 170 6770
+[compute.c] 170 6990
+[compute.c] 170 6772
+[compute.c] 170 6992
+[compute.c] 170 6774
+[compute.c] 170 6994
+[compute.c] 170 6776
+[compute.c] 170 6996
+[compute.c] 170 6778
+[compute.c] 170 6998
+[compute.c] 170 6780
+[compute.c] 170 7000
+[compute.c] 170 6782
+[compute.c] 170 7002
+[compute.c] 170 6784
+[compute.c] 170 7004
+[compute.c] 170 6786
+[compute.c] 170 7006
+[compute.c] 170 6824
+[compute.c] 170 7008
+[compute.c] 170 6954
+[compute.c] 170 7168
+[compute.c] 170 6956
+[compute.c] 170 7170
+[compute.c] 170 6958
+[compute.c] 170 7172
+[compute.c] 170 6960
+[compute.c] 170 7174
+[compute.c] 170 6962
+[compute.c] 170 7176
+[compute.c] 170 6964
+[compute.c] 170 7178
+[compute.c] 170 6966
+[compute.c] 170 7180
+[compute.c] 170 6968
+[compute.c] 170 7182
+[compute.c] 170 6970
+[compute.c] 170 7184
+[compute.c] 170 6972
+[compute.c] 170 7468
+[compute.c] 170 6996
+[compute.c] 170 7470
+[compute.c] 170 7280
+[compute.c] 170 7682
+[compute.c] 170 7282
+[compute.c] 170 7684
+[compute.c] 170 7284
+[compute.c] 170 7686
+[compute.c] 170 7286
+[compute.c] 170 7688
+[compute.c] 170 7288
+[compute.c] 170 7690
+[compute.c] 170 7290
+[compute.c] 170 7692
+[compute.c] 170 7292
+[compute.c] 170 7694
+[compute.c] 170 7294
+[compute.c] 170 7696
+[compute.c] 170 7296
+[compute.c] 170 7968
+[compute.c] 170 7456
+[compute.c] 170 7970
+[compute.c] 170 7458
+[compute.c] 170 7972
+[compute.c] 170 7672
+[compute.c] 170 7974
+[compute.c] 170 7974
+[compute.c] 170 7676
+[compute.c] 170 7976
+[compute.c] 170 7764
+[compute.c] 170 7978
+[compute.c] 170 7766
+[compute.c] 170 7980
+[compute.c] 170 7768
+[compute.c] 170 7982
+[compute.c] 170 7770
+[compute.c] 170 7984
+[compute.c] 170 7772
+[compute.c] 170 7986
+[compute.c] 170 7774
+[compute.c] 170 7988
+[compute.c] 170 7776
+[compute.c] 170 7990
+[compute.c] 170 7778
+[compute.c] 170 7992
+[compute.c] 170 7780
+[compute.c] 170 7994
+[compute.c] 170 7896
+[compute.c] 170 7996
+[compute.c] 170 8020
+[compute.c] 170 8136
+[compute.c] 170 8340
+[compute.c] 170 8270
+[compute.c] 170 8618
+[compute.c] 170 8698
+[compute.c] 170 8698
+[compute.c] 170 8762
+[compute.c] 170 8762
+[compute.c] 170 8276
+[compute.c] 170 8276
+[compute.c] 170 8798
+[compute.c] 170 8278
+[compute.c] 170 8800
+[compute.c] 170 8800
+[compute.c] 170 8282
+[compute.c] 170 8282
+[compute.c] 170 8340
+[compute.c] 170 8340
+[compute.c] 170 8348
+[compute.c] 170 8348
+[compute.c] 170 9100
+[compute.c] 170 9100
+[compute.c] 170 8376
+[compute.c] 170 9102
+[compute.c] 170 8378
+[compute.c] 170 9104
+[compute.c] 170 9264
+[compute.c] 170 9552
+[compute.c] 170 9758
+[compute.c] 170 10058
+[compute.c] 170 10084
+[compute.c] 170 8456
+[compute.c] 170 10276
+[compute.c] 170 8458
+[compute.c] 170 10278
+[compute.c] 170 10280
+[compute.c] 170 10282
+[compute.c] 170 10432
+[compute.c] 170 8460
+[compute.c] 170 10526
+[compute.c] 170 10728
+[compute.c] 170 11022
+[compute.c] 170 11024
+[compute.c] 170 11038
+[compute.c] 170 8462
+[compute.c] 170 11040
+[compute.c] 170 8464
+[compute.c] 170 11054
+[compute.c] 170 8466
+[compute.c] 170 8468
+[compute.c] 170 11056
+[compute.c] 170 8604
+[compute.c] 170 11058
+[compute.c] 170 11058
+[compute.c] 170 8608
+[compute.c] 170 8608
+[compute.c] 170 8610
+[compute.c] 170 8610
+[compute.c] 170 8768
+[compute.c] 170 11064
+[compute.c] 170 8770
+[compute.c] 170 11066
+[compute.c] 170 8972
+[compute.c] 170 9076
+[compute.c] 170 9076
+[compute.c] 170 9078
+[compute.c] 170 9078
+[compute.c] 170 9080
+[compute.c] 170 11072
+[compute.c] 170 11074
+[compute.c] 170 9084
+[compute.c] 170 9286
+[compute.c] 170 9570
+[compute.c] 170 9912
+[compute.c] 170 11074
+[compute.c] 170 9988
+[compute.c] 170 11076
+[compute.c] 170 11078
+[compute.c] 170 11116
+[compute.c] 170 11260
+[compute.c] 170 11414
+[compute.c] 170 11616
+[compute.c] 170 9990
+[compute.c] 170 11834
+[compute.c] 170 11836
+[compute.c] 170 9992
+[compute.c] 170 11986
+[compute.c] 170 9994
+[compute.c] 170 11988
+[compute.c] 170 11990
+[compute.c] 170 12244
+[compute.c] 170 9996
+[compute.c] 170 12530
+[compute.c] 170 9998
+[compute.c] 170 12832
+[compute.c] 170 10044
+[compute.c] 170 12834
+[compute.c] 170 10046
+[compute.c] 170 12836
+[compute.c] 170 10048
+[compute.c] 170 12838
+[compute.c] 170 10050
+[compute.c] 170 12840
+[compute.c] 170 10052
+[compute.c] 170 12842
+[compute.c] 170 10054
+[compute.c] 170 12844
+[compute.c] 170 10056
+[compute.c] 170 12846
+[compute.c] 170 10058
+[compute.c] 170 12848
+[compute.c] 170 12850
+[compute.c] 170 10060
+[compute.c] 170 13076
+[compute.c] 170 10062
+[compute.c] 170 13078
+[compute.c] 170 10064
+[compute.c] 170 13080
+[compute.c] 170 10066
+[compute.c] 170 13082
+[compute.c] 170 10068
+[compute.c] 170 13084
+[compute.c] 170 10070
+[compute.c] 170 13086
+[compute.c] 170 10072
+[compute.c] 170 13088
+[compute.c] 170 10074
+[compute.c] 170 13090
+[compute.c] 170 10076
+[compute.c] 170 13092
+[compute.c] 170 10078
+[compute.c] 170 13094
+[compute.c] 170 10080
+[compute.c] 170 13346
+[compute.c] 170 10140
+[compute.c] 170 13348
+[compute.c] 170 10142
+[compute.c] 170 13400
+[compute.c] 170 10144
+[compute.c] 170 13402
+[compute.c] 170 10146
+[compute.c] 170 13404
+[compute.c] 170 10148
+[compute.c] 170 13406
+[compute.c] 170 10150
+[compute.c] 170 13408
+[compute.c] 170 10152
+[compute.c] 170 13410
+[compute.c] 170 10154
+[compute.c] 170 13412
+[compute.c] 170 10156
+[compute.c] 170 13414
+[compute.c] 170 10158
+[compute.c] 170 13416
+[compute.c] 170 10160
+[compute.c] 170 13418
+[compute.c] 170 10162
+[compute.c] 170 13420
+[compute.c] 170 10164
+[compute.c] 170 13422
+[compute.c] 170 10166
+[compute.c] 170 13424
+[compute.c] 170 10168
+[compute.c] 170 13426
+[compute.c] 170 10172
+[compute.c] 170 13636
+[compute.c] 170 10174
+[compute.c] 170 10174
+[compute.c] 170 13640
+[compute.c] 170 10176
+[compute.c] 170 10178
+[compute.c] 170 10178
+[compute.c] 170 10180
+[compute.c] 170 13644
+[compute.c] 170 13646
+[compute.c] 170 13646
+[compute.c] 170 13648
+[compute.c] 170 13648
+[compute.c] 170 10186
+[compute.c] 170 10186
+[compute.c] 170 10188
+[compute.c] 170 10188
+[compute.c] 170 10220
+[compute.c] 170 10220
+[compute.c] 170 10252
+[compute.c] 170 10252
+[compute.c] 170 10310
+[compute.c] 170 10310
+[compute.c] 170 10312
+[compute.c] 170 10312
+[compute.c] 170 10356
+[compute.c] 170 10356
+[compute.c] 170 14022
+[compute.c] 170 10358
+[compute.c] 170 10360
+[compute.c] 170 10360
+[compute.c] 170 14026
+[compute.c] 170 14026
+[compute.c] 170 14028
+[compute.c] 170 14028
+[compute.c] 170 10366
+[compute.c] 170 10366
+[compute.c] 170 10368
+[compute.c] 170 10368
+[compute.c] 170 14034
+[compute.c] 170 14034
+[compute.c] 170 14062
+[compute.c] 170 14062
+[compute.c] 170 14198
+[compute.c] 170 14198
+[compute.c] 170 14214
+[compute.c] 170 10592
+[compute.c] 170 14216
+[compute.c] 170 14216
+[compute.c] 170 10596
+[compute.c] 170 14408
+[compute.c] 170 14756
+[compute.c] 170 14760
+[compute.c] 170 15096
+[compute.c] 170 15216
+[compute.c] 170 15486
+[compute.c] 170 15812
+[compute.c] 170 16132
+[compute.c] 170 16470
+[compute.c] 170 16764
+[compute.c] 170 17100
+[compute.c] 170 10596
+[compute.c] 170 17442
+[compute.c] 170 17444
+[compute.c] 170 17662
+[compute.c] 170 17870
+[compute.c] 170 18196
+[compute.c] 170 10598
+[compute.c] 170 18518
+[compute.c] 170 18520
+[compute.c] 170 10600
+[compute.c] 170 18754
+[compute.c] 170 10602
+[compute.c] 170 18756
+[compute.c] 170 10604
+[compute.c] 170 18758
+[compute.c] 170 10606
+[compute.c] 170 18760
+[compute.c] 170 10608
+[compute.c] 170 18762
+[compute.c] 170 10610
+[compute.c] 170 18764
+[compute.c] 170 10612
+[compute.c] 170 18766
+[compute.c] 170 10614
+[compute.c] 170 18768
+[compute.c] 170 10616
+[compute.c] 170 18770
+[compute.c] 170 10618
+[compute.c] 170 18772
+[compute.c] 170 10620
+[compute.c] 170 18774
+[compute.c] 170 10622
+[compute.c] 170 18776
+[compute.c] 170 10624
+[compute.c] 170 18778
+[compute.c] 170 10626
+[compute.c] 170 18780
+[compute.c] 170 10628
+[compute.c] 170 18782
+[compute.c] 170 10630
+[compute.c] 170 18784
+[compute.c] 170 10632
+[compute.c] 170 18786
+[compute.c] 170 10634
+[compute.c] 170 18788
+[compute.c] 170 10636
+[compute.c] 170 18790
+[compute.c] 170 10638
+[compute.c] 170 18792
+[compute.c] 170 10640
+[compute.c] 170 18794
+[compute.c] 170 10652
+[compute.c] 170 18796
+[compute.c] 170 10654
+[compute.c] 170 19096
+[compute.c] 170 10656
+[compute.c] 170 19098
+[compute.c] 170 10658
+[compute.c] 170 19100
+[compute.c] 170 10660
+[compute.c] 170 19102
+[compute.c] 170 10662
+[compute.c] 170 19104
+[compute.c] 170 10664
+[compute.c] 170 19106
+[compute.c] 170 10666
+[compute.c] 170 19108
+[compute.c] 170 10768
+[compute.c] 170 19110
+[compute.c] 170 10964
+[compute.c] 170 19112
+[compute.c] 170 11142
+[compute.c] 170 11206
+[compute.c] 170 11206
+[compute.c] 170 11208
+[compute.c] 170 11208
+[compute.c] 170 19118
+[compute.c] 170 19120
+[compute.c] 170 19374
+[compute.c] 170 19674
+[compute.c] 170 11210
+[compute.c] 170 11212
+[compute.c] 170 19742
+[compute.c] 170 11366
+[compute.c] 170 11402
+[compute.c] 170 19744
+[compute.c] 170 11488
+[compute.c] 170 19746
+[compute.c] 170 11490
+[compute.c] 170 19760
+[compute.c] 170 11512
+[compute.c] 170 19844
+[compute.c] 170 19930
+[compute.c] 170 19930
+[compute.c] 170 20004
+[compute.c] 170 20004
+[compute.c] 170 11764
+[compute.c] 170 11764
+[compute.c] 170 11934
+[compute.c] 170 11934
+[compute.c] 170 12088
+[compute.c] 170 20290
+[compute.c] 170 12088
+[compute.c] 170 20430
+[compute.c] 170 12090
+[compute.c] 170 20432
+[compute.c] 170 12092
+[compute.c] 170 20434
+[compute.c] 170 20436
+[compute.c] 170 20438
+[compute.c] 170 20440
+[compute.c] 170 20458
+[compute.c] 170 20566
+[compute.c] 170 12094
+[compute.c] 170 20728
+[compute.c] 170 12096
+[compute.c] 170 20730
+[compute.c] 170 12098
+[compute.c] 170 20732
+[compute.c] 170 12100
+[compute.c] 170 12102
+[compute.c] 170 20734
+[compute.c] 170 12366
+[compute.c] 170 12368
+[compute.c] 170 20736
+[compute.c] 170 20738
+[compute.c] 170 21008
+[compute.c] 170 12566
+[compute.c] 170 21348
+[compute.c] 170 12568
+[compute.c] 170 21350
+[compute.c] 170 12768
+[compute.c] 170 13004
+[compute.c] 170 13004
+[compute.c] 170 13144
+[compute.c] 170 13144
+[compute.c] 170 13146
+[compute.c] 170 13146
+[compute.c] 170 13148
+[compute.c] 170 13148
+[compute.c] 170 13150
+[compute.c] 170 13150
+[compute.c] 170 13152
+[compute.c] 170 13152
+[compute.c] 170 13172
+[compute.c] 170 13172
+[compute.c] 170 13192
+[compute.c] 170 13192
+[compute.c] 170 13264
+[compute.c] 170 13264
+[compute.c] 170 13266
+[compute.c] 170 13266
+[compute.c] 170 13340
+[compute.c] 170 13340
+[compute.c] 170 13396
+[compute.c] 170 13396
+[compute.c] 170 13398
+[compute.c] 170 13398
+[compute.c] 170 21926
+[compute.c] 170 21926
+[compute.c] 170 13404
+[compute.c] 170 21928
+[compute.c] 170 21930
+[compute.c] 170 13462
+[compute.c] 170 13734
+[compute.c] 170 21930
+[compute.c] 170 21932
+[compute.c] 170 22078
+[compute.c] 170 22282
+[compute.c] 170 22456
+[compute.c] 170 14060
+[compute.c] 170 22626
+[compute.c] 170 14062
+[compute.c] 170 22628
+[compute.c] 170 22630
+[compute.c] 170 22808
+[compute.c] 170 14064
+[compute.c] 170 23098
+[compute.c] 170 14066
+[compute.c] 170 23424
+[compute.c] 170 14068
+[compute.c] 170 23426
+[compute.c] 170 14070
+[compute.c] 170 23428
+[compute.c] 170 14072
+[compute.c] 170 23430
+[compute.c] 170 14074
+[compute.c] 170 23432
+[compute.c] 170 14076
+[compute.c] 170 23434
+[compute.c] 170 14078
+[compute.c] 170 23436
+[compute.c] 170 14080
+[compute.c] 170 23438
+[compute.c] 170 14082
+[compute.c] 170 23440
+[compute.c] 170 14084
+[compute.c] 170 23442
+[compute.c] 170 14086
+[compute.c] 170 23616
+[compute.c] 170 14380
+[compute.c] 170 23820
+[compute.c] 170 14452
+[compute.c] 170 23822
+[compute.c] 170 14454
+[compute.c] 170 23824
+[compute.c] 170 14456
+[compute.c] 170 23826
+[compute.c] 170 14458
+[compute.c] 170 23828
+[compute.c] 170 14486
+[compute.c] 170 23904
+[compute.c] 170 14488
+[compute.c] 170 23906
+[compute.c] 170 23908
+[compute.c] 170 14490
+[compute.c] 170 14494
+[compute.c] 170 24188
+[compute.c] 170 14754
+[compute.c] 170 24380
+[compute.c] 170 24464
+[compute.c] 170 24464
+[compute.c] 170 24600
+[compute.c] 170 24600
+[compute.c] 170 24652
+[compute.c] 170 24652
+[compute.c] 170 24780
+[compute.c] 170 24780
+[compute.c] 170 24846
+[compute.c] 170 24846
+[compute.c] 170 24926
+[compute.c] 170 24926
+[compute.c] 170 24952
+[compute.c] 170 24952
+[compute.c] 170 24964
+[compute.c] 170 24964
+[compute.c] 170 24972
+[compute.c] 170 24972
+[compute.c] 170 25070
+[compute.c] 170 25070
+[compute.c] 170 25208
+[compute.c] 170 25208
+[compute.c] 170 25238
+[compute.c] 170 25238
+[compute.c] 170 25378
+[compute.c] 170 25378
+[compute.c] 170 16252
+[compute.c] 170 16252
+[compute.c] 170 25488
+[compute.c] 170 25488
+[compute.c] 170 16256
+[compute.c] 170 16256
+[compute.c] 170 16258
+[compute.c] 170 25504
+[compute.c] 170 16278
+[compute.c] 170 25506
+[compute.c] 170 16288
+[compute.c] 170 25546
+[compute.c] 170 16608
+[compute.c] 170 25548
+[compute.c] 170 16610
+[compute.c] 170 25550
+[compute.c] 170 25552
+[compute.c] 170 25828
+[compute.c] 170 26116
+[compute.c] 170 26156
+[compute.c] 170 26464
+[compute.c] 170 26786
+[compute.c] 170 16612
+[compute.c] 170 16614
+[compute.c] 170 26788
+[compute.c] 170 16902
+[compute.c] 170 16902
+[compute.c] 170 16904
+[compute.c] 170 16904
+[compute.c] 170 16906
+[compute.c] 170 26794
+[compute.c] 170 26796
+[compute.c] 170 26796
+[compute.c] 170 26936
+[compute.c] 170 26936
+[compute.c] 170 26994
+[compute.c] 170 26994
+[compute.c] 170 17358
+[compute.c] 170 26996
+[compute.c] 170 17360
+[compute.c] 170 27014
+[compute.c] 170 17362
+[compute.c] 170 27250
+[compute.c] 170 17364
+[compute.c] 170 27358
+[compute.c] 170 17366
+[compute.c] 170 27566
+[compute.c] 170 17366
+[compute.c] 170 27928
+[compute.c] 170 27928
+[compute.c] 170 27950
+[compute.c] 170 27950
+[compute.c] 170 28036
+[compute.c] 170 28036
+[compute.c] 170 28038
+[compute.c] 170 28038
+[compute.c] 170 28086
+[compute.c] 170 28086
+[compute.c] 170 17632
+[compute.c] 170 17632
+[compute.c] 170 17634
+[compute.c] 170 17634
+[compute.c] 170 17680
+[compute.c] 170 17680
+[compute.c] 170 17682
+[compute.c] 170 17736
+[compute.c] 170 18022
+[compute.c] 170 18350
+[compute.c] 170 18712
+[compute.c] 170 18972
+[compute.c] 170 19282
+[compute.c] 170 19632
+[compute.c] 170 20000
+[compute.c] 170 20326
+[compute.c] 170 20640
+[compute.c] 170 20976
+[compute.c] 170 28148
+[compute.c] 170 28150
+[compute.c] 170 21336
+[compute.c] 170 28296
+[compute.c] 170 28298
+[compute.c] 170 28628
+[compute.c] 170 21338
+[compute.c] 170 28990
+[compute.c] 170 21340
+[compute.c] 170 28992
+[compute.c] 170 21342
+[compute.c] 170 28994
+[compute.c] 170 21344
+[compute.c] 170 28996
+[compute.c] 170 21346
+[compute.c] 170 28998
+[compute.c] 170 21348
+[compute.c] 170 29000
+[compute.c] 170 21350
+[compute.c] 170 29002
+[compute.c] 170 21352
+[compute.c] 170 21354
+[compute.c] 170 29004
+[compute.c] 170 21506
+[compute.c] 170 21508
+[compute.c] 170 21612
+[compute.c] 170 29006
+[compute.c] 170 21614
+[compute.c] 170 29008
+[compute.c] 170 21616
+[compute.c] 170 29010
+[compute.c] 170 21618
+[compute.c] 170 29012
+[compute.c] 170 21620
+[compute.c] 170 29014
+[compute.c] 170 21622
+[compute.c] 170 21624
+[compute.c] 170 29016
+[compute.c] 170 21784
+[compute.c] 170 29018
+[compute.c] 170 21786
+[compute.c] 170 21786
+[compute.c] 170 21792
+[compute.c] 170 21792
+[compute.c] 170 21794
+[compute.c] 170 29042
+[compute.c] 170 29044
+[compute.c] 170 29044
+[compute.c] 170 29046
+[compute.c] 170 29046
+[compute.c] 170 29048
+[compute.c] 170 21800
+[compute.c] 170 29050
+[compute.c] 170 29050
+[compute.c] 170 29224
+[compute.c] 170 29224
+[compute.c] 170 29370
+[compute.c] 170 29370
+[compute.c] 170 22068
+[compute.c] 170 29372
+[compute.c] 170 22070
+[compute.c] 170 29374
+[compute.c] 170 29376
+[compute.c] 170 29376
+[compute.c] 170 29520
+[compute.c] 170 29520
+[compute.c] 170 22308
+[compute.c] 170 22308
+[compute.c] 170 22310
+[compute.c] 170 22310
+[compute.c] 170 22324
+[compute.c] 170 22324
+[compute.c] 170 29542
+[compute.c] 170 29542
+[compute.c] 170 29696
+[compute.c] 170 22328
+[compute.c] 170 22330
+[compute.c] 170 22330
+[compute.c] 170 22332
+[compute.c] 170 22332
+[compute.c] 170 29702
+[compute.c] 170 29704
+[compute.c] 170 29706
+[compute.c] 170 30026
+[compute.c] 170 30390
+[compute.c] 170 30746
+[compute.c] 170 31094
+[compute.c] 170 31490
+[compute.c] 170 31824
+[compute.c] 170 32184
+[compute.c] 170 32536
+[compute.c] 170 32934
+[compute.c] 170 22334
+[compute.c] 170 33296
+[compute.c] 170 33298
+[compute.c] 170 33534
+[compute.c] 170 33836
+[compute.c] 170 34164
+[compute.c] 170 34434
+[compute.c] 170 22336
+[compute.c] 170 22338
+[compute.c] 170 22340
+[compute.c] 170 22514
+[compute.c] 170 22694
+[compute.c] 170 34762
+[compute.c] 170 22906
+[compute.c] 170 34764
+[compute.c] 170 34778
+[compute.c] 170 34928
+[compute.c] 170 35248
+[compute.c] 170 35592
+[compute.c] 170 35802
+[compute.c] 170 23092
+[compute.c] 170 23094
+[compute.c] 170 23212
+[compute.c] 170 35976
+[compute.c] 170 23214
+[compute.c] 170 23216
+[compute.c] 170 35978
+[compute.c] 170 35980
+[compute.c] 170 36290
+[compute.c] 170 36600
+[compute.c] 170 23432
+[compute.c] 170 23434
+[compute.c] 170 36884
+[compute.c] 170 23436
+[compute.c] 170 23438
+[compute.c] 170 36886
+[compute.c] 170 36888
+[compute.c] 170 37230
+[compute.c] 170 23702
+[compute.c] 170 37590
+[compute.c] 170 23704
+[compute.c] 170 23706
+[compute.c] 170 37790
+[compute.c] 170 23866
+[compute.c] 170 23866
+[compute.c] 170 24042
+[compute.c] 170 24042
+[compute.c] 170 38184
+[compute.c] 170 24044
+[compute.c] 170 38186
+[compute.c] 170 24046
+[compute.c] 170 38188
+[compute.c] 170 24048
+[compute.c] 170 38190
+[compute.c] 170 24050
+[compute.c] 170 38192
+[compute.c] 170 24052
+[compute.c] 170 38194
+[compute.c] 170 24054
+[compute.c] 170 38196
+[compute.c] 170 24056
+[compute.c] 170 38198
+[compute.c] 170 24058
+[compute.c] 170 38440
+[compute.c] 170 24266
+[compute.c] 170 38442
+[compute.c] 170 24268
+[compute.c] 170 38444
+[compute.c] 170 24464
+[compute.c] 170 38566
+[compute.c] 170 24466
+[compute.c] 170 38568
+[compute.c] 170 24468
+[compute.c] 170 38570
+[compute.c] 170 24470
+[compute.c] 170 38572
+[compute.c] 170 24472
+[compute.c] 170 38574
+[compute.c] 170 24474
+[compute.c] 170 38576
+[compute.c] 170 24476
+[compute.c] 170 38578
+[compute.c] 170 24478
+[compute.c] 170 38580
+[compute.c] 170 24480
+[compute.c] 170 38582
+[compute.c] 170 24482
+[compute.c] 170 38584
+[compute.c] 170 24484
+[compute.c] 170 38586
+[compute.c] 170 24772
+[compute.c] 170 38666
+[compute.c] 170 24774
+[compute.c] 170 38976
+[compute.c] 170 25010
+[compute.c] 170 38978
+[compute.c] 170 25012
+[compute.c] 170 38984
+[compute.c] 170 25014
+[compute.c] 170 39020
+[compute.c] 170 25016
+[compute.c] 170 39050
+[compute.c] 170 25252
+[compute.c] 170 39052
+[compute.c] 170 25254
+[compute.c] 170 39054
+[compute.c] 170 25256
+[compute.c] 170 39056
+[compute.c] 170 25258
+[compute.c] 170 39058
+[compute.c] 170 25260
+[compute.c] 170 39060
+[compute.c] 170 25262
+[compute.c] 170 39062
+[compute.c] 170 25264
+[compute.c] 170 39064
+[compute.c] 170 25266
+[compute.c] 170 39066
+[compute.c] 170 25268
+[compute.c] 170 39068
+[compute.c] 170 25270
+[compute.c] 170 39070
+[compute.c] 170 25272
+[compute.c] 170 39292
+[compute.c] 170 25490
+[compute.c] 170 25528
+[compute.c] 170 25528
+[compute.c] 170 25530
+[compute.c] 170 39296
+[compute.c] 170 39336
+[compute.c] 170 39336
+[compute.c] 170 39414
+[compute.c] 170 39414
+[compute.c] 170 39416
+[compute.c] 170 39416
+[compute.c] 170 25810
+[compute.c] 170 25810
+[compute.c] 170 25824
+[compute.c] 170 25824
+[compute.c] 170 25826
+[compute.c] 170 25826
+[compute.c] 170 25828
+[compute.c] 170 25828
+[compute.c] 170 25830
+[compute.c] 170 25830
+[compute.c] 170 25832
+[compute.c] 170 25832
+[compute.c] 170 25834
+[compute.c] 170 39444
+[compute.c] 170 25836
+[compute.c] 170 39446
+[compute.c] 170 25910
+[compute.c] 170 39448
+[compute.c] 170 25912
+[compute.c] 170 39664
+[compute.c] 170 39706
+[compute.c] 170 39706
+[compute.c] 170 39844
+[compute.c] 170 39844
+[compute.c] 170 39866
+[compute.c] 170 39866
+[compute.c] 170 39918
+[compute.c] 170 39918
+[compute.c] 170 40048
+[compute.c] 170 40048
+[compute.c] 170 40050
+[compute.c] 170 40050
+[compute.c] 170 40100
+[compute.c] 170 40100
+[compute.c] 170 40102
+[compute.c] 170 40102
+[compute.c] 170 40104
+[compute.c] 170 40104
+[compute.c] 170 40106
+[compute.c] 170 40106
+[compute.c] 170 40108
+[compute.c] 170 26696
+[compute.c] 170 26970
+[compute.c] 170 27314
+[compute.c] 170 27628
+[compute.c] 170 27990
+[compute.c] 170 28316
+[compute.c] 170 28738
+[compute.c] 170 28992
+[compute.c] 170 29380
+[compute.c] 170 29692
+[compute.c] 170 30070
+[compute.c] 170 30202
+[compute.c] 170 30520
+[compute.c] 170 30822
+[compute.c] 170 40108
+[compute.c] 170 31110
+[compute.c] 170 31112
+[compute.c] 170 40110
+[compute.c] 170 31324
+[compute.c] 170 31326
+[compute.c] 170 31630
+[compute.c] 170 31972
+[compute.c] 170 32330
+[compute.c] 170 40112
+[compute.c] 170 32634
+[compute.c] 170 40114
+[compute.c] 170 32964
+[compute.c] 170 40244
+[compute.c] 170 33092
+[compute.c] 170 40246
+[compute.c] 170 33094
+[compute.c] 170 40248
+[compute.c] 170 33096
+[compute.c] 170 40250
+[compute.c] 170 33098
+[compute.c] 170 40252
+[compute.c] 170 33100
+[compute.c] 170 40254
+[compute.c] 170 33102
+[compute.c] 170 40256
+[compute.c] 170 33280
+[compute.c] 170 40374
+[compute.c] 170 33282
+[compute.c] 170 40410
+[compute.c] 170 33432
+[compute.c] 170 40412
+[compute.c] 170 33434
+[compute.c] 170 40414
+[compute.c] 170 33436
+[compute.c] 170 40416
+[compute.c] 170 33438
+[compute.c] 170 40418
+[compute.c] 170 33440
+[compute.c] 170 40420
+[compute.c] 170 33442
+[compute.c] 170 40422
+[compute.c] 170 33444
+[compute.c] 170 40424
+[compute.c] 170 33446
+[compute.c] 170 40426
+[compute.c] 170 33448
+[compute.c] 170 40428
+[compute.c] 170 33450
+[compute.c] 170 40430
+[compute.c] 170 33452
+[compute.c] 170 40640
+[compute.c] 170 33584
+[compute.c] 170 40642
+[compute.c] 170 33586
+[compute.c] 170 40644
+[compute.c] 170 33588
+[compute.c] 170 40646
+[compute.c] 170 33590
+[compute.c] 170 40648
+[compute.c] 170 33592
+[compute.c] 170 40650
+[compute.c] 170 33594
+[compute.c] 170 40652
+[compute.c] 170 33596
+[compute.c] 170 40654
+[compute.c] 170 33598
+[compute.c] 170 40656
+[compute.c] 170 33600
+[compute.c] 170 40658
+[compute.c] 170 33602
+[compute.c] 170 40660
+[compute.c] 170 33604
+[compute.c] 170 40662
+[compute.c] 170 33676
+[compute.c] 170 40664
+[compute.c] 170 33678
+[compute.c] 170 40666
+[compute.c] 170 33680
+[compute.c] 170 40668
+[compute.c] 170 33682
+[compute.c] 170 40670
+[compute.c] 170 33684
+[compute.c] 170 40672
+[compute.c] 170 33686
+[compute.c] 170 40674
+[compute.c] 170 33688
+[compute.c] 170 40676
+[compute.c] 170 33690
+[compute.c] 170 40678
+[compute.c] 170 33692
+[compute.c] 170 40680
+[compute.c] 170 33694
+[compute.c] 170 40682
+[compute.c] 170 33696
+[compute.c] 170 40872
+[compute.c] 170 34006
+[compute.c] 170 41134
+[compute.c] 170 34170
+[compute.c] 170 41136
+[compute.c] 170 34172
+[compute.c] 170 41138
+[compute.c] 170 34174
+[compute.c] 170 41140
+[compute.c] 170 34176
+[compute.c] 170 41142
+[compute.c] 170 34178
+[compute.c] 170 41144
+[compute.c] 170 34298
+[compute.c] 170 41286
+[compute.c] 170 34300
+[compute.c] 170 41288
+[compute.c] 170 34302
+[compute.c] 170 41290
+[compute.c] 170 34304
+[compute.c] 170 41444
+[compute.c] 170 34418
+[compute.c] 170 41446
+[compute.c] 170 34420
+[compute.c] 170 41448
+[compute.c] 170 34422
+[compute.c] 170 41450
+[compute.c] 170 34424
+[compute.c] 170 41452
+[compute.c] 170 34426
+[compute.c] 170 41454
+[compute.c] 170 34428
+[compute.c] 170 41456
+[compute.c] 170 34430
+[compute.c] 170 41458
+[compute.c] 170 34432
+[compute.c] 170 41460
+[compute.c] 170 34434
+[compute.c] 170 41462
+[compute.c] 170 34436
+[compute.c] 170 41464
+[compute.c] 170 34614
+[compute.c] 170 41762
+[compute.c] 170 34876
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 8774
+[compute.c] 170 11990
+[compute.c] 170 18128
+[compute.c] 170 21892
+[compute.c] 170 27960
+[compute.c] 170 31964
+[compute.c] 170 37088
+[compute.c] 170 42488
+[compute.c] 170 46926
+[compute.c] 170 52504
+[compute.c] 170 56862
+[compute.c] 170 62518
+[compute.c] 170 66222
+[compute.c] 170 72964
+[compute.c] 170 76110
+[compute.c] 170 82988
+[compute.c] 170 85876
+[compute.c] 170 93068
+[compute.c] 170 95180
+[compute.c] 170 103462
+[compute.c] 170 105064
+[compute.c] 170 113500
+[compute.c] 170 115008
+[compute.c] 170 123562
+[compute.c] 170 124406
+[compute.c] 170 133992
+[compute.c] 170 134312
+[compute.c] 170 144006
+[compute.c] 170 144272
+[compute.c] 170 154084
+[compute.c] 170 153562
+[compute.c] 170 164546
+[compute.c] 170 163438
+[compute.c] 170 174606
+[compute.c] 170 173396
+[compute.c] 170 184628
+[compute.c] 170 182726
+[compute.c] 170 195098
+[compute.c] 170 192620
+[compute.c] 170 205116
+[compute.c] 170 202596
+[compute.c] 170 215170
+[compute.c] 170 211886
+[compute.c] 170 225612
+[compute.c] 170 221776
+[compute.c] 170 235666
+[compute.c] 170 231732
+[compute.c] 170 245708
+[compute.c] 170 241072
+[compute.c] 170 256142
+[compute.c] 170 250988
+[compute.c] 170 266154
+[compute.c] 170 260940
+[compute.c] 170 276220
+[compute.c] 170 285108
+[compute.c] 170 271658
+[compute.c] 170 279530
+[compute.c] 170 295444
+[compute.c] 170 289366
+[compute.c] 170 305364
+[compute.c] 170 299286
+[compute.c] 170 315372
+[compute.c] 170 307992
+[compute.c] 170 325128
+[compute.c] 170 317868
+[compute.c] 170 335146
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 170 105544
+[compute.c] 170 98018
+[compute.c] 170 207004
+[compute.c] 170 200614
+[compute.c] 170 304284
+[compute.c] 170 307054
+[compute.c] 170 407684
+[compute.c] 170 409614
+[compute.c] 170 504898
+[compute.c] 170 516054
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 105588
+[compute.c] 170 102106
+[compute.c] 170 208082
+[compute.c] 170 205368
+[compute.c] 170 309178
+[compute.c] 170 309650
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 10626
+[compute.c] 170 11058
+[compute.c] 170 20142
+[compute.c] 170 21010
+[compute.c] 170 29864
+[compute.c] 170 31200
+[compute.c] 170 39446
+[compute.c] 170 41476
+[compute.c] 170 49424
+[compute.c] 170 50778
+[compute.c] 170 58596
+[compute.c] 170 59966
+[compute.c] 170 68286
+[compute.c] 170 70140
+[compute.c] 170 78050
+[compute.c] 170 80336
+[compute.c] 170 87482
+[compute.c] 170 90184
+[compute.c] 170 97238
+[compute.c] 170 100332
+[compute.c] 170 107062
+[compute.c] 170 110582
+[compute.c] 170 116616
+[compute.c] 170 120612
+[compute.c] 170 126388
+[compute.c] 170 130828
+[compute.c] 170 136162
+[compute.c] 170 141030
+[compute.c] 170 145868
+[compute.c] 170 150988
+[compute.c] 170 155584
+[compute.c] 170 161188
+[compute.c] 170 165354
+[compute.c] 170 171436
+[compute.c] 170 174984
+[compute.c] 170 181426
+[compute.c] 170 184740
+[compute.c] 170 191652
+[compute.c] 170 194506
+[compute.c] 170 201828
+[compute.c] 170 204150
+[compute.c] 170 211880
+[compute.c] 170 214626
+[compute.c] 170 221140
+[compute.c] 170 224396
+[compute.c] 170 231360
+[compute.c] 170 233410
+[compute.c] 170 241158
+[compute.c] 170 243102
+[compute.c] 170 251374
+[compute.c] 170 252876
+[compute.c] 170 261556
+[compute.c] 170 262512
+[compute.c] 170 271584
+[compute.c] 170 272272
+[compute.c] 170 281802
+[compute.c] 170 282090
+[compute.c] 170 292044
+[compute.c] 170 291726
+[compute.c] 170 302054
+[compute.c] 170 301506
+[compute.c] 170 312288
+[compute.c] 170 311320
+[compute.c] 170 322486
+[compute.c] 170 320964
+[compute.c] 170 332468
+[compute.c] 170 330730
+[compute.c] 170 342664
+[compute.c] 170 340550
+[compute.c] 170 352918
+[compute.c] 170 350228
+[compute.c] 170 362874
+[compute.c] 170 359962
+[compute.c] 170 373082
+[compute.c] 170 369732
+[compute.c] 170 383288
+[compute.c] 170 379360
+[compute.c] 170 393246
+[compute.c] 170 389132
+[compute.c] 170 403438
+[compute.c] 170 398908
+[compute.c] 170 413688
+[compute.c] 170 408506
+[compute.c] 170 423644
+[compute.c] 170 418390
+[compute.c] 170 433520
+[compute.c] 170 428928
+[compute.c] 170 442548
+[compute.c] 170 443512
+[compute.c] 170 442550
+[compute.c] 170 451726
+[compute.c] 170 452644
+[compute.c] 170 461746
+[compute.c] 170 462902
+[compute.c] 170 471512
+[compute.c] 170 472992
+[compute.c] 170 481422
+[compute.c] 170 483258
+[compute.c] 170 491440
+[compute.c] 170 493482
+[compute.c] 170 501318
+[compute.c] 170 503582
+[compute.c] 170 512124
+[compute.c] 170 512756
+[compute.c] 170 522140
+[compute.c] 170 523006
+[compute.c] 170 532166
+[compute.c] 170 533256
+[compute.c] 170 541088
+[compute.c] 170 542980
+[compute.c] 170 550872
+[compute.c] 170 552868
+[compute.c] 170 560856
+[compute.c] 170 563136
+[compute.c] 170 570662
+[compute.c] 170 573218
+[compute.c] 170 580636
+[compute.c] 170 583456
+[compute.c] 170 590708
+[compute.c] 170 593680
+[compute.c] 170 600574
+[compute.c] 170 604040
+[compute.c] 170 608870
+[compute.c] 170 613760
+[compute.c] 170 618778
+[compute.c] 170 623882
+[compute.c] 170 629114
+[compute.c] 170 633514
+[compute.c] 170 639030
+[compute.c] 170 643426
+[compute.c] 170 648994
+[compute.c] 170 653310
+[compute.c] 170 658888
+[compute.c] 170 662948
+[compute.c] 170 672724
+[compute.c] 170 668878
+[compute.c] 170 674490
+[compute.c] 170 684358
+[compute.c] 170 684436
+[compute.c] 170 693256
+[compute.c] 170 693660
+[compute.c] 170 703184
+[compute.c] 170 703852
+[compute.c] 170 713094
+[compute.c] 170 713788
+[compute.c] 170 723136
+[compute.c] 170 736892
+[compute.c] 170 718766
+[compute.c] 170 747602
+[compute.c] 170 728404
+[compute.c] 170 757502
+[compute.c] 170 738534
+[compute.c] 170 766896
+[compute.c] 170 749092
+[compute.c] 170 776890
+[compute.c] 170 759178
+[compute.c] 170 787068
+[compute.c] 170 769322
+[compute.c] 170 796324
+[compute.c] 170 779906
+[compute.c] 170 806458
+[compute.c] 170 790088
+[compute.c] 170 816826
+[compute.c] 170 798900
+[compute.c] 170 825382
+[compute.c] 170 809988
+[compute.c] 170 835430
+[compute.c] 170 820126
+[compute.c] 170 845630
+[compute.c] 170 830312
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 170 1668168
+[compute.c] 170 1668168
+[compute.c] 170 3734226
+[compute.c] 170 3734226
+[compute.c] 170 5800604
+[compute.c] 170 5800604
+[compute.c] 170 7881986
+[compute.c] 170 7881986
+[compute.c] 170 9965986
+[compute.c] 170 9965986
+[compute.c] 170 12048508
+[compute.c] 170 12048508
+[compute.c] 170 14131926
+[compute.c] 170 14131926
+[compute.c] 170 15954118
+[compute.c] 170 15954118
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 170 1332928
+[compute.c] 170 1332928
+[compute.c] 170 3402184
+[compute.c] 170 3402184
+[compute.c] 170 5466244
+[compute.c] 170 5466244
+[compute.c] 170 7486178
+[compute.c] 170 7486178
+[compute.c] 170 9601514
+[compute.c] 170 9601514
+[compute.c] 170 11583132
+[compute.c] 170 11583132
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multite.c] 119 Compute: Try to find if a simple number is pr1
+[multite.c] 119 Compute: Try to find if a simple number is pr1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 168 Current position 1442730
+[compute.c] 168 Current position 1442730
+[compute.c] 168 Current position 3537584
+[compute.c] 168 Current position 3537584
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 168 Current position 3737482
+[compute.c] 168 Current position 3737482
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 170 Current position 3438406
+[compute.c] 170 Current position 3438406
+[compute.c] 170 Current position 7654040
+[compute.c] 170 Current position 7654040
+[compute.c] 170 Current position 11670874
+[compute.c] 170 Current position 11670874
+[compute.c] 170 Current position 15883250
+[compute.c] 170 Current position 15883250
+[compute.c] 170 Current position 20903238
+[compute.c] 170 Current position 20903238
+[compute.c] 170 Current position 24151774
+[compute.c] 170 Current position 24151774
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 171 Current position 3246896
+[compute.c] 171 Current position 3246896
+[compute.c] 171 Current position 7333720
+[compute.c] 171 Current position 7333720
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 170 Current position 3553432
+[compute.c] 170 Current position 3553432
+[compute.c] 170 Current position 7594120
+[compute.c] 170 Current position 7594120
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 172 Current position 2000002
+[compute.c] 172 Current position 2000002
+[compute.c] 172 Current position 4000006
+[compute.c] 172 Current position 4000006
+[compute.c] 172 Current position 6000010
+[compute.c] 172 Current position 6000010
+[compute.c] 172 Current position 8000014
+[compute.c] 172 Current position 8000014
+[compute.c] 172 Current position 10000018
+[compute.c] 172 Current position 10000018
+[compute.c] 172 Current position 12000022
+[compute.c] 172 Current position 12000022
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[compute.c] 172 Current position 14000026
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread119 53 ComMultithread starting. Thread number is : 0
+[multithread119 53 ComMultithread starting. Thread number is : 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 1
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 2
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 3
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 4
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 5
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 6
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 7
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 8
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 9
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 10
+[compute.c] 172 Percent 11
+[compute.c] 172 Percent 11
+[compute.c] 172 Percent 11
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *46340* *1073764994*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 152 Start : End *46340* *1073764994*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 152 Start : End *46340* *1073764994*
+[compute.c] 152 Start : End *1073764994* *2147483647*
+[compute.c] 172 Percent 19
+[compute.c] 172 Percent 19
+[compute.c] 172 Percent 38
+[compute.c] 172 Percent 38
+[compute.c] 172 Percent 56
+[compute.c] 172 Percent 56
+[compute.c] 172 Percent 75
+[compute.c] 172 Percent 75
+[compute.c] 172 Percent 94
+[compute.c] 172 Percent 94
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 119 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 154 Start : End *46340* *1073764994*
+[compute.c] 154 Start : End *1073764994* *2147483647*
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 153 Start : End *1073764994* *2147483647*
+[compute.c] 153 Start : End *46340* *1073764994*
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 153 Start : End *1073764994* *2147483647*
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 153 Start : End *46340* *1073764994*
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 89 Anormal end of the program... Hope to see you again !
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[multithread.c] 53 Multithread starting. Thread number is : 2
+[multithread.c] 53 Multithread starting. Thread number is : 2
+[multithre] 118 Compute: Try to find if a simple number is pr3
+[compute.c] 153 Start : End *46340* *536905667*
+[compute.c] 153 Start : End *46340* *536905667*
+[compute.c] 153 Start : End *1073764994* *1610624321*
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[multithread.c] 53 Multithread starting. Thread number is : 1
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 153 Start : End *1610624321* *2147483647*
+[compute.c] 153 Start : End *536905667* *1073764994*
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 2
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 3
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 153 Start : End *46340* *2147483647*
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 101 This is a prime number.
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you
+[main.c] 69
+[main.c] 70
+[main.c] 71 ---------------------------------------------------------------------
+[main.c] 72 Starting new instance
+[main.c] 73 ---------------------------------------------------------------------
+[main.c] 88 Screen element initialisation...
+[drawing.c] 336 Now screen lenght is :
+[drawing.c] 337 145
+[main.c] 50 Writing the default configuration in the common stuctProgramInfo
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 170 Start/Stop function selected
+[multithread.c] 53 Multithread starting. Thread number is : 0
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 118 Compute: Try to find if a simple number is prime for thread 1
+[compute.c] 153 Start : End *92681* *4295013636*
+[compute.c] 153 Start : End *4295013636* *8589934591*
+[multithread.c] 74 Compute: no it is not ! For the section number 0
+[multithread.c] 78 Compute: yes it seem to be ! for the section number 1
+[multithread.c] 97 This is not a prime number !
+[main.c] 147 Main menu : Wainting for a user choice...
+[main.c] 198 Quit the program
+[main.c] 215 End of the program. See you

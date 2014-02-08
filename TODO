@@ -3,9 +3,9 @@ TODO
 
 
 [ ]	Change WRITE_LOG routine for something better, maybee open a file once at the beginning and save the steam pointer in a static variable
-[ ]	Find how to estimate a percent of the search area.
-[ ]	Call the progresss bar function for each thread
-[ ]	
+[x]	Find how to estimate a percent of the search area.
+[x]	Call the progresss bar function for each thread
+[ ]	Saving context function
 [ ]	
 [ ]	
 [ ]	

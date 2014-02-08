@@ -48,7 +48,7 @@ int g_iColonne  =		0;
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 {
 	LOG_WRITE("Writing the default configuration in the common stuctProgramInfo")
-	p_structStructure->iMersenneOrder = 61;   		// Today the max is 17425170;
+	p_structStructure->iMersenneOrder = 33;   		// Today the max is 17425170;
 	p_structStructure->iThreadNumber = 2;
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
@@ -136,9 +136,6 @@ int main(int argc, char** argv)
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 	setDefaultValueToTheProgramStructure(structCommon);
 
-	// Just drawing, no command here
-	drawMainMenu(g_iLigne, g_iColonne);
-
 	// Re-routing signals of the system
 	initialisationOfTheSignal();
 
@@ -148,6 +145,10 @@ int main(int argc, char** argv)
 	{
 		// Do what the user request
 		LOG_WRITE("Main menu : Wainting for a user choice...")
+
+		// Just erase screen and drawing menu, no command here
+		eraseWorkingScreen(g_iLigne, g_iColonne);
+		drawMainMenu(g_iLigne, g_iColonne);
 
 		// Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop
 		nodelay(stdscr, FALSE);
@@ -167,6 +168,7 @@ int main(int argc, char** argv)
 			case 1:
 			{
 				LOG_WRITE("Start/Stop function selected")
+				eraseWorkingScreen(g_iLigne, g_iColonne);
 				createAllComputingThreads(structCommon);
 				break;
 			}
@@ -177,7 +179,7 @@ int main(int argc, char** argv)
 			}
 			case 3:
 			{
-				LOG_WRITE("Minitoring the screen function selected")
+				LOG_WRITE("Monitoring the screen function selected")
 				break;
 			}
 			case 4:

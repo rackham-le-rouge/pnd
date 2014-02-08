@@ -94,9 +94,8 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 {
 	int l_bReturnOfFunction = FALSE;
-	int l_iPercent;
-	struct timespec timeStructureNow;
-	struct timespec timeStructurePast;
+	int l_iRefreshCounter = 0;
+	int l_iOnePercent = 0;
 	mpz_t l_mpzEndOfSearchArea;
 	mpz_t l_mpzBeginOfSearchArea;
 	mpz_t l_mpzSQRT;
@@ -139,6 +138,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 	// Compute search area
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
+	mpz_cdiv_q_ui(l_mpzTmp,l_mpzArea,(unsigned long)100);
+	l_iOnePercent = mpz_get_ui(l_mpzTmp);
 
 	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number.
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
@@ -152,25 +153,17 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
 
 
-	// First recup of the time
-	clock_gettime(CLOCK_REALTIME, &timeStructureNow);
-	clock_gettime(CLOCK_REALTIME, &timeStructurePast);int a=0;
-
 	// Start to divide by all people between the number his own sqrt
 	for(;;)
 	{
-		if((timeStructureNow.tv_sec - timeStructurePast.tv_sec) > TIME_BETWEEN_PROGRESSBAR_REFRESH)
+		if(l_iRefreshCounter++ > l_iOnePercent)
 		{
+			l_iRefreshCounter=0;
 			mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
 			mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
 
-			l_iPercent = mpz_get_ui(l_mpzPercent);
-			LOG_WRITE_STRING_MPZ("Current position ", l_mpzCurrentPosition)
-
-			drawLoadingBar(p_iSectionNumber + 1, a++, 100, -1, enumBleu);
-			timeStructurePast = timeStructureNow;
+			drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
 		}
-		clock_gettime(CLOCK_REALTIME, &timeStructureNow);
 
 		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
 		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible
