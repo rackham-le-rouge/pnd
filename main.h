@@ -34,6 +34,7 @@ extern int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber);
 extern void createAllComputingThreads(structProgramInfo* p_structCommon);
 extern void initialisationOfTheSignal(void);
 extern void eraseWorkingScreen(int p_iRow, int p_iCol);
+extern void drawCurrentMersenneOrder(structProgramInfo* structCommon);
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
 
 #endif

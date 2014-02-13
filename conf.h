@@ -52,6 +52,12 @@
 #define TRUE			1
 #define FALSE			0
 
+// Kind of menu
+#define MENU_NEW_UNDEFINED		0
+#define MENU_NEW_ORDER			1
+#define MENU_THIS_IS_A_PRIME_NUMBER	2
+#define MENU_THIS_IS_NOT_A_PRIME_NUMBER	3
+
 
 // Colors of lines (Bottom and Top)
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -83,10 +89,14 @@ typedef enum
 	enumBlanc =	11
 }g_enumJeuxDeCouleursDispo;
 
+#define DEFAULT_MERSENNE_ORDER	 31
+
 
 #define	DEBUG_T1	{mvprintw(1, 1, "/%d/", 314);refresh();getch();}
 #define	DEBUG_T2	{mvprintw(1, 1, "/%d/", 235);refresh();getch();}
 
+
+#define POPEN_BUFFER_LENGHT		10
 #define MACRO_LENGHT_OF_BUFFER_FOR_INT	500
 
 char __macroTemporaryBuffer[MACRO_LENGHT_OF_BUFFER_FOR_INT];
@@ -107,6 +117,8 @@ typedef struct structProgramInfo_
 	char bIsComputing;
 	char bNeedToRedrawProgressBar;
 	char bDead;							/* when at least one thread found at least one divider */
+	int  iCol;
+	int  iRow;
 }structProgramInfo;
 
 

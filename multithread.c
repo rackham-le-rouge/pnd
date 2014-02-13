@@ -70,7 +70,6 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			{
 				/* We found at least one divider */
 				p_structCommon->bDead = TRUE;
-
 				LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
 			}
 			else
@@ -95,9 +94,16 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	if(p_structCommon->bDead == TRUE)
 	{
 		LOG_WRITE("This is not a prime number !")
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER);
 	}
 	else
 	{
 		LOG_WRITE("This is a prime number.")
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER);
 	}
+
+	/* Ask user key press */
+	nodelay(stdscr, FALSE);
+	getch();
+	nodelay(stdscr, TRUE);
 }

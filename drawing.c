@@ -281,7 +281,7 @@ void drawMainMenu(int p_iRow, int p_iCol)
 
 	p_iRow -= 7;
 
-	strcpy(l_cBuffer, "1. Start/Stop search");
+	strcpy(l_cBuffer, "1. Start search");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "2. Set an order     ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
@@ -301,12 +301,111 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	topText("Prime Number Discovery program, in order to find something new by yourself - BEERWARE licence");
 
 
-	refresh();getch();
+	refresh();
         init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
-
-
-	usleep(10000);
 }
+
+
+void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector)
+{
+	char* l_cBuffer = (char*)malloc(21*sizeof(char));
+
+        start_color();                          /* start color mode */
+
+	// this color pair seem to be useless...
+        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   /* colors references */
+        attron(COLOR_PAIR(7));
+
+	// The +4 is for shift menu rather than the main menu
+	p_iRow = (p_iRow - 30)/3 + 4;
+	p_iCol = (p_iCol) / 4 + 4;
+
+
+	strcpy(l_cBuffer, "+---------------------+");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "+---------------------+");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+
+	p_iRow-= 9;
+
+	switch(p_iMenuSelector)
+	{
+		case MENU_NEW_ORDER:
+		{
+			strcpy(l_cBuffer, "Type the new Mers-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "enne order and not");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "the number itself.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "Cursor is in vaca-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "tion. Check your");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number in the bot-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "tom bar after Enter");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "key pressed.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_THIS_IS_A_PRIME_NUMBER:
+		{
+			strcpy(l_cBuffer, "This is a prime");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number !!!!!!!!");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_THIS_IS_NOT_A_PRIME_NUMBER:
+		{
+			strcpy(l_cBuffer, "This is not a ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "prime number.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_NEW_UNDEFINED:
+		{
+			break;
+		}
+		default:
+		{
+			break;
+		}
+	}
+
+
+        attroff(COLOR_PAIR(7));
+
+	refresh();
+        init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
+}
+
+
 
 
 
@@ -404,4 +503,25 @@ void eraseWorkingScreen(int p_iRow, int p_iCol)
 	}
 
 	refresh();
+}
+
+
+/**
+  *
+  * In order to display the current mersenne order
+  *
+  * Because user can change it, thus, we need to know it evrytime
+  *
+  *
+  */
+void drawCurrentMersenneOrder(structProgramInfo* structCommon)
+{
+	char* l_cBuffer;
+	l_cBuffer = (char*)malloc(structCommon->iCol*sizeof(char));
+
+	snprintf(l_cBuffer, (structCommon->iCol - 1)*sizeof(char), "Current Mersenne order : %d   ", structCommon->iMersenneOrder);
+
+	botText(l_cBuffer);
+
+	free(l_cBuffer);
 }

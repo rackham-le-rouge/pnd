@@ -47,12 +47,39 @@ int g_iColonne  =		0;
   */
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 {
+	FILE* l_fileReturnOfCommand;
+	char l_cBuffer[POPEN_BUFFER_LENGHT];
+
 	LOG_WRITE("Writing the default configuration in the common stuctProgramInfo")
-	p_structStructure->iMersenneOrder = 33;   		// Today the max is 17425170;
-	p_structStructure->iThreadNumber = 2;
+	p_structStructure->iMersenneOrder = DEFAULT_MERSENNE_ORDER;   		// Today the max is 17425170;
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
+	p_structStructure->iRow = g_iLigne;
+	p_structStructure->iCol = g_iColonne;
+
+	// Try to find how many cores the computer have.
+	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	// POSIX function ;)
+
+	if(l_fileReturnOfCommand == NULL)
+	{
+		p_structStructure->iThreadNumber = 2;						// We assume that today all computers have at least two cores
+		LOG_WRITE_STRING_LONG("Number of thread detected --default-- : ", (long)p_structStructure->iThreadNumber);
+	}
+	else
+	{
+		if(fgets(l_cBuffer, (POPEN_BUFFER_LENGHT - 1)*sizeof(char), l_fileReturnOfCommand) == NULL)
+		{
+			p_structStructure->iThreadNumber = 2;						// We assume that today all computers have at least two cores
+			LOG_WRITE_STRING_LONG("Number of thread detected --unsuccessfully-- : ", (long)p_structStructure->iThreadNumber);
+		}
+		else
+		{
+			p_structStructure->iThreadNumber = atoi(l_cBuffer);
+			LOG_WRITE_STRING_LONG("Number of thread detected --successfully-- : ", (long)p_structStructure->iThreadNumber);
+		}
+		pclose(l_fileReturnOfCommand);
+	}
 }
 
 
@@ -65,6 +92,7 @@ int main(int argc, char** argv)
 	char l_bAsk = TRUE;
 	char l_bQuitProgram = FALSE;
 	structProgramInfo* structCommon = NULL;
+	long int l_iUserValue = 0;
 
 	LOG_WRITE(" ")
 	LOG_WRITE(" ")
@@ -139,6 +167,9 @@ int main(int argc, char** argv)
 	// Re-routing signals of the system
 	initialisationOfTheSignal();
 
+	// Print current mersenne order at the screen bottom
+	drawCurrentMersenneOrder(structCommon);
+
 
 
 	while(!l_bQuitProgram)
@@ -167,7 +198,7 @@ int main(int argc, char** argv)
 		{
 			case 1:
 			{
-				LOG_WRITE("Start/Stop function selected")
+				LOG_WRITE("Start function selected")
 				eraseWorkingScreen(g_iLigne, g_iColonne);
 				createAllComputingThreads(structCommon);
 				break;
@@ -175,6 +206,19 @@ int main(int argc, char** argv)
 			case 2:
 			{
 				LOG_WRITE("Set a new order function selected")
+				drawSubMenu(g_iLigne, g_iColonne, MENU_NEW_ORDER);
+				if(scanf("%li", &l_iUserValue) == EOF)
+				{
+					/* Fail -- Keep the old value*/
+					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+				}
+				else
+				{
+					/* Sucess typing */
+					structCommon->iMersenneOrder = l_iUserValue;
+					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+				}
+				drawCurrentMersenneOrder(structCommon);
 				break;
 			}
 			case 3:
