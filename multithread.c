@@ -38,11 +38,13 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 		/*char l_cBufferNumber[200];*/
 		#endif
 
-		char l_bResultOfPrimeFunction = FALSE;
-		l_iCurrentThread = omp_get_thread_num();
+		char l_bResultOfPrimeFunction;
 
 		mpz_t l_mpzPrimeNumberToTest;
 		mpz_init(l_mpzPrimeNumberToTest);
+
+		l_iCurrentThread = omp_get_thread_num();
+		l_bResultOfPrimeFunction = FALSE;
 
 		/* Create the Mersenne number 2^n - 1 */
 		mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
@@ -74,8 +76,6 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 				LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
 			}
 		}
-		// Clear all
-		///mpz_clear(l_mpzPrimeNumberToTest);
 	}
 
 	/*

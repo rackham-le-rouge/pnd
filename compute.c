@@ -33,44 +33,27 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 
 	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
 
-	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number.
+	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
 	mpz_set(l_mpzIterator, p_mpzNumber);
 
-	// Do the SQRT
+	/* Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
 
-	// Start to divide by all people between the number his own sqrt
+	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
-		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible
-									// we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number.
+		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
 		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
-		//char buf[500];
-		//sprintf(buf, "echo \"%s\" >> pnd.log",  mpz_get_str(NULL, 10, l_mpzIterator));
-		//system(buf);
-		//sprintf(buf, "echo \"%s\" >> pnd.log",  mpz_get_str(NULL, 10, p_mpzNumber));
-		//system(buf);
+		if(l_bReturnOfFunction)	{break;}			/* else, we continue... */
 
-		if(l_bReturnOfFunction)	{break;}			// else, we continue...
-
-		l_bReturnOfFunction = mpz_cmp(l_mpzSQRT, l_mpzIterator); //Compare SQRT and Iterator. Return a positive value if SQRT > Iterator
+		l_bReturnOfFunction = mpz_cmp(l_mpzSQRT, l_mpzIterator); /*Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
 		if(l_bReturnOfFunction > 0)
 		{
-			// Clean...
-			///mpz_clear(l_mpzSQRT);
-			///mpz_clear(l_mpzIterator);
-			///mpz_clear(p_mpzNumber);
-
 			return TRUE;
 		}
 	}
-
-	// Clean...
-	///mpz_clear(l_mpzSQRT);
-	///mpz_clear(l_mpzIterator);
-	///mpz_clear(p_mpzNumber);
-
 	return FALSE;
 }
 
@@ -117,10 +100,10 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
 
-	// Do the SQRT
+	/* Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
 
-	// Copy number in end and beginning variables in order to create the iterator boundaries.
+	/* Copy number in end and beginning variables in order to create the iterator boundaries. */
 	mpz_set(l_mpzEndOfSearchArea, p_mpzNumber);
 	mpz_set(l_mpzBeginOfSearchArea, p_mpzNumber);
 
@@ -136,15 +119,15 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_add(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, l_mpzSQRT);
 	mpz_add(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, l_mpzSQRT);
 
-	// Compute search area
+	/* Compute search area */
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
 	mpz_cdiv_q_ui(l_mpzTmp,l_mpzArea,(unsigned long)100);
 	l_iOnePercent = mpz_get_ui(l_mpzTmp);
 
-	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea
+	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea */
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
 
-	// Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number
+	/*  Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number */
 	if(!mpz_odd_p(l_mpzIterator))
 	{
 		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
@@ -153,7 +136,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
 
 
-	// Start to divide by all people between the number his own sqrt
+	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
 		if(l_iRefreshCounter > l_iOnePercent || l_iRefreshCounter == -1)	/* -1 is for the first one : to display the 0% */
@@ -172,33 +155,18 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		l_iRefreshCounter++;
 
 		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
-		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible
-									// we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number.
+		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
 		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
-		if(l_bReturnOfFunction)	{break;}			// else, we continue...
+		if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
 
-		l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); //Compare begining of search area and Iterator. Return a positive value if Begin > Iterator
+		l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
 		if(l_bReturnOfFunction > 0)
 		{
-			// Clean...
-			///mpz_clear(l_mpzSQRT);
-			///mpz_clear(l_mpzIterator);
-			///mpz_clear(l_mpzBeginOfSearchArea);
-			///mpz_clear(l_mpzEndOfSearchArea);
-			///mpz_clear(l_mpzIterator);
-
 			return TRUE;
 		}
 	}
-
-	// Clean...
-	///mpz_clear(l_mpzSQRT);
-	///mpz_clear(l_mpzIterator);
-	///mpz_clear(l_mpzBeginOfSearchArea);
-	///mpz_clear(l_mpzEndOfSearchArea);
-	///mpz_clear(p_mpzNumber);
-
 	return FALSE;
 }
 
@@ -226,26 +194,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
   * doesn't, we are allowed to think that, maybee, this number is a prime number.
   */
 
-int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber)
+int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
 {
-
-#ifdef	DEBUG
-
-	int l_iIterateur = 0;
-
-	for(l_iIterateur = 0; l_iIterateur < 100; l_iIterateur++)
-	{
-		drawLoadingBar(p_iScreenLineNumber, l_iIterateur, 100, -1, enumBlanc);
-		usleep(30000);
-	}
-
-
-
-
-
-	return TRUE;
-#endif
-
 	mpz_t p;
 	mpz_t e;
 	mpz_t a;
@@ -266,25 +216,25 @@ int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber)
 	mpz_sub_ui(m,p_mpzN, 1);
 	mpz_set(e,m);
 
-	// Random number
+	/* Random number */
 	gmp_randinit_default(localStatus);
 	mpz_urandomm (a, localStatus, p_mpzN);
 
 	mpz_set_ui(k,0);
 	for(;;)
 	{
-		if(mpz_congruent_ui_p (e, 0, 2)) // n congue c (d) <=>  e congue 0 (2)
+		if(mpz_congruent_ui_p (e, 0, 2)) /* n congue c (d) <=>  e congue 0 (2) */
 		{
 			break;
 		}
-		mpz_cdiv_q_ui(tmp,e,2);	// e / 2 -> tmp
-		mpz_set(e,tmp);		// e = tmp;
-		mpz_add_ui(k,k,1);	// k++
+		mpz_cdiv_q_ui(tmp,e,2);	/* e / 2 -> tmp */
+		mpz_set(e,tmp);		/* e = tmp; */
+		mpz_add_ui(k,k,1);	/* k++ */
 	}
 
 
-	//mpz_powm (mpz_t rop, const mpz_t base, const mpz_t exp, const mpz_t mod);	Set rop to (base raised to exp) modulo mod.
-	mpz_powm (p, a, e, p_mpzN);	// there is also mpz_powm_sec but i don't know the difference with mpz_powm
+	/*mpz_powm (mpz_t rop, const mpz_t base, const mpz_t exp, const mpz_t mod);	Set rop to (base raised to exp) modulo mod. */
+	mpz_powm (p, a, e, p_mpzN);	/* there is also mpz_powm_sec but i don't know the difference with mpz_powm */
 
 	if(mpz_cmp_ui (p, 1) == 0)
 	{
@@ -354,7 +304,7 @@ LOG_WRITE("La 2")
 			return TRUE;
 		}
 
-		// p = (p*p)%n
+		/* p = (p*p)%n */
 		mpz_powm_ui(tmp,p,2,p_mpzN);
 		mpz_set(p,tmp);
 		mpz_add_ui(i,i,1);
