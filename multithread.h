@@ -23,6 +23,6 @@
 
 void createAllComputingThreads(structProgramInfo* p_structCommon);
 extern int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure);
-extern void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector);
+extern void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon);
 
 #endif

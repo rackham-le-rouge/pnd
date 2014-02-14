@@ -34,7 +34,7 @@ int drawCenter(const char*, int, int);
 void drawMainMenu(int p_iRow, int p_iCol);
 void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLenght, int p_iColor);
 void eraseWorkingScreen(int p_iRow, int p_iCol);
-void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector);
+void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon);
 void drawCurrentMersenneOrder(structProgramInfo* structCommon);
 
 #endif

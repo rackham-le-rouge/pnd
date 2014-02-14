@@ -223,7 +223,7 @@ int main(int argc, char** argv)
 			case 2:
 			{
 				LOG_WRITE("Set a new order function selected")
-				drawSubMenu(g_iLigne, g_iColonne, MENU_NEW_ORDER);
+				drawSubMenu(g_iLigne, g_iColonne, MENU_NEW_ORDER, structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
@@ -240,7 +240,19 @@ int main(int argc, char** argv)
 			}
 			case 3:
 			{
-				LOG_WRITE("Monitoring the screen function selected")
+				LOG_WRITE("Set new thread number function selected")
+				drawSubMenu(g_iLigne, g_iColonne, MENU_SET_THREAD_NUMBER, structCommon);
+				if(scanf("%li", &l_iUserValue) == EOF)
+				{
+					/* Fail -- Keep the old value*/
+					LOG_WRITE_STRING_LONG("New thread number --failed-- Keep the old value : ", (long)structCommon->iThreadNumber);
+				}
+				else
+				{
+					/* Sucess typing */
+					structCommon->iThreadNumber = (unsigned char)l_iUserValue;
+					LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+				}
 				break;
 			}
 			case 4:

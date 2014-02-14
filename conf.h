@@ -58,7 +58,7 @@
 #define MENU_NEW_ORDER			1
 #define MENU_THIS_IS_A_PRIME_NUMBER	2
 #define MENU_THIS_IS_NOT_A_PRIME_NUMBER	3
-
+#define MENU_SET_THREAD_NUMBER		4
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED

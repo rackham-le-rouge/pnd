@@ -282,7 +282,7 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "2. Set an order     ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "3. Montoring screen ");
+	strcpy(l_cBuffer, "3. Set thread count ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "4. Settings         ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
@@ -303,7 +303,7 @@ void drawMainMenu(int p_iRow, int p_iCol)
 }
 
 
-void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector)
+void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon)
 {
 	char* l_cBuffer = (char*)malloc(21*sizeof(char));
 
@@ -383,6 +383,26 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector)
 
 			strcpy(l_cBuffer, "Press any key");
 			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_SET_THREAD_NUMBER:
+		{
+			strcpy(l_cBuffer, "Type the wanted  ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "thread number. By");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "default this is  ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			snprintf(l_cBuffer, (strlen(l_cBuffer) - 1)*sizeof(char), "%d threads.", p_structCommon->iThreadNumber);
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "You can check new");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "value by display");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "log with this line");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "$tail -n99 pnd.log");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
 		case MENU_NEW_UNDEFINED:
