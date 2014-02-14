@@ -51,6 +51,7 @@
 // logic stuff
 #define TRUE			1
 #define FALSE			0
+#define DONT_KNOW		2
 
 // Kind of menu
 #define MENU_NEW_UNDEFINED		0

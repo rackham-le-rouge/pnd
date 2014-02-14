@@ -94,7 +94,7 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 {
 	int l_bReturnOfFunction = FALSE;
-	int l_iRefreshCounter = 0;
+	int l_iRefreshCounter = -1;
 	int l_iOnePercent = 0;
 	mpz_t l_mpzEndOfSearchArea;
 	mpz_t l_mpzBeginOfSearchArea;
@@ -141,10 +141,10 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_cdiv_q_ui(l_mpzTmp,l_mpzArea,(unsigned long)100);
 	l_iOnePercent = mpz_get_ui(l_mpzTmp);
 
-	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number.
+	// Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
 
-	// Make iterator odd number
+	// Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number
 	if(!mpz_odd_p(l_mpzIterator))
 	{
 		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
@@ -156,14 +156,20 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	// Start to divide by all people between the number his own sqrt
 	for(;;)
 	{
-		if(l_iRefreshCounter++ > l_iOnePercent)
+		if(l_iRefreshCounter > l_iOnePercent || l_iRefreshCounter == -1)	/* -1 is for the first one : to display the 0% */
 		{
+			if(p_structStructure->bDead == TRUE)
+			{
+				return DONT_KNOW;
+			}
+
 			l_iRefreshCounter=0;
 			mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
 			mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
 
 			drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
 		}
+		l_iRefreshCounter++;
 
 		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
 		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		// p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible

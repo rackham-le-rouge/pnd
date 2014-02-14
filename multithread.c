@@ -51,13 +51,6 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
  		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 		{
 			LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
-
-
-			#ifdef UNDEFINED
-			mpz_get_str(l_cBufferNumber, 10, l_mpzPrimeNumberToTest);
-			LOG_WRITE("Tested number is : ")
-			LOG_WRITE_STRING(l_cBufferNumber)
-			#endif
 		}
 
 		/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
@@ -71,6 +64,10 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 				/* We found at least one divider */
 				p_structCommon->bDead = TRUE;
 				LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
+			}
+			else if(l_bResultOfPrimeFunction == DONT_KNOW)
+			{
+				LOG_WRITE_STRING_LONG("Compute: do not know ! For the section number", (unsigned long)(l_iCurrentThread))
 			}
 			else
 			{
