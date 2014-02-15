@@ -14,18 +14,18 @@
 
 
 
-// Blues lines - Top and bottom of the screen
-void initBar()
+/* Blues lines - Top and bottom of the screen */
+void initBar(void)
 {
-        int l_iRow,l_iCol,i;                          /* to store the number of rows and */
-        getmaxyx(stdscr,l_iRow,l_iCol);               /* get the number of rows and columns */
-        start_color(); 	                              /* start color mode */
+        int l_iRow,l_iCol,i;                          	/* to store the number of rows and */
+        getmaxyx(stdscr,l_iRow,l_iCol);               	/* get the number of rows and columns */
+        start_color(); 	                              	/* start color mode */
         init_pair(1, COLOR_BLACK, COLOR_LINE_BG_BOTTOM);   /* référence des couleurs */
         attron(COLOR_PAIR(1));
-        // Bottom line
+        /* Bottom line */
         for(i = 0; i<l_iCol ; i++)
                 mvprintw(l_iRow-1,i," ");
-        // Top line
+        /* Top line */
         attroff(COLOR_PAIR(1));
         init_pair(2, COLOR_BLACK, COLOR_LINE_BG_TOP);   /* référence des couleurs */
         attron(COLOR_PAIR(2));
@@ -42,10 +42,10 @@ void initBar()
 
 
 
-// Text of the top line
-void topText(char p_sString[])
+/* Text of the top line */
+void topText(const char* p_sString)
 {
-        start_color();                          /* start color mode */
+        start_color();                          	/* start color mode */
         attron(COLOR_PAIR(2));
         mvprintw(0,0,"%s", p_sString);
         attroff(COLOR_PAIR(2));
@@ -55,13 +55,13 @@ void topText(char p_sString[])
 
 
 
-// Disable the two lines
-void disableBar()
+/* Disable the two lines */
+void disableBar(void)
 {
-        start_color();                          /* start color mode */
-        init_pair(1, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
+        start_color();                          	/* start color mode */
+        init_pair(1, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
 
-        init_pair(2, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
+        init_pair(2, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
 }
 
 
@@ -72,12 +72,12 @@ void disableBar()
 
 
 
-// Text of the bottom line
-void botText(char p_sString[])
+/* Text of the bottom line */
+void botText(const char* p_sString)
 {
-        int l_iRow,l_iCol;                            /* to store the number of rows and */
-        getmaxyx(stdscr,l_iRow,l_iCol);               /* get the number of rows and columns */
-        start_color();                          /* start color mode */
+        int l_iRow,l_iCol;                            	/* to store the number of rows and */
+        getmaxyx(stdscr,l_iRow,l_iCol);               	/* get the number of rows and columns */
+        start_color();                          	/* start color mode */
         attron(COLOR_PAIR(1));
         mvprintw(l_iRow-1,0,"%s", p_sString);
 
@@ -88,20 +88,20 @@ void botText(char p_sString[])
 
 
 
-// Draw an element on the screen
+/* Draw an element on the screen */
 int drawElement(int p_iX, int p_iY, char p_cChar, int p_iColor)
 {
-        int l_iRow,l_iCol;                            /* to store the number of rows and */
-        getmaxyx(stdscr,l_iRow,l_iCol);               /* get the number of rows and columns */
+        int l_iRow,l_iCol;                            	/* to store the number of rows and */
+        getmaxyx(stdscr,l_iRow,l_iCol);               	/* get the number of rows and columns */
 
-	// Graphical binding
+	/* Graphical binding */
 	if(p_iX>l_iCol) return -1;
 	if(p_iY>l_iRow) return -1;
 
-        start_color();                          /* start color mode */
+        start_color();                          	/* start color mode */
         attron(COLOR_PAIR(p_iColor));
 
-	// Draw the element
+	/* Draw the element */
         mvprintw(p_iY,p_iX,"%c", p_cChar);
 
 	attroff(COLOR_PAIR(p_iColor));
@@ -110,20 +110,20 @@ int drawElement(int p_iX, int p_iY, char p_cChar, int p_iColor)
 
 
 
-// Draw an element on the screen
+/* Draw an element on the screen */
 int drawSentence(int p_iX, int p_iY, char* p_sString, int p_iColor)
 {
-        int l_iRow,l_iCol;                            /* to store the number of rows and */
-        getmaxyx(stdscr,l_iRow,l_iCol);               /* get the number of rows and columns */
+        int l_iRow,l_iCol;                            	/* to store the number of rows and */
+        getmaxyx(stdscr,l_iRow,l_iCol);               	/* get the number of rows and columns */
 
-	// Graphical binding
+	/* Graphical binding */
 	if(p_iX>l_iCol) return -1;
 	if(p_iY>l_iRow) return -1;
 
-        start_color();                          /* start color mode */
+        start_color();                          	/* start color mode */
         attron(COLOR_PAIR(p_iColor));
 
-	// Draw the sentence
+	/* Draw the sentence */
         mvprintw(p_iY,p_iX,"%s", p_sString);
 
 	attroff(COLOR_PAIR(p_iColor));
@@ -131,8 +131,8 @@ int drawSentence(int p_iX, int p_iY, char* p_sString, int p_iColor)
 }
 
 
-// Initialisation of the colors of each kind of people
-void initColor()
+/* Initialisation of the colors of each kind of people */
+void initColor(void)
 {
 	start_color();
 
@@ -159,16 +159,19 @@ void initColor()
 
 
 
-// Draw the intro panel
+/* Draw the intro panel */
 void drawIntro(int p_iRow, int p_iCol)
 {
-        start_color();                          /* start color mode */
-        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   /* référence des couleurs */
+        start_color();                          	/* start color mode */
+        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   	/* référence des couleurs */
         attron(COLOR_PAIR(7));
 
-	p_iRow = (p_iRow - 30)/3;
+	p_iRow = (p_iRow - 30)/4;
 
-	drawCenter("F.L.E.Y", p_iCol, p_iRow++);p_iRow++;
+	drawCenter("P.N.D", p_iCol, p_iRow++);
+	p_iRow++;
+	drawCenter("Make your computer usefull and tired", p_iCol, p_iRow++);
+	p_iRow++;
 
 	drawCenter("C is for cookies, that's good enought for me and for this software !", p_iCol, p_iRow++);p_iRow++;
 
@@ -209,29 +212,35 @@ void drawIntro(int p_iRow, int p_iCol)
 	drawCenter(" c$$$$ $$3$$$$$$ `$$$$$h$$P\"\".. $$$$$$$$$$$$$$$??\"\"\" ,ccc3$$$$$$$$$ hL`?$C           ", p_iCol, p_iRow++);
 	drawCenter("h$$$$$>`$$$$$$$$$.$$$$$??\',c$\"  $$$$$P)$$$$$P\" ,$$$$$$$$$$$$$$$$$$$ \"$ .\"$           ", p_iCol, p_iRow++);
 
+	p_iRow++;
+	drawCenter("Created and Dev by Jerome GRARD. Using OpenMP, ncurses and GMP libs.", p_iCol, p_iRow++);
+
 
 
         attroff(COLOR_PAIR(7));
 
-	topText("Free, simple, open-source and hightly configurable drawing program for linux shell - BEERWARE licence");
-	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt --  Program written by Jerome GRARD");
+/*	topText("Free, simple, open-source and hightly configurable drawing program for linux shell - BEERWARE licence");*/
+	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt");
 
 
-	refresh();getch();
-        init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
+	refresh();
 
+        /* Ask user key press */
+        nodelay(stdscr, FALSE);
+        getch();
+        nodelay(stdscr, TRUE);
 
-	usleep(10000);
+        init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
 }
 
 
 
 
-// Draw str to the center of the screen
-int drawCenter(char* p_sString, int p_iCol, int p_iRow)
+/* Draw str to the center of the screen */
+int drawCenter(const char* p_sString, int p_iCol, int p_iRow)
 {
-	// si on met -1 en col ou en row, il prendra comme valeur la première valeur non nulle qui
-	// lui a été donnée.
+	/* si on met -1 en col ou en row, il prendra comme valeur la première valeur non nulle qui
+	   lui a été donnée. */
 	static int l_iBackupCol = 0;
 	static int l_iBackupRow = 0;
 
@@ -251,10 +260,10 @@ void drawMainMenu(int p_iRow, int p_iCol)
 {
 	char* l_cBuffer = (char*)malloc(21*sizeof(char));
 
-        start_color();                          /* start color mode */
+        start_color();                          	/* start color mode */
 
-	// this color pair seem to be useless...
-        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   /* colors references */
+	/* this color pair seem to be useless... */
+        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   	/* colors references */
         attron(COLOR_PAIR(7));
 
 	p_iRow = (p_iRow - 30)/3;
@@ -281,11 +290,11 @@ void drawMainMenu(int p_iRow, int p_iCol)
 
 	p_iRow -= 7;
 
-	strcpy(l_cBuffer, "1. Start/Stop search");
+	strcpy(l_cBuffer, "1. Start search");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "2. Set an order     ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "3. Montoring screen ");
+	strcpy(l_cBuffer, "3. Set thread count ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "4. Settings         ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
@@ -301,12 +310,136 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	topText("Prime Number Discovery program, in order to find something new by yourself - BEERWARE licence");
 
 
-	refresh();getch();
-        init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
-
-
-	usleep(10000);
+	refresh();
+        init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
 }
+
+
+void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon)
+{
+	char* l_cBuffer = (char*)malloc(21*sizeof(char));
+
+        start_color();                          	/* start color mode */
+
+	/* this color pair seem to be useless... */
+        init_pair(7, COLOR_YELLOW, COLOR_BLACK);   /* colors references */
+        attron(COLOR_PAIR(7));
+
+	/* The +4 is for shift menu rather than the main menu */
+	p_iRow = (p_iRow - 30)/3 + 4;
+	p_iCol = (p_iCol) / 4 + 4;
+
+
+	strcpy(l_cBuffer, "+---------------------+");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "|                     |");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+	strcpy(l_cBuffer, "+---------------------+");
+	drawSentence(p_iCol, p_iRow++, l_cBuffer, enumJaune);
+
+	p_iRow-= 9;
+
+	switch(p_iMenuSelector)
+	{
+		case MENU_NEW_ORDER:
+		{
+			strcpy(l_cBuffer, "Type the new Mers-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "enne order and not");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "the number itself.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "Cursor is in vaca-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "tion. Check your");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number in the bot-");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "tom bar after Enter");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "key pressed.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_THIS_IS_A_PRIME_NUMBER:
+		{
+			strcpy(l_cBuffer, "This is a prime");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number !!!!!!!!");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_THIS_IS_NOT_A_PRIME_NUMBER:
+		{
+			strcpy(l_cBuffer, "This is not a ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "prime number.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_SET_THREAD_NUMBER:
+		{
+			strcpy(l_cBuffer, "Type the wanted  ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "thread number. By");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "default this is  ");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			snprintf(l_cBuffer, (strlen(l_cBuffer) - 1)*sizeof(char), "%d threads.", p_structCommon->iThreadNumber);
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "You can check new");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "value by display");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "log with this line");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "$tail -n99 pnd.log");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_ABOUT:
+		{
+			drawIntro(p_structCommon->iRow,p_structCommon->iCol);
+			break;
+		}
+		case MENU_NEW_UNDEFINED:
+		{
+			break;
+		}
+		default:
+		{
+			break;
+		}
+	}
+
+
+        attroff(COLOR_PAIR(7));
+
+	refresh();
+        init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
+}
+
+
 
 
 
@@ -328,8 +461,8 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 	char l_cCaracterHead = PROGRESS_BAR_HEAD_CHARACTER;
 	static int l_iScreenLenght = -1;
 
-	// In order to avoid to carry the Screen Lenght each time, we set it in static at the beginning
-	// and to keep it put -1 in the call function. To modify it, put any number != -1
+	/* In order to avoid to carry the Screen Lenght each time, we set it in static at the beginning
+	   and to keep it put -1 in the call function. To modify it, put any number != -1 */
 	if(p_iScreenLenght != -1)
 	{
 		l_iScreenLenght = p_iScreenLenght;
@@ -337,7 +470,7 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 		LOG_WRITE_LONG((long int)l_iScreenLenght)
 	}
 
-	// In order to quit the function just after setting  the screen lenght
+	/* In order to quit the function just after setting  the screen lenght */
 	if(p_iCompleted < 0)
 	{
 		return;
@@ -345,22 +478,22 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 
 	l_iPercent = (int)(((float)p_iCompleted /(float)p_iMax)*(float)l_iScreenLenght);
 
-	// If the bar is taller than the screen
+	/* If the bar is taller than the screen */
 	l_iPercent = (l_iPercent > l_iScreenLenght) ? l_iScreenLenght : l_iPercent;
 
-	// If lenght == 0 then we need to add 1 in order to avoid infinite loop
+	/* If lenght == 0 then we need to add 1 in order to avoid infinite loop */
 	l_iPercent = (l_iPercent == 0) ? 1 : l_iPercent;
 
-	// draw body
+	/* draw body */
 	for(l_iIterateur = 0; l_iIterateur < l_iPercent - 1; l_iIterateur++)
 	{
 		drawElement(l_iIterateur, p_iLine, l_cCaracterBody, p_iColor);
 	}
-	// draw the head
+	/* draw the head */
 	drawElement(l_iIterateur++, p_iLine, l_cCaracterHead, p_iColor);
 
 
-	// If pair number we need to substract one (more pretty)
+	/* If pair number we need to substract one (more pretty) */
 	l_iColumn = l_iScreenLenght/2;
 	l_iColumn -= (l_iScreenLenght % 2 == 0) ? 1 : 0;
 
@@ -378,7 +511,7 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 		}
 	}
 
-	// We need to see each time the bar is changed
+	/* We need to see each time the bar is changed */
 	refresh();
 }
 
@@ -404,4 +537,25 @@ void eraseWorkingScreen(int p_iRow, int p_iCol)
 	}
 
 	refresh();
+}
+
+
+/**
+  *
+  * In order to display the current mersenne order
+  *
+  * Because user can change it, thus, we need to know it evrytime
+  *
+  *
+  */
+void drawCurrentMersenneOrder(structProgramInfo* structCommon)
+{
+	char* l_cBuffer;
+	l_cBuffer = (char*)malloc(structCommon->iCol*sizeof(char));
+
+	snprintf(l_cBuffer, (structCommon->iCol - 1)*sizeof(char), "Current Mersenne order : %d   ", structCommon->iMersenneOrder);
+
+	botText(l_cBuffer);
+
+	free(l_cBuffer);
 }

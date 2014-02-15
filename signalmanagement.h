@@ -23,6 +23,6 @@
 
 void initialisationOfTheSignal(void);
 void signalHandler(int p_iSignalNo);
-void commonSignalEnding(void);
+void commonSignalEnding(void) __attribute__ ((noreturn));
 
 #endif

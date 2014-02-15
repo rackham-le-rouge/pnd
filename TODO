@@ -7,8 +7,9 @@ TODO
 [x]	Call the progresss bar function for each thread
 [ ]	Saving context function
 [ ]	Fixing the mpz_clear issue. Find a solution to clear them, and not let them run away in memory at the end of the program...
-[ ]	
-[ ]	
+[ ]	Autosearch function
+[ ]	No log function
+[ ]	No windows function (something like deamon())
 [ ]	
 [ ]	
 [ ]	

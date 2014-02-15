@@ -20,20 +20,25 @@
 
 */
 
+void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
 
 extern void initBar();
-extern void topText(char*);
-extern void botText(char*);
+extern void topText(const char*);
+extern void botText(const char*);
 extern int drawElement(int, int, char, int);
 extern void initColor();
 extern void drawIntro(int, int);
 extern void disableBar();
 extern void drawMainMenu(int p_iRow, int p_iCol);
 extern int isItAPrimeNumber(mpz_t p_mpzNumber);
-extern int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN, int p_iScreenLineNumber);
+extern int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN);
 extern void createAllComputingThreads(structProgramInfo* p_structCommon);
 extern void initialisationOfTheSignal(void);
 extern void eraseWorkingScreen(int p_iRow, int p_iCol);
-void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
+extern void drawCurrentMersenneOrder(structProgramInfo* structCommon);
+
+/* From std lib */
+FILE *popen(const char *commande, const char *type);
+int pclose(FILE *stream);
 
 #endif

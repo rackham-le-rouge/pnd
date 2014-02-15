@@ -27,8 +27,8 @@ char rev[] = "0.0";
 char ver[] = "1.0";
 
 
-int g_iLigne	=		0;
-int g_iColonne  =		0;
+unsigned int g_iLigne	=		0;
+unsigned int g_iColonne  =		0;
 
 
 
@@ -47,24 +47,62 @@ int g_iColonne  =		0;
   */
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 {
+	FILE* l_fileReturnOfCommand;
+	char l_cBuffer[POPEN_BUFFER_LENGHT];
+
 	LOG_WRITE("Writing the default configuration in the common stuctProgramInfo")
-	p_structStructure->iMersenneOrder = 33;   		// Today the max is 17425170;
-	p_structStructure->iThreadNumber = 2;
+	p_structStructure->iMersenneOrder = DEFAULT_MERSENNE_ORDER;   		/* Today the max is 17425170; */
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
+	p_structStructure->iRow = g_iLigne;
+	p_structStructure->iCol = g_iColonne;
+	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
+
+	/* Try to find how many cores the computer have. */
+	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/* POSIX function ;) */
+
+	if(l_fileReturnOfCommand == NULL)
+	{
+		p_structStructure->iThreadNumber = 2;						/* We assume that today all computers have at least two cores */
+		LOG_WRITE_STRING_LONG("Number of thread detected --default-- : ", (long)p_structStructure->iThreadNumber);
+	}
+	else
+	{
+		if(fgets(l_cBuffer, (POPEN_BUFFER_LENGHT - 1)*sizeof(char), l_fileReturnOfCommand) == NULL)
+		{
+			p_structStructure->iThreadNumber = 2;						/* We assume that today all computers have at least two cores */
+			LOG_WRITE_STRING_LONG("Number of thread detected --unsuccessfully-- : ", (long)p_structStructure->iThreadNumber);
+		}
+		else
+		{
+			p_structStructure->iThreadNumber = atoi(l_cBuffer);
+			LOG_WRITE_STRING_LONG("Number of thread detected --successfully-- : ", (long)p_structStructure->iThreadNumber);
+		}
+		pclose(l_fileReturnOfCommand);
+	}
 }
 
 
 
 
-// Main
+/* Main */
 int main(int argc, char** argv)
 {
-	int l_iTmp = 0;
-	char l_bAsk = TRUE;
-	char l_bQuitProgram = FALSE;
-	structProgramInfo* structCommon = NULL;
+	char l_cBuffer[250];
+	char l_cBuffer2[250];
+
+	int l_iTmp;
+	char l_bAsk;
+	char l_bQuitProgram;
+	structProgramInfo* structCommon;
+	long int l_iUserValue;
+
+	l_iTmp = 0;
+	l_bAsk = TRUE;
+	l_bQuitProgram = FALSE;
+	structCommon = NULL;
+	l_iUserValue = 0;
 
 	LOG_WRITE(" ")
 	LOG_WRITE(" ")
@@ -72,26 +110,24 @@ int main(int argc, char** argv)
 	LOG_WRITE("                    Starting new instance")
 	LOG_WRITE("---------------------------------------------------------------------")
 
-	// Start the graphic mode
+	/* Start the graphic mode */
 	initscr();
 
-	// Hide the cursor
+	/* Hide the cursor */
 	curs_set(0);
 
-	char l_cBuffer[250];
-	char l_cBuffer2[250];
 	noecho();
 	cbreak();
 	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by 8m2", ver, rev);
 
-	// Initialisation of some graphical elements
+	/* Initialisation of some graphical elements */
 	LOG_WRITE("Screen element initialisation...")
 	initColor();
         getmaxyx(stdscr,g_iLigne,g_iColonne);
-	drawLoadingBar(0, -1, 0, g_iColonne, 0);		// To initialize progressBar function
+	drawLoadingBar(0, -1, 0, g_iColonne, 0);		/* To initialize progressBar function */
 	initBar();
 
-	// Check the screen size
+	/* Check the screen size */
 	if(g_iLigne < MIN_SCREEN_HEIGHT)
 	{
 		LOG_WRITE("Screen doesn't have enought Lines")
@@ -111,19 +147,28 @@ int main(int argc, char** argv)
 		return ENOMSG;
 	}
 
-	// Intro drawing
+	/* Intro drawing */
 	if(argc < MIN_ARGC)
 	{
-		//drawIntro(g_iLigne, g_iColonne);
+		/*drawIntro(g_iLigne, g_iColonne); */
 		initBar();
 	}
 
-	// Don't ask Enter key in order to complete a getch()
+	/* Find if user want an autosearch */
+	if(argc > 1)
+	{
+		if(!strcmp(argv[1], "-a"))
+		{
+			structCommon->bAutoSearch = TRUE;
+		}
+	}
+
+	/* Don't ask Enter key in order to complete a getch() */
 	nodelay(stdscr, TRUE);
 
 
-	// Right message on the bottom bar
-	for(l_iTmp=0; l_iTmp < g_iColonne - strlen(l_cBuffer) ; l_iTmp++)
+	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because l_cBuffer is too small */
+	for(l_iTmp=0; (signed)l_iTmp < (signed)g_iColonne - (signed)strlen(l_cBuffer) ; l_iTmp++)
 	{
 		l_cBuffer2[l_iTmp] = ' ';
 		l_cBuffer2[l_iTmp+1] = '\0';
@@ -132,29 +177,32 @@ int main(int argc, char** argv)
 	botText(l_cBuffer2);
 
 
-	// Setting default values for the most important state variable of the program
+	/* Setting default values for the most important state variable of the program */
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 	setDefaultValueToTheProgramStructure(structCommon);
 
-	// Re-routing signals of the system
+	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
+
+	/* Print current mersenne order at the screen bottom */
+	drawCurrentMersenneOrder(structCommon);
 
 
 
 	while(!l_bQuitProgram)
 	{
-		// Do what the user request
+		/* Do what the user request */
 		LOG_WRITE("Main menu : Wainting for a user choice...")
 
-		// Just erase screen and drawing menu, no command here
+		/* Just erase screen and drawing menu, no command here */
 		eraseWorkingScreen(g_iLigne, g_iColonne);
 		drawMainMenu(g_iLigne, g_iColonne);
 
-		// Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop
+		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
 		do
 		{
-			// Get the keyboark key
+			/* Get the keyboark key */
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
@@ -167,7 +215,7 @@ int main(int argc, char** argv)
 		{
 			case 1:
 			{
-				LOG_WRITE("Start/Stop function selected")
+				LOG_WRITE("Start function selected")
 				eraseWorkingScreen(g_iLigne, g_iColonne);
 				createAllComputingThreads(structCommon);
 				break;
@@ -175,11 +223,36 @@ int main(int argc, char** argv)
 			case 2:
 			{
 				LOG_WRITE("Set a new order function selected")
+				drawSubMenu(g_iLigne, g_iColonne, MENU_NEW_ORDER, structCommon);
+				if(scanf("%li", &l_iUserValue) == EOF)
+				{
+					/* Fail -- Keep the old value*/
+					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+				}
+				else
+				{
+					/* Sucess typing */
+					structCommon->iMersenneOrder = l_iUserValue;
+					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+				}
+				drawCurrentMersenneOrder(structCommon);
 				break;
 			}
 			case 3:
 			{
-				LOG_WRITE("Monitoring the screen function selected")
+				LOG_WRITE("Set new thread number function selected")
+				drawSubMenu(g_iLigne, g_iColonne, MENU_SET_THREAD_NUMBER, structCommon);
+				if(scanf("%li", &l_iUserValue) == EOF)
+				{
+					/* Fail -- Keep the old value*/
+					LOG_WRITE_STRING_LONG("New thread number --failed-- Keep the old value : ", (long)structCommon->iThreadNumber);
+				}
+				else
+				{
+					/* Sucess typing */
+					structCommon->iThreadNumber = (unsigned char)l_iUserValue;
+					LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+				}
 				break;
 			}
 			case 4:
@@ -190,7 +263,9 @@ int main(int argc, char** argv)
 			}
 			case 5:
 			{
-				LOG_WRITE("XX function selected")
+				LOG_WRITE("About menu selected")
+				eraseWorkingScreen(g_iLigne, g_iColonne);
+				drawSubMenu(g_iLigne, g_iColonne, MENU_ABOUT, structCommon);
 				break;
 			}
 			case 6:
@@ -208,15 +283,15 @@ int main(int argc, char** argv)
 	}
 
 
-	// Show the cursor
+	/* Show the cursor */
 	curs_set(TRUE);
 
-	// Stop the program and leave the graphic mode ! Very important !
+	/* Stop the program and leave the graphic mode ! Very important ! */
 	LOG_WRITE("End of the program. See you");
 	endwin();
 
-	// Clean
-	free(structCommon);  // Create a seg fault !! why ??
+	/* Clean */
+	free(structCommon);
 
 	return 0;
 }
