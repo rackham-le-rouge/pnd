@@ -263,7 +263,9 @@ int main(int argc, char** argv)
 			}
 			case 5:
 			{
-				LOG_WRITE("XX function selected")
+				LOG_WRITE("About menu selected")
+				eraseWorkingScreen(g_iLigne, g_iColonne);
+				drawSubMenu(g_iLigne, g_iColonne, MENU_ABOUT, structCommon);
 				break;
 			}
 			case 6:

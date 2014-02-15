@@ -166,9 +166,12 @@ void drawIntro(int p_iRow, int p_iCol)
         init_pair(7, COLOR_YELLOW, COLOR_BLACK);   	/* référence des couleurs */
         attron(COLOR_PAIR(7));
 
-	p_iRow = (p_iRow - 30)/3;
+	p_iRow = (p_iRow - 30)/4;
 
-	drawCenter("F.L.E.Y", p_iCol, p_iRow++);p_iRow++;
+	drawCenter("P.N.D", p_iCol, p_iRow++);
+	p_iRow++;
+	drawCenter("Make your computer usefull and tired", p_iCol, p_iRow++);
+	p_iRow++;
 
 	drawCenter("C is for cookies, that's good enought for me and for this software !", p_iCol, p_iRow++);p_iRow++;
 
@@ -209,15 +212,24 @@ void drawIntro(int p_iRow, int p_iCol)
 	drawCenter(" c$$$$ $$3$$$$$$ `$$$$$h$$P\"\".. $$$$$$$$$$$$$$$??\"\"\" ,ccc3$$$$$$$$$ hL`?$C           ", p_iCol, p_iRow++);
 	drawCenter("h$$$$$>`$$$$$$$$$.$$$$$??\',c$\"  $$$$$P)$$$$$P\" ,$$$$$$$$$$$$$$$$$$$ \"$ .\"$           ", p_iCol, p_iRow++);
 
+	p_iRow++;
+	drawCenter("Created and Dev by Jerome GRARD. Using OpenMP, ncurses and GMP libs.", p_iCol, p_iRow++);
+
 
 
         attroff(COLOR_PAIR(7));
 
 /*	topText("Free, simple, open-source and hightly configurable drawing program for linux shell - BEERWARE licence");*/
-/*	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt --  Program written by Jerome GRARD");*/
+	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt");
 
 
-	refresh();getch();
+	refresh();
+
+        /* Ask user key press */
+        nodelay(stdscr, FALSE);
+        getch();
+        nodelay(stdscr, TRUE);
+
         init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
 }
 
@@ -403,6 +415,11 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			strcpy(l_cBuffer, "$tail -n99 pnd.log");
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_ABOUT:
+		{
+			drawIntro(p_structCommon->iRow,p_structCommon->iCol);
 			break;
 		}
 		case MENU_NEW_UNDEFINED:
