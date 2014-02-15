@@ -32,50 +32,89 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon), num_threads(l_iThreadNumber)
+	/* We add one in order to keep a thread for the keyboard handler */
+	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon), num_threads(l_iThreadNumber + 1)
 	{
-		#ifdef DEBUG
-		/*char l_cBufferNumber[200];*/
-		#endif
-
 		char l_bResultOfPrimeFunction;
+		char l_bKeyAccepted;
+		char l_cKeyPressed;
+		unsigned int l_iUSecBetweenTwoKeyCheck;
 
 		mpz_t l_mpzPrimeNumberToTest;
 		mpz_init(l_mpzPrimeNumberToTest);
 
 		l_iCurrentThread = omp_get_thread_num();
 		l_bResultOfPrimeFunction = FALSE;
+		l_bKeyAccepted = FALSE;
+		l_cKeyPressed = 0;
+		l_iUSecBetweenTwoKeyCheck = USEC_BETWEEN_KEY_CHECK;
 
-		/* Create the Mersenne number 2^n - 1 */
-		mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
-		mpz_sub_ui(l_mpzPrimeNumberToTest, l_mpzPrimeNumberToTest, 1);
-
- 		#pragma omp critical (writeLogSection) 			/* just a name for the section */
+		if(l_iCurrentThread == l_iThreadNumber)
 		{
-			LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
+			/* Means we are in the last thread, thus there is the keyboard handler */
+
+			do
+			{
+				usleep(l_iUSecBetweenTwoKeyCheck);
+				l_cKeyPressed = getch();
+
+				/* End this thread when all other threads are over */
+				if(p_structCommon->bIsComputing == FALSE)
+				{
+					l_bKeyAccepted = TRUE;
+				}
+
+				switch(l_cKeyPressed)
+				{
+					case 'q':
+					case 'Q':
+					{
+						p_structCommon->bDead = TRUE;
+						l_bKeyAccepted = TRUE;
+						break;
+					}
+					default:
+					{
+						/* All non implemented yet keys */
+						break;
+					}
+				}
+			}while(l_bKeyAccepted == FALSE);
 		}
-
-		/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
-		 * the current part is l_iCurrentThread */
-		l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
-
- 		#pragma omp critical (computeSection) 			/* just a name for the section */
+		else
 		{
-			if(l_bResultOfPrimeFunction == FALSE)
+			/* Create the Mersenne number 2^n - 1 */
+			mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
+			mpz_sub_ui(l_mpzPrimeNumberToTest, l_mpzPrimeNumberToTest, 1);
+
+	 		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 			{
-				/* We found at least one divider */
-				p_structCommon->bDead = TRUE;
-				LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
+				LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
 			}
-			else if(l_bResultOfPrimeFunction == DONT_KNOW)
+
+			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
+			 * the current part is l_iCurrentThread */
+			l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+
+ 			#pragma omp critical (computeSection) 			/* just a name for the section */
 			{
-				LOG_WRITE_STRING_LONG("Compute: do not know ! For the section number", (unsigned long)(l_iCurrentThread))
-			}
-			else
-			{
-				LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
+				if(l_bResultOfPrimeFunction == FALSE)
+				{
+					/* We found at least one divider */
+					p_structCommon->bDead = TRUE;
+					LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
+				}
+				else if(l_bResultOfPrimeFunction == DONT_KNOW)
+				{
+					LOG_WRITE_STRING_LONG("Compute: do not know ! For the section number", (unsigned long)(l_iCurrentThread))
+				}
+				else
+				{
+					LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
+				}
 			}
 		}
+	p_structCommon->bIsComputing = FALSE;
 	}
 
 	/*
@@ -86,17 +125,15 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-	p_structCommon->bIsComputing = FALSE;
-
 	if(p_structCommon->bDead == TRUE)
 	{
 		LOG_WRITE("This is not a prime number !")
-		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER);
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER, p_structCommon);
 	}
 	else
 	{
 		LOG_WRITE("This is a prime number.")
-		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER);
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
 	}
 
 	/* Ask user key press */

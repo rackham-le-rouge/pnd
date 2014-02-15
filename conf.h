@@ -3,6 +3,7 @@
 		Program configuration
 		Set parameters here and
 		recompile in order to apply
+		Need a 'make clean' !!!
 
 *******************************************************/
 
@@ -38,6 +39,7 @@
 #include <gmp.h>
 #include <signal.h>
 #include <limits.h>
+#include <sys/types.h>
 
 /* Some constants */
 #define	DEBUG			1
@@ -59,6 +61,7 @@
 #define MENU_THIS_IS_A_PRIME_NUMBER	2
 #define MENU_THIS_IS_NOT_A_PRIME_NUMBER	3
 #define MENU_SET_THREAD_NUMBER		4
+#define MENU_ABOUT			5
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -90,9 +93,12 @@ typedef enum
 	enumBlanc =	11
 }g_enumJeuxDeCouleursDispo;
 
-#define DEFAULT_MERSENNE_ORDER	 31
+#define DEFAULT_MERSENNE_ORDER	31
+#define USEC_BETWEEN_KEY_CHECK	500000			/* be carefull !!! if you put a lower value, there is a risk of weird character spawning on the screen */
 
 
+
+/* Debug part - Lots of usefull macro */
 #define	DEBUG_T1	{mvprintw(1, 1, "/%d/", 314);refresh();getch();}
 #define	DEBUG_T2	{mvprintw(1, 1, "/%d/", 235);refresh();getch();}
 #define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; snprintf(__macroTemporaryBufferCP, 50*sizeof(char), "echo [%s] %d  >> pnd.log", __FILE__, __LINE__); system(__macroTemporaryBufferCP);}
