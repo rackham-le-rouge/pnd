@@ -118,7 +118,7 @@ int main(int argc, char** argv)
 
 	noecho();
 	cbreak();
-	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by 8m2", ver, rev);
+	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by Géo", ver, rev);
 
 	/* Initialisation of some graphical elements */
 	LOG_WRITE("Screen element initialisation...")
@@ -250,8 +250,18 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					structCommon->iThreadNumber = (unsigned char)l_iUserValue;
-					LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+					if(l_iUserValue > g_iLigne - 2)
+					{
+						/* We don't have enought lines to display threads progression */
+						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(g_iLigne - 2));
+						structCommon->iThreadNumber = (unsigned char)(g_iLigne - 2);
+					}
+					else
+					{
+						/* We have enought lines to display all threads progression */
+						structCommon->iThreadNumber = (unsigned char)l_iUserValue;
+						LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+					}
 				}
 				break;
 			}
