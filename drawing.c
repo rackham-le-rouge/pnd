@@ -219,7 +219,6 @@ void drawIntro(int p_iRow, int p_iCol)
 
         attroff(COLOR_PAIR(7));
 
-/*	topText("Free, simple, open-source and hightly configurable drawing program for linux shell - BEERWARE licence");*/
 	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt");
 
 
