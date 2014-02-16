@@ -62,6 +62,7 @@
 #define MENU_THIS_IS_NOT_A_PRIME_NUMBER	3
 #define MENU_SET_THREAD_NUMBER		4
 #define MENU_ABOUT			5
+#define MENU_GIVE_UP_SEARCH		6
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED

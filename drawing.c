@@ -383,6 +383,12 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 			strcpy(l_cBuffer, "Press any key");
 			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         YES");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
 		case MENU_THIS_IS_NOT_A_PRIME_NUMBER:
@@ -394,6 +400,29 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 			strcpy(l_cBuffer, "Press any key");
 			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         NO");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_GIVE_UP_SEARCH:
+		{
+			strcpy(l_cBuffer, "User gives up");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "search.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         ??");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
 		case MENU_SET_THREAD_NUMBER:

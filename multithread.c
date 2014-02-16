@@ -19,6 +19,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	int l_iThreadNumber = p_structCommon->iThreadNumber;
 	int l_iCurrentThread;
 	unsigned int l_iUSecBetweenTwoAutoSearch;
+	char l_bQKeyPressed = FALSE;
 
 
 	p_structCommon->bIsComputing = TRUE;
@@ -35,7 +36,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 */
 
 	/* We add one in order to keep a thread for the keyboard handler */
-	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon), num_threads(l_iThreadNumber + 1)
+	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon, l_bQKeyPressed), num_threads(l_iThreadNumber + 1)
 	{
 		char l_bResultOfPrimeFunction;
 		char l_bKeyAccepted;
@@ -74,6 +75,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 						p_structCommon->bDead = TRUE;
 						p_structCommon->bAutoSearch = FALSE;		/* If user press Q key, there is no more autosearch  and we quit now. To reactivate it, he needs to choose the right option in the main menu */
 						l_bKeyAccepted = TRUE;
+						l_bQKeyPressed = TRUE;
 						break;
 					}
 					default:
@@ -128,10 +130,15 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-	if(p_structCommon->bDead == TRUE)
+	if(p_structCommon->bDead == TRUE && l_bQKeyPressed == FALSE)
 	{
 		LOG_WRITE("This is not a prime number !")
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER, p_structCommon);
+	}
+	else if(p_structCommon->bDead == TRUE && l_bQKeyPressed == TRUE)
+	{
+		LOG_WRITE("Give up ! Dont know it this is a prime number or not")
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_GIVE_UP_SEARCH, p_structCommon);
 	}
 	else
 	{
