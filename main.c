@@ -267,8 +267,20 @@ int main(int argc, char** argv)
 			}
 			case 4:
 			{
-				LOG_WRITE("Infinite loop selected")
-				while(1);
+				LOG_WRITE("Prospecting mode selected")
+				structCommon->bAutoSearch = TRUE;
+
+				while(structCommon->bAutoSearch == TRUE)
+				{
+					eraseWorkingScreen(g_iLigne, g_iColonne);
+					createAllComputingThreads(structCommon);
+
+					/* Jump to the new mersenne number */
+					structCommon->iMersenneOrder++;
+
+					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					drawCurrentMersenneOrder(structCommon);
+				}
 				break;
 			}
 			case 5:

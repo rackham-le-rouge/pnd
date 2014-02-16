@@ -95,7 +95,7 @@ typedef enum
 
 #define DEFAULT_MERSENNE_ORDER	31
 #define USEC_BETWEEN_KEY_CHECK	500000			/* be carefull !!! if you put a lower value, there is a risk of weird character spawning on the screen */
-
+#define USEC_BETWEEN_AUTO_SEARCH 2000000
 
 
 /* Debug part - Lots of usefull macro */

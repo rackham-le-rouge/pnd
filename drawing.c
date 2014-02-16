@@ -295,7 +295,7 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "3. Set thread count ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "4. Settings         ");
+	strcpy(l_cBuffer, "4. Prospecting      ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "5. About PND        ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);

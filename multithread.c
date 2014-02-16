@@ -18,10 +18,12 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
 	int l_iThreadNumber = p_structCommon->iThreadNumber;
 	int l_iCurrentThread;
+	unsigned int l_iUSecBetweenTwoAutoSearch;
 
 
 	p_structCommon->bIsComputing = TRUE;
 	p_structCommon->bDead = FALSE;
+	l_iUSecBetweenTwoAutoSearch = USEC_BETWEEN_AUTO_SEARCH;
 
 
 	/*
@@ -70,6 +72,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 					case 'Q':
 					{
 						p_structCommon->bDead = TRUE;
+						p_structCommon->bAutoSearch = FALSE;		/* If user press Q key, there is no more autosearch  and we quit now. To reactivate it, he needs to choose the right option in the main menu */
 						l_bKeyAccepted = TRUE;
 						break;
 					}
@@ -136,8 +139,15 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
 	}
 
-	/* Ask user key press */
-	nodelay(stdscr, FALSE);
-	getch();
-	nodelay(stdscr, TRUE);
+	/* Ask user key press and if we are in auto search, leave the message 2 seconds and quit */
+	if(p_structCommon->bAutoSearch == FALSE)
+	{
+		nodelay(stdscr, FALSE);
+		getch();
+		nodelay(stdscr, TRUE);
+	}
+	else
+	{
+		usleep(l_iUSecBetweenTwoAutoSearch);
+	}
 }

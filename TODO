@@ -6,9 +6,9 @@ TODO
 [x]	Find how to estimate a percent of the search area.
 [x]	Call the progresss bar function for each thread
 [ ]	Saving context function
-[ ]	Autosearch function
-[ ]	No log function
-[ ]	No windows function (something like deamon())
+[x]	Autosearch function
+[ ]	(command line) No log function
+[ ]	(command line) No windows function (something like deamon())
 [ ]	
 [ ]	
 [ ]	
