@@ -9,8 +9,8 @@ TODO
 [x]	Autosearch function
 [ ]	(command line) No log function
 [ ]	(command line) No windows function (something like deamon())
-[ ]	
-[ ]	
+[x]	Change threads during computing with + and - keys ?
+[x]	Time counter
 [ ]	
 [ ]	
 [ ]	
