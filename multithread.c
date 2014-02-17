@@ -92,21 +92,31 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
 			mpz_sub_ui(l_mpzPrimeNumberToTest, l_mpzPrimeNumberToTest, 1);
 
+			#ifdef DEBUG_VERBOSE
 	 		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 			{
 				LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
 			}
+			#endif
 
 			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 			 * the current part is l_iCurrentThread */
 			l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
 
+			/* Dead flag is raised by the finder of the divider, the other threads remains in DONT_KNOW state.
+			   If there is a thread in FALSE, the other one are in DONT_KNOW, but if all threads are in DONT_KNOW state
+			   it is because the Q key is pressed. Thus check l_bQKeyPressed */
+			if(l_bResultOfPrimeFunction == FALSE)
+			{
+				p_structCommon->bDead = TRUE;
+			}
+
+			#ifdef DEBUG_VERBOSE
  			#pragma omp critical (computeSection) 			/* just a name for the section */
 			{
 				if(l_bResultOfPrimeFunction == FALSE)
 				{
 					/* We found at least one divider */
-					p_structCommon->bDead = TRUE;
 					LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
 				}
 				else if(l_bResultOfPrimeFunction == DONT_KNOW)
@@ -118,6 +128,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 					LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
 				}
 			}
+			#endif
 		}
 	p_structCommon->bIsComputing = FALSE;
 	}

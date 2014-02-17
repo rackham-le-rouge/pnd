@@ -43,6 +43,7 @@
 
 /* Some constants */
 #define	DEBUG			1
+/*#define DEBUG_VERBOSE		1*/
 #define TRACE_EXEC		1
 
 #define MIN_SCREEN_HEIGHT	10

@@ -31,7 +31,9 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 	mpz_init(l_mpzSQRT);
 	mpz_init(l_mpzIterator);
 
+	#ifdef DEBUG_VERBOSE
 	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
+	#endif
 
 	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
 	mpz_set(l_mpzIterator, p_mpzNumber);
@@ -97,8 +99,9 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_init(l_mpzPercent);
 	mpz_init(l_mpzTmp);
 
-
+	#ifdef DEBUG_VERBOSE
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
+	#endif
 
 	/* Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
@@ -133,8 +136,9 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
 	}
 
+	#ifdef DEBUG_VERBOSE
 	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
-
+	#endif
 
 	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
