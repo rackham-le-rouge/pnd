@@ -74,6 +74,20 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 				switch(l_cKeyPressed)
 				{
+					case '+':
+					{
+						/* One more thread. Check if there is enought lines to print it */
+						p_structCommon->iThreadNumber = (p_structCommon->iThreadNumber + 1 < p_structCommon->iRow - 2) ? p_structCommon->iThreadNumber + 1 : p_structCommon->iThreadNumber;
+						LOG_WRITE_STRING_LONG("One thread added by user during computing. New thread number : ", (long)p_structCommon->iThreadNumber)
+						break;
+					}
+					case '-':
+					{
+						/* One less thread. */
+						p_structCommon->iThreadNumber = (p_structCommon->iThreadNumber - 1 > 0) ? p_structCommon->iThreadNumber - 1 : p_structCommon->iThreadNumber;
+						LOG_WRITE_STRING_LONG("One thread removed by user during computing. New thread number : ", (long)p_structCommon->iThreadNumber)
+						break;
+					}
 					case 'q':
 					case 'Q':
 					{
