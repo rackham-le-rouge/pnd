@@ -18,14 +18,19 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
 	int l_iThreadNumber = p_structCommon->iThreadNumber;
 	int l_iCurrentThread;
+	unsigned long int l_iSeconds;
 	unsigned int l_iUSecBetweenTwoAutoSearch;
-	char l_bQKeyPressed = FALSE;
+	char l_bQKeyPressed;
+	time_t l_timeBegin;
+	time_t l_timeEnd;
 
 
 	p_structCommon->bIsComputing = TRUE;
 	p_structCommon->bDead = FALSE;
 	l_iUSecBetweenTwoAutoSearch = USEC_BETWEEN_AUTO_SEARCH;
-
+	l_bQKeyPressed = FALSE;
+	l_iSeconds = 0;
+	time(&l_timeBegin);				/* Get current time */
 
 	/*
 	 ****************************************
@@ -141,6 +146,9 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
+	time(&l_timeEnd);				/* Get end time used to find how long computing takes */
+	l_iSeconds = difftime(l_timeEnd, l_timeBegin);
+
 	if(p_structCommon->bDead == TRUE && l_bQKeyPressed == FALSE)
 	{
 		LOG_WRITE("This is not a prime number !")
@@ -156,6 +164,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 		LOG_WRITE("This is a prime number.")
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
 	}
+
+	LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
 
 	/* Ask user key press and if we are in auto search, leave the message 2 seconds and quit */
 	if(p_structCommon->bAutoSearch == FALSE)

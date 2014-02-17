@@ -28,10 +28,10 @@
 #define CONFIG_H
 
 /* Some includes */
-#include <errno.h>
-#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <errno.h>
+#include <string.h>
 #include <unistd.h>
 #include <time.h>
 #include <ncurses.h>
@@ -43,7 +43,7 @@
 
 /* Some constants */
 #define	DEBUG			1
-/*#define DEBUG_VERBOSE		1*/
+/*#define DEBUG_VERBOSE		1*/		/* if you want to have all debugs messages */
 #define TRACE_EXEC		1
 
 #define MIN_SCREEN_HEIGHT	10

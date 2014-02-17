@@ -17,8 +17,6 @@
  *                              CaractereEnCours == Caractere En Cours ==> Current Letter (dictionnary is your friend)
  */
 
-#define PRIME_TEST 8191
-
 
 #include "conf.h"
 
@@ -147,12 +145,7 @@ int main(int argc, char** argv)
 		return ENOMSG;
 	}
 
-	/* Intro drawing */
-	if(argc < MIN_ARGC)
-	{
-		/*drawIntro(g_iLigne, g_iColonne); */
-		initBar();
-	}
+	initBar();
 
 	/* Find if user want an autosearch */
 	if(argc > 1)
@@ -160,6 +153,10 @@ int main(int argc, char** argv)
 		if(!strcmp(argv[1], "-a"))
 		{
 			structCommon->bAutoSearch = TRUE;
+		}
+		else
+		{
+			structCommon->bAutoSearch = FALSE;
 		}
 	}
 
@@ -216,6 +213,7 @@ int main(int argc, char** argv)
 			case 1:
 			{
 				LOG_WRITE("Start function selected")
+				structCommon->bAutoSearch = FALSE;
 				eraseWorkingScreen(g_iLigne, g_iColonne);
 				createAllComputingThreads(structCommon);
 				break;
