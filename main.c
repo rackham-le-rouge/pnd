@@ -230,8 +230,17 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					structCommon->iMersenneOrder = l_iUserValue;
-					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
+					{
+						/* And order is a prime number, thus it is allowed */
+						structCommon->iMersenneOrder = l_iUserValue;
+						LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					}
+					else
+					{
+						/* if order is not a prime number it not allowed. It is useless to waste time with it */
+						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+					}
 				}
 				drawCurrentMersenneOrder(structCommon);
 				break;
@@ -273,8 +282,11 @@ int main(int argc, char** argv)
 					eraseWorkingScreen(g_iLigne, g_iColonne);
 					createAllComputingThreads(structCommon);
 
-					/* Jump to the new mersenne number */
-					structCommon->iMersenneOrder++;
+					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
+					do
+					{
+						structCommon->iMersenneOrder += 2;		/* jump to the next odd number */
+					}while(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE);
 
 					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
 					drawCurrentMersenneOrder(structCommon);

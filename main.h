@@ -36,6 +36,7 @@ extern void createAllComputingThreads(structProgramInfo* p_structCommon);
 extern void initialisationOfTheSignal(void);
 extern void eraseWorkingScreen(int p_iRow, int p_iCol);
 extern void drawCurrentMersenneOrder(structProgramInfo* structCommon);
+extern char isItAPrimeNumberULI(double p_dNumber);
 
 /* From std lib */
 FILE *popen(const char *commande, const char *type);

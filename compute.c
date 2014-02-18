@@ -22,7 +22,7 @@
   *
   * Simple prime number testing -> check all number since sqrt(n) is reached
   */
-int isItAPrimeNumber(mpz_t p_mpzNumber)
+char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 {
 	int l_bReturnOfFunction = FALSE;
 	mpz_t l_mpzSQRT;
@@ -41,6 +41,11 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 	/* Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
 
+	/* Check if this an odd number */
+	l_bReturnOfFunction = mpz_divisible_ui_p(p_mpzNumber, (unsigned long int)2);
+	if(l_bReturnOfFunction)	{return FALSE;}			/* else, we continue... */
+
+
 	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
@@ -52,6 +57,59 @@ int isItAPrimeNumber(mpz_t p_mpzNumber)
 
 		l_bReturnOfFunction = mpz_cmp(l_mpzSQRT, l_mpzIterator); /*Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
 		if(l_bReturnOfFunction > 0)
+		{
+			return TRUE;
+		}
+	}
+	return FALSE;
+}
+
+
+
+
+
+/**
+  *
+  * And the unsigned long int version of the previous function.
+  * In order to test mersenne order we don't need GMP because order will remains under MAX of unsigned long int
+  *
+  */
+char isItAPrimeNumberULI(double  p_dNumber)
+{
+	double l_dReturnOfFunction;
+	double l_dSQRT;
+	double l_dIterator;
+
+	l_dReturnOfFunction = FALSE;
+
+	#ifdef DEBUG_VERBOSE
+	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
+	#endif
+
+	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
+	l_dIterator = p_dNumber;
+
+	/* Do the SQRT */
+	l_dSQRT = sqrt(p_dNumber);
+
+	/* Check if this is an odd number */
+	l_dReturnOfFunction = fmod(p_dNumber, (double)2);
+	if((int)l_dReturnOfFunction == 0)
+	{
+		return FALSE;
+	}
+
+	/* Start to divide by all people between the number his own sqrt */
+	for(;;)
+	{
+		l_dIterator -= 2;					/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+		l_dReturnOfFunction = fmod(p_dNumber, l_dIterator);
+
+		if((int)l_dReturnOfFunction == 0) {break;}			/* else, we continue... */
+
+		/*Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
+		if(l_dIterator < l_dSQRT)
 		{
 			return TRUE;
 		}
