@@ -137,8 +137,6 @@ char isItAPrimeNumberULI(double  p_dNumber)
 int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 {
 	int l_bReturnOfFunction = FALSE;
-	int l_iRefreshCounter = -1;
-	int l_iOnePercent = 0;
 	mpz_t l_mpzEndOfSearchArea;
 	mpz_t l_mpzBeginOfSearchArea;
 	mpz_t l_mpzSQRT;
@@ -148,6 +146,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_t l_mpzPercent;
 	mpz_t l_mpzOnePercent;
 	mpz_t l_mpzTmp;
+	mpz_t l_mpzRefreshCounter;
 
 	mpz_init(l_mpzBeginOfSearchArea);
 	mpz_init(l_mpzEndOfSearchArea);
@@ -158,10 +157,14 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_init(l_mpzPercent);
 	mpz_init(l_mpzOnePercent);
 	mpz_init(l_mpzTmp);
+	mpz_init(l_mpzRefreshCounter);
 
 	#ifdef DEBUG_VERBOSE
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
 	#endif
+
+	/* Init of RefreshCounter in order to display the 0% */
+	mpz_set_ui(l_mpzRefreshCounter, (long)-1);
 
 	/* Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
@@ -185,7 +188,6 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	/* Compute search area */
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
 	mpz_cdiv_q_ui(l_mpzOnePercent,l_mpzArea,(unsigned long)100);
-	l_iOnePercent = mpz_get_ui(l_mpzOnePercent);
 
 	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea */
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
@@ -213,14 +215,15 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
-		if(l_iRefreshCounter > l_iOnePercent || l_iRefreshCounter == -1)	/* -1 is for the first one : to display the 0% */
+		if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
 		{
 			if(p_structStructure->bDead == TRUE)
 			{
 				return DONT_KNOW;
 			}
 
-			l_iRefreshCounter=0;
+			mpz_set_ui(l_mpzRefreshCounter, (long)0);
+
 			mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
 			mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
 
@@ -230,8 +233,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 				p_structStructure->iThreadProgressionTable[p_iSectionNumber] = mpz_get_ui(l_mpzPercent);
 			}
 		}
-		l_iRefreshCounter++;
 
+		mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
 		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
 		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
 									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
