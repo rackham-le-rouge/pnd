@@ -110,6 +110,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			save these data
 			*/
 			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iRow);				/* Saving this data, if we open the pnd app withn a better screen, the program are going to crash with some kind of segfault */
+			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iMersenneOrder);
 
 			for(l_iIterator = 0; l_iIterator < l_structCommon->iRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
 			{
@@ -130,9 +131,12 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 		if(l_fileOutputFile != NULL)
 		{
 			LOG_WRITE("Load function : there is a context saved. Loading...")
+			l_structCommon->bLoaded = TRUE;
 
 			/*** the first line -> The previous screen size, and so, the previous max thread number ***/
 			fscanf(l_fileOutputFile, "%d\n", &l_iLoadedRow);
+			fscanf(l_fileOutputFile, "%d\n", &(l_structCommon->iMersenneOrder));
+
 			if(l_iLoadedRow > l_structCommon->iRow)
 			{
 				LOG_WRITE("Load function : screen size have changed and the new screen dont allow us to load all threads parameters")
@@ -163,6 +167,8 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 						/* In the previous configuration there is more thread than we can display now (and than we had reserved memory). So, cut their number and let a warning in the log file */
 						l_structCommon->iThreadProgressionTable[l_iIterator] = l_structCommon->iRow - 2;
 					}
+					/* Apply modification and set the new thread number */
+					l_structCommon->iThreadNumber = l_structCommon->iThreadProgressionTable[l_iIterator];
 				}
 			}
 
@@ -174,6 +180,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 		else
 		{
 			LOG_WRITE("Load function : There is no context saved. Default values are going to be loaded")
+			l_structCommon->bLoaded = FALSE;
 		}
 
 	}

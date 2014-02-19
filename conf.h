@@ -133,6 +133,7 @@ typedef struct structProgramInfo_
 	int  iRow;
 	char bAutoSearch;
 	int* iThreadProgressionTable;
+	char bLoaded;
 }structProgramInfo;
 
 

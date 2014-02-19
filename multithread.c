@@ -184,6 +184,9 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 	LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
 
+	/* Desactivate the loadedConf mode --when all progression are loaded from a hotsave file */
+	p_structCommon->bLoaded = FALSE;
+
 	/* Ask user key press and if we are in auto search, leave the message 2 seconds and quit */
 	if(p_structCommon->bAutoSearch == FALSE)
 	{

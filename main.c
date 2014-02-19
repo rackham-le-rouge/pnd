@@ -55,6 +55,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	p_structStructure->iRow = g_iLigne;
 	p_structStructure->iCol = g_iColonne;
+	p_structStructure->bLoaded = DONT_KNOW;
 	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. g_iLignes is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
 
@@ -95,12 +96,16 @@ int main(int argc, char** argv)
 	char l_cBuffer2[250];
 
 	int l_iTmp;
+	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
+	int l_iAutoActionChoice;
 	char l_bAsk;
 	char l_bQuitProgram;
 	structProgramInfo* structCommon;
 	long int l_iUserValue;
 
 	l_iTmp = 0;
+	l_bAutoAction = FALSE;
+	l_iAutoActionChoice = -1;
 	l_bAsk = TRUE;
 	l_bQuitProgram = FALSE;
 	structCommon = NULL;
@@ -195,6 +200,12 @@ int main(int argc, char** argv)
 	/* Print current mersenne order at the screen bottom */
 	drawCurrentMersenneOrder(structCommon);
 
+	if(structCommon->bLoaded == TRUE)
+	{
+		/* There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
+		l_bAutoAction = TRUE;
+		l_iAutoActionChoice = 4;
+	}
 
 
 	while(!l_bQuitProgram)
@@ -202,21 +213,26 @@ int main(int argc, char** argv)
 		/* Do what the user request */
 		LOG_WRITE("Main menu : Wainting for a user choice...")
 
+		l_bAsk = TRUE;
+
 		/* Just erase screen and drawing menu, no command here */
 		eraseWorkingScreen(g_iLigne, g_iColonne);
 		drawMainMenu(g_iLigne, g_iColonne);
 
 		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
-		do
+		if(l_bAutoAction == TRUE) {l_bAsk = FALSE;}
+		while(l_bAsk)
 		{
 			/* Get the keyboark key */
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
 			l_bAsk = (l_iTmp > 0 && l_iTmp < 7) ? FALSE : TRUE;
-		}while(l_bAsk);
+		}
 		nodelay(stdscr, TRUE);
+
+		if(l_bAutoAction == TRUE) {l_iTmp = l_iAutoActionChoice; l_bAutoAction = FALSE;}
 
 
 		switch(l_iTmp)

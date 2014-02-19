@@ -146,6 +146,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_t l_mpzArea;
 	mpz_t l_mpzCurrentPosition;
 	mpz_t l_mpzPercent;
+	mpz_t l_mpzOnePercent;
 	mpz_t l_mpzTmp;
 
 	mpz_init(l_mpzBeginOfSearchArea);
@@ -155,6 +156,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_init(l_mpzArea);
 	mpz_init(l_mpzCurrentPosition);
 	mpz_init(l_mpzPercent);
+	mpz_init(l_mpzOnePercent);
 	mpz_init(l_mpzTmp);
 
 	#ifdef DEBUG_VERBOSE
@@ -182,11 +184,21 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 	/* Compute search area */
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
-	mpz_cdiv_q_ui(l_mpzTmp,l_mpzArea,(unsigned long)100);
-	l_iOnePercent = mpz_get_ui(l_mpzTmp);
+	mpz_cdiv_q_ui(l_mpzOnePercent,l_mpzArea,(unsigned long)100);
+	l_iOnePercent = mpz_get_ui(l_mpzOnePercent);
 
 	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea */
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
+
+	/* If there is an autoloading, we need to put old values of progression here */
+	if(p_structStructure->bLoaded)
+	{
+		/* We start with the previous percentage minus one in order to set a security area */
+		mpz_set_ui(l_mpzPercent,(long)  (p_structStructure->iThreadProgressionTable[p_iSectionNumber] > 0) ? p_structStructure->iThreadProgressionTable[p_iSectionNumber] - 1 : 0);
+		mpz_mul(l_mpzCurrentPosition, l_mpzPercent, l_mpzOnePercent);
+
+		mpz_sub(l_mpzIterator, l_mpzIterator, l_mpzCurrentPosition);
+	}
 
 	/*  Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number */
 	if(!mpz_odd_p(l_mpzIterator))
