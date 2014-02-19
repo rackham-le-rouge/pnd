@@ -44643,3 +44643,3335 @@ main.c 211 End of the program. See you
 [multithread.c] 168 This is not a prime number !
 [multithread.c] 182 Computation takes --in seconds--: 99
 [main.c] 279 New Mersenne order changed to : 35
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 45
+[main.c] 279 New Mersenne order changed to : 36
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 293 Quit the program
+[main.c] 310 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 293 Quit the program
+[main.c] 310 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 241 Set new thread number function selected
+[main.c] 261 New thread number changed to : 51
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 268 Prospecting mode selected
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 34
+[main.c] 279 New Mersenne order changed to : 32
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 1
+[main.c] 279 New Mersenne order changed to : 33
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 59
+[main.c] 279 New Mersenne order changed to : 34
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 5
+[main.c] 279 New Mersenne order changed to : 35
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 182
+[main.c] 279 New Mersenne order changed to : 36
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 21
+[main.c] 279 New Mersenne order changed to : 37
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 786
+[main.c] 279 New Mersenne order changed to : 38
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 293 Quit the program
+[main.c] 310 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 250 Set new thread number function selected
+[main.c] 270 New thread number changed to : 51
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[main.c] 237 New Mersenne order changed to : 27
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 277 Prospecting mode selected
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 0
+[main.c] 291 New Mersenne order changed to : 29
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 7
+[main.c] 291 New Mersenne order changed to : 31
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 36
+[main.c] 291 New Mersenne order changed to : 34
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 1
+[main.c] 291 New Mersenne order changed to : 37
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 44
+[main.c] 291 New Mersenne order changed to : 38
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 97 4
+[compute.c] 97 6
+[compute.c] 97 8
+[compute.c] 97 10
+[compute.c] 97 12
+[compute.c] 97 14
+[compute.c] 97 1
+[compute.c] 97 5
+[compute.c] 97 9
+[compute.c] 97 4
+[compute.c] 97 3
+[compute.c] 97 1
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 29
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 27
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 25
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 23
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 21
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 19
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 17
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 15
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 13
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 9
+[compute.c] 98 11
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 9
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 7
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 5
+[compute.c] 99 31
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 29
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 27
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 25
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 23
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 21
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 19
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 17
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 15
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 13
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 9
+[compute.c] 98 11
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 9
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 7
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 5
+[compute.c] 99 31
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 33
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 29
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 27
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 25
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 23
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 21
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 19
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 17
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 15
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 13
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 9
+[compute.c] 98 11
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 9
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 7
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 5
+[compute.c] 99 31
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 33
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 95 0
+[compute.c] 96 33
+[compute.c] 97 33
+[compute.c] 98 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 95 0
+[compute.c] 96 19
+[compute.c] 97 19
+[compute.c] 98 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 95 0
+[compute.c] 96 47
+[compute.c] 97 47
+[compute.c] 98 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 95 0
+[compute.c] 96 23
+[compute.c] 97 23
+[compute.c] 98 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 31
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 29
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 27
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 25
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 23
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 21
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 19
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 17
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 15
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 13
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 11
+[compute.c] 99 33
+[compute.c] 100 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 27
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 25
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 23
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 21
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 19
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 17
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 15
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 13
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 11
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 9
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 7
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 5
+[compute.c] 99 29
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 29
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 250 Set new thread number function selected
+[main.c] 270 New thread number changed to : 15
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 43
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 41
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 39
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 37
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 35
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 33
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 31
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 29
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 18
+[compute.c] 98 27
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 20
+[compute.c] 98 25
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 22
+[compute.c] 98 23
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 21
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 19
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 11
+[compute.c] 98 17
+[compute.c] 99 45
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 15
+[compute.c] 99 45
+[compute.c] 100 ----
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 29
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 35
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 33
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 31
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 29
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 27
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 25
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 23
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 21
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 18
+[compute.c] 98 19
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 17
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 15
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 11
+[compute.c] 98 13
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 11
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 9
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 7
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 5
+[compute.c] 99 37
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 37
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 97 2
+[compute.c] 98 17
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 15
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 13
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 11
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 9
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 7
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 5
+[compute.c] 99 19
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 3
+[compute.c] 99 19
+[compute.c] 100 ----
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 277 Prospecting mode selected
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 1
+[compute.c] 97 2
+[compute.c] 98 18
+[compute.c] 99 20
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 16
+[compute.c] 99 20
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 14
+[compute.c] 99 20
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 12
+[compute.c] 99 20
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 10
+[compute.c] 99 20
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 19
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 17
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 15
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 13
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 11
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 9
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 7
+[compute.c] 99 21
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 20
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 18
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 16
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 14
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 12
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 10
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 8
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 6
+[compute.c] 99 22
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 4
+[compute.c] 99 22
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 22
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 0
+[compute.c] 97 2
+[compute.c] 98 21
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 19
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 17
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 15
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 13
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 11
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 9
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 7
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 5
+[compute.c] 99 23
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 3
+[compute.c] 99 23
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 23
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 1
+[compute.c] 97 2
+[compute.c] 98 22
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 20
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 18
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 16
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 14
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 12
+[compute.c] 99 24
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 23
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 21
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 19
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 17
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 15
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 13
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 11
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 9
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 7
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 5
+[compute.c] 99 25
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 24
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 22
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 20
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 18
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 16
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 14
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 12
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 10
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 8
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 6
+[compute.c] 99 26
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 4
+[compute.c] 99 26
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 26
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 1
+[compute.c] 97 2
+[compute.c] 98 25
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 23
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 21
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 19
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 17
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 15
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 13
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 11
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 9
+[compute.c] 99 27
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 26
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 24
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 22
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 20
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 18
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 16
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 14
+[compute.c] 99 28
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 27
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 25
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 23
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 21
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 19
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 17
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 15
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 13
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 11
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 9
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 7
+[compute.c] 99 29
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 5
+[compute.c] 99 29
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 29
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 9
+[compute.c] 97 2
+[compute.c] 98 28
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 26
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 24
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 22
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 20
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 18
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 16
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 14
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 12
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 10
+[compute.c] 99 30
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 29
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 27
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 25
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 23
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 21
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 19
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 17
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 15
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 13
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 9
+[compute.c] 98 11
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 9
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 7
+[compute.c] 99 31
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 5
+[compute.c] 99 31
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 31
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 9
+[compute.c] 97 2
+[compute.c] 98 30
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 28
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 26
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 24
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 22
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 20
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 18
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 16
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 31
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 29
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 27
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 25
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 23
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 21
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 19
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 17
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 15
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 13
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 11
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 32
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 30
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 28
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 26
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 24
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 22
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 20
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 18
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 16
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 14
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 12
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 10
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 8
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 6
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 4
+[compute.c] 99 34
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 34
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 277 Prospecting mode selected
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 39
+[compute.c] 97 2
+[compute.c] 98 30
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 28
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 26
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 24
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 22
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 20
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 18
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 16
+[compute.c] 99 32
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 31
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 29
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 27
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 25
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 23
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 21
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 19
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 17
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 15
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 13
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 11
+[compute.c] 99 33
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 32
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 30
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 28
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 26
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 24
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 22
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 20
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 18
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 16
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 14
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 12
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 10
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 8
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 6
+[compute.c] 99 34
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 4
+[compute.c] 99 34
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 34
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 6
+[compute.c] 97 2
+[compute.c] 98 33
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 31
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 29
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 27
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 25
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 23
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 21
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 19
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 17
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 5
+[compute.c] 98 15
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 9
+[compute.c] 98 13
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 11
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 9
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 7
+[compute.c] 99 35
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 34
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 32
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 30
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 28
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 26
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 24
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 22
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 20
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 0
+[compute.c] 98 18
+[compute.c] 99 36
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 35
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 33
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 6
+[compute.c] 98 31
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 8
+[compute.c] 98 29
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 10
+[compute.c] 98 27
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 12
+[compute.c] 98 25
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 14
+[compute.c] 98 23
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 16
+[compute.c] 98 21
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 18
+[compute.c] 98 19
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 3
+[compute.c] 98 17
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 7
+[compute.c] 98 15
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 11
+[compute.c] 98 13
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 4
+[compute.c] 98 11
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 1
+[compute.c] 98 9
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 7
+[compute.c] 99 37
+[compute.c] 100 ----
+[compute.c] 97 2
+[compute.c] 98 5
+[compute.c] 99 37
+[compute.c] 100 ----
+[main.c] 291 New Mersenne order changed to : 37
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 104 2
+[compute.c] 105 17
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 15
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 13
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 11
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 9
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 7
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 5
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 3
+[compute.c] 106 19
+[compute.c] 107 ----
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[main.c] 242 New Mersenne order --failed-- Keep the old value : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[compute.c] 104 2
+[compute.c] 105 17
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 15
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 13
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 11
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 9
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 7
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 5
+[compute.c] 106 19
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 3
+[compute.c] 106 19
+[compute.c] 107 ----
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 277 Prospecting mode selected
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 0
+[compute.c] 104 2
+[compute.c] 105 19
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 17
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 15
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 13
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 11
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 9
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 7
+[compute.c] 106 21
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 21
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 19
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 17
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 15
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 13
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 11
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 9
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 7
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 5
+[compute.c] 106 23
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 3
+[compute.c] 106 23
+[compute.c] 107 ----
+[main.c] 291 New Mersenne order changed to : 23
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 0
+[compute.c] 104 2
+[compute.c] 105 23
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 21
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 19
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 17
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 15
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 13
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 11
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 7
+[compute.c] 105 9
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 7
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 5
+[compute.c] 106 25
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 25
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 23
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 21
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 19
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 17
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 15
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 13
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 11
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 9
+[compute.c] 106 27
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 27
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 25
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 23
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 21
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 19
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 17
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 15
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 13
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 7
+[compute.c] 105 11
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 9
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 7
+[compute.c] 106 29
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 5
+[compute.c] 106 29
+[compute.c] 107 ----
+[main.c] 291 New Mersenne order changed to : 29
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 9
+[compute.c] 104 2
+[compute.c] 105 29
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 27
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 25
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 23
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 21
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 19
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 17
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 15
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 13
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 9
+[compute.c] 105 11
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 9
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 7
+[compute.c] 106 31
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 5
+[compute.c] 106 31
+[compute.c] 107 ----
+[main.c] 291 New Mersenne order changed to : 31
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 37
+[compute.c] 104 2
+[compute.c] 105 31
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 29
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 27
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 25
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 23
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 21
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 19
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 16
+[compute.c] 105 17
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 15
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 7
+[compute.c] 105 13
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 11
+[compute.c] 106 33
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 33
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 31
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 29
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 27
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 25
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 23
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 21
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 16
+[compute.c] 105 19
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 17
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 15
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 9
+[compute.c] 105 13
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 11
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 9
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 7
+[compute.c] 106 35
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 35
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 33
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 31
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 29
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 27
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 25
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 23
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 16
+[compute.c] 105 21
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 18
+[compute.c] 105 19
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 17
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 7
+[compute.c] 105 15
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 11
+[compute.c] 105 13
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 11
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 9
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 7
+[compute.c] 106 37
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 5
+[compute.c] 106 37
+[compute.c] 107 ----
+[main.c] 291 New Mersenne order changed to : 37
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 47
+[compute.c] 104 2
+[compute.c] 105 37
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 35
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 33
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 31
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 29
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 27
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 25
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 16
+[compute.c] 105 23
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 18
+[compute.c] 105 21
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 19
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 17
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 9
+[compute.c] 105 15
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 0
+[compute.c] 105 13
+[compute.c] 106 39
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 39
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 4
+[compute.c] 105 37
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 35
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 33
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 10
+[compute.c] 105 31
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 12
+[compute.c] 105 29
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 14
+[compute.c] 105 27
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 16
+[compute.c] 105 25
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 18
+[compute.c] 105 23
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 20
+[compute.c] 105 21
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 3
+[compute.c] 105 19
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 7
+[compute.c] 105 17
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 11
+[compute.c] 105 15
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 2
+[compute.c] 105 13
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 8
+[compute.c] 105 11
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 5
+[compute.c] 105 9
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 6
+[compute.c] 105 7
+[compute.c] 106 41
+[compute.c] 107 ----
+[compute.c] 104 1
+[compute.c] 105 5
+[compute.c] 106 41
+[compute.c] 107 ----
+[main.c] 291 New Mersenne order changed to : 41
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 105
+[main.c] 106
+[main.c] 107 ---------------------------------------------------------------------
+[main.c] 108 Starting new instance
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 122 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 78 Number of thread detected --successfully-- : 2
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 223 Set a new order function selected
+[main.c] 237 New Mersenne order changed to : 19
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 277 Prospecting mode selected
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 1
+[main.c] 291 New Mersenne order changed to : 23
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 0
+[main.c] 291 New Mersenne order changed to : 29
+[multithread.c] 168 This is not a prime number !
+[multithread.c] 182 Computation takes --in seconds--: 9
+[main.c] 291 New Mersenne order changed to : 31
+[multithread.c] 178 This is a prime number.
+[multithread.c] 182 Computation takes --in seconds--: 37
+[main.c] 291 New Mersenne order changed to : 37
+[multithread.c] 173 Give up ! Dont know it this is a prime number or not
+[multithread.c] 182 Computation takes --in seconds--: 47
+[main.c] 291 New Mersenne order changed to : 41
+[main.c] 192 Main menu : Wainting for a user choice...
+[main.c] 305 Quit the program
+[main.c] 322 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 497 Now screen lenght is :
+[drawing.c] 498 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[main.c] 196 Main menu : Wainting for a user choice...
+[main.c] 227 Set a new order function selected
+[main.c] 241 New Mersenne order changed to : 19
+[main.c] 196 Main menu : Wainting for a user choice...
+[main.c] 254 Set new thread number function selected
+[main.c] 274 New thread number changed to : 51
+[main.c] 196 Main menu : Wainting for a user choice...
+[main.c] 281 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 295 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 295 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 7
+[main.c] 295 New Mersenne order changed to : 31
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 37
+[main.c] 295 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 505
+[main.c] 295 New Mersenne order changed to : 41
+[main.c] 196 Main menu : Wainting for a user choice...
+[main.c] 309 Quit the program
+[main.c] 326 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[main.c] 199 Main menu : Wainting for a user choice...
+[main.c] 230 Set a new order function selected
+[main.c] 245 New Mersenne order changed to : 19
+[main.c] 199 Main menu : Wainting for a user choice...
+[main.c] 285 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 302 New Mersenne order changed to : 23
+[multithread.c] 84 One thread added by user during computing. New thread number : 3
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 302 New Mersenne order changed to : 29
+[multithread.c] 84 One thread added by user during computing. New thread number : 4
+[multithread.c] 84 One thread added by user during computing. New thread number : 5
+[multithread.c] 84 One thread added by user during computing. New thread number : 6
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 8
+[main.c] 302 New Mersenne order changed to : 31
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 94 Saving function : Saving context
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[main.c] 199 Main menu : Wainting for a user choice...
+[main.c] 316 Quit the program
+[main.c] 333 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 88 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 286 Prospecting mode selected
+[multithread.c] 84 One thread added by user during computing. New thread number : 3
+[multithread.c] 84 One thread added by user during computing. New thread number : 4
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 36
+[main.c] 303 New Mersenne order changed to : 37
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 94 Saving function : Saving context
+[signalmanagement.c] 95 4
+[signalmanagement.c] 116 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 259 Set new thread number function selected
+[main.c] 279 New thread number changed to : 51
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 231 Set a new order function selected
+[main.c] 251 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 286 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 96 Saving function : Saving context
+[signalmanagement.c] 100 Saving function : output file opened successfully
+[signalmanagement.c] 139 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 317 Quit the program
+[main.c] 334 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 231 Set a new order function selected
+[main.c] 251 New Mersenne order --failed-- Keep the old value : 31
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 286 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 96 Saving function : Saving context
+[signalmanagement.c] 100 Saving function : output file opened successfully
+[signalmanagement.c] 139 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 259 Set new thread number function selected
+[main.c] 279 New thread number changed to : 51
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 286 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 96 Saving function : Saving context
+[signalmanagement.c] 100 Saving function : output file opened successfully
+[signalmanagement.c] 139 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 259 Set new thread number function selected
+[main.c] 279 New thread number changed to : 51
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 286 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 96 Saving function : Saving context
+[signalmanagement.c] 100 Saving function : output file opened successfully
+[signalmanagement.c] 141 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 90 Saving function : Init of commonstruct pointer
+[main.c] 200 Main menu : Wainting for a user choice...
+[main.c] 317 Quit the program
+[main.c] 334 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 132 Load function : there is a context saved. Loading...
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 289 Prospecting mode selected
+[multithread.c] 84 One thread added by user during computing. New thread number : 3
+[multithread.c] 84 One thread added by user during computing. New thread number : 4
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 36
+[main.c] 306 New Mersenne order changed to : 37
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 199 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 132 Load function : there is a context saved. Loading...
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 289 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 199 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 132 Load function : there is a context saved. Loading...
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 320 Quit the program
+[main.c] 337 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 176 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 203 Main menu : Wainting for a user choice...
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 199 Anormal end of the program... Hope to see you again !
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 132 Load function : there is a context saved. Loading...
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 320 Quit the program
+[main.c] 337 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 176 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 320 Quit the program
+[main.c] 337 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 176 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 320 Quit the program
+[main.c] 337 End of the program. See you
+[main.c] 109
+[main.c] 110
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 112 Starting new instance
+[main.c] 113 ---------------------------------------------------------------------
+[main.c] 126 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 82 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 176 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 313 About menu selected
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 262 Set new thread number function selected
+[main.c] 282 New thread number changed to : 51
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 234 Set a new order function selected
+[main.c] 249 New Mersenne order changed to : 19
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 289 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 306 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 306 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 7
+[main.c] 306 New Mersenne order changed to : 31
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 34
+[main.c] 306 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 88
+[main.c] 306 New Mersenne order changed to : 41
+[main.c] 203 Main menu : Wainting for a user choice...
+[main.c] 320 Quit the program
+[main.c] 337 End of the program. See you
+[main.c] 110
+[main.c] 111
+[main.c] 112 ---------------------------------------------------------------------
+[main.c] 113 Starting new instance
+[main.c] 114 ---------------------------------------------------------------------
+[main.c] 127 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 128 Load function : Try to load context, if it exist
+[signalmanagement.c] 177 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 240 Set a new order function selected
+[main.c] 255 New Mersenne order changed to : 19
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 295 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 201 Anormal end of the program... Hope to see you again !
+[main.c] 110
+[main.c] 111
+[main.c] 112 ---------------------------------------------------------------------
+[main.c] 113 Starting new instance
+[main.c] 114 ---------------------------------------------------------------------
+[main.c] 127 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 180 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 240 Set a new order function selected
+[main.c] 255 New Mersenne order changed to : 19
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 295 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 204 Anormal end of the program... Hope to see you again !
+[main.c] 110
+[main.c] 111
+[main.c] 112 ---------------------------------------------------------------------
+[main.c] 113 Starting new instance
+[main.c] 114 ---------------------------------------------------------------------
+[main.c] 127 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 295 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 312 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 312 New Mersenne order changed to : 29
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 204 Anormal end of the program... Hope to see you again !
+[main.c] 110
+[main.c] 111
+[main.c] 112 ---------------------------------------------------------------------
+[main.c] 113 Starting new instance
+[main.c] 114 ---------------------------------------------------------------------
+[main.c] 127 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 295 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 5
+[main.c] 312 New Mersenne order changed to : 31
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 326 Quit the program
+[main.c] 343 End of the program. See you
+[main.c] 110
+[main.c] 111
+[main.c] 112 ---------------------------------------------------------------------
+[main.c] 113 Starting new instance
+[main.c] 114 ---------------------------------------------------------------------
+[main.c] 127 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 180 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 209 Main menu : Wainting for a user choice...
+[main.c] 326 Quit the program
+[main.c] 343 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 246 Set a new order function selected
+[main.c] 261 New Mersenne order changed to : 19
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 301 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 318 New Mersenne order changed to : 23
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 301 Prospecting mode selected
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 318 New Mersenne order changed to : 29
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 301 Prospecting mode selected
+[multithread.c] 84 One thread added by user during computing. New thread number : 3
+[multithread.c] 84 One thread added by user during computing. New thread number : 4
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 8
+[main.c] 318 New Mersenne order changed to : 31
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 301 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 21
+[main.c] 320 New Mersenne order changed to : 37
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[signalmanagement.c] 142 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 45
+[main.c] 320 New Mersenne order changed to : 41
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 303 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 305 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 250 Set a new order function selected
+[main.c] 265 New Mersenne order changed to : 19
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 278 Set new thread number function selected
+[main.c] 298 New thread number changed to : 4
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 305 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 322 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 322 New Mersenne order changed to : 29
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 305 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 305 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 305 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 322 New Mersenne order changed to : 31
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 336 Quit the program
+[main.c] 353 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 336 Quit the program
+[main.c] 353 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 336 Quit the program
+[main.c] 353 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 242 Start function selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 34
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 329 About menu selected
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 336 Quit the program
+[main.c] 353 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 242 Start function selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 48
+[main.c] 214 Main menu : Wainting for a user choice...
+[main.c] 336 Quit the program
+[main.c] 353 End of the program. See you

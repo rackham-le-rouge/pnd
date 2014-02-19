@@ -14,7 +14,7 @@ TODO
 [ ]	Add a moderation percent (based on usleep calls). To avoid CPU overloading during a long computing
 [x]	Fixing a bug -> The next mersenne order is not +1 but it is the next prime number. Mersenne order is always a prime number
 [x]	The function IsItAPrimeNumberULI seems to be broken. Don't find obvious divider of numbers and thus think that 27 is prime.
-[ ]	Need to connect main with the load function. Retrieve thread number, percentage and launch computation automatically
-[ ]	
-[ ]	
+[x]	Need to connect main with the load function. Retrieve thread number, percentage and launch computation automatically
+[x]	Change the type of the onePercent from l_i to l_mpz. Huge mistake to let this like that. (compute.c)
+[ ]	Create command line parameters handler, just to find a parameter among all
 [ ]	
