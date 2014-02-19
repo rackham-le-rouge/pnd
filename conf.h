@@ -64,6 +64,11 @@
 #define MENU_SET_THREAD_NUMBER		4
 #define MENU_ABOUT			5
 #define MENU_GIVE_UP_SEARCH		6
+#define MENU_WAIT_CHECK_MERSENNE_ORDER	7
+
+#define MODE_SAVE			0
+#define MODE_INIT			1
+#define MODE_LOAD			2
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -127,6 +132,7 @@ typedef struct structProgramInfo_
 	int  iCol;
 	int  iRow;
 	char bAutoSearch;
+	int* iThreadProgressionTable;
 }structProgramInfo;
 
 

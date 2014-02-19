@@ -16,7 +16,7 @@
 
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
-	int l_iThreadNumber = p_structCommon->iThreadNumber;
+	int l_iThreadNumber;
 	int l_iCurrentThread;
 	unsigned long int l_iSeconds;
 	unsigned int l_iUSecBetweenTwoAutoSearch;
@@ -24,13 +24,16 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	time_t l_timeBegin;
 	time_t l_timeEnd;
 
-
+	l_iThreadNumber = p_structCommon->iThreadNumber;
 	p_structCommon->bIsComputing = TRUE;
 	p_structCommon->bDead = FALSE;
 	l_iUSecBetweenTwoAutoSearch = USEC_BETWEEN_AUTO_SEARCH;
 	l_bQKeyPressed = FALSE;
 	l_iSeconds = 0;
 	time(&l_timeBegin);				/* Get current time */
+
+	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the place of the ThreadNumber */
+	p_structCommon->iThreadProgressionTable[p_structCommon->iRow] = l_iThreadNumber;
 
 	/*
 	 ****************************************

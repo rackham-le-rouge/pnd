@@ -215,6 +215,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			#pragma omp critical (displayProgressBar)
 			{
 				drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
+				p_structStructure->iThreadProgressionTable[p_iSectionNumber] = mpz_get_ui(l_mpzPercent);
 			}
 		}
 		l_iRefreshCounter++;

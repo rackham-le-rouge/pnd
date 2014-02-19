@@ -69,7 +69,117 @@ void signalHandler(int p_iSignalNo)
 	if(p_iSignalNo == SIGTERM || p_iSignalNo == SIGINT)
 	{
 		LOG_WRITE("Sigterm or sigint send against me. Saving context")
+		saveCurrentContext(MODE_SAVE, NULL);
 		commonSignalEnding();
+	}
+}
+
+
+/**
+  * Saving function, this function needs to be initialized in order to set the adress of the common structure
+  * This function is also called by main in order to get back the old context. I put it here to let these functions gathered in order
+  * to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is
+  * only used by and for signal handling. If the program close properly, there is no need to save the context.
+  */
+void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
+{
+	int l_iIterator;
+	int l_iLoadedRow;
+	int l_iTemporaryLoadedData;
+	static structProgramInfo* l_structCommon;
+	FILE* l_fileOutputFile;
+
+	if(p_cMode == MODE_INIT)
+	{
+		LOG_WRITE("Saving function : Init of commonstruct pointer")
+		l_structCommon = p_structCommon;
+
+	}
+	else if(p_cMode == MODE_SAVE)
+	{
+		LOG_WRITE("Saving function : Saving context")
+		l_fileOutputFile = fopen("pnd.hotsave", "w");
+		if(l_fileOutputFile != NULL)
+		{
+			LOG_WRITE("Saving function : output file opened successfully")
+
+			/*
+			We save the whole table because this table is refill at each new mersenne number check with the new parameters.
+			We set new ThreadNumber (current working thread). And during computation, active threads actualize their
+			percentage in the table when they do it on the screen. Thus, we take an exact picture of the situation when we
+			save these data
+			*/
+			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iRow);				/* Saving this data, if we open the pnd app withn a better screen, the program are going to crash with some kind of segfault */
+
+			for(l_iIterator = 0; l_iIterator < l_structCommon->iRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
+			{
+				fprintf(l_fileOutputFile, "%d\n", l_structCommon->iThreadProgressionTable[l_iIterator]);
+			}
+
+			fclose(l_fileOutputFile);
+		}
+		else
+		{
+			LOG_WRITE("Saving function : fail to open file")
+		}
+	}
+	else if(p_cMode == MODE_LOAD)
+	{
+		LOG_WRITE("Load function : Try to load context, if it exist")
+		l_fileOutputFile = fopen("pnd.hotsave", "r");
+		if(l_fileOutputFile != NULL)
+		{
+			LOG_WRITE("Load function : there is a context saved. Loading...")
+
+			/*** the first line -> The previous screen size, and so, the previous max thread number ***/
+			fscanf(l_fileOutputFile, "%d\n", &l_iLoadedRow);
+			if(l_iLoadedRow > l_structCommon->iRow)
+			{
+				LOG_WRITE("Load function : screen size have changed and the new screen dont allow us to load all threads parameters")
+			}
+
+			for(l_iIterator = 0; l_iIterator < l_iLoadedRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
+			{
+				fscanf(l_fileOutputFile, "%d\n", &l_iTemporaryLoadedData);
+
+				/*** All lines == each thread progression ***/
+				if(l_iIterator < l_structCommon->iRow)
+				{
+					/* We load each thread progression, and save only those we can. (if number of thread is < iRow) */
+					l_structCommon->iThreadProgressionTable[l_iIterator] = l_iTemporaryLoadedData;
+				}
+
+				/*** The last line -> Thread number ***/
+				if(l_iIterator == l_iLoadedRow)
+				{
+					/* And finally, the last value of the file is saved in the last int of the current table */
+					if(l_iTemporaryLoadedData <= l_structCommon->iRow - 2)
+					{
+						/* In the previous configuration there is a correct number of threads. We can save them all with the current screen size (and thus memory reserved) */
+						l_structCommon->iThreadProgressionTable[l_iIterator] = l_iTemporaryLoadedData;
+					}
+					else
+					{
+						/* In the previous configuration there is more thread than we can display now (and than we had reserved memory). So, cut their number and let a warning in the log file */
+						l_structCommon->iThreadProgressionTable[l_iIterator] = l_structCommon->iRow - 2;
+					}
+				}
+			}
+
+			fclose(l_fileOutputFile);
+
+			/* We delete the file in order to avoid loading of outdated data during the next start */
+			remove("pnd.hotsave");
+		}
+		else
+		{
+			LOG_WRITE("Load function : There is no context saved. Default values are going to be loaded")
+		}
+
+	}
+	else
+	{
+		LOG_WRITE("Saving function : unknow mode is used with this function. Rejected. Nothing to do.")
 	}
 }
 

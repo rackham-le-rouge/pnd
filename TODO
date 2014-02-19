@@ -5,16 +5,16 @@ TODO
 [ ]	Change WRITE_LOG routine for something better, maybee open a file once at the beginning and save the steam pointer in a static variable
 [x]	Find how to estimate a percent of the search area.
 [x]	Call the progresss bar function for each thread
-[ ]	Saving context function
+[x]	Saving context function
 [x]	Autosearch function
 [ ]	(command line) No log function
 [ ]	(command line) No windows function (something like deamon())
 [x]	Change threads during computing with + and - keys ?
 [x]	Time counter
-[ ]	
-[ ]	
-[ ]	
-[ ]	
+[ ]	Add a moderation percent (based on usleep calls). To avoid CPU overloading during a long computing
+[x]	Fixing a bug -> The next mersenne order is not +1 but it is the next prime number. Mersenne order is always a prime number
+[x]	The function IsItAPrimeNumberULI seems to be broken. Don't find obvious divider of numbers and thus think that 27 is prime.
+[ ]	Need to connect main with the load function. Retrieve thread number, percentage and launch computation automatically
 [ ]	
 [ ]	
 [ ]	

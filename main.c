@@ -55,7 +55,11 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	p_structStructure->iRow = g_iLigne;
 	p_structStructure->iCol = g_iColonne;
+	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. g_iLignes is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
+
+	/* Init memory */
+	memset(p_structStructure->iThreadProgressionTable, 0, (g_iLigne + 1)*sizeof(int));
 
 	/* Try to find how many cores the computer have. */
 	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/* POSIX function ;) */
@@ -178,6 +182,13 @@ int main(int argc, char** argv)
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 	setDefaultValueToTheProgramStructure(structCommon);
 
+	/* Gives a copy of commonStruct adress to the last function executed if user kill this program.
+	   Thus, this function can save all parameters and resume computing later */
+	saveCurrentContext(MODE_INIT, structCommon);
+
+	/* And now, try to load the previous config, let here if program have been killed */
+	saveCurrentContext(MODE_LOAD, structCommon);
+
 	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
 
@@ -230,6 +241,7 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
+					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
 					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
 					{
 						/* And order is a prime number, thus it is allowed */
@@ -282,6 +294,9 @@ int main(int argc, char** argv)
 					eraseWorkingScreen(g_iLigne, g_iColonne);
 					createAllComputingThreads(structCommon);
 
+					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check. For really great number this computation can take some time. Thus, we display a message */
+					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+
 					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
 					do
 					{
@@ -323,6 +338,7 @@ int main(int argc, char** argv)
 	endwin();
 
 	/* Clean */
+	free(structCommon->iThreadProgressionTable);
 	free(structCommon);
 
 	return 0;

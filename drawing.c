@@ -445,6 +445,24 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
+		case MENU_WAIT_CHECK_MERSENNE_ORDER:
+		{
+			strcpy(l_cBuffer, "Please wait until");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "the end of the");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "Mersenne order");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "checking. Because");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "to be right, this");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number need to be");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "a prime number.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
 		case MENU_ABOUT:
 		{
 			drawIntro(p_structCommon->iRow,p_structCommon->iCol);
