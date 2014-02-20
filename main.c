@@ -156,18 +156,6 @@ int main(int argc, char** argv)
 
 	initBar();
 
-	/* Find if user want an autosearch */
-	if(argc > 1)
-	{
-		if(!strcmp(argv[1], "-a"))
-		{
-			structCommon->bAutoSearch = TRUE;
-		}
-		else
-		{
-			structCommon->bAutoSearch = FALSE;
-		}
-	}
 
 	/* Don't ask Enter key in order to complete a getch() */
 	nodelay(stdscr, TRUE);
@@ -186,6 +174,54 @@ int main(int argc, char** argv)
 	/* Setting default values for the most important state variable of the program */
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 	setDefaultValueToTheProgramStructure(structCommon);
+
+	/* Configure program according to the command line */
+	if(argc > 1)
+	{
+		for(l_iTmp = 1; l_iTmp < argc ; l_iTmp++)
+		{
+			if(strlen(argv[l_iTmp]) > 1)
+			{
+				/* autosearch feature */
+				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : structCommon->bAutoSearch;
+				l_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : l_bAutoAction;
+				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : l_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-h")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
+
+				/* Change mersenne order */
+				structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : structCommon->iMersenneOrder;
+				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)structCommon->iMersenneOrder)}
+
+				/* Change thread number */
+				structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : structCommon->iThreadNumber;
+				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)structCommon->iThreadNumber)}
+
+				/* No windows displayed. submarine mode */
+				/* Not implemented yet */
+
+				/* Display help */
+				if(!strcmp(argv[l_iTmp], "-h"))
+				{
+					LOG_WRITE("C.LINE : Help is displayed")
+					endwin();
+					printf("PND - Command line use : pnd [-h] [-a] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]]\n");
+					l_bAutoAction = TRUE;
+					l_iAutoActionChoice = 6;
+				}
+			}
+			/* Else the parameter is ignored, use strcmp on it cause a segfault */
+		}
+
+		/* Check some values, in order to control user choices and put default values instead of if there is an error */
+		if(structCommon->iThreadNumber > g_iLigne - 2)
+		{
+			structCommon->iThreadNumber = g_iLigne - 2;
+		}
+		if(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE)
+		{
+			structCommon->iMersenneOrder = DEFAULT_MERSENNE_ORDER;
+		}
+	}
 
 	/* Gives a copy of commonStruct adress to the last function executed if user kill this program.
 	   Thus, this function can save all parameters and resume computing later */
