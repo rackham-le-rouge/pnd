@@ -23,7 +23,7 @@ void initialisationOfTheSignal(void)
 
 	if (signal(SIGUSR1, signalHandler) == SIG_ERR)
 	{
-		exit(1);
+		LOG_WRITE("Toogle speed")
 	}
 
 	if (signal(SIGUSR2, signalHandler) == SIG_ERR)
@@ -41,9 +41,6 @@ void initialisationOfTheSignal(void)
 	{
 		exit(1);
 	}
-
-
-
 }
 
 
@@ -52,17 +49,42 @@ void initialisationOfTheSignal(void)
   */
 void signalHandler(int p_iSignalNo)
 {
+        pid_t   l_pidPid;
 
-	/* Personal signal 1 - Used to */
+	/* Personal signal 1 - Used to toogle computation speed */
 	if(p_iSignalNo == SIGUSR1)
 	{
+		LOG_WRITE("Toogle speed")
+		toogleProgramSpeed(MODE_TOOGLE, NULL);
+	        LOG_WRITE("--------------------------------RESTART--------------------------------")
+	        LOG_WRITE("Kill the old program to force it to save its data")
 
-		commonSignalEnding();
+		/* We are going to restart program with a big cheat. A fork is launched, he kills program and restart it using autosave function */
+	        /* Do the fork */
+	        l_pidPid = fork();
+	        if(l_pidPid < 0)
+	        {
+       	         	/* Fork error, giving up the restart */
+	                LOG_WRITE("Fork problem. Cant restart program. We are going to be killed")
+
+			/* Suicide is better. When user restart it manually from command line, program will resume his activity */
+			kill(getpid(),SIGTERM);
+        	}
+        	if(l_pidPid > 0)
+        	{
+                	/* Because we are in the parent program */
+			kill(getpid(),SIGTERM);
+        	}
+
+        	LOG_WRITE("Kill my father. Done. Now i am restarting.")
+
+		popen("./pnd -d", "w");				/* Start another PND in daemon mode. If you use 'r' option it don't work */
+		usleep(5000);					/* Sleep a while - Leave him time to save all and kill his father */
+      		exit(EXIT_SUCCESS);				/* FIXME : Yeah it is bad because there is no memory cleaning. But there is no solution to call KillTheApp() */
 	}
 	if(p_iSignalNo == SIGUSR2)
 	{
 		commonSignalEnding();
-
 	}
 
 	/* In order to quit the program properly */
@@ -73,6 +95,38 @@ void signalHandler(int p_iSignalNo)
 		commonSignalEnding();
 	}
 }
+
+
+/**
+  * Function called in order to toogle computation speed.
+  * User use this function when program is in deamon mode.
+  * There is no GUI, thus, signal are the only way
+  */
+void toogleProgramSpeed(char p_cMode, structProgramInfo* p_structCommon)
+{
+	static structProgramInfo* l_structCommon;
+	static int l_iModerationTime;
+
+	if(p_cMode == MODE_INIT)
+	{
+		LOG_WRITE("Init structCommon pointer for the toogling function")
+		l_structCommon = p_structCommon;
+		l_iModerationTime = (l_structCommon->iModerationTime > 0) ? l_structCommon->iModerationTime : DEFAULT_MODERATION_TIME;
+	}
+	if(p_cMode == MODE_TOOGLE)
+	{
+		if(l_structCommon->iModerationTime == 0)
+		{
+			l_structCommon->iModerationTime = l_iModerationTime;
+		}
+		else
+		{
+			l_structCommon->iModerationTime = 0;
+		}
+	}
+}
+
+
 
 
 /**
@@ -111,6 +165,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			*/
 			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iRow);				/* Saving this data, if we open the pnd app withn a better screen, the program are going to crash with some kind of segfault */
 			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iMersenneOrder);
+			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iModerationTime);
 
 			for(l_iIterator = 0; l_iIterator < l_structCommon->iRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
 			{
@@ -136,6 +191,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			/*** the first line -> The previous screen size, and so, the previous max thread number ***/
 			fscanf(l_fileOutputFile, "%d\n", &l_iLoadedRow);
 			fscanf(l_fileOutputFile, "%d\n", &(l_structCommon->iMersenneOrder));
+			fscanf(l_fileOutputFile, "%d\n", &(l_structCommon->iModerationTime));
 
 			if(l_iLoadedRow > l_structCommon->iRow)
 			{

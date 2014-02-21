@@ -70,6 +70,7 @@
 #define MODE_SAVE			0
 #define MODE_INIT			1
 #define MODE_LOAD			2
+#define MODE_TOOGLE			3
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -102,6 +103,7 @@ typedef enum
 }g_enumJeuxDeCouleursDispo;
 
 #define DEFAULT_MERSENNE_ORDER	31
+#define DEFAULT_MODERATION_TIME	50			/* If there is no moderation time defined by the command line, the default moderation time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
 #define USEC_BETWEEN_KEY_CHECK	500000			/* be carefull !!! if you put a lower value, there is a risk of weird character spawning on the screen */
 #define USEC_BETWEEN_AUTO_SEARCH 2000000
 

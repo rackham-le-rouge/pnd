@@ -319,12 +319,13 @@ int main(int argc, char** argv)
 		}
 	}
 
-	/* Gives a copy of commonStruct adress to the last function executed if user kill this program.
-	   Thus, this function can save all parameters and resume computing later */
+	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
+	   Thus, saveCurrentContext function can save all parameters and resume computing later */
 	saveCurrentContext(MODE_INIT, structCommon);
 
 	/* And now, try to load the previous config, let here if program have been killed */
 	saveCurrentContext(MODE_LOAD, structCommon);
+	toogleProgramSpeed(MODE_INIT, structCommon);
 
 	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
