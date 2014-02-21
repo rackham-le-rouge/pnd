@@ -34,6 +34,77 @@ unsigned int g_iColonne  =		0;
 
 
 
+/**
+  * Attempt to create a daemon function, in order tpo put this program in daemon mode
+  *        VOTE DARKSIDE
+  *
+  */
+int daemonizeMe(structProgramInfo* p_structCommon)
+{
+	pid_t	l_pidPid;
+	pid_t	l_pidSid;
+
+	LOG_WRITE("Daemon : Start the processus... I am going to kill my father")
+
+	/* Do the fork */
+	l_pidPid = fork();
+	if(l_pidPid < 0)
+	{
+		/* Fork error, giving up the daemonization */
+		LOG_WRITE("Daemon : Fail to fork me. Giving up daemonization")
+		return EXIT_FAILURE;
+	}
+	if(l_pidPid > 0)
+	{
+		/* Because we are in the parent program */
+		killTheApp(p_structCommon);
+	}
+
+	LOG_WRITE("Daemon : Kill my father. Done")
+	/* Change umask to forget the parent's one */
+	umask(0);
+
+	/* Change the process group for the same raison */
+	l_pidSid = setsid();
+
+	if(l_pidSid < 0)
+	{
+		LOG_WRITE("Daemon : SID impossible to change")
+		killTheApp(p_structCommon);
+	}
+
+	/* Close all of the  standart output in order to complete the 'submarine mode' */
+	close(STDIN_FILENO);
+	close(STDOUT_FILENO);
+	close(STDERR_FILENO);
+	LOG_WRITE("Daemon : All standart output closed. Submarine OK")
+
+	return EXIT_SUCCESS;
+}
+
+
+
+
+/**
+  * A function to terminate the program and clean this mess up
+  *
+  */
+void killTheApp(structProgramInfo* p_structCommon)
+{
+        /* Show the cursor */
+        curs_set(TRUE);
+
+        /* Stop the program and leave the graphic mode ! Very important ! */
+        LOG_WRITE("End of the program. See you");
+        endwin();
+
+        /* Clean */
+        free(p_structCommon->iThreadProgressionTable);
+        free(p_structCommon);
+
+	exit(EXIT_SUCCESS);
+}
+
 
 
 
@@ -85,6 +156,18 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 		pclose(l_fileReturnOfCommand);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,7 +269,7 @@ int main(int argc, char** argv)
 				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : structCommon->bAutoSearch;
 				l_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : l_bAutoAction;
 				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : l_iAutoActionChoice;
-				if(!strcmp(argv[l_iTmp], "-h")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
+				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
 
 				/* Change mersenne order */
 				structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : structCommon->iMersenneOrder;
@@ -197,14 +280,22 @@ int main(int argc, char** argv)
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)structCommon->iThreadNumber)}
 
 				/* No windows displayed. submarine mode */
-				/* Not implemented yet */
+				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : structCommon->bAutoSearch;
+				l_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : l_bAutoAction;
+				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : l_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-d"))
+				{
+					LOG_WRITE("C.LINE : Daemon mode selected. Starting prospecting mode.");
+					daemonizeMe(structCommon);
+				}
+
 
 				/* Display help */
 				if(!strcmp(argv[l_iTmp], "-h"))
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h] [-a] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]]\n");
 					l_bAutoAction = TRUE;
 					l_iAutoActionChoice = 6;
 				}
@@ -380,18 +471,7 @@ int main(int argc, char** argv)
 			}
 		}
 	}
+	killTheApp(structCommon);
 
-
-	/* Show the cursor */
-	curs_set(TRUE);
-
-	/* Stop the program and leave the graphic mode ! Very important ! */
-	LOG_WRITE("End of the program. See you");
-	endwin();
-
-	/* Clean */
-	free(structCommon->iThreadProgressionTable);
-	free(structCommon);
-
-	return 0;
+	return EXIT_SUCCESS;
 }

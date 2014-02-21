@@ -21,6 +21,9 @@
 */
 
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
+void killTheApp(structProgramInfo* p_structCommon) __attribute__ ((noreturn));
+int daemonizeMe(structProgramInfo* p_structCommon);
+
 
 extern void initBar();
 extern void topText(const char*);

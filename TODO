@@ -7,8 +7,7 @@ TODO
 [x]	Call the progresss bar function for each thread
 [x]	Saving context function
 [x]	Autosearch function
-[ ]	(command line) No log function
-[ ]	(command line) No windows function (something like deamon())
+[x]	(command line) No windows function (something like deamon())
 [x]	Change threads during computing with + and - keys ?
 [x]	Time counter
 [ ]	Add a moderation percent (based on usleep calls). To avoid CPU overloading during a long computing
@@ -16,5 +15,8 @@ TODO
 [x]	The function IsItAPrimeNumberULI seems to be broken. Don't find obvious divider of numbers and thus think that 27 is prime.
 [x]	Need to connect main with the load function. Retrieve thread number, percentage and launch computation automatically
 [x]	Change the type of the onePercent from l_i to l_mpz. Huge mistake to let this like that. (compute.c)
-[ ]	Create command line parameters handler, just to find a parameter among all
-[ ]	
+[x]	Create command line parameters handler, just to find a parameter among all
+[ ]	Add planned wake up
+[x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
+[ ]	Cleaning memory function. For all of mpz numbers
+[ ]	SIGUSR2 toogle High speed mode and low speed
