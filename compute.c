@@ -212,40 +212,89 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	LOG_WRITE_STRING_LONG_LONG("Start : End  ", mpz_get_ui(l_mpzBeginOfSearchArea), mpz_get_ui(l_mpzEndOfSearchArea))
 	#endif
 
-	/* Start to divide by all people between the number his own sqrt */
-	for(;;)
+
+	/* This is the same loop, but, call usleep gives a really slow computation (even if it is usleep(0)), thus, there are two loop,
+	   the first ont with usleep call, and the second one without for the fast computation time */
+
+	if(p_structStructure->iModerationTime > 0)
 	{
-		if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
+		/* Start to divide by all people between the number his own sqrt */
+		for(;;)
 		{
-			if(p_structStructure->bDead == TRUE)
+			/* Sleep a little bit each time in order to avoid CPU overloading during day computation */
+			usleep(p_structStructure->iModerationTime);
+
+			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
 			{
-				return DONT_KNOW;
+				if(p_structStructure->bDead == TRUE)
+				{
+					return DONT_KNOW;
+				}
+
+				mpz_set_ui(l_mpzRefreshCounter, (long)0);
+
+				mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
+				mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
+
+				#pragma omp critical (displayProgressBar)
+				{
+					drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
+					p_structStructure->iThreadProgressionTable[p_iSectionNumber] = mpz_get_ui(l_mpzPercent);
+				}
 			}
 
-			mpz_set_ui(l_mpzRefreshCounter, (long)0);
+			mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
+			mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
+			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+			l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
-			mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
-			mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
+			if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
 
-			#pragma omp critical (displayProgressBar)
+			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
+			if(l_bReturnOfFunction > 0)
 			{
-				drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
-				p_structStructure->iThreadProgressionTable[p_iSectionNumber] = mpz_get_ui(l_mpzPercent);
+				return TRUE;
 			}
 		}
-
-		mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
-		mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
-		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
-									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
-		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
-
-		if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
-
-		l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
-		if(l_bReturnOfFunction > 0)
+	}
+	else
+	{
+		/* Start to divide by all people between the number his own sqrt */
+		for(;;)
 		{
-			return TRUE;
+			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
+			{
+				if(p_structStructure->bDead == TRUE)
+				{
+					return DONT_KNOW;
+				}
+
+				mpz_set_ui(l_mpzRefreshCounter, (long)0);
+
+				mpz_mul_ui(l_mpzTmp, l_mpzCurrentPosition, (unsigned long)100);
+				mpz_cdiv_q(l_mpzPercent, l_mpzTmp, l_mpzArea);
+
+				#pragma omp critical (displayProgressBar)
+				{
+					drawLoadingBar(p_iSectionNumber + 1, mpz_get_ui(l_mpzPercent), 100, -1, PROGRESS_BAR_COLOR);
+					p_structStructure->iThreadProgressionTable[p_iSectionNumber] = mpz_get_ui(l_mpzPercent);
+				}
+			}
+
+			mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
+			mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
+			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+			l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
+
+			if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
+
+			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
+			if(l_bReturnOfFunction > 0)
+			{
+				return TRUE;
+			}
 		}
 	}
 	return FALSE;

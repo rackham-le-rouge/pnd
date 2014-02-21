@@ -132,6 +132,7 @@ typedef struct structProgramInfo_
 	char bAutoSearch;
 	int* iThreadProgressionTable;
 	char bLoaded;
+	int  iModerationTime;			/* Wait a little between each test in order to slow down and avoid CPU overloadinf */
 }structProgramInfo;
 
 
