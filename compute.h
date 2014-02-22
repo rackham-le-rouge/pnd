@@ -20,8 +20,13 @@
 
 */
 
-int isItAPrimeNumber(mpz_t p_mpzNumber);
+char isItAPrimeNumberMPZ(mpz_t p_mpzNumber);
+char isItAPrimeNumberULI(double p_dNumber);
 int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN);
 int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure);
+
+/* Copied from math.c */
+double sqrt  (double x);
+double fmod  (double numer     , double denom);
 
 #endif

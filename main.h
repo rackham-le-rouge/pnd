@@ -21,6 +21,9 @@
 */
 
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
+void killTheApp(structProgramInfo* p_structCommon) __attribute__ ((noreturn));
+int daemonizeMe(structProgramInfo* p_structCommon);
+
 
 extern void initBar();
 extern void topText(const char*);
@@ -36,6 +39,8 @@ extern void createAllComputingThreads(structProgramInfo* p_structCommon);
 extern void initialisationOfTheSignal(void);
 extern void eraseWorkingScreen(int p_iRow, int p_iCol);
 extern void drawCurrentMersenneOrder(structProgramInfo* structCommon);
+extern char isItAPrimeNumberULI(double p_dNumber);
+extern void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon);
 
 /* From std lib */
 FILE *popen(const char *commande, const char *type);

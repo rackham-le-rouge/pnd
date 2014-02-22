@@ -16,13 +16,24 @@
 
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
-	int l_iThreadNumber = p_structCommon->iThreadNumber;
+	int l_iThreadNumber;
 	int l_iCurrentThread;
+	unsigned long int l_iSeconds;
+	unsigned int l_iUSecBetweenTwoAutoSearch;
+	char l_bQKeyPressed;
+	time_t l_timeBegin;
+	time_t l_timeEnd;
 
-
+	l_iThreadNumber = p_structCommon->iThreadNumber;
 	p_structCommon->bIsComputing = TRUE;
 	p_structCommon->bDead = FALSE;
+	l_iUSecBetweenTwoAutoSearch = USEC_BETWEEN_AUTO_SEARCH;
+	l_bQKeyPressed = FALSE;
+	l_iSeconds = 0;
+	time(&l_timeBegin);				/* Get current time */
 
+	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the place of the ThreadNumber */
+	p_structCommon->iThreadProgressionTable[p_structCommon->iRow] = l_iThreadNumber;
 
 	/*
 	 ****************************************
@@ -33,7 +44,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 */
 
 	/* We add one in order to keep a thread for the keyboard handler */
-	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon), num_threads(l_iThreadNumber + 1)
+	#pragma omp parallel private(l_iCurrentThread), shared(p_structCommon, l_bQKeyPressed), num_threads(l_iThreadNumber + 1)
 	{
 		char l_bResultOfPrimeFunction;
 		char l_bKeyAccepted;
@@ -66,11 +77,27 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 				switch(l_cKeyPressed)
 				{
+					case '+':
+					{
+						/* One more thread. Check if there is enought lines to print it */
+						p_structCommon->iThreadNumber = (p_structCommon->iThreadNumber + 1 < p_structCommon->iRow - 2) ? p_structCommon->iThreadNumber + 1 : p_structCommon->iThreadNumber;
+						LOG_WRITE_STRING_LONG("One thread added by user during computing. New thread number : ", (long)p_structCommon->iThreadNumber)
+						break;
+					}
+					case '-':
+					{
+						/* One less thread. */
+						p_structCommon->iThreadNumber = (p_structCommon->iThreadNumber - 1 > 0) ? p_structCommon->iThreadNumber - 1 : p_structCommon->iThreadNumber;
+						LOG_WRITE_STRING_LONG("One thread removed by user during computing. New thread number : ", (long)p_structCommon->iThreadNumber)
+						break;
+					}
 					case 'q':
 					case 'Q':
 					{
 						p_structCommon->bDead = TRUE;
+						p_structCommon->bAutoSearch = FALSE;		/* If user press Q key, there is no more autosearch  and we quit now. To reactivate it, he needs to choose the right option in the main menu */
 						l_bKeyAccepted = TRUE;
+						l_bQKeyPressed = TRUE;
 						break;
 					}
 					default:
@@ -87,21 +114,31 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			mpz_ui_pow_ui(l_mpzPrimeNumberToTest, 2, p_structCommon->iMersenneOrder);
 			mpz_sub_ui(l_mpzPrimeNumberToTest, l_mpzPrimeNumberToTest, 1);
 
+			#ifdef DEBUG_VERBOSE
 	 		#pragma omp critical (writeLogSection) 			/* just a name for the section */
 			{
 				LOG_WRITE_STRING_LONG("Multithread starting. Thread number is :", (unsigned long)l_iCurrentThread);
 			}
+			#endif
 
 			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 			 * the current part is l_iCurrentThread */
 			l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
 
+			/* Dead flag is raised by the finder of the divider, the other threads remains in DONT_KNOW state.
+			   If there is a thread in FALSE, the other one are in DONT_KNOW, but if all threads are in DONT_KNOW state
+			   it is because the Q key is pressed. Thus check l_bQKeyPressed */
+			if(l_bResultOfPrimeFunction == FALSE)
+			{
+				p_structCommon->bDead = TRUE;
+			}
+
+			#ifdef DEBUG_VERBOSE
  			#pragma omp critical (computeSection) 			/* just a name for the section */
 			{
 				if(l_bResultOfPrimeFunction == FALSE)
 				{
 					/* We found at least one divider */
-					p_structCommon->bDead = TRUE;
 					LOG_WRITE_STRING_LONG("Compute: no it is not ! For the section number", (unsigned long)(l_iCurrentThread))
 				}
 				else if(l_bResultOfPrimeFunction == DONT_KNOW)
@@ -113,6 +150,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 					LOG_WRITE_STRING_LONG("Compute: yes it seem to be ! for the section number", (unsigned long)(l_iCurrentThread))
 				}
 			}
+			#endif
 		}
 	p_structCommon->bIsComputing = FALSE;
 	}
@@ -125,10 +163,18 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-	if(p_structCommon->bDead == TRUE)
+	time(&l_timeEnd);				/* Get end time used to find how long computing takes */
+	l_iSeconds = difftime(l_timeEnd, l_timeBegin);
+
+	if(p_structCommon->bDead == TRUE && l_bQKeyPressed == FALSE)
 	{
 		LOG_WRITE("This is not a prime number !")
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER, p_structCommon);
+	}
+	else if(p_structCommon->bDead == TRUE && l_bQKeyPressed == TRUE)
+	{
+		LOG_WRITE("Give up ! Dont know it this is a prime number or not")
+		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_GIVE_UP_SEARCH, p_structCommon);
 	}
 	else
 	{
@@ -136,8 +182,20 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
 	}
 
-	/* Ask user key press */
-	nodelay(stdscr, FALSE);
-	getch();
-	nodelay(stdscr, TRUE);
+	LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
+
+	/* Desactivate the loadedConf mode --when all progression are loaded from a hotsave file */
+	p_structCommon->bLoaded = FALSE;
+
+	/* Ask user key press and if we are in auto search, leave the message 2 seconds and quit */
+	if(p_structCommon->bAutoSearch == FALSE)
+	{
+		nodelay(stdscr, FALSE);
+		getch();
+		nodelay(stdscr, TRUE);
+	}
+	else
+	{
+		usleep(l_iUSecBetweenTwoAutoSearch);
+	}
 }

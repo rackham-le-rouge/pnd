@@ -17,8 +17,6 @@
  *                              CaractereEnCours == Caractere En Cours ==> Current Letter (dictionnary is your friend)
  */
 
-#define PRIME_TEST 8191
-
 
 #include "conf.h"
 
@@ -35,6 +33,77 @@ unsigned int g_iColonne  =		0;
 
 
 
+
+/**
+  * Attempt to create a daemon function, in order tpo put this program in daemon mode
+  *        VOTE DARKSIDE
+  *
+  */
+int daemonizeMe(structProgramInfo* p_structCommon)
+{
+	pid_t	l_pidPid;
+	pid_t	l_pidSid;
+
+	LOG_WRITE("Daemon : Start the processus... I am going to kill my father")
+
+	/* Do the fork */
+	l_pidPid = fork();
+	if(l_pidPid < 0)
+	{
+		/* Fork error, giving up the daemonization */
+		LOG_WRITE("Daemon : Fail to fork me. Giving up daemonization")
+		return EXIT_FAILURE;
+	}
+	if(l_pidPid > 0)
+	{
+		/* Because we are in the parent program */
+		killTheApp(p_structCommon);
+	}
+
+	LOG_WRITE("Daemon : Kill my father. Done")
+	/* Change umask to forget the parent's one */
+	umask(0);
+
+	/* Change the process group for the same raison */
+	l_pidSid = setsid();
+
+	if(l_pidSid < 0)
+	{
+		LOG_WRITE("Daemon : SID impossible to change")
+		killTheApp(p_structCommon);
+	}
+
+	/* Close all of the  standart output in order to complete the 'submarine mode' */
+	close(STDIN_FILENO);
+	close(STDOUT_FILENO);
+	close(STDERR_FILENO);
+	LOG_WRITE("Daemon : All standart output closed. Submarine OK")
+
+	return EXIT_SUCCESS;
+}
+
+
+
+
+/**
+  * A function to terminate the program and clean this mess up
+  *
+  */
+void killTheApp(structProgramInfo* p_structCommon)
+{
+        /* Show the cursor */
+        curs_set(TRUE);
+
+        /* Stop the program and leave the graphic mode ! Very important ! */
+        LOG_WRITE("End of the program. See you");
+        endwin();
+
+        /* Clean */
+        free(p_structCommon->iThreadProgressionTable);
+        free(p_structCommon);
+
+	exit(EXIT_SUCCESS);
+}
 
 
 
@@ -57,7 +126,13 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	p_structStructure->iRow = g_iLigne;
 	p_structStructure->iCol = g_iColonne;
+	p_structStructure->iModerationTime = 0;
+	p_structStructure->bLoaded = DONT_KNOW;
+	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. g_iLignes is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
+
+	/* Init memory */
+	memset(p_structStructure->iThreadProgressionTable, 0, (g_iLigne + 1)*sizeof(int));
 
 	/* Try to find how many cores the computer have. */
 	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/* POSIX function ;) */
@@ -86,6 +161,18 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Main */
 int main(int argc, char** argv)
 {
@@ -93,12 +180,16 @@ int main(int argc, char** argv)
 	char l_cBuffer2[250];
 
 	int l_iTmp;
+	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
+	int l_iAutoActionChoice;
 	char l_bAsk;
 	char l_bQuitProgram;
 	structProgramInfo* structCommon;
 	long int l_iUserValue;
 
 	l_iTmp = 0;
+	l_bAutoAction = FALSE;
+	l_iAutoActionChoice = -1;
 	l_bAsk = TRUE;
 	l_bQuitProgram = FALSE;
 	structCommon = NULL;
@@ -118,7 +209,7 @@ int main(int argc, char** argv)
 
 	noecho();
 	cbreak();
-	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by 8m2", ver, rev);
+	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by Géo", ver, rev);
 
 	/* Initialisation of some graphical elements */
 	LOG_WRITE("Screen element initialisation...")
@@ -147,21 +238,8 @@ int main(int argc, char** argv)
 		return ENOMSG;
 	}
 
-	/* Intro drawing */
-	if(argc < MIN_ARGC)
-	{
-		/*drawIntro(g_iLigne, g_iColonne); */
-		initBar();
-	}
+	initBar();
 
-	/* Find if user want an autosearch */
-	if(argc > 1)
-	{
-		if(!strcmp(argv[1], "-a"))
-		{
-			structCommon->bAutoSearch = TRUE;
-		}
-	}
 
 	/* Don't ask Enter key in order to complete a getch() */
 	nodelay(stdscr, TRUE);
@@ -181,12 +259,86 @@ int main(int argc, char** argv)
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 	setDefaultValueToTheProgramStructure(structCommon);
 
+	/* Configure program according to the command line */
+	if(argc > 1)
+	{
+		for(l_iTmp = 1; l_iTmp < argc ; l_iTmp++)
+		{
+			if(strlen(argv[l_iTmp]) > 1)
+			{
+				/* autosearch feature */
+				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : structCommon->bAutoSearch;
+				l_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : l_bAutoAction;
+				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : l_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
+
+				/* Change mersenne order */
+				structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : structCommon->iMersenneOrder;
+				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)structCommon->iMersenneOrder)}
+
+				/* Change moderation time */
+				structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? atoi(argv[l_iTmp + 1]) : structCommon->iModerationTime;
+				if(!strcmp(argv[l_iTmp], "-w")) {LOG_WRITE_STRING_LONG("C.LINE : Change moderation time to ", (long)structCommon->iModerationTime)}
+
+				/* Change thread number */
+				structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : structCommon->iThreadNumber;
+				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)structCommon->iThreadNumber)}
+
+				/* No windows displayed. submarine mode */
+				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : structCommon->bAutoSearch;
+				l_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : l_bAutoAction;
+				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : l_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-d"))
+				{
+					LOG_WRITE("C.LINE : Daemon mode selected. Starting prospecting mode.");
+					daemonizeMe(structCommon);
+				}
+
+
+				/* Display help */
+				if(!strcmp(argv[l_iTmp], "-h"))
+				{
+					LOG_WRITE("C.LINE : Help is displayed")
+					endwin();
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					l_bAutoAction = TRUE;
+					l_iAutoActionChoice = 6;
+				}
+			}
+			/* Else the parameter is ignored, use strcmp on it cause a segfault */
+		}
+
+		/* Check some values, in order to control user choices and put default values instead of if there is an error */
+		if(structCommon->iThreadNumber > g_iLigne - 2)
+		{
+			structCommon->iThreadNumber = g_iLigne - 2;
+		}
+		if(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE)
+		{
+			structCommon->iMersenneOrder = DEFAULT_MERSENNE_ORDER;
+		}
+	}
+
+	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
+	   Thus, saveCurrentContext function can save all parameters and resume computing later */
+	saveCurrentContext(MODE_INIT, structCommon);
+
+	/* And now, try to load the previous config, let here if program have been killed */
+	saveCurrentContext(MODE_LOAD, structCommon);
+	toogleProgramSpeed(MODE_INIT, structCommon);
+
 	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
 
 	/* Print current mersenne order at the screen bottom */
 	drawCurrentMersenneOrder(structCommon);
 
+	if(structCommon->bLoaded == TRUE)
+	{
+		/* There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
+		l_bAutoAction = TRUE;
+		l_iAutoActionChoice = 4;
+	}
 
 
 	while(!l_bQuitProgram)
@@ -194,21 +346,26 @@ int main(int argc, char** argv)
 		/* Do what the user request */
 		LOG_WRITE("Main menu : Wainting for a user choice...")
 
+		l_bAsk = TRUE;
+
 		/* Just erase screen and drawing menu, no command here */
 		eraseWorkingScreen(g_iLigne, g_iColonne);
 		drawMainMenu(g_iLigne, g_iColonne);
 
 		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
-		do
+		if(l_bAutoAction == TRUE) {l_bAsk = FALSE;}
+		while(l_bAsk)
 		{
 			/* Get the keyboark key */
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
 			l_bAsk = (l_iTmp > 0 && l_iTmp < 7) ? FALSE : TRUE;
-		}while(l_bAsk);
+		}
 		nodelay(stdscr, TRUE);
+
+		if(l_bAutoAction == TRUE) {l_iTmp = l_iAutoActionChoice; l_bAutoAction = FALSE;}
 
 
 		switch(l_iTmp)
@@ -216,6 +373,7 @@ int main(int argc, char** argv)
 			case 1:
 			{
 				LOG_WRITE("Start function selected")
+				structCommon->bAutoSearch = FALSE;
 				eraseWorkingScreen(g_iLigne, g_iColonne);
 				createAllComputingThreads(structCommon);
 				break;
@@ -232,8 +390,18 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					structCommon->iMersenneOrder = l_iUserValue;
-					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
+					{
+						/* And order is a prime number, thus it is allowed */
+						structCommon->iMersenneOrder = l_iUserValue;
+						LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					}
+					else
+					{
+						/* if order is not a prime number it not allowed. It is useless to waste time with it */
+						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+					}
 				}
 				drawCurrentMersenneOrder(structCommon);
 				break;
@@ -250,15 +418,43 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					structCommon->iThreadNumber = (unsigned char)l_iUserValue;
-					LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+					if(l_iUserValue > g_iLigne - 2)
+					{
+						/* We don't have enought lines to display threads progression */
+						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(g_iLigne - 2));
+						structCommon->iThreadNumber = (unsigned char)(g_iLigne - 2);
+					}
+					else
+					{
+						/* We have enought lines to display all threads progression */
+						structCommon->iThreadNumber = (unsigned char)l_iUserValue;
+						LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+					}
 				}
 				break;
 			}
 			case 4:
 			{
-				LOG_WRITE("Infinite loop selected")
-				while(1);
+				LOG_WRITE("Prospecting mode selected")
+				structCommon->bAutoSearch = TRUE;
+
+				while(structCommon->bAutoSearch == TRUE)
+				{
+					eraseWorkingScreen(g_iLigne, g_iColonne);
+					createAllComputingThreads(structCommon);
+
+					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check. For really great number this computation can take some time. Thus, we display a message */
+					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+
+					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
+					do
+					{
+						structCommon->iMersenneOrder += 2;		/* jump to the next odd number */
+					}while(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE);
+
+					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+					drawCurrentMersenneOrder(structCommon);
+				}
 				break;
 			}
 			case 5:
@@ -281,17 +477,7 @@ int main(int argc, char** argv)
 			}
 		}
 	}
+	killTheApp(structCommon);
 
-
-	/* Show the cursor */
-	curs_set(TRUE);
-
-	/* Stop the program and leave the graphic mode ! Very important ! */
-	LOG_WRITE("End of the program. See you");
-	endwin();
-
-	/* Clean */
-	free(structCommon);
-
-	return 0;
+	return EXIT_SUCCESS;
 }
