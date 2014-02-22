@@ -219,7 +219,6 @@ void drawIntro(int p_iRow, int p_iCol)
 
         attroff(COLOR_PAIR(7));
 
-/*	topText("Free, simple, open-source and hightly configurable drawing program for linux shell - BEERWARE licence");*/
 	botText("ASCII art from  http://www.retrojunkie.com/asciiart/tvmovies/sesamest.txt");
 
 
@@ -296,7 +295,7 @@ void drawMainMenu(int p_iRow, int p_iCol)
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "3. Set thread count ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
-	strcpy(l_cBuffer, "4. Settings         ");
+	strcpy(l_cBuffer, "4. Prospecting      ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
 	strcpy(l_cBuffer, "5. About PND        ");
 	drawSentence(p_iCol + 2 , p_iRow++, l_cBuffer, enumJaune);
@@ -384,6 +383,12 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 			strcpy(l_cBuffer, "Press any key");
 			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         YES");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
 		case MENU_THIS_IS_NOT_A_PRIME_NUMBER:
@@ -395,6 +400,29 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 			strcpy(l_cBuffer, "Press any key");
 			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         NO");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_GIVE_UP_SEARCH:
+		{
+			strcpy(l_cBuffer, "User gives up");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "search.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+
+			strcpy(l_cBuffer, "Press any key");
+			drawSentence(p_iCol + 2, ++p_iRow, l_cBuffer, enumJaune);
+
+			p_iRow+=3;
+			strcpy(l_cBuffer, "   Prime number ?");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "         ??");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
 		case MENU_SET_THREAD_NUMBER:
@@ -414,6 +442,24 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 			strcpy(l_cBuffer, "log with this line");
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			strcpy(l_cBuffer, "$tail -n99 pnd.log");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_WAIT_CHECK_MERSENNE_ORDER:
+		{
+			strcpy(l_cBuffer, "Please wait until");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "the end of the");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "Mersenne order");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "checking. Because");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "to be right, this");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "number need to be");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "a prime number.");
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}

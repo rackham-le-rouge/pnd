@@ -28,10 +28,10 @@
 #define CONFIG_H
 
 /* Some includes */
-#include <errno.h>
-#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <errno.h>
+#include <string.h>
 #include <unistd.h>
 #include <time.h>
 #include <ncurses.h>
@@ -40,9 +40,11 @@
 #include <signal.h>
 #include <limits.h>
 #include <sys/types.h>
+#include <sys/stat.h>
 
 /* Some constants */
 #define	DEBUG			1
+/*#define DEBUG_VERBOSE		1*/		/* if you want to have all debugs messages */
 #define TRACE_EXEC		1
 
 #define MIN_SCREEN_HEIGHT	10
@@ -62,6 +64,13 @@
 #define MENU_THIS_IS_NOT_A_PRIME_NUMBER	3
 #define MENU_SET_THREAD_NUMBER		4
 #define MENU_ABOUT			5
+#define MENU_GIVE_UP_SEARCH		6
+#define MENU_WAIT_CHECK_MERSENNE_ORDER	7
+
+#define MODE_SAVE			0
+#define MODE_INIT			1
+#define MODE_LOAD			2
+#define MODE_TOOGLE			3
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -94,19 +103,17 @@ typedef enum
 }g_enumJeuxDeCouleursDispo;
 
 #define DEFAULT_MERSENNE_ORDER	31
+#define DEFAULT_MODERATION_TIME	50			/* If there is no moderation time defined by the command line, the default moderation time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
 #define USEC_BETWEEN_KEY_CHECK	500000			/* be carefull !!! if you put a lower value, there is a risk of weird character spawning on the screen */
-
-
+#define USEC_BETWEEN_AUTO_SEARCH 2000000
 
 /* Debug part - Lots of usefull macro */
-#define	DEBUG_T1	{mvprintw(1, 1, "/%d/", 314);refresh();getch();}
-#define	DEBUG_T2	{mvprintw(1, 1, "/%d/", 235);refresh();getch();}
 #define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; snprintf(__macroTemporaryBufferCP, 50*sizeof(char), "echo [%s] %d  >> pnd.log", __FILE__, __LINE__); system(__macroTemporaryBufferCP);}
 
 #define POPEN_BUFFER_LENGHT		10
 #define MACRO_LENGHT_OF_BUFFER_FOR_INT	150
 
-#define LOG_WRITE(macro_sString)						if(TRACE_EXEC) {char __macroTemporaryBufferA[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferA, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBufferA);		/*system("echo " __FILE__ " " macro_sString " >> pnd.log");*/}
+#define LOG_WRITE(macro_sString)						if(TRACE_EXEC) {char __macroTemporaryBufferA[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferA, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBufferA);}
 #define LOG_WRITE_STRING(macro_sString)						if(TRACE_EXEC) {char __macroTemporaryBufferB[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferB, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBufferB);}
 #define LOG_WRITE_STRING_MPZ(macro_sString, macro_mpz)				if(TRACE_EXEC) {char __macroTemporaryBufferC[MACRO_LENGHT_OF_BUFFER_FOR_INT]; char macro_mpzNumber[MACRO_LENGHT_OF_BUFFER_FOR_INT]; mpz_get_str(macro_mpzNumber, 10, macro_mpz); snprintf(__macroTemporaryBufferC, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s %s >> pnd.log", __FILE__, __LINE__, macro_sString, macro_mpzNumber); system(__macroTemporaryBufferC);}
 #define LOG_WRITE_LONG(macro_lLong)						if(TRACE_EXEC) {char __macroTemporaryBufferD[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferD, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld >> pnd.log", __FILE__, __LINE__, macro_lLong); system(__macroTemporaryBufferD);}
@@ -125,6 +132,9 @@ typedef struct structProgramInfo_
 	int  iCol;
 	int  iRow;
 	char bAutoSearch;
+	int* iThreadProgressionTable;
+	char bLoaded;
+	int  iModerationTime;			/* Wait a little between each test in order to slow down and avoid CPU overloadinf */
 }structProgramInfo;
 
 
