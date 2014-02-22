@@ -40913,3 +40913,65 @@ main.c 211 End of the program. See you
 [main.c] 195 Main menu : Wainting for a user choice...
 [main.c] 273 Quit the program
 [main.c] 290 End of the program. See you
+[main.c] 107
+[main.c] 108
+[main.c] 109 ---------------------------------------------------------------------
+[main.c] 110 Starting new instance
+[main.c] 111 ---------------------------------------------------------------------
+[main.c] 124 Screen element initialisation...
+[drawing.c] 469 Now screen lenght is :
+[drawing.c] 470 145
+[main.c] 53 Writing the default configuration in the common stuctProgramInfo
+[main.c] 80 Number of thread detected --successfully-- : 1
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 225 Set a new order function selected
+[main.c] 236 New Mersenne order changed to : 17
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 218 Start function selected
+[multithread.c] 92 Multithread starting. Thread number is : 0
+[compute.c] 101 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 136 Start : End *362* *131071*
+[multithread.c] 113 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 135 This is a prime number.
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 225 Set a new order function selected
+[main.c] 236 New Mersenne order changed to : 19
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 218 Start function selected
+[multithread.c] 92 Multithread starting. Thread number is : 0
+[compute.c] 101 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 136 Start : End *724* *524287*
+[multithread.c] 113 Compute: yes it seem to be ! for the section number 0
+[multithread.c] 135 This is a prime number.
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 225 Set a new order function selected
+[main.c] 236 New Mersenne order changed to : 21
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 218 Start function selected
+[multithread.c] 92 Multithread starting. Thread number is : 0
+[compute.c] 101 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 136 Start : End *1448* *2097151*
+[multithread.c] 105 Compute: no it is not ! For the section number 0
+[multithread.c] 130 This is not a prime number !
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 243 Set new thread number function selected
+[main.c] 254 New thread number changed to : 2
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 225 Set a new order function selected
+[main.c] 236 New Mersenne order changed to : 31
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 218 Start function selected
+[multithread.c] 92 Multithread starting. Thread number is : 1
+[compute.c] 101 Compute: Try to find if a simple number is prime for thread 1
+[multithread.c] 92 Multithread starting. Thread number is : 0
+[compute.c] 101 Compute: Try to find if a simple number is prime for thread 0
+[compute.c] 136 Start : End *1073764994* *2147483647*
+[compute.c] 136 Start : End *46340* *1073764994*
+[multithread.c] 109 Compute: do not know ! For the section number 1
+[multithread.c] 109 Compute: do not know ! For the section number 0
+[multithread.c] 130 This is not a prime number !
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 266 About menu selected
+[main.c] 195 Main menu : Wainting for a user choice...
+[main.c] 273 Quit the program
+[main.c] 290 End of the program. See you
