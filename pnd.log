@@ -47975,3 +47975,2759 @@ main.c 211 End of the program. See you
 [main.c] 214 Main menu : Wainting for a user choice...
 [main.c] 336 Quit the program
 [main.c] 353 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 162 3
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 230 Main menu : Wainting for a user choice...
+[main.c] 352 Quit the program
+[main.c] 369 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 166
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 166
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 326 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 4
+[main.c] 343 New Mersenne order changed to : 37
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 185
+[main.c] 196
+[main.c] 205
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 235 Main menu : Wainting for a user choice...
+[main.c] 357 Quit the program
+[main.c] 374 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 236 Main menu : Wainting for a user choice...
+[main.c] 358 Quit the program
+[main.c] 375 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 237 Main menu : Wainting for a user choice...
+[main.c] 359 Quit the program
+[main.c] 376 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 261 Start function selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 3
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 324 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 2
+[main.c] 341 New Mersenne order changed to : 37
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 324 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 48
+[main.c] 341 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 31
+[main.c] 341 New Mersenne order changed to : 41
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 324 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 341 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 341 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 341 New Mersenne order changed to : 31
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 19
+[main.c] 341 New Mersenne order changed to : 37
+[main.c] 233 Main menu : Wainting for a user choice...
+[main.c] 355 Quit the program
+[main.c] 372 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 197 C.LINE : Change thread number to 20
+[main.c] 193 C.LINE : Change Mersenne order to 20
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 341 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 4
+[main.c] 358 New Mersenne order changed to : 37
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 197 C.LINE : Change thread number to 20
+[main.c] 193 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 341 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 358 New Mersenne order changed to : 23
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 358 New Mersenne order changed to : 29
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 197 C.LINE : Change thread number to 52
+[main.c] 193 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 341 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 358 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 358 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 10
+[main.c] 358 New Mersenne order changed to : 31
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 47
+[main.c] 358 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 31
+[main.c] 358 New Mersenne order changed to : 41
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 197 C.LINE : Change thread number to 20
+[main.c] 193 C.LINE : Change Mersenne order to 19
+[main.c] 189 C.LINE : Prospecting mode selected
+[main.c] 205 C.LINE : Help is displayed
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 189 C.LINE : Prospecting mode selected
+[main.c] 205 C.LINE : Help is displayed
+[main.c] 197 C.LINE : Change thread number to 20
+[main.c] 193 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 341 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 358 New Mersenne order changed to : 23
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 358 New Mersenne order changed to : 29
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 114
+[main.c] 115
+[main.c] 116 ---------------------------------------------------------------------
+[main.c] 117 Starting new instance
+[main.c] 118 ---------------------------------------------------------------------
+[main.c] 131 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 51 Writing the default configuration in the common stuctProgramInfo
+[main.c] 83 Number of thread detected --successfully-- : 2
+[main.c] 189 C.LINE : Prospecting mode selected
+[main.c] 205 C.LINE : Help is displayed
+[main.c] 197 C.LINE : Change thread number to 20
+[main.c] 193 C.LINE : Change Mersenne order to 1
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 341 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 5
+[main.c] 358 New Mersenne order changed to : 37
+[main.c] 250 Main menu : Wainting for a user choice...
+[main.c] 372 Quit the program
+[main.c] 389 End of the program. See you
+[main.c] 175
+[main.c] 176
+[main.c] 177 ---------------------------------------------------------------------
+[main.c] 178 Starting new instance
+[main.c] 179 ---------------------------------------------------------------------
+[main.c] 192 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 112 Writing the default configuration in the common stuctProgramInfo
+[main.c] 144 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 311 Main menu : Wainting for a user choice...
+[main.c] 433 Quit the program
+[main.c] 88 End of the program. See you
+[main.c] 175
+[main.c] 176
+[main.c] 177 ---------------------------------------------------------------------
+[main.c] 178 Starting new instance
+[main.c] 179 ---------------------------------------------------------------------
+[main.c] 192 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 112 Writing the default configuration in the common stuctProgramInfo
+[main.c] 144 Number of thread detected --successfully-- : 2
+[main.c] 266 C.LINE : Prospecting mode selected
+[main.c] 47 Daemon : Start the processus...
+[main.c] 62 Daemon : Kill my father. Done
+[main.c] 88 End of the program. See you
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 319 Main menu : Wainting for a user choice...
+[main.c] 410 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 175
+[main.c] 176
+[main.c] 177 ---------------------------------------------------------------------
+[main.c] 178 Starting new instance
+[main.c] 179 ---------------------------------------------------------------------
+[main.c] 192 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 112 Writing the default configuration in the common stuctProgramInfo
+[main.c] 144 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 319 Main menu : Wainting for a user choice...
+[main.c] 410 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 4
+[main.c] 427 New Mersenne order changed to : 37
+[main.c] 319 Main menu : Wainting for a user choice...
+[main.c] 441 Quit the program
+[main.c] 88 End of the program. See you
+[main.c] 182
+[main.c] 183
+[main.c] 184 ---------------------------------------------------------------------
+[main.c] 185 Starting new instance
+[main.c] 186 ---------------------------------------------------------------------
+[main.c] 199 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 119 Writing the default configuration in the common stuctProgramInfo
+[main.c] 151 Number of thread detected --successfully-- : 2
+[main.c] 281 C.LINE : Help is displayed
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 326 Main menu : Wainting for a user choice...
+[main.c] 448 Quit the program
+[main.c] 95 End of the program. See you
+[main.c] 182
+[main.c] 183
+[main.c] 184 ---------------------------------------------------------------------
+[main.c] 185 Starting new instance
+[main.c] 186 ---------------------------------------------------------------------
+[main.c] 199 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 119 Writing the default configuration in the common stuctProgramInfo
+[main.c] 151 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 47 Daemon : Start the processus...
+[main.c] 95 End of the program. See you
+[main.c] 62 Daemon : Kill my father. Done
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 326 Main menu : Wainting for a user choice...
+[main.c] 417 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 182
+[main.c] 183
+[main.c] 184 ---------------------------------------------------------------------
+[main.c] 185 Starting new instance
+[main.c] 186 ---------------------------------------------------------------------
+[main.c] 199 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 119 Writing the default configuration in the common stuctProgramInfo
+[main.c] 151 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 326 Main menu : Wainting for a user choice...
+[main.c] 417 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 434 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 32
+[main.c] 434 New Mersenne order changed to : 41
+[main.c] 326 Main menu : Wainting for a user choice...
+[main.c] 441 About menu selected
+[main.c] 326 Main menu : Wainting for a user choice...
+[main.c] 448 Quit the program
+[main.c] 95 End of the program. See you
+[main.c] 183
+[main.c] 184
+[main.c] 185 ---------------------------------------------------------------------
+[main.c] 186 Starting new instance
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 200 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 120 Writing the default configuration in the common stuctProgramInfo
+[main.c] 152 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 327 Main menu : Wainting for a user choice...
+[main.c] 449 Quit the program
+[main.c] 96 End of the program. See you
+[main.c] 183
+[main.c] 184
+[main.c] 185 ---------------------------------------------------------------------
+[main.c] 186 Starting new instance
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 200 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 120 Writing the default configuration in the common stuctProgramInfo
+[main.c] 152 Number of thread detected --successfully-- : 2
+[main.c] 282 C.LINE : Help is displayed
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 327 Main menu : Wainting for a user choice...
+[main.c] 449 Quit the program
+[main.c] 96 End of the program. See you
+[main.c] 185
+[main.c] 186
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 188 Starting new instance
+[main.c] 189 ---------------------------------------------------------------------
+[main.c] 202 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 154 Number of thread detected --successfully-- : 2
+[main.c] 276 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 264 C.LINE : Change Mersenne order to 19
+[main.c] 268 C.LINE : Change thread number to 20
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 420 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 437 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 437 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 437 New Mersenne order changed to : 31
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 48
+[main.c] 437 New Mersenne order changed to : 37
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 185
+[main.c] 186
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 188 Starting new instance
+[main.c] 189 ---------------------------------------------------------------------
+[main.c] 202 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 154 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 420 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 185
+[main.c] 186
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 188 Starting new instance
+[main.c] 189 ---------------------------------------------------------------------
+[main.c] 202 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 154 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 420 Prospecting mode selected
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 185
+[main.c] 186
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 188 Starting new instance
+[main.c] 189 ---------------------------------------------------------------------
+[main.c] 202 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 154 Number of thread detected --successfully-- : 2
+[main.c] 284 C.LINE : Help is displayed
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 420 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 29
+[main.c] 437 New Mersenne order changed to : 41
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 451 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 185
+[main.c] 186
+[main.c] 187 ---------------------------------------------------------------------
+[main.c] 188 Starting new instance
+[main.c] 189 ---------------------------------------------------------------------
+[main.c] 202 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 154 Number of thread detected --successfully-- : 2
+[main.c] 284 C.LINE : Help is displayed
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 329 Main menu : Wainting for a user choice...
+[main.c] 451 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 454 New Mersenne order changed to : 23
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 64
+[main.c] 454 New Mersenne order changed to : 29
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 454 New Mersenne order changed to : 23
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 454 New Mersenne order changed to : 29
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 454 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 454 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 454 New Mersenne order changed to : 31
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 3
+[main.c] 454 New Mersenne order changed to : 37
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 454 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 454 New Mersenne order changed to : 29
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 2
+[main.c] 454 New Mersenne order changed to : 31
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 0
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 454 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 454 New Mersenne order changed to : 29
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 454 New Mersenne order changed to : 31
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 1
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 3
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 1000
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 7
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 3
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 182 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 27
+[main.c] 454 New Mersenne order changed to : 23
+[signalmanagement.c] 71 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 100 Saving function : Saving context
+[signalmanagement.c] 104 Saving function : output file opened successfully
+[signalmanagement.c] 206 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 94 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 129 Load function : Try to load context, if it exist
+[signalmanagement.c] 133 Load function : there is a context saved. Loading...
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 454 New Mersenne order changed to : 29
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 2
+[main.c] 454 New Mersenne order changed to : 31
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 26
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 17
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 468 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 26
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 346 Main menu : Wainting for a user choice...
+[main.c] 437 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 26
+[main.c] 454 New Mersenne order changed to : 23
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 127 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 91 Init structCommon pointer for the toogling function
+[signalmanagement.c] 162 Load function : Try to load context, if it exist
+[signalmanagement.c] 215 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 239 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 122 Saving function : Init of commonstruct pointer
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 86 Init structCommon pointer for the toogling function
+[signalmanagement.c] 157 Load function : Try to load context, if it exist
+[signalmanagement.c] 210 Load function : There is no context saved. Default values are going to be loaded
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 18
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 29
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 233 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 74 Kill my father. Done
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 98 End of the program. See you
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 74 Kill my father. Done
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[signalmanagement.c] 74 Kill my father. Done
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 98 End of the program. See you
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 23
+[main.c] 455 New Mersenne order changed to : 37
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 469 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 233 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 74 Kill my father. Done
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[main.c] 198
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 98 End of the program. See you
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 193 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 74 Kill my father. Done
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[signalmanagement.c] 149 Saving function : Saving context
+[main.c] 215 Screen element initialisation...
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[drawing.c] 515 Now screen lenght is :
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 74 Kill my father. Done
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 46
+[main.c] 455 New Mersenne order changed to : 37
+[signalmanagement.c] 58 Kill the old program to force it to save its data
+[signalmanagement.c] 74 Kill my father. Done
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 281 C.LINE : Change moderation time to 0
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 88 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 149 Saving function : Saving context
+[signalmanagement.c] 153 Saving function : output file opened successfully
+[signalmanagement.c] 257 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 281 C.LINE : Change moderation time to 0
+[signalmanagement.c] 143 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 179 Load function : Try to load context, if it exist
+[signalmanagement.c] 183 Load function : there is a context saved. Loading...
+[signalmanagement.c] 107 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 64
+[main.c] 455 New Mersenne order changed to : 41
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 469 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 455 New Mersenne order changed to : 31
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 46
+[main.c] 455 New Mersenne order changed to : 37
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 111
+[main.c] 455 New Mersenne order changed to : 41
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 469 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 245 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 10
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 205 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 98 End of the program. See you
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 31
+[main.c] 455 New Mersenne order changed to : 37
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 245 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 10
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 205 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 205 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 20
+[main.c] 455 New Mersenne order changed to : 37
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 98 End of the program. See you
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 245 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 29
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 8
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[main.c] 198
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 245 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 155 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 191 Load function : Try to load context, if it exist
+[signalmanagement.c] 195 Load function : there is a context saved. Loading...
+[signalmanagement.c] 119 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 100 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 161 Saving function : Saving context
+[signalmanagement.c] 165 Saving function : output file opened successfully
+[signalmanagement.c] 269 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 198 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 40
+[main.c] 455 New Mersenne order changed to : 37
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 31
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 469 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 176 Give up ! Dont know it this is a prime number or not
+[multithread.c] 185 Computation takes --in seconds--: 9
+[main.c] 455 New Mersenne order changed to : 31
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 469 Quit the program
+[main.c] 98 End of the program. See you
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 198 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 281 C.LINE : Change moderation time to 0
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 0
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 12
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 281 C.LINE : Change moderation time to 1
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 281 C.LINE : Change moderation time to 1
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 455 New Mersenne order changed to : 29
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 273 C.LINE : Prospecting mode selected
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 281 C.LINE : Change moderation time to 100
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 3
+[main.c] 455 New Mersenne order changed to : 23
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 23
+[main.c] 455 New Mersenne order changed to : 29
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 145
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 281 C.LINE : Change moderation time to 500
+[main.c] 285 C.LINE : Change thread number to 20
+[main.c] 277 C.LINE : Change Mersenne order to 19
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[main.c] 98 End of the program. See you
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 238 Load function : There is no context saved. Default values are going to be loaded
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 181 This is a prime number.
+[multithread.c] 185 Computation takes --in seconds--: 8
+[main.c] 455 New Mersenne order changed to : 23
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 198 Load function : screen size have changed and the new screen dont allow us to load all threads parameters
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 1
+[main.c] 455 New Mersenne order changed to : 29
+[multithread.c] 171 This is not a prime number !
+[multithread.c] 185 Computation takes --in seconds--: 11
+[main.c] 455 New Mersenne order changed to : 31
+[signalmanagement.c] 57 Toogle speed
+[signalmanagement.c] 59 --------------------------------RESTART--------------------------------
+[signalmanagement.c] 60 Kill the old program to force it to save its data
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 79 Kill my father. Done. Now i am restarting.
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !
+[main.c] 198
+[main.c] 199
+[main.c] 200 ---------------------------------------------------------------------
+[main.c] 201 Starting new instance
+[main.c] 202 ---------------------------------------------------------------------
+[main.c] 215 Screen element initialisation...
+[drawing.c] 515 Now screen lenght is :
+[drawing.c] 516 80
+[main.c] 122 Writing the default configuration in the common stuctProgramInfo
+[main.c] 155 Number of thread detected --successfully-- : 2
+[main.c] 293 C.LINE : Daemon mode selected. Starting prospecting mode.
+[main.c] 47 Daemon : Start the processus... I am going to kill my father
+[main.c] 98 End of the program. See you
+[main.c] 63 Daemon : Kill my father. Done
+[main.c] 80 Daemon : All standart output closed. Submarine OK
+[signalmanagement.c] 148 Saving function : Init of commonstruct pointer
+[signalmanagement.c] 184 Load function : Try to load context, if it exist
+[signalmanagement.c] 188 Load function : there is a context saved. Loading...
+[signalmanagement.c] 112 Init structCommon pointer for the toogling function
+[main.c] 347 Main menu : Wainting for a user choice...
+[main.c] 438 Prospecting mode selected
+[signalmanagement.c] 93 Sigterm or sigint send against me. Saving context
+[signalmanagement.c] 154 Saving function : Saving context
+[signalmanagement.c] 158 Saving function : output file opened successfully
+[signalmanagement.c] 262 Anormal end of the program... Hope to see you again !

@@ -19,5 +19,5 @@ TODO
 [ ]	Add planned wake up
 [x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
 [ ]	Cleaning memory function. For all of mpz numbers
-[ ]	SIGUSR2 toogle High speed mode and low speed
+[x]	SIGUSR2 toogle High speed mode and low speed
 [ ]	Split main in specifics functions

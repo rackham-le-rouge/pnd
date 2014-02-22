@@ -78,9 +78,9 @@ void signalHandler(int p_iSignalNo)
 
         	LOG_WRITE("Kill my father. Done. Now i am restarting.")
 
-		popen("./pnd -d", "w");				/* Start another PND in daemon mode. If you use 'r' option it don't work */
+		popen("./pnd -d", "w");				/* Start another PND in daemon mode.  Because we currently are in daemon mode. If you use 'r' option it don't work */
 		usleep(5000);					/* Sleep a while - Leave him time to save all and kill his father */
-      		exit(EXIT_SUCCESS);				/* FIXME : Yeah it is bad because there is no memory cleaning. But there is no solution to call KillTheApp() */
+		commonSignalEnding();
 	}
 	if(p_iSignalNo == SIGUSR2)
 	{

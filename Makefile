@@ -6,7 +6,8 @@
 # \brief                Makefile for pnd
 #
 # \details              Cleaning and compilation with the 70 options of the libcommon (http://www.thelibcommonproject.org)
-#
+#			You can't add optimisation option in CFLAGS : -03 and -march=native because there is a restart issue
+#			if you want to change speed during computing. If you wont, you can use these options.
 
 
 
@@ -27,7 +28,7 @@ CFLAGS=-fopenmp -W -Waggregate-return -Wall -Warray-bounds -Wbad-function-cast -
                  -Wswitch -Wswitch-default -Wswitch-enum -Wsync-nand -Wtrigraphs -Wundef -Wuninitialized        \
                  -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused -Wunused-function -Wunused-label        \
                  -Wunused-parameter -Wunused-value -Wunused-variable -Wvla -Wvolatile-register-var              \
-                 -Wwrite-strings -fno-common -fstack-protector-all -pedantic -std=c99 -Wstrict-aliasing=3
+                 -Wwrite-strings -fno-common -fstack-protector-all -pedantic -std=c99 -Wstrict-aliasing=3	
 
 LDFLAGS=-lncurses -ansi -lgmp -lm -fopenmp
 EXEC=pnd
