@@ -59,7 +59,8 @@ void signalHandler(int p_iSignalNo)
 	        LOG_WRITE("--------------------------------RESTART--------------------------------")
 	        LOG_WRITE("Kill the old program to force it to save its data")
 
-		/* We are going to restart program with a big cheat. A fork is launched, he kills program and restart it using autosave function */
+		/* We are going to restart program with a big cheat. A fork is launched, he kills program and restart it using autosave
+		   function */
 	        /* Do the fork */
 	        l_pidPid = fork();
 	        if(l_pidPid < 0)
@@ -78,7 +79,8 @@ void signalHandler(int p_iSignalNo)
 
         	LOG_WRITE("Kill my father. Done. Now i am restarting.")
 
-		popen("./pnd -d", "w");				/* Start another PND in daemon mode.  Because we currently are in daemon mode. If you use 'r' option it don't work */
+		popen("./pnd -d", "w");				/* Start another PND in daemon mode.  Because we currently are in daemon mode.
+								   If you use 'r' option it don't work */
 		usleep(5000);					/* Sleep a while - Leave him time to save all and kill his father */
 		commonSignalEnding();
 	}
@@ -163,11 +165,13 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			percentage in the table when they do it on the screen. Thus, we take an exact picture of the situation when we
 			save these data
 			*/
-			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iRow);				/* Saving this data, if we open the pnd app withn a better screen, the program are going to crash with some kind of segfault */
+			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iRow);				/* Saving this data, if we
+			open the pnd app withn a better screen, the program are going to crash with some kind of segfault */
 			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iMersenneOrder);
 			fprintf(l_fileOutputFile, "%d\n", l_structCommon->iModerationTime);
 
-			for(l_iIterator = 0; l_iIterator < l_structCommon->iRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
+			for(l_iIterator = 0; l_iIterator < l_structCommon->iRow + 1; l_iIterator++)		/* +1 because there is one more
+														integer for the ThreadNumber */
 			{
 				fprintf(l_fileOutputFile, "%d\n", l_structCommon->iThreadProgressionTable[l_iIterator]);
 			}
@@ -198,7 +202,8 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 				LOG_WRITE("Load function : screen size have changed and the new screen dont allow us to load all threads parameters")
 			}
 
-			for(l_iIterator = 0; l_iIterator < l_iLoadedRow + 1; l_iIterator++)		/* +1 because there is one more integer for the ThreadNumber */
+			for(l_iIterator = 0; l_iIterator < l_iLoadedRow + 1; l_iIterator++)		/* +1 because there is one more integer
+													   for the ThreadNumber */
 			{
 				fscanf(l_fileOutputFile, "%d\n", &l_iTemporaryLoadedData);
 
@@ -215,12 +220,14 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 					/* And finally, the last value of the file is saved in the last int of the current table */
 					if(l_iTemporaryLoadedData <= l_structCommon->iRow - 2)
 					{
-						/* In the previous configuration there is a correct number of threads. We can save them all with the current screen size (and thus memory reserved) */
+						/* In the previous configuration there is a correct number of threads. We can save them all
+						   with the current screen size (and thus memory reserved) */
 						l_structCommon->iThreadProgressionTable[l_iIterator] = l_iTemporaryLoadedData;
 					}
 					else
 					{
-						/* In the previous configuration there is more thread than we can display now (and than we had reserved memory). So, cut their number and let a warning in the log file */
+						/* In the previous configuration there is more thread than we can display now (and than we
+						   had reserved memory). So, cut their number and let a warning in the log file */
 						l_structCommon->iThreadProgressionTable[l_iIterator] = l_structCommon->iRow - 2;
 					}
 					/* Apply modification and set the new thread number */

@@ -32,7 +32,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	l_iSeconds = 0;
 	time(&l_timeBegin);				/* Get current time */
 
-	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the place of the ThreadNumber */
+	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the
+	   place of the ThreadNumber */
 	p_structCommon->iThreadProgressionTable[p_structCommon->iRow] = l_iThreadNumber;
 
 	/*
@@ -95,7 +96,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 					case 'Q':
 					{
 						p_structCommon->bDead = TRUE;
-						p_structCommon->bAutoSearch = FALSE;		/* If user press Q key, there is no more autosearch  and we quit now. To reactivate it, he needs to choose the right option in the main menu */
+						p_structCommon->bAutoSearch = FALSE;		/* If user press Q key, there is no more
+					autosearch  and we quit now. To reactivate it, he needs to choose the right option in the main menu */
 						l_bKeyAccepted = TRUE;
 						l_bQKeyPressed = TRUE;
 						break;

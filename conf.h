@@ -87,7 +87,7 @@
 
 /* Colors of element in a single matrix */
 #define COLOR_ELEMENT_FG	COLOR_BLACK
-#define GRAPHIC_MODE		0		/* 1 background is colored 0 background id black and letter is colored */
+#define GRAPHIC_MODE		0			/* 1 background is colored 0 background id black and letter is colored */
 
 typedef enum
 {
@@ -103,23 +103,57 @@ typedef enum
 }g_enumJeuxDeCouleursDispo;
 
 #define DEFAULT_MERSENNE_ORDER	31
-#define DEFAULT_MODERATION_TIME	50			/* If there is no moderation time defined by the command line, the default moderation time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
-#define USEC_BETWEEN_KEY_CHECK	500000			/* be carefull !!! if you put a lower value, there is a risk of weird character spawning on the screen */
+#define DEFAULT_MODERATION_TIME	50		/* If there is no moderation time defined by the command line, the default moderation
+						time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
+#define USEC_BETWEEN_KEY_CHECK	500000		/* be carefull !!! if you put a lower value, there is a risk of weird character spawning 
+						on the screen */
 #define USEC_BETWEEN_AUTO_SEARCH 2000000
 
 /* Debug part - Lots of usefull macro */
-#define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; snprintf(__macroTemporaryBufferCP, 50*sizeof(char), "echo [%s] %d  >> pnd.log", __FILE__, __LINE__); system(__macroTemporaryBufferCP);}
+#define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; 				\
+		snprintf(__macroTemporaryBufferCP, 50*sizeof(char), "echo [%s] %d  >> pnd.log", __FILE__, __LINE__); \
+		system(__macroTemporaryBufferCP);							\
+		} /*"*/
 
 #define POPEN_BUFFER_LENGHT		10
 #define MACRO_LENGHT_OF_BUFFER_FOR_INT	150
 
-#define LOG_WRITE(macro_sString)						if(TRACE_EXEC) {char __macroTemporaryBufferA[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferA, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBufferA);}
-#define LOG_WRITE_STRING(macro_sString)						if(TRACE_EXEC) {char __macroTemporaryBufferB[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferB, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, __LINE__,  macro_sString); system(__macroTemporaryBufferB);}
-#define LOG_WRITE_STRING_MPZ(macro_sString, macro_mpz)				if(TRACE_EXEC) {char __macroTemporaryBufferC[MACRO_LENGHT_OF_BUFFER_FOR_INT]; char macro_mpzNumber[MACRO_LENGHT_OF_BUFFER_FOR_INT]; mpz_get_str(macro_mpzNumber, 10, macro_mpz); snprintf(__macroTemporaryBufferC, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s %s >> pnd.log", __FILE__, __LINE__, macro_sString, macro_mpzNumber); system(__macroTemporaryBufferC);}
-#define LOG_WRITE_LONG(macro_lLong)						if(TRACE_EXEC) {char __macroTemporaryBufferD[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferD, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld >> pnd.log", __FILE__, __LINE__, macro_lLong); system(__macroTemporaryBufferD);}
-#define LOG_WRITE_STRING_LONG(macro_sString, macro_lLong)			if(TRACE_EXEC) {char __macroTemporaryBufferE[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferE, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s  %ld >> pnd.log", __FILE__, __LINE__, macro_sString, macro_lLong); system(__macroTemporaryBufferE);}
-#define LOG_WRITE_LONG_LONG(macro_lLong1, macro_lLong2)				if(TRACE_EXEC) {char __macroTemporaryBufferF[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferF, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld  %ld >> pnd.log", __FILE__, __LINE__, macro_lLong1, macro_lLong2); system(__macroTemporaryBufferF);}
-#define LOG_WRITE_STRING_LONG_LONG(macro_sString, macro_lLong1, macro_lLong2)	if(TRACE_EXEC) {char __macroTemporaryBufferG[MACRO_LENGHT_OF_BUFFER_FOR_INT]; snprintf(__macroTemporaryBufferG, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s *%ld* *%ld* >> pnd.log", __FILE__, __LINE__, macro_sString, macro_lLong1, macro_lLong2); system(__macroTemporaryBufferG);}
+#define LOG_WRITE(macro_sString)						if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferA[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferA, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", \
+		__FILE__, __LINE__,  (macro_sString)); system(__macroTemporaryBufferA);			\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_STRING(macro_sString)						if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferB[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferB, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s >> pnd.log", __FILE__, \
+		__LINE__,  (macro_sString)); system(__macroTemporaryBufferB);				\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_STRING_MPZ(macro_sString, macro_mpz)				if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferC[MACRO_LENGHT_OF_BUFFER_FOR_INT];				\
+		char macro_mpzNumber[MACRO_LENGHT_OF_BUFFER_FOR_INT]; mpz_get_str((macro_mpzNumber), 10, (macro_mpz)); 	\
+		snprintf(__macroTemporaryBufferC, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s %s >> pnd.log",	\
+		 __FILE__, __LINE__, (macro_sString), (macro_mpzNumber)); system(__macroTemporaryBufferC);	\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_LONG(macro_lLong)						if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferD[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferD, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld >> pnd.log", 	\
+		__FILE__, __LINE__, (macro_lLong)); system(__macroTemporaryBufferD);			\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_STRING_LONG(macro_sString, macro_lLong)			if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferE[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferE, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s  %ld >> pnd.log", 	\
+		__FILE__, __LINE__, (macro_sString), (macro_lLong)); system(__macroTemporaryBufferE);	\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_LONG_LONG(macro_lLong1, macro_lLong2)				if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferF[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferF, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %ld  %ld >> pnd.log", \
+		__FILE__, __LINE__, (macro_lLong1), (macro_lLong2)); system(__macroTemporaryBufferF);	\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
+#define LOG_WRITE_STRING_LONG_LONG(macro_sString, macro_lLong1, macro_lLong2)	if(TRACE_EXEC) {	\
+		char __macroTemporaryBufferG[MACRO_LENGHT_OF_BUFFER_FOR_INT]; 				\
+		snprintf(__macroTemporaryBufferG, MACRO_LENGHT_OF_BUFFER_FOR_INT*sizeof(char), "echo [%s] %d \t\t %s *%ld* *%ld* >> pnd.log",	\
+		 __FILE__, __LINE__, (macro_sString), (macro_lLong1), (macro_lLong2)); system(__macroTemporaryBufferG);	\
+		}		/*" I add this to save the syntax coloration under nano - shame on me */
 
 
 typedef struct structProgramInfo_

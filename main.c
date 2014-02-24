@@ -128,7 +128,10 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->iCol = g_iColonne;
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
-	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. g_iLignes is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
+	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how
+	many threads works. g_iLignes is used because it is the max threads number, we can't display more threads progression, thus, the 
+	limit is the lines number  */
+
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
 
 	/* Init memory */
@@ -139,14 +142,16 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 
 	if(l_fileReturnOfCommand == NULL)
 	{
-		p_structStructure->iThreadNumber = 2;						/* We assume that today all computers have at least two cores */
+		p_structStructure->iThreadNumber = 2;						/* We assume that today all computers have
+												   at least two cores */
 		LOG_WRITE_STRING_LONG("Number of thread detected --default-- : ", (long)p_structStructure->iThreadNumber);
 	}
 	else
 	{
 		if(fgets(l_cBuffer, (POPEN_BUFFER_LENGHT - 1)*sizeof(char), l_fileReturnOfCommand) == NULL)
 		{
-			p_structStructure->iThreadNumber = 2;						/* We assume that today all computers have at least two cores */
+			p_structStructure->iThreadNumber = 2;						/* We assume that today all computers
+													   have at least two cores */
 			LOG_WRITE_STRING_LONG("Number of thread detected --unsuccessfully-- : ", (long)p_structStructure->iThreadNumber);
 		}
 		else
@@ -180,7 +185,8 @@ int main(int argc, char** argv)
 	char l_cBuffer2[250];
 
 	int l_iTmp;
-	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
+	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead
+							   of wainting for a user choice */
 	int l_iAutoActionChoice;
 	char l_bAsk;
 	char l_bQuitProgram;
@@ -245,7 +251,8 @@ int main(int argc, char** argv)
 	nodelay(stdscr, TRUE);
 
 
-	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because l_cBuffer is too small */
+	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because l_cBuffer
+	   is too small */
 	for(l_iTmp=0; (signed)l_iTmp < (signed)g_iColonne - (signed)strlen(l_cBuffer) ; l_iTmp++)
 	{
 		l_cBuffer2[l_iTmp] = ' ';
@@ -300,7 +307,8 @@ int main(int argc, char** argv)
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] \
+							[[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
 					l_bAutoAction = TRUE;
 					l_iAutoActionChoice = 6;
 				}
@@ -385,7 +393,8 @@ int main(int argc, char** argv)
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
-					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : \
+					", (long)structCommon->iMersenneOrder);
 				}
 				else
 				{
@@ -400,7 +409,8 @@ int main(int argc, char** argv)
 					else
 					{
 						/* if order is not a prime number it not allowed. It is useless to waste time with it */
-						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : \
+						", (long)structCommon->iMersenneOrder);
 					}
 				}
 				drawCurrentMersenneOrder(structCommon);
@@ -443,10 +453,12 @@ int main(int argc, char** argv)
 					eraseWorkingScreen(g_iLigne, g_iColonne);
 					createAllComputingThreads(structCommon);
 
-					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check. For really great number this computation can take some time. Thus, we display a message */
+					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check.
+					   For really great number this computation can take some time. Thus, we display a message */
 					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
 
-					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
+					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to
+					   give a prime mersenne numnber */
 					do
 					{
 						structCommon->iMersenneOrder += 2;		/* jump to the next odd number */

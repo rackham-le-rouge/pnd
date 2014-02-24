@@ -5,7 +5,8 @@
   * int mpz_divisible_p (const mpz_t n, const mpz_t d)			return non zero value if YES
   * mpz_congruent_p (const mpz_t n, const mpz_t c, const mpz_t d)
   * void mpz_sqrt (mpz_t rop, const mpz_t op)
-  * int mpz_cmp (const mpz_t op1, const mpz_t op2)			Compare op1 and op2. Return a positive value if op1 > op2, zero if op1 = op2, or a negative value if op1 < op2. 
+  * int mpz_cmp (const mpz_t op1, const mpz_t op2)			Compare op1 and op2. Return a positive value if op1 > op2,
+									zero if op1 = op2, or a negative value if op1 < op2.
   * Macro: int mpz_odd_p (const mpz_t op)
   *
   */
@@ -49,13 +50,16 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
-		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
-									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number,
+									   and a cast isn't possible */
+									/* we substract one and after anothyer one because it's useless
+									to check the even number. an even number cannot divide an odd number. */
 		l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
 		if(l_bReturnOfFunction)	{break;}			/* else, we continue... */
 
-		l_bReturnOfFunction = mpz_cmp(l_mpzSQRT, l_mpzIterator); /*Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
+		l_bReturnOfFunction = mpz_cmp(l_mpzSQRT, l_mpzIterator); /* Compare SQRT and Iterator. Return a positive value if
+									    SQRT > Iterator */
 		if(l_bReturnOfFunction > 0)
 		{
 			return TRUE;
@@ -102,8 +106,8 @@ char isItAPrimeNumberULI(double  p_dNumber)
 	/* Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
-		l_dIterator -= 2;					/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
-									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+		l_dIterator -= 2;
+
 		l_dReturnOfFunction = fmod(p_dNumber, l_dIterator);
 
 		if((int)l_dReturnOfFunction == 0) {break;}			/* else, we continue... */
@@ -189,14 +193,16 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
 	mpz_cdiv_q_ui(l_mpzOnePercent,l_mpzArea,(unsigned long)100);
 
-	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check earch one from end to beginOfSearchArea */
+	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check
+	   earch one from end to beginOfSearchArea */
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
 
 	/* If there is an autoloading, we need to put old values of progression here */
 	if(p_structStructure->bLoaded)
 	{
 		/* We start with the previous percentage minus one in order to set a security area */
-		mpz_set_ui(l_mpzPercent,(long)  (p_structStructure->iThreadProgressionTable[p_iSectionNumber] > 0) ? p_structStructure->iThreadProgressionTable[p_iSectionNumber] - 1 : 0);
+		mpz_set_ui(l_mpzPercent,(long)  (p_structStructure->iThreadProgressionTable[p_iSectionNumber] > 0) ?
+				p_structStructure->iThreadProgressionTable[p_iSectionNumber] - 1 : 0);
 		mpz_mul(l_mpzCurrentPosition, l_mpzPercent, l_mpzOnePercent);
 
 		mpz_sub(l_mpzIterator, l_mpzIterator, l_mpzCurrentPosition);
@@ -224,7 +230,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			/* Sleep a little bit each time in order to avoid CPU overloading during day computation */
 			usleep(p_structStructure->iModerationTime);
 
-			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
+			/* -1 is for the first one : to display the 0% */
+			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))
 			{
 				if(p_structStructure->bDead == TRUE)
 				{
@@ -245,13 +252,14 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 			mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
 			mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
-			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
-									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);
+
 			l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
 			if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
 
-			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
+			/* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
+			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator);
 			if(l_bReturnOfFunction > 0)
 			{
 				return TRUE;
@@ -263,7 +271,8 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		/* Start to divide by all people between the number his own sqrt */
 		for(;;)
 		{
-			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))	/* -1 is for the first one : to display the 0% */
+			/* -1 is for the first one : to display the 0% */
+			if((mpz_cmp(l_mpzRefreshCounter, l_mpzOnePercent) > 0) || (mpz_cmp_d(l_mpzRefreshCounter, (double)-1) == 0))
 			{
 				if(p_structStructure->bDead == TRUE)
 				{
@@ -284,13 +293,13 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 			mpz_add_ui(l_mpzRefreshCounter, l_mpzRefreshCounter, 2);
 			mpz_add_ui(l_mpzCurrentPosition, l_mpzCurrentPosition, 2);
-			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number, and a cast isn't possible */
-									/* we substract one and after anothyer one because it's useless to check the even number. an even number cannot divide an odd number. */
+			mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);
+
 			l_bReturnOfFunction = mpz_divisible_p(p_mpzNumber, l_mpzIterator);
 
 			if(l_bReturnOfFunction)	{break;}			/* else, we continue...*/
 
-			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator); /* Compare begining of search area and Iterator. Return a positive value if Begin > Iterator */
+			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator);
 			if(l_bReturnOfFunction > 0)
 			{
 				return TRUE;
