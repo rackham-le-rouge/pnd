@@ -23,6 +23,8 @@
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
 void killTheApp(structProgramInfo* p_structCommon);
 int daemonizeMe(structProgramInfo* p_structCommon);
+void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice);
+
 
 /* From std lib */
 FILE *popen(const char *commande, const char *type);

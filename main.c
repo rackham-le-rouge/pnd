@@ -174,6 +174,70 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 
 
 
+void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice)
+{
+	int l_iTmp;
+
+
+	if(argc > 1)
+	{
+		for(l_iTmp = 1; l_iTmp < argc ; l_iTmp++)
+		{
+			if(strlen(argv[l_iTmp]) > 1)
+			{
+				/* autosearch feature */
+				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : p_structCommon->bAutoSearch;
+				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : *p_bAutoAction;
+				*p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : *p_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
+
+				/* Change mersenne order */
+				p_structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iMersenneOrder;
+				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)p_structCommon->iMersenneOrder)}
+
+				/* Change moderation time */
+				p_structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iModerationTime;
+				if(!strcmp(argv[l_iTmp], "-w")) {LOG_WRITE_STRING_LONG("C.LINE : Change moderation time to ", (long)p_structCommon->iModerationTime)}
+
+				/* Change thread number */
+				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
+				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
+
+				/* No windows displayed. submarine mode */
+				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : p_structCommon->bAutoSearch;
+				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : *p_bAutoAction;
+				*p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : *p_iAutoActionChoice;
+				if(!strcmp(argv[l_iTmp], "-d"))
+				{
+					LOG_WRITE("C.LINE : Daemon mode selected. Starting prospecting mode.");
+					daemonizeMe(p_structCommon);
+				}
+
+
+				/* Display help */
+				if(!strcmp(argv[l_iTmp], "-h"))
+				{
+					LOG_WRITE("C.LINE : Help is displayed")
+					endwin();
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					*p_bAutoAction = TRUE;
+					*p_iAutoActionChoice = 6;
+				}
+			}
+			/* Else the parameter is ignored, use strcmp on it cause a segfault */
+		}
+
+		/* Check some values, in order to control user choices and put default values instead of if there is an error */
+		if(p_structCommon->iThreadNumber > p_structCommon->iRow - 2)
+		{
+			p_structCommon->iThreadNumber = p_structCommon->iRow - 2;
+		}
+		if(isItAPrimeNumberULI((double)p_structCommon->iMersenneOrder) == FALSE)
+		{
+			p_structCommon->iMersenneOrder = DEFAULT_MERSENNE_ORDER;
+		}
+	}
+}
 
 
 
@@ -282,64 +346,7 @@ int main(int argc, char** argv)
 
 
 	/* Configure program according to the command line */
-	if(argc > 1)
-	{
-		for(l_iTmp = 1; l_iTmp < argc ; l_iTmp++)
-		{
-			if(strlen(argv[l_iTmp]) > 1)
-			{
-				/* autosearch feature */
-				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : structCommon->bAutoSearch;
-				l_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : l_bAutoAction;
-				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : l_iAutoActionChoice;
-				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
-
-				/* Change mersenne order */
-				structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : structCommon->iMersenneOrder;
-				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)structCommon->iMersenneOrder)}
-
-				/* Change moderation time */
-				structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? atoi(argv[l_iTmp + 1]) : structCommon->iModerationTime;
-				if(!strcmp(argv[l_iTmp], "-w")) {LOG_WRITE_STRING_LONG("C.LINE : Change moderation time to ", (long)structCommon->iModerationTime)}
-
-				/* Change thread number */
-				structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : structCommon->iThreadNumber;
-				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)structCommon->iThreadNumber)}
-
-				/* No windows displayed. submarine mode */
-				structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : structCommon->bAutoSearch;
-				l_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : l_bAutoAction;
-				l_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : l_iAutoActionChoice;
-				if(!strcmp(argv[l_iTmp], "-d"))
-				{
-					LOG_WRITE("C.LINE : Daemon mode selected. Starting prospecting mode.");
-					daemonizeMe(structCommon);
-				}
-
-
-				/* Display help */
-				if(!strcmp(argv[l_iTmp], "-h"))
-				{
-					LOG_WRITE("C.LINE : Help is displayed")
-					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
-					l_bAutoAction = TRUE;
-					l_iAutoActionChoice = 6;
-				}
-			}
-			/* Else the parameter is ignored, use strcmp on it cause a segfault */
-		}
-
-		/* Check some values, in order to control user choices and put default values instead of if there is an error */
-		if(structCommon->iThreadNumber > l_iRow - 2)
-		{
-			structCommon->iThreadNumber = l_iRow - 2;
-		}
-		if(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE)
-		{
-			structCommon->iMersenneOrder = DEFAULT_MERSENNE_ORDER;
-		}
-	}
+	extractConfigFromCommandLine(argc, argv, structCommon, &l_bAutoAction, &l_iAutoActionChoice);
 
 	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
 	   Thus, saveCurrentContext function can save all parameters and resume computing later */
