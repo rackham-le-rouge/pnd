@@ -21,7 +21,7 @@
 */
 
 void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure);
-void killTheApp(structProgramInfo* p_structCommon) __attribute__ ((noreturn));
+void killTheApp(structProgramInfo* p_structCommon);
 int daemonizeMe(structProgramInfo* p_structCommon);
 
 

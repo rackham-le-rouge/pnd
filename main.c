@@ -91,18 +91,34 @@ int daemonizeMe(structProgramInfo* p_structCommon)
   */
 void killTheApp(structProgramInfo* p_structCommon)
 {
-        /* Show the cursor */
-        curs_set(TRUE);
+	static structProgramInfo* l_structCommon = NULL;
+	static char l_bAlreadyCalled = FALSE;
 
-        /* Stop the program and leave the graphic mode ! Very important ! */
-        LOG_WRITE("End of the program. See you");
-        endwin();
+	switch(l_bAlreadyCalled)
+	{
+		case FALSE:
+		{
+			l_structCommon = p_structCommon;
+			l_bAlreadyCalled = TRUE;
+			break;
+		}
+		default:
+		{
+	        	/* Show the cursor */
+        		curs_set(TRUE);
 
-        /* Clean */
-        free(p_structCommon->iThreadProgressionTable);
-        free(p_structCommon);
+	       		/* Stop the program and leave the graphic mode ! Very important ! */
+        		LOG_WRITE("End of the program. See you");
+        		endwin();
 
-	exit(EXIT_SUCCESS);
+        		/* Clean */
+        		free(l_structCommon->iThreadProgressionTable);
+        		free(l_structCommon);
+
+			exit(EXIT_SUCCESS);
+			break;
+		}
+	}
 }
 
 
@@ -326,6 +342,9 @@ int main(int argc, char** argv)
 	/* And now, try to load the previous config, let here if program have been killed */
 	saveCurrentContext(MODE_LOAD, structCommon);
 	toogleProgramSpeed(MODE_INIT, structCommon);
+
+	/* Initialize the killTheApp function - It copy pointer adress in a static variable */
+	killTheApp(structCommon);
 
 	/* Re-routing signals of the system */
 	initialisationOfTheSignal();

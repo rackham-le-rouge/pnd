@@ -28,18 +28,18 @@ void initialisationOfTheSignal(void)
 
 	if (signal(SIGUSR2, signalHandler) == SIG_ERR)
 	{
-		exit(1);
+		killTheApp(NULL);
 	}
 
 	if (signal(SIGTERM, signalHandler) == SIG_ERR)
 	{
 		LOG_WRITE("Anormal termination of the program... Saving context NOW !")
-		exit(1);
+		killTheApp(NULL);
 	}
 
 	if (signal(SIGINT, signalHandler) == SIG_ERR)
 	{
-		exit(1);
+		killTheApp(NULL);
 	}
 }
 
@@ -253,14 +253,8 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
   */
 void commonSignalEnding(void)
 {
-	/* Show the cursor */
-        curs_set(1);
-
-	/* close windows */
-	endwin();
+	/* Killing properly the application */
 
 	LOG_WRITE("Anormal end of the program... Hope to see you again !")
-
-	/* kill the program */
-	exit(0);
+	killTheApp(NULL);
 }

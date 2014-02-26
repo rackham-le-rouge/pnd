@@ -308,6 +308,8 @@ void drawMainMenu(int p_iRow, int p_iCol)
 
 	topText("Prime Number Discovery program, in order to find something new by yourself - BEERWARE licence");
 
+	free(l_cBuffer);
+	l_cBuffer = NULL;
 
 	refresh();
         init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
@@ -480,6 +482,9 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 
         attroff(COLOR_PAIR(7));
+
+	free(l_cBuffer);
+	l_cBuffer = NULL;
 
 	refresh();
         init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
