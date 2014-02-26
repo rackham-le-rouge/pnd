@@ -20,4 +20,9 @@ TODO
 [x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
 [ ]	Cleaning memory function. For all of mpz numbers
 [x]	SIGUSR2 toogle High speed mode and low speed
-[ ]	Split main in specifics functions
+[x]	Split main in specifics functions
+[ ]	Debug the change speed command line parameter
+[ ]	Doxygen like comment
+[ ]	Padding in struct to add one compilation option
+[ ]	Include unique revision number and autocommit of binaries in the makefile
+[ ]	
