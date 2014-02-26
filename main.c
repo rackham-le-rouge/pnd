@@ -25,9 +25,6 @@ char rev[] = "0.0";
 char ver[] = "1.0";
 
 
-unsigned int g_iLigne	=		0;
-unsigned int g_iColonne  =		0;
-
 
 
 
@@ -140,15 +137,15 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
-	p_structStructure->iRow = g_iLigne;
-	p_structStructure->iCol = g_iColonne;
+	/*p_structStructure->iRow = ;
+	p_structStructure->iCol = ;						Initialized in main */
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
-	p_structStructure->iThreadProgressionTable = (int*)malloc((g_iLigne + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. g_iLignes is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
+	p_structStructure->iThreadProgressionTable = (int*)malloc((p_structStructure->iRow + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. p_structStructure->iRow is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
 
 	/* Init memory */
-	memset(p_structStructure->iThreadProgressionTable, 0, (g_iLigne + 1)*sizeof(int));
+	memset(p_structStructure->iThreadProgressionTable, 0, (p_structStructure->iRow + 1)*sizeof(int));
 
 	/* Try to find how many cores the computer have. */
 	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/* POSIX function ;) */
@@ -194,7 +191,8 @@ int main(int argc, char** argv)
 {
 	char l_cBuffer[250];
 	char l_cBuffer2[250];
-
+	unsigned int l_iCol;
+	unsigned int l_iRow;
 	int l_iTmp;
 	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
 	int l_iAutoActionChoice;
@@ -204,6 +202,8 @@ int main(int argc, char** argv)
 	long int l_iUserValue;
 
 	l_iTmp = 0;
+	l_iRow = 0;
+	l_iCol = 0;
 	l_bAutoAction = FALSE;
 	l_iAutoActionChoice = -1;
 	l_bAsk = TRUE;
@@ -230,12 +230,11 @@ int main(int argc, char** argv)
 	/* Initialisation of some graphical elements */
 	LOG_WRITE("Screen element initialisation...")
 	initColor();
-        getmaxyx(stdscr,g_iLigne,g_iColonne);
-	drawLoadingBar(0, -1, 0, g_iColonne, 0);		/* To initialize progressBar function */
+        getmaxyx(stdscr,l_iRow ,l_iCol);
 	initBar();
 
 	/* Check the screen size */
-	if(g_iLigne < MIN_SCREEN_HEIGHT)
+	if(l_iRow < MIN_SCREEN_HEIGHT)
 	{
 		LOG_WRITE("Screen doesn't have enought Lines")
 		mvprintw(1,1,"Screen too small");
@@ -244,7 +243,7 @@ int main(int argc, char** argv)
 		endwin();
 		return ENOMSG;
 	}
-	if(g_iColonne < MIN_SCREEN_LENGHT)
+	if(l_iCol < MIN_SCREEN_LENGHT)
 	{
 		LOG_WRITE("Screen doesn't have enought Columns")
 		printf("Screen too small");
@@ -262,7 +261,7 @@ int main(int argc, char** argv)
 
 
 	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because l_cBuffer is too small */
-	for(l_iTmp=0; (signed)l_iTmp < (signed)g_iColonne - (signed)strlen(l_cBuffer) ; l_iTmp++)
+	for(l_iTmp=0; (signed)l_iTmp < (signed)l_iCol - (signed)strlen(l_cBuffer) ; l_iTmp++)
 	{
 		l_cBuffer2[l_iTmp] = ' ';
 		l_cBuffer2[l_iTmp+1] = '\0';
@@ -273,7 +272,14 @@ int main(int argc, char** argv)
 
 	/* Setting default values for the most important state variable of the program */
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
+
+	/* Init screen size */
+	structCommon->iRow = l_iRow;
+	structCommon->iCol = l_iCol;
+
+	/* We can use it only after setting the screen size */
 	setDefaultValueToTheProgramStructure(structCommon);
+
 
 	/* Configure program according to the command line */
 	if(argc > 1)
@@ -325,9 +331,9 @@ int main(int argc, char** argv)
 		}
 
 		/* Check some values, in order to control user choices and put default values instead of if there is an error */
-		if(structCommon->iThreadNumber > g_iLigne - 2)
+		if(structCommon->iThreadNumber > l_iRow - 2)
 		{
-			structCommon->iThreadNumber = g_iLigne - 2;
+			structCommon->iThreadNumber = l_iRow - 2;
 		}
 		if(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE)
 		{
@@ -341,10 +347,15 @@ int main(int argc, char** argv)
 
 	/* And now, try to load the previous config, let here if program have been killed */
 	saveCurrentContext(MODE_LOAD, structCommon);
+
+	/* Then, we can init the toogleSpeed part of the program */
 	toogleProgramSpeed(MODE_INIT, structCommon);
 
 	/* Initialize the killTheApp function - It copy pointer adress in a static variable */
 	killTheApp(structCommon);
+
+	/* Initialize progressbar */
+	drawLoadingBar(0, -1, 0, structCommon->iCol, 0);
 
 	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
@@ -368,8 +379,8 @@ int main(int argc, char** argv)
 		l_bAsk = TRUE;
 
 		/* Just erase screen and drawing menu, no command here */
-		eraseWorkingScreen(g_iLigne, g_iColonne);
-		drawMainMenu(g_iLigne, g_iColonne);
+		eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
+		drawMainMenu(structCommon->iRow, structCommon->iCol);
 
 		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
@@ -393,14 +404,14 @@ int main(int argc, char** argv)
 			{
 				LOG_WRITE("Start function selected")
 				structCommon->bAutoSearch = FALSE;
-				eraseWorkingScreen(g_iLigne, g_iColonne);
+				eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
 				createAllComputingThreads(structCommon);
 				break;
 			}
 			case 2:
 			{
 				LOG_WRITE("Set a new order function selected")
-				drawSubMenu(g_iLigne, g_iColonne, MENU_NEW_ORDER, structCommon);
+				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_NEW_ORDER, structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
@@ -409,7 +420,7 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+					drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
 					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
 					{
 						/* And order is a prime number, thus it is allowed */
@@ -428,7 +439,7 @@ int main(int argc, char** argv)
 			case 3:
 			{
 				LOG_WRITE("Set new thread number function selected")
-				drawSubMenu(g_iLigne, g_iColonne, MENU_SET_THREAD_NUMBER, structCommon);
+				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_SET_THREAD_NUMBER, structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
@@ -437,11 +448,11 @@ int main(int argc, char** argv)
 				else
 				{
 					/* Sucess typing */
-					if(l_iUserValue > g_iLigne - 2)
+					if(l_iUserValue > structCommon->iRow - 2)
 					{
 						/* We don't have enought lines to display threads progression */
-						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(g_iLigne - 2));
-						structCommon->iThreadNumber = (unsigned char)(g_iLigne - 2);
+						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(structCommon->iRow - 2));
+						structCommon->iThreadNumber = (unsigned char)(structCommon->iRow - 2);
 					}
 					else
 					{
@@ -459,11 +470,11 @@ int main(int argc, char** argv)
 
 				while(structCommon->bAutoSearch == TRUE)
 				{
-					eraseWorkingScreen(g_iLigne, g_iColonne);
+					eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
 					createAllComputingThreads(structCommon);
 
 					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check. For really great number this computation can take some time. Thus, we display a message */
-					drawSubMenu(g_iLigne, g_iColonne, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+					drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
 
 					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
 					do
@@ -479,8 +490,8 @@ int main(int argc, char** argv)
 			case 5:
 			{
 				LOG_WRITE("About menu selected")
-				eraseWorkingScreen(g_iLigne, g_iColonne);
-				drawSubMenu(g_iLigne, g_iColonne, MENU_ABOUT, structCommon);
+				eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
+				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_ABOUT, structCommon);
 				break;
 			}
 			case 6:
@@ -496,7 +507,7 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-	killTheApp(structCommon);
+	killTheApp(NULL);
 
 	return EXIT_SUCCESS;
 }
