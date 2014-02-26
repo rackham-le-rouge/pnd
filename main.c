@@ -173,11 +173,21 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 
 
 
-
+/**
+  * Extract all usefull function from command line, and configure the program to
+  * apply wanted parameters
+  */
 void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice)
 {
 	int l_iTmp;
+	int l_iPid;				/* Supposed pid of the other pnd process, for the change speed case  */
+	int l_iChangeSpeedOfThisPID;		/* We are sure that is this PID */
+	FILE* l_fileReturnOfCommand;
+	char l_cBuffer[POPEN_BUFFER_LENGHT];
 
+
+	l_iPid = 0;
+	l_iChangeSpeedOfThisPID = 0;
 
 	if(argc > 1)
 	{
@@ -203,6 +213,43 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
 
+				/* Change speed of the program */
+				if(!strcmp(argv[l_iTmp], "-s"))
+				{
+					LOG_WRITE("C.LINE : Change computing speed of the program ")
+					l_fileReturnOfCommand = popen("ps -C syslogd -o pid=", "r");
+					if(l_fileReturnOfCommand != NULL)
+					{
+						while(fgets(l_cBuffer, (POPEN_BUFFER_LENGHT - 1)*sizeof(char), l_fileReturnOfCommand) != NULL)
+						{
+							l_iPid = atoi(l_cBuffer);
+							if(l_iPid != getpid())
+							{
+								LOG_WRITE_STRING_LONG("C.LINE : Good PID found and saved : ", (long)l_iPid)
+								l_iChangeSpeedOfThisPID = l_iPid;
+							}
+							else
+							{
+								LOG_WRITE_STRING_LONG("C.LINE : Wrong PID found : ", (long)l_iPid)
+							}
+						}
+						pclose(l_fileReturnOfCommand);
+					}
+					else
+					{
+						LOG_WRITE("C.LINE : Failed to load PID of the current pnd session")
+					}
+
+					if(l_iChangeSpeedOfThisPID != 0)
+					{
+						/* We have found one valid PID */
+						LOG_WRITE_STRING_LONG("C.LINE : Slowing down pnd at PID : ", (long)l_iChangeSpeedOfThisPID)
+						kill((pid_t)l_iChangeSpeedOfThisPID, SIGUSR1);
+					}
+					*p_bAutoAction = TRUE;
+					*p_iAutoActionChoice = 6;
+				}
+
 				/* No windows displayed. submarine mode */
 				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : p_structCommon->bAutoSearch;
 				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : *p_bAutoAction;
@@ -219,7 +266,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-s{speed toogle}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}
