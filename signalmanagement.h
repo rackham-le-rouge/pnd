@@ -29,6 +29,6 @@ void toogleProgramSpeed(char p_cMode, structProgramInfo* p_structCommon);
 
 
 /* Copied from stdlib */
- int kill( pid_t pid, int sig );
+int kill( pid_t pid, int sig );
 
 #endif
