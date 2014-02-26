@@ -18,11 +18,17 @@
  */
 
 
+
+int g_iCurrentPID;
+
+
 #include "conf.h"
 
 
 char rev[] = "0.0";
 char ver[] = "1.0";
+
+
 
 
 
@@ -180,8 +186,8 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice)
 {
 	int l_iTmp;
-	int l_iPid;				/* Supposed pid of the other pnd process, for the change speed case  */
-	int l_iChangeSpeedOfThisPID;		/* We are sure that is this PID */
+	pid_t l_iPid;				/* Supposed pid of the other pnd process, for the change speed case  */
+	pid_t l_iChangeSpeedOfThisPID;		/* We are sure that is this PID */
 	FILE* l_fileReturnOfCommand;
 	char l_cBuffer[POPEN_BUFFER_LENGHT];
 
@@ -217,7 +223,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				if(!strcmp(argv[l_iTmp], "-s"))
 				{
 					LOG_WRITE("C.LINE : Change computing speed of the program ")
-					l_fileReturnOfCommand = popen("ps -C syslogd -o pid=", "r");
+					l_fileReturnOfCommand = popen("ps -C pnd -o pid=", "r");
 					if(l_fileReturnOfCommand != NULL)
 					{
 						while(fgets(l_cBuffer, (POPEN_BUFFER_LENGHT - 1)*sizeof(char), l_fileReturnOfCommand) != NULL)
@@ -309,6 +315,7 @@ int main(int argc, char** argv)
 	int l_iAutoActionChoice;
 	structProgramInfo* structCommon;
 
+	g_iCurrentPID = getpid();
 	l_iTmp = 0;
 	l_iRow = 0;
 	l_iCol = 0;
