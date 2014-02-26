@@ -14,8 +14,9 @@
 
 
 
-/**
+/** @brief
   * initialisation of the signal routing, in order to handle the SIGTERM, SIGINT and some SIGUSR
+  *
   */
 void initialisationOfTheSignal(void)
 {
@@ -44,8 +45,9 @@ void initialisationOfTheSignal(void)
 }
 
 
-/**
+/** @brief
   * Signal handler. When signal is launched -> this function is called
+  * @param p_iSignalNo : number of the signal sended
   */
 void signalHandler(int p_iSignalNo)
 {
@@ -68,12 +70,12 @@ void signalHandler(int p_iSignalNo)
 	                LOG_WRITE("Fork problem. Cant restart program. We are going to be killed")
 
 			/* Suicide is better. When user restart it manually from command line, program will resume his activity */
-			kill(getpid(),SIGTERM);
+			killTheApp(NULL);
         	}
         	if(l_pidPid > 0)
         	{
                 	/* Because we are in the parent program */
-			kill(getpid(),SIGTERM);
+			killTheApp(NULL);
         	}
 
         	LOG_WRITE("Kill my father. Done. Now i am restarting.")
@@ -97,10 +99,13 @@ void signalHandler(int p_iSignalNo)
 }
 
 
-/**
+/** @brief
   * Function called in order to toogle computation speed.
   * User use this function when program is in deamon mode.
   * There is no GUI, thus, signal are the only way
+  *
+  * @param p_cMode : MODE_ INIT or MODE_ TOOGLE in order to toogle speed of the program
+  * @param p_structCommon : all usefull data about this program
   */
 void toogleProgramSpeed(char p_cMode, structProgramInfo* p_structCommon)
 {
@@ -129,11 +134,14 @@ void toogleProgramSpeed(char p_cMode, structProgramInfo* p_structCommon)
 
 
 
-/**
+/** @brief
   * Saving function, this function needs to be initialized in order to set the adress of the common structure
   * This function is also called by main in order to get back the old context. I put it here to let these functions gathered in order
   * to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is
   * only used by and for signal handling. If the program close properly, there is no need to save the context.
+  *
+  * @param p_cMode : MODE_ INIT or MODE_ SAVE or MODE_ LOAD in order to toogle speed of the program
+  * @param p_structCommon : all usefull data about this program
   */
 void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 {
@@ -248,7 +256,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 
 
 
-/**
+/** @brief
   * Commong signal ending : close the graphic screen and quit the program
   */
 void commonSignalEnding(void)
