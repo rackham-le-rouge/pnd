@@ -260,20 +260,14 @@ int main(int argc, char** argv)
 	int l_iTmp;
 	char l_bAutoAction;				/* Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
 	int l_iAutoActionChoice;
-	char l_bAsk;
-	char l_bQuitProgram;
 	structProgramInfo* structCommon;
-	long int l_iUserValue;
 
 	l_iTmp = 0;
 	l_iRow = 0;
 	l_iCol = 0;
 	l_bAutoAction = FALSE;
 	l_iAutoActionChoice = -1;
-	l_bAsk = TRUE;
-	l_bQuitProgram = FALSE;
 	structCommon = NULL;
-	l_iUserValue = 0;
 
 	LOG_WRITE(" ")
 	LOG_WRITE(" ")
@@ -344,7 +338,6 @@ int main(int argc, char** argv)
 	/* We can use it only after setting the screen size */
 	setDefaultValueToTheProgramStructure(structCommon);
 
-
 	/* Configure program according to the command line */
 	extractConfigFromCommandLine(argc, argv, structCommon, &l_bAutoAction, &l_iAutoActionChoice);
 
@@ -377,6 +370,32 @@ int main(int argc, char** argv)
 		l_iAutoActionChoice = 4;
 	}
 
+	mainMenu(structCommon, &l_bAutoAction, &l_iAutoActionChoice);
+
+	killTheApp(NULL);
+}
+
+
+
+
+
+
+
+
+
+
+char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice)
+{
+	char l_bQuitProgram;
+	char l_bAsk;
+	long int l_iUserValue;
+	int l_iTmp;
+
+
+	l_bAsk = TRUE;
+	l_bQuitProgram = FALSE;
+	l_iUserValue = 0;
+	l_iTmp = 0;
 
 	while(!l_bQuitProgram)
 	{
@@ -386,12 +405,12 @@ int main(int argc, char** argv)
 		l_bAsk = TRUE;
 
 		/* Just erase screen and drawing menu, no command here */
-		eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
-		drawMainMenu(structCommon->iRow, structCommon->iCol);
+		eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+		drawMainMenu(p_structCommon->iRow, p_structCommon->iCol);
 
 		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
-		if(l_bAutoAction == TRUE) {l_bAsk = FALSE;}
+		if(*p_bAutoAction == TRUE) {l_bAsk = FALSE;}
 		while(l_bAsk)
 		{
 			/* Get the keyboark key */
@@ -402,7 +421,7 @@ int main(int argc, char** argv)
 		}
 		nodelay(stdscr, TRUE);
 
-		if(l_bAutoAction == TRUE) {l_iTmp = l_iAutoActionChoice; l_bAutoAction = FALSE;}
+		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice; *p_bAutoAction = FALSE;}
 
 
 		switch(l_iTmp)
@@ -410,62 +429,62 @@ int main(int argc, char** argv)
 			case 1:
 			{
 				LOG_WRITE("Start function selected")
-				structCommon->bAutoSearch = FALSE;
-				eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
-				createAllComputingThreads(structCommon);
+				p_structCommon->bAutoSearch = FALSE;
+				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+				createAllComputingThreads(p_structCommon);
 				break;
 			}
 			case 2:
 			{
 				LOG_WRITE("Set a new order function selected")
-				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_NEW_ORDER, structCommon);
+				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_NEW_ORDER, p_structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
-					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+					LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)p_structCommon->iMersenneOrder);
 				}
 				else
 				{
 					/* Sucess typing */
-					drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
 					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
 					{
 						/* And order is a prime number, thus it is allowed */
-						structCommon->iMersenneOrder = l_iUserValue;
-						LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
+						p_structCommon->iMersenneOrder = l_iUserValue;
+						LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)p_structCommon->iMersenneOrder);
 					}
 					else
 					{
 						/* if order is not a prime number it not allowed. It is useless to waste time with it */
-						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)structCommon->iMersenneOrder);
+						LOG_WRITE_STRING_LONG("New Mersenne order --failed-- Keep the old value : ", (long)p_structCommon->iMersenneOrder);
 					}
 				}
-				drawCurrentMersenneOrder(structCommon);
+				drawCurrentMersenneOrder(p_structCommon);
 				break;
 			}
 			case 3:
 			{
 				LOG_WRITE("Set new thread number function selected")
-				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_SET_THREAD_NUMBER, structCommon);
+				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_SET_THREAD_NUMBER, p_structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
 				{
 					/* Fail -- Keep the old value*/
-					LOG_WRITE_STRING_LONG("New thread number --failed-- Keep the old value : ", (long)structCommon->iThreadNumber);
+					LOG_WRITE_STRING_LONG("New thread number --failed-- Keep the old value : ", (long)p_structCommon->iThreadNumber);
 				}
 				else
 				{
 					/* Sucess typing */
-					if(l_iUserValue > structCommon->iRow - 2)
+					if(l_iUserValue > p_structCommon->iRow - 2)
 					{
 						/* We don't have enought lines to display threads progression */
-						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(structCommon->iRow - 2));
-						structCommon->iThreadNumber = (unsigned char)(structCommon->iRow - 2);
+						LOG_WRITE_STRING_LONG("New thread number --failed-- Dont have enought lines. New value : ", (long)(p_structCommon->iRow - 2));
+						p_structCommon->iThreadNumber = (unsigned char)(p_structCommon->iRow - 2);
 					}
 					else
 					{
 						/* We have enought lines to display all threads progression */
-						structCommon->iThreadNumber = (unsigned char)l_iUserValue;
-						LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)structCommon->iThreadNumber);
+						p_structCommon->iThreadNumber = (unsigned char)l_iUserValue;
+						LOG_WRITE_STRING_LONG("New thread number changed to : ", (long)p_structCommon->iThreadNumber);
 					}
 				}
 				break;
@@ -473,32 +492,32 @@ int main(int argc, char** argv)
 			case 4:
 			{
 				LOG_WRITE("Prospecting mode selected")
-				structCommon->bAutoSearch = TRUE;
+				p_structCommon->bAutoSearch = TRUE;
 
-				while(structCommon->bAutoSearch == TRUE)
+				while(p_structCommon->bAutoSearch == TRUE)
 				{
-					eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
-					createAllComputingThreads(structCommon);
+					eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+					createAllComputingThreads(p_structCommon);
 
 					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to check. For really great number this computation can take some time. Thus, we display a message */
-					drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, structCommon);
+					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
 
 					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a chance to give a prime mersenne numnber */
 					do
 					{
-						structCommon->iMersenneOrder += 2;		/* jump to the next odd number */
-					}while(isItAPrimeNumberULI((double)structCommon->iMersenneOrder) == FALSE);
+						p_structCommon->iMersenneOrder += 2;		/* jump to the next odd number */
+					}while(isItAPrimeNumberULI((double)p_structCommon->iMersenneOrder) == FALSE);
 
-					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)structCommon->iMersenneOrder);
-					drawCurrentMersenneOrder(structCommon);
+					LOG_WRITE_STRING_LONG("New Mersenne order changed to : ", (long)p_structCommon->iMersenneOrder);
+					drawCurrentMersenneOrder(p_structCommon);
 				}
 				break;
 			}
 			case 5:
 			{
 				LOG_WRITE("About menu selected")
-				eraseWorkingScreen(structCommon->iRow, structCommon->iCol);
-				drawSubMenu(structCommon->iRow, structCommon->iCol, MENU_ABOUT, structCommon);
+				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_ABOUT, p_structCommon);
 				break;
 			}
 			case 6:
@@ -514,7 +533,5 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-	killTheApp(NULL);
-
 	return EXIT_SUCCESS;
 }
