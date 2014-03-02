@@ -22,8 +22,6 @@
 
 
 void createAllComputingThreads(structProgramInfo* p_structCommon);
-extern int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure);
-extern void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon);
 
 /* imported from std libs */
 typedef	unsigned int	uint_t;		/* don't know why i need to put that here. I already included sys/types.h and all is in it. FIXME ! */

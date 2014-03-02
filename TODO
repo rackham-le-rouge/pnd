@@ -1,8 +1,8 @@
 TODO
 ----
+g=give up / x=done / ' '=TODO
 
-
-[ ]	Change WRITE_LOG routine for something better, maybee open a file once at the beginning and save the steam pointer in a static variable
+[g]	Change WRITE_LOG routine for something better, maybee open a file once at the beginning and save the steam pointer in a static variable
 [x]	Find how to estimate a percent of the search area.
 [x]	Call the progresss bar function for each thread
 [x]	Saving context function
@@ -20,4 +20,9 @@ TODO
 [x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
 [ ]	Cleaning memory function. For all of mpz numbers
 [x]	SIGUSR2 toogle High speed mode and low speed
-[ ]	Split main in specifics functions
+[x]	Split main in specifics functions
+[x]	Debug the change speed command line parameter
+[x]	Doxygen like comment
+[ ]	Padding in struct to add one compilation option
+[ ]	Include unique revision number and autocommit of binaries in the makefile
+[ ]	
