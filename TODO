@@ -22,7 +22,7 @@ g=give up / x=done / ' '=TODO
 [x]	SIGUSR2 toogle High speed mode and low speed
 [x]	Split main in specifics functions
 [x]	Debug the change speed command line parameter
-[ ]	Doxygen like comment
+[x]	Doxygen like comment
 [ ]	Padding in struct to add one compilation option
 [ ]	Include unique revision number and autocommit of binaries in the makefile
 [ ]	
