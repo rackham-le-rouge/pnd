@@ -52099,3 +52099,57 @@ main.c 211 End of the program. See you
 698 [multithread.c] 185 Computation takes --in seconds--: 92626
 698 [main.c] 565 New Mersenne order changed to : 37
 >>>>>>> jerome/unstable
+4160 [main.c] 341
+4160 [main.c] 342
+4160 [main.c] 343 ---------------------------------------------------------------------
+4160 [main.c] 344 Starting new instance
+4160 [main.c] 345 ---------------------------------------------------------------------
+4160 [main.c] 358 Screen element initialisation...
+4160 [main.c] 147 Writing the default configuration in the common stuctProgramInfo
+4160 [main.c] 180 Number of thread detected --successfully-- : 2
+4160 [signalmanagement.c] 156 Saving function : Init of commonstruct pointer
+4160 [signalmanagement.c] 192 Load function : Try to load context, if it exist
+4160 [signalmanagement.c] 246 Load function : There is no context saved. Default values are going to be loaded
+4160 [signalmanagement.c] 117 Init structCommon pointer for the toogling function
+4160 [drawing.c] 557 Now screen lenght is :
+4160 [drawing.c] 558 127
+4160 [main.c] 477 Main menu : Wainting for a user choice...
+4160 [main.c] 597 About menu selected
+4160 [main.c] 477 Main menu : Wainting for a user choice...
+4160 [main.c] 605 Quit the program
+4160 [main.c] 119 End of the program. See you
+4184 [main.c] 341
+4184 [main.c] 342
+4184 [main.c] 343 ---------------------------------------------------------------------
+4184 [main.c] 344 Starting new instance
+4184 [main.c] 345 ---------------------------------------------------------------------
+4184 [main.c] 358 Screen element initialisation...
+4184 [main.c] 147 Writing the default configuration in the common stuctProgramInfo
+4184 [main.c] 180 Number of thread detected --successfully-- : 2
+4184 [signalmanagement.c] 156 Saving function : Init of commonstruct pointer
+4184 [signalmanagement.c] 192 Load function : Try to load context, if it exist
+4184 [signalmanagement.c] 246 Load function : There is no context saved. Default values are going to be loaded
+4184 [signalmanagement.c] 117 Init structCommon pointer for the toogling function
+4184 [drawing.c] 557 Now screen lenght is :
+4184 [drawing.c] 558 127
+4184 [main.c] 477 Main menu : Wainting for a user choice...
+4184 [main.c] 515 Set a new order function selected
+4184 [main.c] 530 New Mersenne order changed to : 19
+4184 [main.c] 477 Main menu : Wainting for a user choice...
+4184 [main.c] 506 Start function selected
+4184 [multithread.c] 188 This is a prime number.
+4184 [multithread.c] 192 Computation takes --in seconds--: 0
+4184 [main.c] 477 Main menu : Wainting for a user choice...
+4184 [main.c] 572 Prospecting mode selected
+4184 [multithread.c] 188 This is a prime number.
+4184 [multithread.c] 192 Computation takes --in seconds--: 0
+4184 [main.c] 589 New Mersenne order changed to : 23
+4184 [multithread.c] 178 This is not a prime number !
+4184 [multithread.c] 192 Computation takes --in seconds--: 1
+4184 [main.c] 589 New Mersenne order changed to : 29
+4184 [multithread.c] 183 Give up ! Dont know it this is a prime number or not
+4184 [multithread.c] 192 Computation takes --in seconds--: 14
+4184 [main.c] 589 New Mersenne order changed to : 31
+4184 [main.c] 477 Main menu : Wainting for a user choice...
+4184 [main.c] 605 Quit the program
+4184 [main.c] 119 End of the program. See you
