@@ -344,6 +344,9 @@ int main(int argc, char** argv)
 	LOG_WRITE("                    Starting new instance")
 	LOG_WRITE("---------------------------------------------------------------------")
 
+	sprintf(l_cBuffer, "Build of %s at %s", __DATE__, __TIME__);
+	LOG_WRITE_STRING(l_cBuffer);
+
 	/** Start the graphic mode */
 	initscr();
 

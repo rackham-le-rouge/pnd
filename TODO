@@ -24,5 +24,5 @@ g=give up / x=done / ' '=TODO
 [x]	Debug the change speed command line parameter
 [x]	Doxygen like comment
 [ ]	Padding in struct to add one compilation option
-[ ]	Include unique revision number and autocommit of binaries in the makefile
-[ ]	
+[g]	Include unique revision number and autocommit of binaries in the makefile - See next point
+[x]	Include DATE and TIME of build in the maked bin and put it in log at each start
