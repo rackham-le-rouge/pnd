@@ -153,7 +153,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->iCol = ;						Initialized in main */
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
-	p_structStructure->iThreadProgressionTable = (int*)malloc((p_structStructure->iRow + 1)*sizeof(int));	/* +1 because there is a number to save how many threads works. p_structStructure->iRow is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
+	p_structStructure->iThreadProgressionTable = (short*)malloc((p_structStructure->iRow + 1)*sizeof(short));	/* +1 because there is a number to save how many threads works. p_structStructure->iRow is used because it is the max threads number, wa can't display more threads progression, thus, the limit is the lines number  */
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
 
 	/** Init memory */
@@ -219,11 +219,11 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
 
 				/** Change mersenne order */
-				p_structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iMersenneOrder;
+				p_structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? (unsigned)atoi(argv[l_iTmp + 1]) : p_structCommon->iMersenneOrder;
 				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)p_structCommon->iMersenneOrder)}
 
 				/** Change moderation time */
-				p_structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iModerationTime;
+				p_structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? (unsigned)atoi(argv[l_iTmp + 1]) : p_structCommon->iModerationTime;
 				if(!strcmp(argv[l_iTmp], "-w")) {LOG_WRITE_STRING_LONG("C.LINE : Change moderation time to ", (long)p_structCommon->iModerationTime)}
 
 				/** Change thread number */

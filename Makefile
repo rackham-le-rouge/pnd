@@ -28,7 +28,7 @@ CFLAGS=-fopenmp -W -Waggregate-return -Wall -Warray-bounds -Wbad-function-cast -
                  -Wswitch -Wswitch-default -Wswitch-enum -Wsync-nand -Wtrigraphs -Wundef -Wuninitialized        \
                  -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused -Wunused-function -Wunused-label        \
                  -Wunused-parameter -Wunused-value -Wunused-variable -Wvla -Wvolatile-register-var              \
-                 -Wwrite-strings -fno-common -fstack-protector-all -pedantic -std=c99 -Wstrict-aliasing=3	
+                 -Wwrite-strings -fno-common -fstack-protector-all -pedantic -std=c99 -Wstrict-aliasing=3
 
 LDFLAGS=-lncurses -ansi -lgmp -lm -fopenmp
 EXEC=pnd
