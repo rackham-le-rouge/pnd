@@ -43,7 +43,7 @@ pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 
 documentation:
 	@echo [DOC] Doc generation...
-	@doxygen .
+	@doxygen
 
 
 %.o: %.c
@@ -52,7 +52,7 @@ documentation:
 
 
 
-.PHONY: clean mrproper
+.PHONY: clean mrproper documentation
 
 clean:
 	@echo ---------------
