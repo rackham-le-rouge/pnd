@@ -198,8 +198,8 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 
 			/*** the first line -> The previous screen size, and so, the previous max thread number ***/
 			fscanf(l_fileOutputFile, "%d\n", &l_iLoadedRow);
-			fscanf(l_fileOutputFile, "%ud\n", &(l_structCommon->iMersenneOrder));
-			fscanf(l_fileOutputFile, "%ud\n", &(l_structCommon->iModerationTime));
+			fscanf(l_fileOutputFile, "%d\n", &(l_structCommon->iMersenneOrder));
+			fscanf(l_fileOutputFile, "%d\n", &(l_structCommon->iModerationTime));
 
 			if(l_iLoadedRow > l_structCommon->iRow)
 			{
