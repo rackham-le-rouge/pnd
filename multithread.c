@@ -14,15 +14,22 @@
 
 
 
+
+/**
+  * @brief This function call openMP and create all threads, and share the work. At the end, this function gather all datas and
+  *	   says if this is a prime number
+  * @param p_structCommon : all parameters of the program, number of threads to start
+  */
+
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
-	int l_iThreadNumber;
-	int l_iCurrentThread;
-	unsigned long int l_iSeconds;
-	unsigned int l_iUSecBetweenTwoAutoSearch;
-	char l_bQKeyPressed;
-	time_t l_timeBegin;
-	time_t l_timeEnd;
+	int l_iThreadNumber;				/** number of threads working in the program */
+	int l_iCurrentThread;				/** current thread */
+	unsigned long int l_iSeconds;			/** seconds needed to check one mersenne number */
+	unsigned int l_iUSecBetweenTwoAutoSearch;	/** for the waiting function, in order to free the CPU during a long computation */
+	char l_bQKeyPressed;				/** Used by keyboard handler, to check and do things */
+	time_t l_timeBegin;				/** Begin of the computation */
+	time_t l_timeEnd;				/** End of the computation */
 
 	l_iThreadNumber = p_structCommon->iThreadNumber;
 	p_structCommon->bIsComputing = TRUE;

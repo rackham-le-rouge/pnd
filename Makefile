@@ -16,14 +16,14 @@
 # -Wpadded		: need to fix it. There is a problem with the structure, memory is not optimized
 
 CC=gcc
-CFLAGS=-fopenmp -W -Waggregate-return -Wall -Warray-bounds -Wbad-function-cast -Wcast-align -Wcast-qual \
+CFLAGS=-fopenmp -W -Waggregate-return -Wall -Warray-bounds -Wbad-function-cast -Wcast-align -Wcast-qual 	\
                  -Wchar-subscripts -Wcomment -Wdeclaration-after-statement -Werror -Wextra -Wfloat-equal        \
                  -Wformat -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wignored-qualifiers -Wimplicit    \
                  -Wimplicit-function-declaration -Wimplicit-int -Winit-self -Winline -Winvalid-pch -Wlogical-op \
                  -Wlong-long -Wmain -Wmissing-braces -Wmissing-declarations -Wmissing-field-initializers        \
                  -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-parameter-type -Wmissing-prototypes        \
                  -Wmultichar -Wnested-externs -Wno-multichar -Wnonnull -Wold-style-definition                   \
-                 -Woverlength-strings -Wparentheses -Wpointer-arith -Wpointer-sign                     \
+                 -Woverlength-strings -Wparentheses -Wpointer-arith -Wpointer-sign                     		\
                  -Wreturn-type -Wsequence-point -Wshadow -Wsign-compare -Wstack-protector                       \
                  -Wswitch -Wswitch-default -Wswitch-enum -Wsync-nand -Wtrigraphs -Wundef -Wuninitialized        \
                  -Wunknown-pragmas -Wunsafe-loop-optimizations -Wunused -Wunused-function -Wunused-label        \
@@ -35,10 +35,16 @@ EXEC=pnd
 
 all: $(EXEC)
 allc: mrproper $(EXEC)
+full: $(EXEC) documentation
 
 pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 	@$(CC) -o $@ $^ $(LDFLAGS)
 	@echo [LD] $@
+
+documentation:
+	@echo [DOC] Doc generation...
+	@doxygen
+
 
 %.o: %.c
 	@$(CC) -o $@ -c $< $(CFLAGS)
@@ -46,7 +52,7 @@ pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 
 
 
-.PHONY: clean mrproper
+.PHONY: clean mrproper documentation
 
 clean:
 	@echo ---------------

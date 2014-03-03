@@ -14,7 +14,7 @@
 
 
 
-/* Blues lines - Top and bottom of the screen */
+/** @brief Blues lines - Top and bottom of the screen */
 void initBar(void)
 {
         int l_iRow,l_iCol,i;                          	/* to store the number of rows and */
@@ -42,7 +42,7 @@ void initBar(void)
 
 
 
-/* Text of the top line */
+/** @brief Text of the top line */
 void topText(const char* p_sString)
 {
         start_color();                          	/* start color mode */
@@ -55,7 +55,7 @@ void topText(const char* p_sString)
 
 
 
-/* Disable the two lines */
+/** @brief Disable the two lines */
 void disableBar(void)
 {
         start_color();                          	/* start color mode */
@@ -72,7 +72,9 @@ void disableBar(void)
 
 
 
-/* Text of the bottom line */
+/** @brief Text of the bottom line
+  * @param p_sString : string to print at the bottom of the screen
+  */
 void botText(const char* p_sString)
 {
         int l_iRow,l_iCol;                            	/* to store the number of rows and */
@@ -88,7 +90,13 @@ void botText(const char* p_sString)
 
 
 
-/* Draw an element on the screen */
+/** @brief Draw an element on the screen
+  * @param p_iX : X coord
+  * @param p_iY : Y coord
+  * @param p_cChar : the character to print
+  * @param p_iColor : color, Cf the enum
+  * @return 0
+  */
 int drawElement(int p_iX, int p_iY, char p_cChar, int p_iColor)
 {
         int l_iRow,l_iCol;                            	/* to store the number of rows and */
@@ -110,7 +118,13 @@ int drawElement(int p_iX, int p_iY, char p_cChar, int p_iColor)
 
 
 
-/* Draw an element on the screen */
+/** @brief Draw an element on the screen
+  * @param p_iX : X coord of the beginning of the sentence
+  * @param p_iY : Y coord of the beginning of the sentence
+  * @param p_sString : sentence to draw
+  * @param p_iColor : color used, from the enum
+  * @return 0
+  */
 int drawSentence(int p_iX, int p_iY, char* p_sString, int p_iColor)
 {
         int l_iRow,l_iCol;                            	/* to store the number of rows and */
@@ -131,7 +145,8 @@ int drawSentence(int p_iX, int p_iY, char* p_sString, int p_iColor)
 }
 
 
-/* Initialisation of the colors of each kind of people */
+/** @brief Initialisation of the colors of each kind of people
+  */
 void initColor(void)
 {
 	start_color();
@@ -159,7 +174,10 @@ void initColor(void)
 
 
 
-/* Draw the intro panel */
+/** @brief Draw the intro panel
+  * @param p_iRow : Number of lines in the screen
+  * @param p_iCol : Number of columns in the screen
+  */
 void drawIntro(int p_iRow, int p_iCol)
 {
         start_color();                          	/* start color mode */
@@ -235,7 +253,12 @@ void drawIntro(int p_iRow, int p_iCol)
 
 
 
-/* Draw str to the center of the screen */
+/** @brief  Draw str to the center of the screen
+  * @param p_sString : sentence to write on the screen
+  * @param p_iCol : column of the screen
+  * @param p_iRow : rows in the screen
+  * @return p_iRow
+  */
 int drawCenter(const char* p_sString, int p_iCol, int p_iRow)
 {
 	/* si on met -1 en col ou en row, il prendra comme valeur la première valeur non nulle qui
@@ -253,7 +276,9 @@ int drawCenter(const char* p_sString, int p_iCol, int p_iRow)
 
 
 /**
-  *  Draw the main menu, in order to swho all computation choices and a little in-line help
+  * @brief Draw the main menu, in order to swho all computation choices and a little in-line help
+  * @param p_iRow : number of row in the screen
+  * @param p_iCol : number of column in the screen
   */
 void drawMainMenu(int p_iRow, int p_iCol)
 {
@@ -308,12 +333,20 @@ void drawMainMenu(int p_iRow, int p_iCol)
 
 	topText("Prime Number Discovery program, in order to find something new by yourself - BEERWARE licence");
 
+	free(l_cBuffer);
+	l_cBuffer = NULL;
 
 	refresh();
-        init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* référence des couleurs */
+        init_pair(7, COLOR_BLACK, COLOR_BLACK);   	/* color reference */
 }
 
-
+/**
+  * @brief Drawing function to draw all messages and sub menus of the screen
+  * @param p_iRow : number of row in the screen
+  * @param p_iCol : number of column in the screen
+  * @param p_iMenuSelector : select the wanted menu to draw
+  * @param p_structCommon : usefull data on the program
+  */
 void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon)
 {
 	char* l_cBuffer = (char*)malloc(21*sizeof(char));
@@ -481,6 +514,9 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
         attroff(COLOR_PAIR(7));
 
+	free(l_cBuffer);
+	l_cBuffer = NULL;
+
 	refresh();
         init_pair(7, COLOR_BLACK, COLOR_BLACK);   /* référence des couleurs */
 }
@@ -489,13 +525,19 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 
 
-/**
+/** @brief
   * Draw a loading bar on a complete line
   * it's used to represent computation progression...
   *
   * You need to inititalise it -> 				e.g : drawLoadingBar(0, -1, 0, yourScreenLenght, 0);
   * And after you can use it with the previous screen Lenght   	e.g : drawLoadingBar(2, 25, 100, -1, enumRed);		// with the previous screen lenght
   * You can also modify the screen lenght 			e.g : drawLoadingBar(2, 25, 100, newScreenLenght, enumRouge); // progress bar drawed with the new screen lenght
+  *
+  * @param p_iLine : selected row to draw the progressbar
+  * @param p_iCompleted : already done
+  * @param p_iMax : max value of the progress bar
+  * @param p_iScreenLenght : screen size
+  * @param p_iColor : color of the progressbar
   */
 void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLenght, int p_iColor)
 {
@@ -524,22 +566,22 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 
 	l_iPercent = (int)(((float)p_iCompleted /(float)p_iMax)*(float)l_iScreenLenght);
 
-	/* If the bar is taller than the screen */
+	/** If the bar is taller than the screen */
 	l_iPercent = (l_iPercent > l_iScreenLenght) ? l_iScreenLenght : l_iPercent;
 
-	/* If lenght == 0 then we need to add 1 in order to avoid infinite loop */
+	/** If lenght == 0 then we need to add 1 in order to avoid infinite loop */
 	l_iPercent = (l_iPercent == 0) ? 1 : l_iPercent;
 
-	/* draw body */
+	/** draw body */
 	for(l_iIterateur = 0; l_iIterateur < l_iPercent - 1; l_iIterateur++)
 	{
 		drawElement(l_iIterateur, p_iLine, l_cCaracterBody, p_iColor);
 	}
-	/* draw the head */
+	/** draw the head */
 	drawElement(l_iIterateur++, p_iLine, l_cCaracterHead, p_iColor);
 
 
-	/* If pair number we need to substract one (more pretty) */
+	/** If pair number we need to substract one (more pretty) */
 	l_iColumn = l_iScreenLenght/2;
 	l_iColumn -= (l_iScreenLenght % 2 == 0) ? 1 : 0;
 
@@ -557,7 +599,7 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 		}
 	}
 
-	/* We need to see each time the bar is changed */
+	/** We need to see each time the bar is changed */
 	refresh();
 }
 
@@ -587,12 +629,12 @@ void eraseWorkingScreen(int p_iRow, int p_iCol)
 
 
 /**
-  *
-  * In order to display the current mersenne order
+  * @brief
+  * In order to display the current mersenne order in the bottom bar
   *
   * Because user can change it, thus, we need to know it evrytime
   *
-  *
+  * @param structCommon : all usefull informations on the program, in order to find the mersenne order
   */
 void drawCurrentMersenneOrder(structProgramInfo* structCommon)
 {

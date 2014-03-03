@@ -16,18 +16,20 @@
 
 
 /**
-  *
+  * @brief
   * In the miller-rabin algorithm we only can use prime number. These numbers are not really long, thus there
   * is no need to improve this algorithm. We just need to know if the number is a prime number,
   * and after we can do 2^N - 1 and start the big computing
   *
   * Simple prime number testing -> check all number since sqrt(n) is reached
+  * @param p_mpzNumber : number to test
+  * @return TRUE (if the number is prime) or FALSE
   */
 char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 {
-	int l_bReturnOfFunction = FALSE;
-	mpz_t l_mpzSQRT;
-	mpz_t l_mpzIterator;
+	int l_bReturnOfFunction = FALSE;			/** returned number of the function */
+	mpz_t l_mpzSQRT;					/** sqrt of tested number because we test all numbers from sqrt to the number itself */
+	mpz_t l_mpzIterator;					/** to check all numbers */
 
 	mpz_init(l_mpzSQRT);
 	mpz_init(l_mpzIterator);
@@ -36,18 +38,18 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
 	#endif
 
-	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
+	/** Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
 	mpz_set(l_mpzIterator, p_mpzNumber);
 
-	/* Do the SQRT */
+	/** Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
 
-	/* Check if this an odd number */
+	/** Check if this an odd number */
 	l_bReturnOfFunction = mpz_divisible_ui_p(p_mpzNumber, (unsigned long int)2);
 	if(l_bReturnOfFunction)	{return FALSE;}			/* else, we continue... */
 
 
-	/* Start to divide by all people between the number his own sqrt */
+	/** Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
 		mpz_sub_ui(l_mpzIterator,l_mpzIterator, 2);		/* p_mpzIterator - 1  -> we use _ui because 1 is not a mpz number,
@@ -73,10 +75,12 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 
 
 /**
-  *
+  * @brief
   * And the unsigned long int version of the previous function.
   * In order to test mersenne order we don't need GMP because order will remains under MAX of unsigned long int
-  *
+  * This function is deprecated because it use double type.
+  * @param p_dNumber : number to test in double format
+  * @return TRUE (if the number is prime) or FALSE
   */
 char isItAPrimeNumberULI(double  p_dNumber)
 {
@@ -90,20 +94,20 @@ char isItAPrimeNumberULI(double  p_dNumber)
 	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
 	#endif
 
-	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
+	/** Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. */
 	l_dIterator = p_dNumber;
 
-	/* Do the SQRT */
+	/** Do the SQRT */
 	l_dSQRT = sqrt(p_dNumber);
 
-	/* Check if this is an odd number */
+	/** Check if this is an odd number */
 	l_dReturnOfFunction = fmod(p_dNumber, (double)2);
 	if((int)l_dReturnOfFunction == 0)
 	{
 		return FALSE;
 	}
 
-	/* Start to divide by all people between the number his own sqrt */
+	/** Start to divide by all people between the number his own sqrt */
 	for(;;)
 	{
 		l_dIterator -= 2;
@@ -112,7 +116,7 @@ char isItAPrimeNumberULI(double  p_dNumber)
 
 		if((int)l_dReturnOfFunction == 0) {break;}			/* else, we continue... */
 
-		/*Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
+		/** Compare SQRT and Iterator. Return a positive value if SQRT > Iterator */
 		if(l_dIterator < l_dSQRT)
 		{
 			return TRUE;
@@ -127,7 +131,7 @@ char isItAPrimeNumberULI(double  p_dNumber)
 
 
 /**
-  * An other basic function in order to find if it is a prime number.
+  * @brief An other basic function in order to find if it is a prime number.
   *
   * This one is design to be used with multithread calls. We are able to
   * split all computation in some many parts in order to execute each one
@@ -135,6 +139,13 @@ char isItAPrimeNumberULI(double  p_dNumber)
   *
   * But it is still the same poor algo than the function isItAPrimeNumber
   * and thus, there is any optimisation here...
+  * @param p_mpzNumber : number to test in GMP format
+  * @param p_iSectionNumber : we have N threads, thus N sections. Numbers between p_mpzNumber and sqrt(p_mpzNumber)
+  *			      are divided in N section. This parameter select the section to compute. One function
+  *			      like this one per thread is executed. And there is N threads
+  * @param p_iTotalSection : number of sections, thus, number of computing threads
+  * @param p_structStructure : all interesting data of the program
+  * @return TRUE or FALSE
   */
 
 
@@ -167,13 +178,13 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
 	#endif
 
-	/* Init of RefreshCounter in order to display the 0% */
+	/** Init of RefreshCounter in order to display the 0% */
 	mpz_set_ui(l_mpzRefreshCounter, (long)-1);
 
-	/* Do the SQRT */
+	/** Do the SQRT */
 	mpz_sqrt (l_mpzSQRT, p_mpzNumber);
 
-	/* Copy number in end and beginning variables in order to create the iterator boundaries. */
+	/** Copy number in end and beginning variables in order to create the iterator boundaries. */
 	mpz_set(l_mpzEndOfSearchArea, p_mpzNumber);
 	mpz_set(l_mpzBeginOfSearchArea, p_mpzNumber);
 
@@ -189,15 +200,15 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_add(l_mpzEndOfSearchArea, l_mpzEndOfSearchArea, l_mpzSQRT);
 	mpz_add(l_mpzBeginOfSearchArea, l_mpzBeginOfSearchArea, l_mpzSQRT);
 
-	/* Compute search area */
+	/** Compute search area */
 	mpz_sub(l_mpzArea, l_mpzEndOfSearchArea, l_mpzBeginOfSearchArea);
 	mpz_cdiv_q_ui(l_mpzOnePercent,l_mpzArea,(unsigned long)100);
 
-	/* Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check
+	/** Copy number in iterator. We are going to modify Iterator in order to  try to be a diviser of Number. - thus check
 	   earch one from end to beginOfSearchArea */
 	mpz_set(l_mpzIterator, l_mpzEndOfSearchArea);
 
-	/* If there is an autoloading, we need to put old values of progression here */
+	/** If there is an autoloading, we need to put old values of progression here */
 	if(p_structStructure->bLoaded)
 	{
 		/* We start with the previous percentage minus one in order to set a security area */
@@ -208,7 +219,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 		mpz_sub(l_mpzIterator, l_mpzIterator, l_mpzCurrentPosition);
 	}
 
-	/*  Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number */
+	/**  Make iterator odd number - because we jump two by two. Thus, we need to start with an odd number */
 	if(!mpz_odd_p(l_mpzIterator))
 	{
 		mpz_sub_ui(l_mpzIterator, l_mpzIterator, 1);
@@ -219,7 +230,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	#endif
 
 
-	/* This is the same loop, but, call usleep gives a really slow computation (even if it is usleep(0)), thus, there are two loop,
+	/** This is the same loop, but, call usleep gives a really slow computation (even if it is usleep(0)), thus, there are two loop,
 	   the first ont with usleep call, and the second one without for the fast computation time */
 
 	if(p_structStructure->iModerationTime > 0)
@@ -268,7 +279,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	}
 	else
 	{
-		/* Start to divide by all people between the number his own sqrt */
+		/** Start to divide by all people between the number his own sqrt */
 		for(;;)
 		{
 			/* -1 is for the first one : to display the 0% */
