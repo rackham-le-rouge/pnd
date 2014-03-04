@@ -1,12 +1,11 @@
 /**
- * Program:     Prime Number Discovery
- * File:        main.c
- * Brief:       Main part of the program
- * Description: There is the main function (start the screen and display the splash)
- *              and after run the program
- * Date:        1/2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @file 	main.c
+ * @rogram      Prime Number Discovery
+ * @brief       Main part of the program
+ * @description There is the main function (start the screen and display the splash) and after run the program
+ * @date        1/2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 
@@ -29,6 +28,7 @@ int g_iCurrentPID;
 
 /** Revision and version number */
 char rev[] = "0.0";
+/** Revision and version number */
 char ver[] = "1.0";
 
 
@@ -53,25 +53,25 @@ int daemonizeMe(structProgramInfo* p_structCommon)
 
 	LOG_WRITE("Daemon : Start the processus... I am going to kill my father")
 
-	/** Do the fork */
+	/* Do the fork */
 	l_pidPid = fork();
 	if(l_pidPid < 0)
 	{
-		/** Fork error, giving up the daemonization */
+		/* Fork error, giving up the daemonization */
 		LOG_WRITE("Daemon : Fail to fork me. Giving up daemonization")
 		return EXIT_FAILURE;
 	}
 	if(l_pidPid > 0)
 	{
-		/** Because we are in the parent program */
+		/* Because we are in the parent program */
 		killTheApp(p_structCommon);
 	}
 
 	LOG_WRITE("Daemon : Kill my father. Done")
-	/** Change umask to forget the parent's one */
+	/* Change umask to forget the parent's one */
 	umask(0);
 
-	/** Change the process group for the same raison */
+	/* Change the process group for the same raison */
 	l_pidSid = setsid();
 
 	if(l_pidSid < 0)
@@ -80,7 +80,7 @@ int daemonizeMe(structProgramInfo* p_structCommon)
 		killTheApp(p_structCommon);
 	}
 
-	/** Close all of the  standart output in order to complete the 'submarine mode' */
+	/* Close all of the  standart output in order to complete the 'submarine mode' */
 	close(STDIN_FILENO);
 	close(STDOUT_FILENO);
 	close(STDERR_FILENO);
@@ -105,23 +105,23 @@ void killTheApp(structProgramInfo* p_structCommon)
 	{
 		case FALSE:
 		{
-			/** Initialisation of the static pointeur */
+			/* Initialisation of the static pointeur */
 			l_structCommon = p_structCommon;
 			l_bAlreadyCalled = TRUE;
 			break;
 		}
 		default:
 		{
-	        	/** Show the cursor */
+	        	/* Show the cursor */
         		curs_set(TRUE);
 
-	       		/** Stop the program and leave the graphic mode ! Very important ! */
+	       		/* Stop the program and leave the graphic mode ! Very important ! */
         		LOG_WRITE("End of the program. See you. Release memory...");
         		endwin();
 
 			storeAndCleanMPZNumber(NULL, MODE_CLEAN);
 
-        		/** Clean */
+        		/* Clean */
         		free(l_structCommon->iThreadProgressionTable);
         		free(l_structCommon);
 
@@ -147,7 +147,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	char l_cBuffer[POPEN_BUFFER_LENGHT];
 
 	LOG_WRITE("Writing the default configuration in the common stuctProgramInfo")
-	p_structStructure->iMersenneOrder = DEFAULT_MERSENNE_ORDER;   		/** Today the max is 17425170; */
+	p_structStructure->iMersenneOrder = DEFAULT_MERSENNE_ORDER;   		/** Today the max mersenne order is 17425170; */
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
@@ -163,11 +163,11 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
 
-	/** Init memory */
+	/* Init memory */
 	memset(p_structStructure->iThreadProgressionTable, 0, (p_structStructure->iRow + 1)*sizeof(int));
 
-	/** Try to find how many cores the computer have. */
-	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/** POSIX function ;) */
+	/* Try to find how many cores the computer have. */
+	l_fileReturnOfCommand = popen("cat /proc/cpuinfo | grep processor | wc -l", "r");	/* POSIX function ;) */
 
 	if(l_fileReturnOfCommand == NULL)
 	{
@@ -221,25 +221,25 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 		{
 			if(strlen(argv[l_iTmp]) > 1)
 			{
-				/** autosearch feature */
+				/* autosearch feature */
 				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : p_structCommon->bAutoSearch;
 				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-a")) ? TRUE : *p_bAutoAction;
 				*p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-a")) ? 4 : *p_iAutoActionChoice;
 				if(!strcmp(argv[l_iTmp], "-a")) {LOG_WRITE("C.LINE : Prospecting mode selected")}
 
-				/** Change mersenne order */
+				/* Change mersenne order */
 				p_structCommon->iMersenneOrder = (!strcmp(argv[l_iTmp], "-m")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iMersenneOrder;
 				if(!strcmp(argv[l_iTmp], "-m")) {LOG_WRITE_STRING_LONG("C.LINE : Change Mersenne order to ", (long)p_structCommon->iMersenneOrder)}
 
-				/** Change moderation time */
+				/* Change moderation time */
 				p_structCommon->iModerationTime = (!strcmp(argv[l_iTmp], "-w")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iModerationTime;
 				if(!strcmp(argv[l_iTmp], "-w")) {LOG_WRITE_STRING_LONG("C.LINE : Change moderation time to ", (long)p_structCommon->iModerationTime)}
 
-				/** Change thread number */
+				/* Change thread number */
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
 
-				/** Change speed of the program */
+				/* Change speed of the program */
 				if(!strcmp(argv[l_iTmp], "-s"))
 				{
 					LOG_WRITE("C.LINE : Change computing speed of the program ")
@@ -268,7 +268,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 
 					if(l_iChangeSpeedOfThisPID != 0)
 					{
-						/** We have found one valid PID */
+						/* We have found one valid PID */
 						LOG_WRITE_STRING_LONG("C.LINE : Slowing down pnd at PID : ", (long)l_iChangeSpeedOfThisPID)
 						kill((pid_t)l_iChangeSpeedOfThisPID, SIGUSR1);
 					}
@@ -276,7 +276,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 					*p_iAutoActionChoice = 6;
 				}
 
-				/** No windows displayed. submarine mode */
+				/* No windows displayed. submarine mode */
 				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : p_structCommon->bAutoSearch;
 				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : *p_bAutoAction;
 				*p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : *p_iAutoActionChoice;
@@ -287,7 +287,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				}
 
 
-				/** Display help */
+				/* Display help */
 				if(!strcmp(argv[l_iTmp], "-h"))
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
@@ -297,10 +297,10 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 					*p_iAutoActionChoice = 6;
 				}
 			}
-			/** Else the parameter is ignored, use strcmp on it cause a segfault */
+			/* Else the parameter is ignored, use strcmp on it cause a segfault */
 		}
 
-		/** Check some values, in order to control user choices and put default values instead of if there is an error */
+		/* Check some values, in order to control user choices and put default values instead of if there is an error */
 		if(p_structCommon->iThreadNumber > p_structCommon->iRow - 2)
 		{
 			p_structCommon->iThreadNumber = p_structCommon->iRow - 2;
@@ -356,23 +356,23 @@ int main(int argc, char** argv)
 	sprintf(l_cBuffer, "Build of %s at %s", __DATE__, __TIME__);
 	LOG_WRITE_STRING(l_cBuffer);
 
-	/** Start the graphic mode */
+	/* Start the graphic mode */
 	initscr();
 
-	/** Hide the cursor */
+	/* Hide the cursor */
 	curs_set(0);
 
 	noecho();
 	cbreak();
 	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by Géo", ver, rev);
 
-	/** Initialisation of some graphical elements */
+	/* Initialisation of some graphical elements */
 	LOG_WRITE("Screen element initialisation...")
 	initColor();
         getmaxyx(stdscr,l_iRow ,l_iCol);
 	initBar();
 
-	/** Check the screen size */
+	/* Check the screen size */
 	if(l_iRow < MIN_SCREEN_HEIGHT)
 	{
 		LOG_WRITE("Screen doesn't have enought Lines")
@@ -395,11 +395,11 @@ int main(int argc, char** argv)
 	initBar();
 
 
-	/** Don't ask Enter key in order to complete a getch() */
+	/* Don't ask Enter key in order to complete a getch() */
 	nodelay(stdscr, TRUE);
 
 
-	/** Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because
+	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because
 	l_cBuffer is too small */
 	for(l_iTmp=0; (signed)l_iTmp < (signed)l_iCol - (signed)strlen(l_cBuffer) ; l_iTmp++)
 	{
@@ -410,44 +410,44 @@ int main(int argc, char** argv)
 	botText(l_cBuffer2);
 
 
-	/** Setting default values for the most important state variable of the program */
+	/* Setting default values for the most important state variable of the program */
 	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
 
-	/** Init screen size */
+	/* Init screen size */
 	structCommon->iRow = l_iRow;
 	structCommon->iCol = l_iCol;
 
-	/** We can use it only after setting the screen size */
+	/* We can use it only after setting the screen size */
 	setDefaultValueToTheProgramStructure(structCommon);
 
-	/** Configure program according to the command line */
+	/* Configure program according to the command line */
 	extractConfigFromCommandLine(argc, argv, structCommon, &l_bAutoAction, &l_iAutoActionChoice);
 
-	/** Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
+	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
 	   Thus, saveCurrentContext function can save all parameters and resume computing later */
 	saveCurrentContext(MODE_INIT, structCommon);
 
-	/** And now, try to load the previous config, let here if program have been killed */
+	/* And now, try to load the previous config, let here if program have been killed */
 	saveCurrentContext(MODE_LOAD, structCommon);
 
-	/** Then, we can init the toogleSpeed part of the program */
+	/* Then, we can init the toogleSpeed part of the program */
 	toogleProgramSpeed(MODE_INIT, structCommon);
 
-	/** Initialize the killTheApp function - It copy pointer adress in a static variable */
+	/* Initialize the killTheApp function - It copy pointer adress in a static variable */
 	killTheApp(structCommon);
 
-	/** Initialize progressbar */
+	/* Initialize progressbar */
 	drawLoadingBar(0, -1, 0, structCommon->iCol, 0);
 
-	/** Re-routing signals of the system */
+	/* Re-routing signals of the system */
 	initialisationOfTheSignal();
 
-	/** Print current mersenne order at the screen bottom */
+	/* Print current mersenne order at the screen bottom */
 	drawCurrentMersenneOrder(structCommon);
 
 	if(structCommon->bLoaded == TRUE)
 	{
-		/** There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
+		/* There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
 		l_bAutoAction = TRUE;
 		l_iAutoActionChoice = 4;
 	}
@@ -486,21 +486,21 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 
 	while(!l_bQuitProgram)
 	{
-		/** Do what the user request */
+		/* Do what the user request */
 		LOG_WRITE("Main menu : Wainting for a user choice...")
 
 		l_bAsk = TRUE;
 
-		/** Just erase screen and drawing menu, no command here */
+		/* Just erase screen and drawing menu, no command here */
 		eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 		drawMainMenu(p_structCommon->iRow, p_structCommon->iCol);
 
-		/** Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
+		/* Reactivate delay for getch calling -- in order to avoid the killing-cpu-process loop */
 		nodelay(stdscr, FALSE);
 		if(*p_bAutoAction == TRUE) {l_bAsk = FALSE;}
 		while(l_bAsk)
 		{
-			/** Get the keyboark key */
+			/* Get the keyboark key */
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
@@ -510,12 +510,12 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 
 		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice; *p_bAutoAction = FALSE;}
 
-		/** user loop -> here we have all of actions associated to a menu */
+		/* user loop -> here we have all of actions associated to a menu */
 		switch(l_iTmp)
 		{
 			case 1:
 			{
-				/** Start just one mersenne number check */
+				/* Start just one mersenne number check */
 				LOG_WRITE("Start function selected")
 				p_structCommon->bAutoSearch = FALSE;
 				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
@@ -524,7 +524,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			}
 			case 2:
 			{
-				/** Set a new mersenne order */
+				/* Set a new mersenne order */
 				LOG_WRITE("Set a new order function selected")
 				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_NEW_ORDER, p_structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
@@ -535,7 +535,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				}
 				else
 				{
-					/** Sucess typing */
+					/* Sucess typing */
 					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
 					if(isItAPrimeNumberULI((double)l_iUserValue) == TRUE)
 					{
@@ -555,7 +555,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			}
 			case 3:
 			{
-				/** Change number of active threads */
+				/* Change number of active threads */
 				LOG_WRITE("Set new thread number function selected")
 				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_SET_THREAD_NUMBER, p_structCommon);
 				if(scanf("%li", &l_iUserValue) == EOF)
@@ -583,7 +583,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			}
 			case 4:
 			{
-				/** Prospecting mode - This is the auto mode lauched by -a option */
+				/* Prospecting mode - This is the auto mode lauched by -a option */
 				LOG_WRITE("Prospecting mode selected")
 				p_structCommon->bAutoSearch = TRUE;
 
@@ -592,11 +592,11 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 					eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 					createAllComputingThreads(p_structCommon);
 
-					/** We are now going to find the new Mersenne order. It needs to be prime, thus, we need to
+					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to
 					check. For really great number this computation can take some time. Thus, we display a message */
 					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
 
-					/** Jump to the new mersenne number -- This new order needs to be prime in order to have a
+					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a
 					chance to give a prime mersenne numnber */
 					do
 					{
@@ -610,7 +610,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			}
 			case 5:
 			{
-				/** About menu selected */
+				/* About menu selected */
 				LOG_WRITE("About menu selected")
 				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_ABOUT, p_structCommon);
@@ -618,14 +618,14 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			}
 			case 6:
 			{
-				/** User want to quit the program */
+				/* User want to quit the program */
 				LOG_WRITE("Quit the program")
 				l_bQuitProgram = TRUE;
 				break;
 			}
 			default:
 			{
-				/** Not implemented yet */
+				/* Not implemented yet */
 				LOG_WRITE("Error in the menu choice. No corresponding function")
 				break;
 			}

@@ -1,12 +1,12 @@
 /**
- * Program:   	pnd
- * File:	drawing.c
- * Brief:	All screen drawing functions
- * Description:	Here it is all of the drawing functions, including the splash and the help message.
+ * @file	drawing.c
+ * @program   	pnd
+ * @brief	All screen drawing functions
+ * @description	Here it is all of the drawing functions, including the splash and the help message.
  * 		All ncurses stuff is here too.
- * Date:	Somewhere in 2013 and near of 2014
- * Licence:	Beerware (rev 42)
- * Author:	Jerome GRARD - A bored engineering student...
+ * @date	Somewhere in 2013 and near of 2014
+ * @licence	Beerware (rev 42)
+ * @author	Jerome GRARD - A bored engineering student...
  */
 
 
@@ -527,11 +527,11 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 
 /** @brief
   * Draw a loading bar on a complete line
-  * it's used to represent computation progression...
+  * it's used to represent computation progression...\n\n
   *
-  * You need to inititalise it -> 				e.g : drawLoadingBar(0, -1, 0, yourScreenLenght, 0);
-  * And after you can use it with the previous screen Lenght   	e.g : drawLoadingBar(2, 25, 100, -1, enumRed);		// with the previous screen lenght
-  * You can also modify the screen lenght 			e.g : drawLoadingBar(2, 25, 100, newScreenLenght, enumRouge); // progress bar drawed with the new screen lenght
+  * You need to inititalise it -> 				e.g : drawLoadingBar(0, -1, 0, yourScreenLenght, 0);\n
+  * And after you can use it with the previous screen Lenght   	e.g : drawLoadingBar(2, 25, 100, -1, enumRed);		// with the previous screen lenght\n
+  * You can also modify the screen lenght 			e.g : drawLoadingBar(2, 25, 100, newScreenLenght, enumRouge); // progress bar drawed with the new screen lenght\n\n
   *
   * @param p_iLine : selected row to draw the progressbar
   * @param p_iCompleted : already done
@@ -566,22 +566,22 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 
 	l_iPercent = (int)(((float)p_iCompleted /(float)p_iMax)*(float)l_iScreenLenght);
 
-	/** If the bar is taller than the screen */
+	/* If the bar is taller than the screen */
 	l_iPercent = (l_iPercent > l_iScreenLenght) ? l_iScreenLenght : l_iPercent;
 
-	/** If lenght == 0 then we need to add 1 in order to avoid infinite loop */
+	/* If lenght == 0 then we need to add 1 in order to avoid infinite loop */
 	l_iPercent = (l_iPercent == 0) ? 1 : l_iPercent;
 
-	/** draw body */
+	/* draw body */
 	for(l_iIterateur = 0; l_iIterateur < l_iPercent - 1; l_iIterateur++)
 	{
 		drawElement(l_iIterateur, p_iLine, l_cCaracterBody, p_iColor);
 	}
-	/** draw the head */
+	/* draw the head */
 	drawElement(l_iIterateur++, p_iLine, l_cCaracterHead, p_iColor);
 
 
-	/** If pair number we need to substract one (more pretty) */
+	/* If pair number we need to substract one (more pretty) */
 	l_iColumn = l_iScreenLenght/2;
 	l_iColumn -= (l_iScreenLenght % 2 == 0) ? 1 : 0;
 
@@ -599,7 +599,7 @@ void drawLoadingBar(int p_iLine, int p_iCompleted, int p_iMax, int p_iScreenLeng
 		}
 	}
 
-	/** We need to see each time the bar is changed */
+	/* We need to see each time the bar is changed */
 	refresh();
 }
 

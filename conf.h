@@ -1,3 +1,4 @@
+
 /*******************************************************
 
 		Program configuration
@@ -158,6 +159,32 @@ typedef enum
 		}		/*" I add this to save the syntax coloration under nano - shame on me */
 
 
+
+/**
+  * @struct structProgramInfo_
+  * @var structProgramInfo_::iMersenneOrder
+  * Member 'iMersenneOrder' contains current mersenne order to compute
+  * @var structProgramInfo_::iCol
+  * Member 'iCol' contains number of colonne in the screen
+  * @var structProgramInfo_::iRow
+  * Member 'iRow' contains number of row in the screen
+  * @var structProgramInfo_::iThreadProgressionTable
+  * Member 'iThreadProgressionTable' contains a table with all threads progression. This table have as size the number of row because it's the maximum thread displayable
+  * @var structProgramInfo_::iModerationTime
+  * Member 'iModerationTime' contains time between two calculs. In order to slow down the program
+  * @var structProgramInfo_::iThreadNumber
+  * Member 'iThreadNumber' contains number of trhreads working
+  * @var structProgramInfo_::bIsComputing
+  * Member 'bIsComputing' contains a bool to say if we are computing or not
+  * @var structProgramInfo_::bNeedToRedrawProgressBar
+  * Member 'bNeedToRedrawProgressBar' contains a flag to redraw progressbar. Maybee useless by the way...
+  * @var structProgramInfo_::bDead
+  * Member 'bDead' contains a flag to say if at least one thread have found a divider
+  * @var structProgramInfo_::bAutoSearch
+  * Member 'bAutoSearch' contains a flag to say if user wants an auto search or not
+  * @var structProgramInfo_::bLoaded
+  * Member 'bLoaded' contains a flag to say if current config is loaded from a hotsave file or not
+  */
 typedef struct structProgramInfo_
 {
 	int iMersenneOrder;
@@ -174,6 +201,13 @@ typedef struct structProgramInfo_
 }structProgramInfo;
 
 
+/**
+  * @struct structLinkedList_
+  * @var structLinkedList_::structSuivant
+  * Member 'structSuivant' contains the adress of the next object in the linked list
+  * @var structLinkedList_::mpzNumber
+  * Member 'mpzNumber' contains the adress of the number to clean with mpz_clean()
+  */
 typedef struct structLinkedList_
 {
 	struct structLinkedList_*	structSuivant;

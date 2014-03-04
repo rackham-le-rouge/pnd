@@ -1,12 +1,12 @@
 /**
- * Program:     pnd
- * File:        multithread.c
- * Brief:       Start / Stop / Manage all threads of this program
- * Description: Here it is all of the stuff to have many threads. We choose to have a thread per number.
+ * @file        multithread.c
+ * @program     pnd
+ * @brief       Start / Stop / Manage all threads of this program
+ * @description Here it is all of the stuff to have many threads. We choose to have a thread per number.
  *              Here, we start our thread and we stop them
- * Date:        Somewhere in 2013 and near of 2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @date        Somewhere in 2013 and near of 2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 
@@ -20,7 +20,6 @@
   *	   says if this is a prime number
   * @param p_structCommon : all parameters of the program, number of threads to start
   */
-
 void createAllComputingThreads(structProgramInfo* p_structCommon)
 {
 	int l_iThreadNumber;				/** number of threads working in the program */

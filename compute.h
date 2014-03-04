@@ -1,11 +1,11 @@
 /**
- * Program:     fley
- * File:        compute.h
- * Brief:       All computing functions of the program
- * Description: Cf compute.c
- * Date:        1/2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @program     fley
+ * @file        compute.h
+ * @brief       All computing functions of the program
+ * @description Computation functions, the brain of the program
+ * @date        1/2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 

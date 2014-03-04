@@ -1,11 +1,11 @@
 /**
- * Program:     pnd
- * File:        main.h
- * Brief:       Call all functions of the rest of the program
- * Description: Cf main.c
- * Date:        Somewhere in 2013 and near of 2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @file        main.h
+ * @program     pnd
+ * @brief       Call all functions of the rest of the program
+ * @description All main functions of the program like deamon, exit point, entry point, default value settings and user menu
+ * @date        Somewhere in 2013 and near of 2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 

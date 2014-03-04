@@ -1,0 +1,283 @@
+\hypertarget{drawing_8c}{\section{drawing.\-c File Reference}
+\label{drawing_8c}\index{drawing.\-c@{drawing.\-c}}
+}
+
+
+All screen drawing functions  Here it is all of the drawing functions, including the splash and the help message. All ncurses stuff is here too.  
+
+
+{\ttfamily \#include \char`\"{}conf.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{drawing_8c_a175e41c453fc0cc21007da6a2feb7802}{void \hyperlink{drawing_8c_a175e41c453fc0cc21007da6a2feb7802}{init\-Bar} (void)}\label{drawing_8c_a175e41c453fc0cc21007da6a2feb7802}
+
+\begin{DoxyCompactList}\small\item\em Blues lines -\/ Top and bottom of the screen. \end{DoxyCompactList}\item 
+\hypertarget{drawing_8c_a3f760226fa474c6ccfc0f2da7920bfae}{void \hyperlink{drawing_8c_a3f760226fa474c6ccfc0f2da7920bfae}{top\-Text} (const char $\ast$p\-\_\-s\-String)}\label{drawing_8c_a3f760226fa474c6ccfc0f2da7920bfae}
+
+\begin{DoxyCompactList}\small\item\em Text of the top line. \end{DoxyCompactList}\item 
+\hypertarget{drawing_8c_ae74c41bfca375edcd48849881743f20e}{void \hyperlink{drawing_8c_ae74c41bfca375edcd48849881743f20e}{disable\-Bar} (void)}\label{drawing_8c_ae74c41bfca375edcd48849881743f20e}
+
+\begin{DoxyCompactList}\small\item\em Disable the two lines. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a663a043e24ab5c9670f909d6146f6bb2}{bot\-Text} (const char $\ast$p\-\_\-s\-String)
+\begin{DoxyCompactList}\small\item\em Text of the bottom line. \end{DoxyCompactList}\item 
+int \hyperlink{drawing_8c_ae7078882beb8fac7294114c9a0674c70}{draw\-Element} (int p\-\_\-i\-X, int p\-\_\-i\-Y, char p\-\_\-c\-Char, int p\-\_\-i\-Color)
+\begin{DoxyCompactList}\small\item\em Draw an element on the screen. \end{DoxyCompactList}\item 
+int \hyperlink{drawing_8c_addd42fe2e3397b7418edc8287fd3ab00}{draw\-Sentence} (int p\-\_\-i\-X, int p\-\_\-i\-Y, char $\ast$p\-\_\-s\-String, int p\-\_\-i\-Color)
+\begin{DoxyCompactList}\small\item\em Draw an element on the screen. \end{DoxyCompactList}\item 
+\hypertarget{drawing_8c_ace001132b81583add37c55ef614b81f8}{void \hyperlink{drawing_8c_ace001132b81583add37c55ef614b81f8}{init\-Color} (void)}\label{drawing_8c_ace001132b81583add37c55ef614b81f8}
+
+\begin{DoxyCompactList}\small\item\em Initialisation of the colors of each kind of people. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a7681992daec6673e527202991d1f673d}{draw\-Intro} (int p\-\_\-i\-Row, int p\-\_\-i\-Col)
+\begin{DoxyCompactList}\small\item\em Draw the intro panel. \end{DoxyCompactList}\item 
+int \hyperlink{drawing_8c_a50600219193c287c7d32cc064bf88afe}{draw\-Center} (const char $\ast$p\-\_\-s\-String, int p\-\_\-i\-Col, int p\-\_\-i\-Row)
+\begin{DoxyCompactList}\small\item\em Draw str to the center of the screen. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a6aa351702dacb997cd0d085212132ff9}{draw\-Main\-Menu} (int p\-\_\-i\-Row, int p\-\_\-i\-Col)
+\begin{DoxyCompactList}\small\item\em Draw the main menu, in order to swho all computation choices and a little in-\/line help. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a3546e7e6419db60e70a3c0831ef1ab68}{draw\-Sub\-Menu} (int p\-\_\-i\-Row, int p\-\_\-i\-Col, int p\-\_\-i\-Menu\-Selector, \hyperlink{structstructProgramInfo__}{struct\-Program\-Info} $\ast$p\-\_\-struct\-Common)
+\begin{DoxyCompactList}\small\item\em Drawing function to draw all messages and sub menus of the screen. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a04583a386fd9a218267d2a6b5d1b1fa6}{draw\-Loading\-Bar} (int p\-\_\-i\-Line, int p\-\_\-i\-Completed, int p\-\_\-i\-Max, int p\-\_\-i\-Screen\-Lenght, int p\-\_\-i\-Color)
+\begin{DoxyCompactList}\small\item\em Draw a loading bar on a complete line it's used to represent computation progression...\par
+\par
+. \end{DoxyCompactList}\item 
+void \hyperlink{drawing_8c_a1631756b9747d17f463e7b092d27b55d}{erase\-Working\-Screen} (int p\-\_\-i\-Row, int p\-\_\-i\-Col)
+\item 
+void \hyperlink{drawing_8c_a90e524a0622f01ac425a503aa97c3fb9}{draw\-Current\-Mersenne\-Order} (\hyperlink{structstructProgramInfo__}{struct\-Program\-Info} $\ast$struct\-Common)
+\begin{DoxyCompactList}\small\item\em In order to display the current mersenne order in the bottom bar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+All screen drawing functions  Here it is all of the drawing functions, including the splash and the help message. All ncurses stuff is here too. pnd \begin{DoxyDate}{Date}
+Somewhere in 2013 and near of 2014  Beerware (rev 42) 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Jerome G\-R\-A\-R\-D -\/ A bored engineering student... 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{drawing_8c_a663a043e24ab5c9670f909d6146f6bb2}{\index{drawing.\-c@{drawing.\-c}!bot\-Text@{bot\-Text}}
+\index{bot\-Text@{bot\-Text}!drawing.c@{drawing.\-c}}
+\subsubsection[{bot\-Text}]{\setlength{\rightskip}{0pt plus 5cm}void bot\-Text (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{p\-\_\-s\-String}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a663a043e24ab5c9670f909d6146f6bb2}
+
+
+Text of the bottom line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-s\-String} & \-: string to print at the bottom of the screen \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_a50600219193c287c7d32cc064bf88afe}{\index{drawing.\-c@{drawing.\-c}!draw\-Center@{draw\-Center}}
+\index{draw\-Center@{draw\-Center}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Center}]{\setlength{\rightskip}{0pt plus 5cm}int draw\-Center (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{p\-\_\-s\-String, }
+\item[{int}]{p\-\_\-i\-Col, }
+\item[{int}]{p\-\_\-i\-Row}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a50600219193c287c7d32cc064bf88afe}
+
+
+Draw str to the center of the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-s\-String} & \-: sentence to write on the screen \\
+\hline
+{\em p\-\_\-i\-Col} & \-: column of the screen \\
+\hline
+{\em p\-\_\-i\-Row} & \-: rows in the screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+p\-\_\-i\-Row 
+\end{DoxyReturn}
+\hypertarget{drawing_8c_a90e524a0622f01ac425a503aa97c3fb9}{\index{drawing.\-c@{drawing.\-c}!draw\-Current\-Mersenne\-Order@{draw\-Current\-Mersenne\-Order}}
+\index{draw\-Current\-Mersenne\-Order@{draw\-Current\-Mersenne\-Order}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Current\-Mersenne\-Order}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Current\-Mersenne\-Order (
+\begin{DoxyParamCaption}
+\item[{{\bf struct\-Program\-Info} $\ast$}]{struct\-Common}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a90e524a0622f01ac425a503aa97c3fb9}
+
+
+In order to display the current mersenne order in the bottom bar. 
+
+Because user can change it, thus, we need to know it evrytime
+
+
+\begin{DoxyParams}{Parameters}
+{\em struct\-Common} & \-: all usefull informations on the program, in order to find the mersenne order \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_ae7078882beb8fac7294114c9a0674c70}{\index{drawing.\-c@{drawing.\-c}!draw\-Element@{draw\-Element}}
+\index{draw\-Element@{draw\-Element}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Element}]{\setlength{\rightskip}{0pt plus 5cm}int draw\-Element (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-X, }
+\item[{int}]{p\-\_\-i\-Y, }
+\item[{char}]{p\-\_\-c\-Char, }
+\item[{int}]{p\-\_\-i\-Color}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_ae7078882beb8fac7294114c9a0674c70}
+
+
+Draw an element on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-X} & \-: X coord \\
+\hline
+{\em p\-\_\-i\-Y} & \-: Y coord \\
+\hline
+{\em p\-\_\-c\-Char} & \-: the character to print \\
+\hline
+{\em p\-\_\-i\-Color} & \-: color, Cf the enum \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 
+\end{DoxyReturn}
+\hypertarget{drawing_8c_a7681992daec6673e527202991d1f673d}{\index{drawing.\-c@{drawing.\-c}!draw\-Intro@{draw\-Intro}}
+\index{draw\-Intro@{draw\-Intro}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Intro}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Intro (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-Row, }
+\item[{int}]{p\-\_\-i\-Col}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a7681992daec6673e527202991d1f673d}
+
+
+Draw the intro panel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-Row} & \-: Number of lines in the screen \\
+\hline
+{\em p\-\_\-i\-Col} & \-: Number of columns in the screen \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_a04583a386fd9a218267d2a6b5d1b1fa6}{\index{drawing.\-c@{drawing.\-c}!draw\-Loading\-Bar@{draw\-Loading\-Bar}}
+\index{draw\-Loading\-Bar@{draw\-Loading\-Bar}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Loading\-Bar}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Loading\-Bar (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-Line, }
+\item[{int}]{p\-\_\-i\-Completed, }
+\item[{int}]{p\-\_\-i\-Max, }
+\item[{int}]{p\-\_\-i\-Screen\-Lenght, }
+\item[{int}]{p\-\_\-i\-Color}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a04583a386fd9a218267d2a6b5d1b1fa6}
+
+
+Draw a loading bar on a complete line it's used to represent computation progression...\par
+\par
+. 
+
+You need to inititalise it -\/$>$ e.\-g \-: draw\-Loading\-Bar(0, -\/1, 0, your\-Screen\-Lenght, 0);\par
+ And after you can use it with the previous screen Lenght e.\-g \-: draw\-Loading\-Bar(2, 25, 100, -\/1, enum\-Red); // with the previous screen lenght\par
+ You can also modify the screen lenght e.\-g \-: draw\-Loading\-Bar(2, 25, 100, new\-Screen\-Lenght, enum\-Rouge); // progress bar drawed with the new screen lenght\par
+\par
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-Line} & \-: selected row to draw the progressbar \\
+\hline
+{\em p\-\_\-i\-Completed} & \-: already done \\
+\hline
+{\em p\-\_\-i\-Max} & \-: max value of the progress bar \\
+\hline
+{\em p\-\_\-i\-Screen\-Lenght} & \-: screen size \\
+\hline
+{\em p\-\_\-i\-Color} & \-: color of the progressbar \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_a6aa351702dacb997cd0d085212132ff9}{\index{drawing.\-c@{drawing.\-c}!draw\-Main\-Menu@{draw\-Main\-Menu}}
+\index{draw\-Main\-Menu@{draw\-Main\-Menu}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Main\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Main\-Menu (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-Row, }
+\item[{int}]{p\-\_\-i\-Col}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a6aa351702dacb997cd0d085212132ff9}
+
+
+Draw the main menu, in order to swho all computation choices and a little in-\/line help. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-Row} & \-: number of row in the screen \\
+\hline
+{\em p\-\_\-i\-Col} & \-: number of column in the screen \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_addd42fe2e3397b7418edc8287fd3ab00}{\index{drawing.\-c@{drawing.\-c}!draw\-Sentence@{draw\-Sentence}}
+\index{draw\-Sentence@{draw\-Sentence}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Sentence}]{\setlength{\rightskip}{0pt plus 5cm}int draw\-Sentence (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-X, }
+\item[{int}]{p\-\_\-i\-Y, }
+\item[{char $\ast$}]{p\-\_\-s\-String, }
+\item[{int}]{p\-\_\-i\-Color}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_addd42fe2e3397b7418edc8287fd3ab00}
+
+
+Draw an element on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-X} & \-: X coord of the beginning of the sentence \\
+\hline
+{\em p\-\_\-i\-Y} & \-: Y coord of the beginning of the sentence \\
+\hline
+{\em p\-\_\-s\-String} & \-: sentence to draw \\
+\hline
+{\em p\-\_\-i\-Color} & \-: color used, from the enum \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 
+\end{DoxyReturn}
+\hypertarget{drawing_8c_a3546e7e6419db60e70a3c0831ef1ab68}{\index{drawing.\-c@{drawing.\-c}!draw\-Sub\-Menu@{draw\-Sub\-Menu}}
+\index{draw\-Sub\-Menu@{draw\-Sub\-Menu}!drawing.c@{drawing.\-c}}
+\subsubsection[{draw\-Sub\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}void draw\-Sub\-Menu (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-Row, }
+\item[{int}]{p\-\_\-i\-Col, }
+\item[{int}]{p\-\_\-i\-Menu\-Selector, }
+\item[{{\bf struct\-Program\-Info} $\ast$}]{p\-\_\-struct\-Common}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a3546e7e6419db60e70a3c0831ef1ab68}
+
+
+Drawing function to draw all messages and sub menus of the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-\_\-i\-Row} & \-: number of row in the screen \\
+\hline
+{\em p\-\_\-i\-Col} & \-: number of column in the screen \\
+\hline
+{\em p\-\_\-i\-Menu\-Selector} & \-: select the wanted menu to draw \\
+\hline
+{\em p\-\_\-struct\-Common} & \-: usefull data on the program \\
+\hline
+\end{DoxyParams}
+\hypertarget{drawing_8c_a1631756b9747d17f463e7b092d27b55d}{\index{drawing.\-c@{drawing.\-c}!erase\-Working\-Screen@{erase\-Working\-Screen}}
+\index{erase\-Working\-Screen@{erase\-Working\-Screen}!drawing.c@{drawing.\-c}}
+\subsubsection[{erase\-Working\-Screen}]{\setlength{\rightskip}{0pt plus 5cm}void erase\-Working\-Screen (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-\_\-i\-Row, }
+\item[{int}]{p\-\_\-i\-Col}
+\end{DoxyParamCaption}
+)}}\label{drawing_8c_a1631756b9747d17f463e7b092d27b55d}
+Cleaning the working screen
+
+In order to provide a clean screen for other application, without erase the first and the last line of the screen. 

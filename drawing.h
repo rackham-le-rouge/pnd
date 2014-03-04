@@ -1,11 +1,11 @@
 /**
- * Program:     pnd
- * File:        drawing.h
- * Brief:       All screen drawing functions prototypes
- * Description: All is in the brief
- * Date:        1/2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @program     pnd
+ * @file        drawing.h
+ * @brief       All screen drawing functions prototypes
+ * @description All is in the brief
+ * @date        1/2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 

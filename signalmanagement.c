@@ -1,11 +1,11 @@
 /**
- * Program:     pnd
- * File:        signalmanagement.c
- * Brief:       Signal handling
- * Description: In order to handle all signals of this program
- * Date:        1/ 2014
- * Licence:     Beerware (rev 42)
- * Author:      Jerome GRARD - A bored engineering student...
+ * @file        signalmanagement.c
+ * @program     pnd
+ * @brief       Signal handling
+ * @description In order to handle all signals of this program
+ * @date        1/ 2014
+ * @licence     Beerware (rev 42)
+ * @author      Jerome GRARD - A bored engineering student...
  */
 
 
@@ -142,7 +142,7 @@ void toogleProgramSpeed(char p_cMode, structProgramInfo* p_structCommon)
   * to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is
   * only used by and for signal handling. If the program close properly, there is no need to save the context.
   *
-  * @param p_cMode : MODE_ INIT or MODE_ SAVE or MODE_ LOAD in order to toogle speed of the program
+  * @param p_cMode : MODE_ INIT or MODE_ SAVE or MODE_ LOAD in order to select the right mode
   * @param p_structCommon : all usefull data about this program
   */
 void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
