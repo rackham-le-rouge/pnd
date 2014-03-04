@@ -50,7 +50,7 @@ documentation:
 
 package: mrproper $(EXEC)
 	@echo [DEB] Create directories...
-	@mkdir ./pndPKG/usr/src/pnd
+	@mkdir -p ./pndPKG/usr/src/pnd
 	@echo [DEB] Copying files...
 	@cp *.c ./pndPKG/usr/src/pnd/
 	@cp *.h ./pndPKG/usr/src/pnd/
