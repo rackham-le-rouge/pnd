@@ -116,8 +116,10 @@ void killTheApp(structProgramInfo* p_structCommon)
         		curs_set(TRUE);
 
 	       		/** Stop the program and leave the graphic mode ! Very important ! */
-        		LOG_WRITE("End of the program. See you");
+        		LOG_WRITE("End of the program. See you. Release memory...");
         		endwin();
+
+			storeAndCleanMPZNumber(NULL, MODE_CLEAN);
 
         		/** Clean */
         		free(l_structCommon->iThreadProgressionTable);

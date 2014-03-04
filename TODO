@@ -18,7 +18,7 @@ g=give up / x=done / ' '=TODO
 [x]	Create command line parameters handler, just to find a parameter among all
 [ ]	Add planned wake up
 [x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
-[ ]	Cleaning memory function. For all of mpz numbers
+[x]	Cleaning memory function. For all of mpz numbers - FIXME
 [x]	SIGUSR2 toogle High speed mode and low speed
 [x]	Split main in specifics functions
 [x]	Debug the change speed command line parameter
@@ -26,3 +26,5 @@ g=give up / x=done / ' '=TODO
 [ ]	Padding in struct to add one compilation option
 [g]	Include unique revision number and autocommit of binaries in the makefile - See next point
 [x]	Include DATE and TIME of build in the maked bin and put it in log at each start
+[ ]	Create a man page
+[ ]	Add auto packaging to the makefile

@@ -71,6 +71,8 @@
 #define MODE_INIT			1
 #define MODE_LOAD			2
 #define MODE_TOOGLE			3
+#define MODE_CLEAN			4
+#define MODE_ADD			5
 
 /* Colors of lines (Bottom and Top) */
 #define COLOR_LINE_BG_BOTTOM  	COLOR_RED
@@ -172,7 +174,12 @@ typedef struct structProgramInfo_
 }structProgramInfo;
 
 
+typedef struct structLinkedList_
+{
+	struct structLinkedList_*	structSuivant;
+	mpz_t*				mpzNumber;
 
+}structLinkedList;
 
 /* To save the current PID, in order to have understandable LOG Files */
 extern pid_t	g_iCurrentPID;

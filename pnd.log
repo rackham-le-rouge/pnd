@@ -52153,3 +52153,2305 @@ main.c 211 End of the program. See you
 4184 [main.c] 477 Main menu : Wainting for a user choice...
 4184 [main.c] 605 Quit the program
 4184 [main.c] 119 End of the program. See you
+25490 [main.c] 348
+25490 [main.c] 349
+25490 [main.c] 350 ---------------------------------------------------------------------
+25490 [main.c] 351 Starting new instance
+25490 [main.c] 352 ---------------------------------------------------------------------
+25490 [main.c] 355 Build of Mar 4 2014 at 00:48:06
+25490 [main.c] 368 Screen element initialisation...
+25490 [main.c] 147 Writing the default configuration in the common stuctProgramInfo
+25490 [main.c] 187 Number of thread detected --successfully-- : 2
+25490 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+25490 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+25490 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+25490 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+25490 [drawing.c] 557 Now screen lenght is :
+25490 [drawing.c] 558 145
+25490 [main.c] 488 Main menu : Wainting for a user choice...
+25490 [main.c] 585 Prospecting mode selected
+25490 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+25490 [multithread.c] 194 Computation takes --in seconds--: 8
+25490 [main.c] 604 New Mersenne order changed to : 37
+25490 [main.c] 488 Main menu : Wainting for a user choice...
+25490 [main.c] 612 About menu selected
+25490 [main.c] 488 Main menu : Wainting for a user choice...
+25490 [main.c] 620 Quit the program
+25490 [main.c] 119 End of the program. See you
+32690 [main.c] 348
+32690 [main.c] 349
+32690 [main.c] 350 ---------------------------------------------------------------------
+32690 [main.c] 351 Starting new instance
+32690 [main.c] 352 ---------------------------------------------------------------------
+32690 [main.c] 355 Build of Mar 4 2014 at 02:35:12
+32690 [main.c] 368 Screen element initialisation...
+32690 [main.c] 147 Writing the default configuration in the common stuctProgramInfo
+32690 [main.c] 187 Number of thread detected --successfully-- : 2
+32690 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+32690 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+32690 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+32690 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+32690 [drawing.c] 557 Now screen lenght is :
+32690 [drawing.c] 558 145
+32690 [main.c] 488 Main menu : Wainting for a user choice...
+32690 [main.c] 620 Quit the program
+32690 [main.c] 119 End of the program. See you
+762 [main.c] 350
+762 [main.c] 351
+762 [main.c] 352 ---------------------------------------------------------------------
+762 [main.c] 353 Starting new instance
+762 [main.c] 354 ---------------------------------------------------------------------
+762 [main.c] 357 Build of Mar 4 2014 at 02:42:44
+762 [main.c] 370 Screen element initialisation...
+762 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+762 [main.c] 189 Number of thread detected --successfully-- : 2
+762 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+762 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+762 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+762 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+762 [drawing.c] 557 Now screen lenght is :
+762 [drawing.c] 558 145
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 519 Start function selected
+762 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+762 [multithread.c] 194 Computation takes --in seconds--: 10
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 519 Start function selected
+762 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+762 [multithread.c] 194 Computation takes --in seconds--: 3
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 559 Set new thread number function selected
+762 [main.c] 579 New thread number changed to : 19
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 587 Prospecting mode selected
+762 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+762 [multithread.c] 194 Computation takes --in seconds--: 5
+762 [main.c] 606 New Mersenne order changed to : 37
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 528 Set a new order function selected
+762 [main.c] 544 New Mersenne order changed to : 19
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 528 Set a new order function selected
+762 [main.c] 550 New Mersenne order --failed-- Keep the old value : 19
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 528 Set a new order function selected
+762 [main.c] 544 New Mersenne order changed to : 19
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 587 Prospecting mode selected
+762 [multithread.c] 190 This is a prime number.
+762 [multithread.c] 194 Computation takes --in seconds--: 0
+762 [main.c] 606 New Mersenne order changed to : 23
+762 [multithread.c] 180 This is not a prime number !
+762 [multithread.c] 194 Computation takes --in seconds--: 1
+762 [main.c] 606 New Mersenne order changed to : 29
+762 [multithread.c] 180 This is not a prime number !
+762 [multithread.c] 194 Computation takes --in seconds--: 13
+762 [main.c] 606 New Mersenne order changed to : 31
+762 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+762 [multithread.c] 194 Computation takes --in seconds--: 2
+762 [main.c] 606 New Mersenne order changed to : 37
+762 [main.c] 490 Main menu : Wainting for a user choice...
+762 [main.c] 622 Quit the program
+762 [main.c] 119 End of the program. See you. Release memory...
+762 [compute.c] 396 Clean all mpz values
+1798 [main.c] 350
+1798 [main.c] 351
+1798 [main.c] 352 ---------------------------------------------------------------------
+1798 [main.c] 353 Starting new instance
+1798 [main.c] 354 ---------------------------------------------------------------------
+1798 [main.c] 357 Build of Mar 4 2014 at 02:57:04
+1798 [main.c] 370 Screen element initialisation...
+1798 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1798 [main.c] 189 Number of thread detected --successfully-- : 2
+1798 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+1798 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+1798 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+1798 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1798 [drawing.c] 557 Now screen lenght is :
+1798 [drawing.c] 558 145
+1798 [main.c] 490 Main menu : Wainting for a user choice...
+1798 [main.c] 528 Set a new order function selected
+1798 [main.c] 544 New Mersenne order changed to : 19
+1798 [main.c] 490 Main menu : Wainting for a user choice...
+1798 [main.c] 587 Prospecting mode selected
+1798 [multithread.c] 190 This is a prime number.
+1798 [multithread.c] 194 Computation takes --in seconds--: 1
+1798 [main.c] 606 New Mersenne order changed to : 23
+1798 [multithread.c] 180 This is not a prime number !
+1798 [multithread.c] 194 Computation takes --in seconds--: 0
+1798 [main.c] 606 New Mersenne order changed to : 29
+1798 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+1798 [multithread.c] 194 Computation takes --in seconds--: 2
+1798 [main.c] 606 New Mersenne order changed to : 31
+1798 [main.c] 490 Main menu : Wainting for a user choice...
+1798 [main.c] 622 Quit the program
+1798 [main.c] 119 End of the program. See you. Release memory...
+1798 [compute.c] 400 Clean all mpz values
+1936 [main.c] 350
+1936 [main.c] 351
+1936 [main.c] 352 ---------------------------------------------------------------------
+1936 [main.c] 353 Starting new instance
+1936 [main.c] 354 ---------------------------------------------------------------------
+1936 [main.c] 357 Build of Mar 4 2014 at 02:58:03
+1936 [main.c] 370 Screen element initialisation...
+1936 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1936 [main.c] 189 Number of thread detected --successfully-- : 2
+1936 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+1936 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+1936 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+1936 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1936 [drawing.c] 557 Now screen lenght is :
+1936 [drawing.c] 558 145
+1936 [main.c] 490 Main menu : Wainting for a user choice...
+1936 [main.c] 528 Set a new order function selected
+1936 [main.c] 544 New Mersenne order changed to : 19
+1936 [main.c] 490 Main menu : Wainting for a user choice...
+1936 [main.c] 587 Prospecting mode selected
+1936 [multithread.c] 190 This is a prime number.
+1936 [multithread.c] 194 Computation takes --in seconds--: 0
+1936 [main.c] 606 New Mersenne order changed to : 23
+1936 [multithread.c] 180 This is not a prime number !
+1936 [multithread.c] 194 Computation takes --in seconds--: 1
+1936 [main.c] 606 New Mersenne order changed to : 29
+1936 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+1936 [multithread.c] 194 Computation takes --in seconds--: 1
+1936 [main.c] 606 New Mersenne order changed to : 31
+1936 [main.c] 490 Main menu : Wainting for a user choice...
+1936 [main.c] 622 Quit the program
+1936 [main.c] 119 End of the program. See you. Release memory...
+1936 [compute.c] 400 Clean all mpz values
+2340 [main.c] 350
+2340 [main.c] 351
+2340 [main.c] 352 ---------------------------------------------------------------------
+2340 [main.c] 353 Starting new instance
+2340 [main.c] 354 ---------------------------------------------------------------------
+2340 [main.c] 357 Build of Mar 4 2014 at 03:03:13
+2340 [main.c] 370 Screen element initialisation...
+2340 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2340 [main.c] 189 Number of thread detected --successfully-- : 2
+2340 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+2340 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+2340 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+2340 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2340 [drawing.c] 557 Now screen lenght is :
+2340 [drawing.c] 558 145
+2340 [main.c] 490 Main menu : Wainting for a user choice...
+2340 [main.c] 528 Set a new order function selected
+2340 [main.c] 544 New Mersenne order changed to : 19
+2340 [main.c] 490 Main menu : Wainting for a user choice...
+2340 [main.c] 587 Prospecting mode selected
+2340 [compute.c] 375 Init of a linked list of mpz values
+2340 [compute.c] 375 Init of a linked list of mpz values
+2340 [compute.c] 379 Check if we have not already this adress here...
+2340 [compute.c] 379 Check if we have not already this adress here...
+2685 [main.c] 350
+2685 [main.c] 351
+2685 [main.c] 352 ---------------------------------------------------------------------
+2685 [main.c] 353 Starting new instance
+2685 [main.c] 354 ---------------------------------------------------------------------
+2685 [main.c] 357 Build of Mar 4 2014 at 03:07:34
+2685 [main.c] 370 Screen element initialisation...
+2685 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2685 [main.c] 189 Number of thread detected --successfully-- : 2
+2685 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+2685 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+2685 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+2685 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2685 [drawing.c] 557 Now screen lenght is :
+2685 [drawing.c] 558 145
+2685 [main.c] 490 Main menu : Wainting for a user choice...
+2685 [main.c] 587 Prospecting mode selected
+2685 [compute.c] 376 Init of a linked list of mpz values
+2685 [compute.c] 380 Check if we have not already this adress here...
+2909 [main.c] 350
+2909 [main.c] 351
+2909 [main.c] 352 ---------------------------------------------------------------------
+2909 [main.c] 353 Starting new instance
+2909 [main.c] 354 ---------------------------------------------------------------------
+2909 [main.c] 357 Build of Mar 4 2014 at 03:10:01
+2909 [main.c] 370 Screen element initialisation...
+2909 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2909 [main.c] 189 Number of thread detected --successfully-- : 2
+2909 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+2909 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+2909 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+2909 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2909 [drawing.c] 557 Now screen lenght is :
+2909 [drawing.c] 558 145
+2909 [main.c] 490 Main menu : Wainting for a user choice...
+2909 [main.c] 587 Prospecting mode selected
+2909 [compute.c] 376 Init of a linked list of mpz values
+2909 [compute.c] 395 Adding a value
+3056 [main.c] 350
+3056 [main.c] 351
+3056 [main.c] 352 ---------------------------------------------------------------------
+3056 [main.c] 353 Starting new instance
+3056 [main.c] 354 ---------------------------------------------------------------------
+3056 [main.c] 357 Build of Mar 4 2014 at 03:11:06
+3056 [main.c] 370 Screen element initialisation...
+3056 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3056 [main.c] 189 Number of thread detected --successfully-- : 2
+3056 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3056 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3056 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3056 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3056 [drawing.c] 557 Now screen lenght is :
+3056 [drawing.c] 558 145
+3056 [main.c] 490 Main menu : Wainting for a user choice...
+3056 [main.c] 587 Prospecting mode selected
+3056 [compute.c] 376 Init of a linked list of mpz values
+3056 [compute.c] 395 Adding a value
+3056 [compute.c] 399
+3278 [main.c] 350
+3278 [main.c] 351
+3278 [main.c] 352 ---------------------------------------------------------------------
+3278 [main.c] 353 Starting new instance
+3278 [main.c] 354 ---------------------------------------------------------------------
+3278 [main.c] 357 Build of Mar 4 2014 at 03:12:33
+3278 [main.c] 370 Screen element initialisation...
+3278 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3278 [main.c] 189 Number of thread detected --successfully-- : 2
+3278 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3278 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3278 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3278 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3278 [drawing.c] 557 Now screen lenght is :
+3278 [drawing.c] 558 145
+3278 [main.c] 490 Main menu : Wainting for a user choice...
+3278 [main.c] 587 Prospecting mode selected
+3278 [compute.c] 376 Init of a linked list of mpz values
+3278 [compute.c] 395 Adding a value
+3278 [compute.c] 399
+3278 [compute.c] 403
+3278 [compute.c] 405
+3278 [compute.c] 414
+3278 [compute.c] 416
+3278 [compute.c] 420
+3278 [compute.c] 383 Check if we have not already this adress here...
+3411 [main.c] 350
+3411 [main.c] 351
+3411 [main.c] 352 ---------------------------------------------------------------------
+3411 [main.c] 353 Starting new instance
+3411 [main.c] 354 ---------------------------------------------------------------------
+3411 [main.c] 357 Build of Mar 4 2014 at 03:13:33
+3411 [main.c] 370 Screen element initialisation...
+3411 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3411 [main.c] 189 Number of thread detected --successfully-- : 2
+3411 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3411 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3411 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3411 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3411 [drawing.c] 557 Now screen lenght is :
+3411 [drawing.c] 558 145
+3411 [main.c] 490 Main menu : Wainting for a user choice...
+3411 [main.c] 587 Prospecting mode selected
+3411 [compute.c] 376 Init of a linked list of mpz values
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 405
+3411 [compute.c] 407
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [compute.c] 383 Check if we have not already this adress here...
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 391
+3411 [compute.c] 397 Adding a value
+3411 [compute.c] 401
+3411 [compute.c] 411
+3411 [compute.c] 413
+3411 [compute.c] 416
+3411 [compute.c] 418
+3411 [compute.c] 422
+3411 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+3411 [multithread.c] 194 Computation takes --in seconds--: 41
+3411 [main.c] 606 New Mersenne order changed to : 37
+3411 [main.c] 490 Main menu : Wainting for a user choice...
+3411 [main.c] 622 Quit the program
+3411 [main.c] 119 End of the program. See you. Release memory...
+3411 [compute.c] 428 Clean all mpz values
+3411 [compute.c] 431 One
+3411 [compute.c] 431 One
+3940 [main.c] 350
+3940 [main.c] 351
+3940 [main.c] 352 ---------------------------------------------------------------------
+3940 [main.c] 353 Starting new instance
+3940 [main.c] 354 ---------------------------------------------------------------------
+3940 [main.c] 357 Build of Mar 4 2014 at 03:18:08
+3940 [main.c] 370 Screen element initialisation...
+3940 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3940 [main.c] 189 Number of thread detected --successfully-- : 2
+3940 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3940 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3940 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3940 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3940 [drawing.c] 557 Now screen lenght is :
+3940 [drawing.c] 558 145
+3940 [main.c] 490 Main menu : Wainting for a user choice...
+3940 [main.c] 587 Prospecting mode selected
+3940 [compute.c] 377 Init of a linked list of mpz values
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 398 Adding a value
+3940 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+3940 [multithread.c] 194 Computation takes --in seconds--: 8
+3940 [main.c] 606 New Mersenne order changed to : 37
+3940 [main.c] 490 Main menu : Wainting for a user choice...
+3940 [main.c] 587 Prospecting mode selected
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [compute.c] 384 Check if we have not already this adress here...
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 392
+3940 [compute.c] 389 We already have this value...
+3940 [compute.c] 398 Adding a value
+3940 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+3940 [multithread.c] 194 Computation takes --in seconds--: 70
+3940 [main.c] 606 New Mersenne order changed to : 41
+3940 [main.c] 490 Main menu : Wainting for a user choice...
+3940 [main.c] 622 Quit the program
+3940 [main.c] 119 End of the program. See you. Release memory...
+3940 [compute.c] 421 Clean all mpz values
+3940 [compute.c] 424 One
+3940 [compute.c] 424 One
+5536 [main.c] 350
+5536 [main.c] 351
+5536 [main.c] 352 ---------------------------------------------------------------------
+5536 [main.c] 353 Starting new instance
+5536 [main.c] 354 ---------------------------------------------------------------------
+5536 [main.c] 357 Build of Mar 4 2014 at 03:35:03
+5536 [main.c] 370 Screen element initialisation...
+5536 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+5536 [main.c] 189 Number of thread detected --successfully-- : 2
+5536 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+5536 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+5536 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+5536 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+5536 [drawing.c] 557 Now screen lenght is :
+5536 [drawing.c] 558 145
+5536 [main.c] 490 Main menu : Wainting for a user choice...
+5536 [main.c] 587 Prospecting mode selected
+5536 [compute.c] 377 Init of a linked list of mpz values
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [compute.c] 384 Check if we have not already this adress here...
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 392
+5536 [compute.c] 398 Adding a value
+5536 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+5536 [multithread.c] 194 Computation takes --in seconds--: 8
+5536 [main.c] 606 New Mersenne order changed to : 37
+5536 [main.c] 490 Main menu : Wainting for a user choice...
+5536 [main.c] 622 Quit the program
+5536 [main.c] 119 End of the program. See you. Release memory...
+5536 [compute.c] 422 Clean all mpz values
+5536 [compute.c] 425 One
+5536 [compute.c] 425 One
+6029 [main.c] 350
+6029 [main.c] 351
+6029 [main.c] 352 ---------------------------------------------------------------------
+6029 [main.c] 353 Starting new instance
+6029 [main.c] 354 ---------------------------------------------------------------------
+6029 [main.c] 357 Build of Mar 4 2014 at 03:38:11
+6029 [main.c] 370 Screen element initialisation...
+6029 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+6029 [main.c] 189 Number of thread detected --successfully-- : 2
+6029 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+6029 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+6029 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+6029 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+6029 [drawing.c] 557 Now screen lenght is :
+6029 [drawing.c] 558 145
+6029 [main.c] 490 Main menu : Wainting for a user choice...
+6029 [main.c] 587 Prospecting mode selected
+6029 [compute.c] 377 Init of a linked list of mpz values
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [compute.c] 383 Check if we have not already this adress here...
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 391
+6029 [compute.c] 396 Adding a value
+6029 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+6029 [multithread.c] 194 Computation takes --in seconds--: 5
+6029 [main.c] 606 New Mersenne order changed to : 37
+6029 [main.c] 490 Main menu : Wainting for a user choice...
+6029 [main.c] 622 Quit the program
+6029 [main.c] 119 End of the program. See you. Release memory...
+6029 [compute.c] 420 Clean all mpz values
+6029 [compute.c] 423 One
+6425 [main.c] 350
+6425 [main.c] 351
+6425 [main.c] 352 ---------------------------------------------------------------------
+6425 [main.c] 353 Starting new instance
+6425 [main.c] 354 ---------------------------------------------------------------------
+6425 [main.c] 357 Build of Mar 4 2014 at 03:39:43
+6425 [main.c] 370 Screen element initialisation...
+6425 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+6425 [main.c] 189 Number of thread detected --successfully-- : 2
+6425 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+6425 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+6425 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+6425 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+6425 [drawing.c] 557 Now screen lenght is :
+6425 [drawing.c] 558 145
+6425 [main.c] 490 Main menu : Wainting for a user choice...
+6425 [main.c] 587 Prospecting mode selected
+6425 [compute.c] 377 Init of a linked list of mpz values
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [compute.c] 383 Check if we have not already this adress here...
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 391
+6425 [compute.c] 396 Adding a value
+6425 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+6425 [multithread.c] 194 Computation takes --in seconds--: 7
+6425 [main.c] 606 New Mersenne order changed to : 37
+6425 [main.c] 490 Main menu : Wainting for a user choice...
+6425 [main.c] 622 Quit the program
+6425 [main.c] 119 End of the program. See you. Release memory...
+6425 [compute.c] 420 Clean all mpz values
+6425 [compute.c] 423 One
+6425 [compute.c] 423 One
+6704 [main.c] 350
+6704 [main.c] 351
+6704 [main.c] 352 ---------------------------------------------------------------------
+6704 [main.c] 353 Starting new instance
+6704 [main.c] 354 ---------------------------------------------------------------------
+6704 [main.c] 357 Build of Mar 4 2014 at 03:39:43
+6704 [main.c] 370 Screen element initialisation...
+6704 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+6704 [main.c] 189 Number of thread detected --successfully-- : 2
+6704 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+6704 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+6704 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+6704 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+6704 [drawing.c] 557 Now screen lenght is :
+6704 [drawing.c] 558 145
+6704 [main.c] 490 Main menu : Wainting for a user choice...
+6704 [main.c] 587 Prospecting mode selected
+6704 [compute.c] 377 Init of a linked list of mpz values
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [compute.c] 383 Check if we have not already this adress here...
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 391
+6704 [compute.c] 396 Adding a value
+6704 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+6704 [multithread.c] 194 Computation takes --in seconds--: 3
+6704 [main.c] 606 New Mersenne order changed to : 37
+6704 [main.c] 490 Main menu : Wainting for a user choice...
+6704 [main.c] 622 Quit the program
+6704 [main.c] 119 End of the program. See you. Release memory...
+6704 [compute.c] 420 Clean all mpz values
+6704 [compute.c] 423 One
+6704 [compute.c] 423 One
+7030 [main.c] 350
+7030 [main.c] 351
+7030 [main.c] 352 ---------------------------------------------------------------------
+7030 [main.c] 353 Starting new instance
+7030 [main.c] 354 ---------------------------------------------------------------------
+7030 [main.c] 357 Build of Mar 4 2014 at 03:40:33
+7030 [main.c] 370 Screen element initialisation...
+7030 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+7030 [main.c] 189 Number of thread detected --successfully-- : 2
+7030 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+7030 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+7030 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+7030 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+7030 [drawing.c] 557 Now screen lenght is :
+7030 [drawing.c] 558 145
+7030 [main.c] 490 Main menu : Wainting for a user choice...
+7030 [main.c] 587 Prospecting mode selected
+7030 [compute.c] 377 Init of a linked list of mpz values
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [compute.c] 383 Check if we have not already this adress here...
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 391
+7030 [compute.c] 396 Adding a value
+7030 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+7030 [multithread.c] 194 Computation takes --in seconds--: 4
+7030 [main.c] 606 New Mersenne order changed to : 37
+7030 [main.c] 490 Main menu : Wainting for a user choice...
+7030 [main.c] 622 Quit the program
+7030 [main.c] 119 End of the program. See you. Release memory...
+7030 [compute.c] 420 Clean all mpz values
+7030 [compute.c] 423 One
+7508 [main.c] 350
+7508 [main.c] 351
+7508 [main.c] 352 ---------------------------------------------------------------------
+7508 [main.c] 353 Starting new instance
+7508 [main.c] 354 ---------------------------------------------------------------------
+7508 [main.c] 357 Build of Mar 4 2014 at 03:43:27
+7508 [main.c] 370 Screen element initialisation...
+7508 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+7508 [main.c] 189 Number of thread detected --successfully-- : 2
+7508 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+7508 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+7508 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+7508 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+7508 [drawing.c] 557 Now screen lenght is :
+7508 [drawing.c] 558 145
+7508 [main.c] 490 Main menu : Wainting for a user choice...
+7508 [main.c] 587 Prospecting mode selected
+7508 [compute.c] 378 Init of a linked list of mpz values
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [compute.c] 384 Check if we have not already this adress here...
+7508 [compute.c] 397 Adding a value
+7508 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+7508 [multithread.c] 194 Computation takes --in seconds--: 5
+7508 [main.c] 606 New Mersenne order changed to : 37
+7508 [main.c] 490 Main menu : Wainting for a user choice...
+7508 [main.c] 622 Quit the program
+7508 [main.c] 119 End of the program. See you. Release memory...
+7508 [compute.c] 420 Clean all mpz values
+7791 [main.c] 350
+7791 [main.c] 351
+7791 [main.c] 352 ---------------------------------------------------------------------
+7791 [main.c] 353 Starting new instance
+7791 [main.c] 354 ---------------------------------------------------------------------
+7791 [main.c] 357 Build of Mar 4 2014 at 03:46:21
+7791 [main.c] 370 Screen element initialisation...
+7791 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+7791 [main.c] 189 Number of thread detected --successfully-- : 2
+7791 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+7791 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+7791 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+7791 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+7791 [drawing.c] 557 Now screen lenght is :
+7791 [drawing.c] 558 145
+7791 [main.c] 490 Main menu : Wainting for a user choice...
+7791 [main.c] 587 Prospecting mode selected
+7791 [multithread.c] 185 Give up ! Dont know it this is a prime number or not
+7791 [multithread.c] 194 Computation takes --in seconds--: 4
+7791 [main.c] 606 New Mersenne order changed to : 37
+7791 [main.c] 490 Main menu : Wainting for a user choice...
+7791 [main.c] 622 Quit the program
+7791 [main.c] 119 End of the program. See you. Release memory...

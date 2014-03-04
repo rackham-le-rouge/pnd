@@ -34,6 +34,11 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 	mpz_init(l_mpzSQRT);
 	mpz_init(l_mpzIterator);
 
+	/*
+	storeAndCleanMPZNumber(&l_mpzSQRT, MODE_ADD);
+	storeAndCleanMPZNumber(&l_mpzIterator, MODE_ADD);
+	*/
+
 	#ifdef DEBUG_VERBOSE
 	LOG_WRITE("Compute: Try to find if a simple number is prime number or not")
 	#endif
@@ -173,6 +178,22 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 	mpz_init(l_mpzOnePercent);
 	mpz_init(l_mpzTmp);
 	mpz_init(l_mpzRefreshCounter);
+
+	/*
+	#pragma omp critical (declareVariable)
+	{
+		storeAndCleanMPZNumber(&l_mpzBeginOfSearchArea, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzEndOfSearchArea, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzSQRT, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzIterator, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzArea, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzCurrentPosition, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzPercent, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzOnePercent, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzTmp, MODE_ADD);
+		storeAndCleanMPZNumber(&l_mpzRefreshCounter, MODE_ADD);
+	}
+	*/
 
 	#ifdef DEBUG_VERBOSE
 	LOG_WRITE_STRING_LONG("Compute: Try to find if a simple number is prime for thread ", (long int)p_iSectionNumber)
@@ -325,6 +346,101 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 
 
 
+
+
+
+/**
+  * @brief
+  * Memorize all mpz number, and clean them all at the end of the program
+  * /!\ Respect the folowing order :
+  *
+  * storeAndCleanMPZNumber(&my_first_mpz_number, MODE_ADD)
+  * storeAndCleanMPZNumber(&my_second_mpz_number, MODE_ADD)
+  *                    ....and so on....
+  * storeAndCleanMPZNumber(&my_last_mpz_number, MODE_ADD)
+  * storeAndCleanMPZNumber(NULL, MODE_CLEAN)
+  *
+  * @param *p_mpzNumber : pointer to number to add if we are in the storage mode
+  * @param p_iMode : wanted mode : add a new number (MODE_ADD), clean all (MODE_CLEAN) or init (MODE_INIT) of the first segment...
+  * @return TRUE (if the number is prime) or FALSE
+  *
+  *
+  * FIXME : This function don't work yet. Seg fault at the third mpz_clean execution with mode 4 and default values.
+  *
+  */
+void storeAndCleanMPZNumber(mpz_t*  p_mpzNumber, char p_iAction)
+{
+	structLinkedList* structPiece;
+	static structLinkedList* structAnchor = NULL;
+	static structLinkedList* structLastOne = NULL;
+	static char l_bAlreadyInit = FALSE;
+	char l_bInit = FALSE;
+	char l_bGoOut = FALSE;
+
+	switch(p_iAction)
+	{
+		case MODE_ADD:
+		{
+			if(l_bAlreadyInit == FALSE)
+			{
+				LOG_WRITE("Init of a linked list of mpz values")
+				l_bAlreadyInit = TRUE;
+				l_bInit = TRUE;
+			}
+			else
+			{
+				LOG_WRITE("Check if we have not already this adress here...")
+				structPiece = structAnchor;
+				do{
+					if(structPiece->mpzNumber == p_mpzNumber)
+					{
+						LOG_WRITE("We already have this value...")
+						l_bGoOut = TRUE;
+					}
+					structPiece = structPiece->structSuivant;
+				}while(structPiece != NULL || l_bGoOut == TRUE);
+			}
+			if(l_bGoOut == TRUE) {break;}
+
+			LOG_WRITE("Adding a value")
+			/* Create it */
+			structPiece = (structLinkedList*)malloc(sizeof(structLinkedList));
+			/* Next of the Previous one is the current one */
+			if(l_bInit == TRUE)
+			{
+				/* If it is the INIT, we need to init Anchor */
+				structAnchor = structPiece;
+			}
+			else
+			{
+				structLastOne->structSuivant = structPiece;
+			}
+			/* Init, to set the end of the linked list */
+			structPiece->structSuivant = NULL;
+			structPiece->mpzNumber = p_mpzNumber;
+			/* Actualisation of the variable */
+			structLastOne = structPiece;
+			break;
+		}
+		case MODE_CLEAN:
+		{
+			if(structAnchor == NULL) {break;}
+			LOG_WRITE("Clean all mpz values")
+			structPiece = structAnchor;
+			do{
+				mpz_clear(*(structPiece->mpzNumber));
+				free(structPiece);
+				structPiece = structPiece->structSuivant;
+			}while(structPiece != NULL);
+			break;
+		}
+		default:
+		{
+			LOG_WRITE("Unknow parameter passed to the mpz variable management function")
+			break;
+		}
+	}
+}
 
 
 
