@@ -42,8 +42,9 @@ pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 	@echo [LD] $@
 
 documentation:
-	@echo [DOC] Doc generation...
-	@doxygen
+	@echo [MAN] Man is ok, use ./man pnd.man to see it
+	@echo [DOC] Doxygen generation...
+	@doxygen conf.doxygen
 
 
 %.o: %.c
