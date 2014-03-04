@@ -17,7 +17,7 @@ g=give up / x=done / ' '=TODO
 [x]	Change the type of the onePercent from l_i to l_mpz. Huge mistake to let this like that. (compute.c)
 [x]	Create command line parameters handler, just to find a parameter among all
 [ ]	Add planned wake up
-[x]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
+[g]	Add manual wake up, with SIGUSR1  --  Cancelled (irrelevant)
 [x]	Cleaning memory function. For all of mpz numbers - FIXME
 [x]	SIGUSR2 toogle High speed mode and low speed
 [x]	Split main in specifics functions
@@ -26,5 +26,5 @@ g=give up / x=done / ' '=TODO
 [ ]	Padding in struct to add one compilation option
 [g]	Include unique revision number and autocommit of binaries in the makefile - See next point
 [x]	Include DATE and TIME of build in the maked bin and put it in log at each start
-[ ]	Create a man page
+[x]	Create a man page
 [ ]	Add auto packaging to the makefile

@@ -54455,3 +54455,22 @@ main.c 211 End of the program. See you
 7791 [main.c] 490 Main menu : Wainting for a user choice...
 7791 [main.c] 622 Quit the program
 7791 [main.c] 119 End of the program. See you. Release memory...
+8546 [main.c] 350
+8546 [main.c] 351
+8546 [main.c] 352 ---------------------------------------------------------------------
+8546 [main.c] 353 Starting new instance
+8546 [main.c] 354 ---------------------------------------------------------------------
+8546 [main.c] 357 Build of Mar 4 2014 at 03:46:21
+8546 [main.c] 370 Screen element initialisation...
+8546 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+8546 [main.c] 189 Number of thread detected --successfully-- : 2
+8546 [main.c] 293 C.LINE : Help is displayed
+8546 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+8546 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+8546 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+8546 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+8546 [drawing.c] 557 Now screen lenght is :
+8546 [drawing.c] 558 145
+8546 [main.c] 490 Main menu : Wainting for a user choice...
+8546 [main.c] 622 Quit the program
+8546 [main.c] 119 End of the program. See you. Release memory...

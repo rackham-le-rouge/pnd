@@ -1,0 +1,99 @@
+.\" Manpage for Prime Number Discovery
+.\" Contact jerome.grard@neuf.fr to gave any information about this work
+.TH man 8 "04 March 2014" "1.0" "PND rescue boat"
+.SH NAME
+PND \- multrithreaded and optimized program to find prime numbers. This program only test Mersenne numbers (2^n - 1) and can work alone until it find something...
+.SH SYNOPSIS
+pnd [-h] [-a] [-d] [-s] [-m Mersenne_number] [-t wanted_threads_number] [-w wanted_moderation_time]
+.SH DESCRIPTION
+pnd is a program aiming to compute and find new prime number. This tool uses GMP in order to provide arbitrary precision numbers, thus, searching is unlimited. Moreover, this program use openMP in order to share work between a wanted thread number. On recent computers, this function could be really nice to use.
+.SH OPTIONS
+All options in the command line :
+.B
+.IP -h
+Display this help.
+.B
+.IP -a
+Automatic research. Start with its parameters and compute until user want to stop it.
+.B
+.IP -d
+Turn program into a daemon. Thus, program is like a submarine : you can see it only in process
+.B
+.IP -s
+Speed toogle
+.B experimental.
+You have choice between speed definded by
+.B -w
+option or maximal speed. You can toogle with this option.
+.B
+.IP -m
+Mersenne order. Put right after the wanted Mersenne order. Default Mersenne order is set in config.h.
+.B
+.IP -t
+Thread number. Put right after the wanted number of threads working at the same time. Default thread number is set using a detection process at the beginning of the program.
+.B
+.IP -w
+Waiting time. Time to wait between two computation. Usefull to be silent and don't take all the CPU. Default waiting time is set in config.h
+
+.SH USAGE
+.HP
+During the program execution, you can do some operations. For instance, when you press the '+' key, the thread number used to compute the next
+Mersenne number is incremented by one. And that's the same for the key '-'. Moreover, during computation, you can quit by pressing the 'q' key.
+You need to wait after a key pressing, the keyboard is checked only when the screen is refresh in order to avoid CPU overload by useless
+check.
+
+.HP
+There is a log file, and all important informations about the program execution is in it. You can see it by using the command tail pnd.log.
+If you want more logs, edit conf.h and uncomment the
+.B
+DEBUG_VERBOSE
+part.
+
+.HP
+Thus, you'd probably understood that there is a configuration file named
+.B
+conf.h.
+In it, you can find all informations of the program,
+anything you want to change is in it, from the character used in the progressbar to the lenght of buffer for the log messages without
+forgetting the default Mersenne number etc... To apply changes you need to
+.B 
+recompile
+the program. In order to do that, use this command :
+.B
+$ make allc
+
+
+.HP
+This program can survive to a SIGTERM or a SIGINT. When these signals are launched, the program do a hot save of the context. At
+the next start, all parameters and progression are baked up from a temporary file : pnd.hotsave. If you cant to avoid that, you
+just need to erase it.
+
+
+
+.SH EXAMPLES
+.IP
+$ ./pnd		Start pnd with its ncurse GUI
+.br
+$ ./pnd -m 19 -t 20 Start pnd with its GUI to check only Mersenne number with order 19 and use 20 threads to do that
+.br
+$ ./pnd -a -m 19 -t 20 Do the same, but continue after 19 to the next avaible Mersenne order (it must be a prime number)
+.br
+$ ./pnd -d -t 20 Use 20 threads, use the default Mersenne order (you can set it in config.h) and run as a deamon. So, you can't see it. The program are just overload your CPU... -d implies -a : program are going to continue computing until its murder
+
+
+
+.SH SEE ALSO
+ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave
+
+.SH BUGS
+We are using ncurses and multithreading, thus, there is some funcy little things.
+.IP "Keyboard" 
+During computation, kerboard is scanned, but, you need to put some time between two keyboard check. On the otherwise, there is some weird character on the screen. This time have been set by me, and you can change it in config.h
+.IP "Memory leak" 
+Today, because of multithread and several calling to some computing functions using GMP numbers, i can't clear them properly. Program wants to clean them once, at the end, and there is a function to clean them all at the end, but i can't use it now because there is a mysterious segfault in it after the 2nd clear.
+.IP "Speed toogle" 
+After three toogling, program crash.
+
+
+.SH AUTHOR
+Jerome GRARD (jerome.grard@neuf.fr)
