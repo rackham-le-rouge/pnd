@@ -27,4 +27,4 @@ g=give up / x=done / ' '=TODO
 [g]	Include unique revision number and autocommit of binaries in the makefile - See next point
 [x]	Include DATE and TIME of build in the maked bin and put it in log at each start
 [x]	Create a man page
-[ ]	Add auto packaging to the makefile
+[x]	Add auto packaging to the makefile

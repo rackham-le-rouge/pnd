@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Apres l'installation
+cd /usr/src/pnd
+make installation
+cp pnd ../../../bin/pnd
+cp pnd.man /usr/local/man/pnd
+make mrproper

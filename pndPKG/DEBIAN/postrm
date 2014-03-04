@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Après le RM
+cd /bin
+rm pnd
+cd /usr/local/man
+rm pnd

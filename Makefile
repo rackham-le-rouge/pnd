@@ -35,7 +35,9 @@ EXEC=pnd
 
 all: $(EXEC)
 allc: mrproper $(EXEC)
-full: $(EXEC) documentation
+full: $(EXEC) documentation package
+installation: $(EXEC) documentation
+
 
 pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
 	@$(CC) -o $@ $^ $(LDFLAGS)
@@ -46,6 +48,14 @@ documentation:
 	@echo [DOC] Doxygen generation...
 	@doxygen conf.doxygen
 
+package: mrproper $(EXEC)
+	@echo [DEB] Copying files...
+	@cp *.c ./pndPKG/usr/src/pnd/
+	@cp *.h ./pndPKG/usr/src/pnd/
+	@cp Makefile conf.doxygen pnd.man TODO ./pndPKG/usr/src/pnd/
+	@dpkg-deb --build pndPKG
+
+
 
 %.o: %.c
 	@$(CC) -o $@ -c $< $(CFLAGS)
@@ -53,7 +63,7 @@ documentation:
 
 
 
-.PHONY: clean mrproper documentation
+.PHONY: clean mrproper documentation package
 
 clean:
 	@echo ---------------
