@@ -459,14 +459,23 @@ void storeAndCleanMPZNumber(mpz_t*  p_mpzNumber, char p_iAction)
   * or a normal number. If trhis function find a diviser, it's dead. But, if the function
   * doesn't, we are allowed to think that, maybee, this number is a prime number.
   */
+int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection, structProgramInfo* p_structStructure)
 
-int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
+/*int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)*/
 {
+
+	LOG_WRITE("Start Miller-Rabin function.")
+	LOG_WRITE_STRING_LONG("Section : ", (long)p_iSectionNumber)
+	LOG_WRITE_STRING_LONG("Total sec : ", (long)p_iTotalSection)
+	LOG_WRITE_STRING_LONG("Threads number : ", (long)p_structStructure->iThreadNumber);
+
 	mpz_t p;
 	mpz_t e;
 	mpz_t a;
 	mpz_t m;
 	mpz_t i;
+	mpz_t p_mpzA;
+	mpz_t p_mpzN;
 	mpz_t k;
 	mpz_t tmp;
 	gmp_randstate_t localStatus;
@@ -477,7 +486,12 @@ int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
 	mpz_init(i);
 	mpz_init(a);
 	mpz_init(k);
+	mpz_init(p_mpzA);
+	mpz_init(p_mpzN);
 	mpz_init(tmp);
+
+	mpz_set(p_mpzA, p_mpzNumber);
+	mpz_set_ui(p_mpzN, (long)1000000);
 
 	mpz_sub_ui(m,p_mpzN, 1);
 	mpz_set(e,m);
@@ -523,8 +537,8 @@ int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
 	{
 		if(mpz_cmp(i,k) < 0)
 		{
-		LOG_WRITE("La bese")
-	mpz_clear(p);
+			LOG_WRITE("La bese")
+			mpz_clear(p);
 			mpz_clear(e);
 			mpz_clear(a);
 			mpz_clear(m);
@@ -539,7 +553,7 @@ int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
 		}
 		if(mpz_cmp(p,m) == 0)
 		{
-LOG_WRITE("La 1")
+			LOG_WRITE("La 1")
 			mpz_clear(p);
 			mpz_clear(e);
 			mpz_clear(a);
@@ -555,7 +569,7 @@ LOG_WRITE("La 1")
 		}
 		if(mpz_cmp_ui(p,1) == 0)
 		{
-LOG_WRITE("La 2")
+			LOG_WRITE("La 2")
 			mpz_clear(p);
 			mpz_clear(e);
 			mpz_clear(m);
