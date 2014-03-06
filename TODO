@@ -28,3 +28,4 @@ g=give up / x=done / ' '=TODO
 [x]	Include DATE and TIME of build in the maked bin and put it in log at each start
 [x]	Create a man page
 [x]	Add auto packaging to the makefile
+[ ]	Fix the .deb issue. There is an dependancies issue. Remove the libgmp10 and try to use libgmp3 instead of it
