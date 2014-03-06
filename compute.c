@@ -466,7 +466,7 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
 
 	LOG_WRITE("Start Miller-Rabin function.")
 	LOG_WRITE_STRING_LONG("Section : ", (long)p_iSectionNumber)
-	LOG_WRITE_STRING_LONG("Total sec : ", (long)p_iTotalSection)
+	LOG_WRITE_STRING_LONG("Total section : ", (long)p_iTotalSection)
 	LOG_WRITE_STRING_LONG("Threads number : ", (long)p_structStructure->iThreadNumber);
 
 	mpz_t p;
