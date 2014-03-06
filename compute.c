@@ -464,11 +464,6 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
 /*int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)*/
 {
 
-	LOG_WRITE("Start Miller-Rabin function.")
-	LOG_WRITE_STRING_LONG("Section : ", (long)p_iSectionNumber)
-	LOG_WRITE_STRING_LONG("Total section : ", (long)p_iTotalSection)
-	LOG_WRITE_STRING_LONG("Threads number : ", (long)p_structStructure->iThreadNumber);
-
 	mpz_t p;
 	mpz_t e;
 	mpz_t a;
@@ -490,8 +485,15 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
 	mpz_init(p_mpzN);
 	mpz_init(tmp);
 
-	mpz_set(p_mpzA, p_mpzNumber);
-	mpz_set_ui(p_mpzN, (long)1000000);
+	LOG_WRITE("Start Miller-Rabin function.")
+	LOG_WRITE_STRING_LONG("Section : ", (long)p_iSectionNumber)
+	LOG_WRITE_STRING_LONG("Total section : ", (long)p_iTotalSection)
+	LOG_WRITE_STRING_LONG("Threads number : ", (long)p_structStructure->iThreadNumber)
+	LOG_WRITE_STRING_MPZ("Tested : ", p_mpzNumber)
+
+
+	mpz_set(p_mpzN, p_mpzNumber);
+	mpz_set_ui(p_mpzA, (long)1000000000);
 
 	mpz_sub_ui(m,p_mpzN, 1);
 	mpz_set(e,m);
