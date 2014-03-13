@@ -152,6 +152,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 	int l_iTemporaryLoadedData;
 	static structProgramInfo* l_structCommon;
 	FILE* l_fileOutputFile;
+	static char l_bAlreadySaved = FALSE;
 
 	if(p_cMode == MODE_INIT)
 	{
@@ -162,6 +163,10 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 	else if(p_cMode == MODE_SAVE)
 	{
 		LOG_WRITE("Saving function : Saving context")
+
+		/* toogle this flag to say to the LOAD function it's useless to load something because this something is already in RAM
+		   it's usefull when we just save a config after the -i command line option */
+		l_bAlreadySaved = TRUE;
 		l_fileOutputFile = fopen("pnd.hotsave", "w");
 		if(l_fileOutputFile != NULL)
 		{
@@ -191,7 +196,7 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			LOG_WRITE("Saving function : fail to open file")
 		}
 	}
-	else if(p_cMode == MODE_LOAD)
+	else if(p_cMode == MODE_LOAD && l_bAlreadySaved == FALSE)
 	{
 		LOG_WRITE("Load function : Try to load context, if it exist")
 		l_fileOutputFile = fopen("pnd.hotsave", "r");
@@ -254,6 +259,11 @@ void saveCurrentContext(char p_cMode, structProgramInfo* p_structCommon)
 			l_structCommon->bLoaded = FALSE;
 		}
 
+	}
+	else if(p_cMode == MODE_LOAD && l_bAlreadySaved == TRUE)
+	{
+		LOG_WRITE("Load function : Try to load context aborted because we had just saved a context. Useless to reload it")
+		l_structCommon->bLoaded = FALSE;
 	}
 	else
 	{

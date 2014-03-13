@@ -27,7 +27,14 @@ You have choice between speed definded by
 option or maximal speed. You can toogle with this option.
 .B
 .IP -m
-Mersenne order. Put right after the wanted Mersenne order. Default Mersenne order is set in config.h.
+Mersenne order. Put right after the wanted Mersenne order, and the program starts with this value. Default Mersenne order is set in config.h.
+You need to know that there is no check on this number. A valid Mersenne order need to be a prime number in order to give a prime Mersenne
+number, and the program don't check if the given order is prime.
+.B
+.IP -i
+Installation. Like -m but this time, you give a Mersenne order right after -i and this order is checked. If the order is valid, it is saved
+in the hotsave file, and the programme starts prospecting at this point at the next start. If the given order is no prime, the default
+Mersenne order (defined in config.h) is set and saved.
 .B
 .IP -t
 Thread number. Put right after the wanted number of threads working at the same time. Default thread number is set using a detection process at the beginning of the program.
@@ -65,7 +72,7 @@ $ make allc
 
 .HP
 This program can survive to a SIGTERM or a SIGINT. When these signals are launched, the program do a hot save of the context. At
-the next start, all parameters and progression are baked up from a temporary file : pnd.hotsave. If you cant to avoid that, you
+the next start, all parameters and progression are baked up from a temporary file : pnd.hotsave. If you want to avoid that, you
 just need to erase it.
 
 

@@ -54528,3 +54528,348 @@ main.c 211 End of the program. See you
 23651 [main.c] 490 Main menu : Wainting for a user choice...
 23651 [main.c] 622 Quit the program
 23651 [main.c] 119 End of the program. See you. Release memory...
+3280 [main.c] 350
+3280 [main.c] 351
+3280 [main.c] 352 ---------------------------------------------------------------------
+3280 [main.c] 353 Starting new instance
+3280 [main.c] 354 ---------------------------------------------------------------------
+3280 [main.c] 357 Build of Mar 9 2014 at 19:01:42
+3280 [main.c] 370 Screen element initialisation...
+3280 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3280 [main.c] 189 Number of thread detected --successfully-- : 2
+3280 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3280 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3280 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3280 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3280 [drawing.c] 557 Now screen lenght is :
+3280 [drawing.c] 558 145
+3280 [main.c] 490 Main menu : Wainting for a user choice...
+3280 [main.c] 622 Quit the program
+3280 [main.c] 119 End of the program. See you. Release memory...
+3314 [main.c] 350
+3314 [main.c] 351
+3314 [main.c] 352 ---------------------------------------------------------------------
+3314 [main.c] 353 Starting new instance
+3314 [main.c] 354 ---------------------------------------------------------------------
+3314 [main.c] 357 Build of Mar 9 2014 at 19:01:42
+3314 [main.c] 370 Screen element initialisation...
+3314 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3314 [main.c] 189 Number of thread detected --successfully-- : 2
+3314 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+3314 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+3314 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+3314 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3314 [drawing.c] 557 Now screen lenght is :
+3314 [drawing.c] 558 145
+3314 [main.c] 490 Main menu : Wainting for a user choice...
+3314 [main.c] 559 Set new thread number function selected
+3314 [main.c] 579 New thread number changed to : 20
+3314 [main.c] 490 Main menu : Wainting for a user choice...
+3314 [main.c] 528 Set a new order function selected
+3314 [main.c] 544 New Mersenne order changed to : 19
+3314 [main.c] 490 Main menu : Wainting for a user choice...
+3314 [main.c] 587 Prospecting mode selected
+3314 [multithread.c] 189 This is a prime number.
+3314 [multithread.c] 193 Computation takes --in seconds--: 0
+3314 [main.c] 606 New Mersenne order changed to : 23
+3314 [multithread.c] 179 This is not a prime number !
+3314 [multithread.c] 193 Computation takes --in seconds--: 1
+3314 [main.c] 606 New Mersenne order changed to : 29
+3314 [multithread.c] 179 This is not a prime number !
+3314 [multithread.c] 193 Computation takes --in seconds--: 12
+3314 [main.c] 606 New Mersenne order changed to : 31
+3314 [multithread.c] 184 Give up ! Dont know it this is a prime number or not
+3314 [multithread.c] 193 Computation takes --in seconds--: 21
+3314 [main.c] 606 New Mersenne order changed to : 37
+3314 [main.c] 490 Main menu : Wainting for a user choice...
+3314 [main.c] 622 Quit the program
+3314 [main.c] 119 End of the program. See you. Release memory...
+15342 [main.c] 378
+15342 [main.c] 379
+15342 [main.c] 380 ---------------------------------------------------------------------
+15342 [main.c] 381 Starting new instance
+15342 [main.c] 382 ---------------------------------------------------------------------
+15342 [main.c] 385 Build of Mar 13 2014 at 01:13:23
+15342 [main.c] 398 Screen element initialisation...
+15342 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+15342 [main.c] 189 Number of thread detected --successfully-- : 2
+15342 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+15342 [main.c] 246 C.LINE : Initialize program to a new order
+15342 [main.c] 252 C.LINE : New Mersenne order changed to : 19
+15342 [signalmanagement.c] 164 Saving function : Saving context
+15342 [signalmanagement.c] 168 Saving function : output file opened successfully
+15342 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+15342 [signalmanagement.c] 200 Load function : there is a context saved. Loading...
+15342 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+15342 [drawing.c] 557 Now screen lenght is :
+15342 [drawing.c] 558 145
+15342 [main.c] 520 Main menu : Wainting for a user choice...
+15342 [main.c] 617 Prospecting mode selected
+15342 [multithread.c] 184 Give up ! Dont know it this is a prime number or not
+15342 [multithread.c] 193 Computation takes --in seconds--: 9
+15342 [main.c] 636 New Mersenne order changed to : 23
+15342 [main.c] 520 Main menu : Wainting for a user choice...
+15342 [main.c] 652 Quit the program
+15342 [main.c] 119 End of the program. See you. Release memory...
+15481 [main.c] 378
+15481 [main.c] 379
+15481 [main.c] 380 ---------------------------------------------------------------------
+15481 [main.c] 381 Starting new instance
+15481 [main.c] 382 ---------------------------------------------------------------------
+15481 [main.c] 385 Build of Mar 13 2014 at 01:13:23
+15481 [main.c] 398 Screen element initialisation...
+15481 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+15481 [main.c] 189 Number of thread detected --successfully-- : 2
+15481 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+15481 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+15481 [signalmanagement.c] 253 Load function : There is no context saved. Default values are going to be loaded
+15481 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+15481 [drawing.c] 557 Now screen lenght is :
+15481 [drawing.c] 558 145
+15481 [main.c] 520 Main menu : Wainting for a user choice...
+15481 [main.c] 549 Start function selected
+15481 [multithread.c] 184 Give up ! Dont know it this is a prime number or not
+15481 [multithread.c] 193 Computation takes --in seconds--: 6
+15481 [main.c] 520 Main menu : Wainting for a user choice...
+15481 [main.c] 652 Quit the program
+15481 [main.c] 119 End of the program. See you. Release memory...
+15618 [main.c] 378
+15618 [main.c] 379
+15618 [main.c] 380 ---------------------------------------------------------------------
+15618 [main.c] 381 Starting new instance
+15618 [main.c] 382 ---------------------------------------------------------------------
+15618 [main.c] 385 Build of Mar 13 2014 at 01:13:23
+15618 [main.c] 398 Screen element initialisation...
+15618 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+15618 [main.c] 189 Number of thread detected --successfully-- : 2
+15618 [signalmanagement.c] 158 Saving function : Init of commonstruct pointer
+15618 [main.c] 246 C.LINE : Initialize program to a new order
+15618 [main.c] 252 C.LINE : New Mersenne order changed to : 19
+15618 [signalmanagement.c] 164 Saving function : Saving context
+15618 [signalmanagement.c] 168 Saving function : output file opened successfully
+15618 [signalmanagement.c] 196 Load function : Try to load context, if it exist
+15618 [signalmanagement.c] 200 Load function : there is a context saved. Loading...
+15618 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+15618 [drawing.c] 557 Now screen lenght is :
+15618 [drawing.c] 558 145
+15618 [main.c] 520 Main menu : Wainting for a user choice...
+15618 [main.c] 617 Prospecting mode selected
+15618 [multithread.c] 184 Give up ! Dont know it this is a prime number or not
+15618 [multithread.c] 193 Computation takes --in seconds--: 2
+15618 [main.c] 636 New Mersenne order changed to : 23
+15618 [main.c] 520 Main menu : Wainting for a user choice...
+15618 [main.c] 652 Quit the program
+15618 [main.c] 119 End of the program. See you. Release memory...
+16403 [main.c] 570
+16403 [main.c] 571
+16403 [main.c] 572 ---------------------------------------------------------------------
+16403 [main.c] 573 Starting new instance
+16403 [main.c] 574 ---------------------------------------------------------------------
+16403 [main.c] 577 Build of Mar 13 2014 at 01:28:12
+16403 [main.c] 590 Screen element initialisation...
+16403 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+16403 [main.c] 189 Number of thread detected --successfully-- : 2
+16403 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+16403 [main.c] 246 C.LINE : Initialize program to a new order
+16403 [main.c] 252 C.LINE : New Mersenne order changed to : 19
+16403 [signalmanagement.c] 165 Saving function : Saving context
+16403 [signalmanagement.c] 173 Saving function : output file opened successfully
+16403 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+16403 [drawing.c] 557 Now screen lenght is :
+16403 [drawing.c] 558 145
+16403 [main.c] 374 Main menu : Wainting for a user choice...
+16403 [main.c] 506 Quit the program
+16403 [main.c] 119 End of the program. See you. Release memory...
+16439 [main.c] 570
+16439 [main.c] 571
+16439 [main.c] 572 ---------------------------------------------------------------------
+16439 [main.c] 573 Starting new instance
+16439 [main.c] 574 ---------------------------------------------------------------------
+16439 [main.c] 577 Build of Mar 13 2014 at 01:28:12
+16439 [main.c] 590 Screen element initialisation...
+16439 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+16439 [main.c] 189 Number of thread detected --successfully-- : 2
+16439 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+16439 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+16439 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+16439 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+16439 [drawing.c] 557 Now screen lenght is :
+16439 [drawing.c] 558 145
+16439 [main.c] 374 Main menu : Wainting for a user choice...
+16439 [main.c] 471 Prospecting mode selected
+16439 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+16439 [signalmanagement.c] 165 Saving function : Saving context
+16439 [signalmanagement.c] 173 Saving function : output file opened successfully
+16439 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+16439 [main.c] 119 End of the program. See you. Release memory...
+16533 [main.c] 570
+16533 [main.c] 571
+16533 [main.c] 572 ---------------------------------------------------------------------
+16533 [main.c] 573 Starting new instance
+16533 [main.c] 574 ---------------------------------------------------------------------
+16533 [main.c] 577 Build of Mar 13 2014 at 01:28:12
+16533 [main.c] 590 Screen element initialisation...
+16533 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+16533 [main.c] 189 Number of thread detected --successfully-- : 2
+16533 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+16533 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+16533 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+16533 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+16533 [drawing.c] 557 Now screen lenght is :
+16533 [drawing.c] 558 145
+16533 [main.c] 374 Main menu : Wainting for a user choice...
+16533 [main.c] 471 Prospecting mode selected
+16533 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+16533 [signalmanagement.c] 165 Saving function : Saving context
+16533 [signalmanagement.c] 173 Saving function : output file opened successfully
+16533 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+16533 [main.c] 119 End of the program. See you. Release memory...
+16649 [main.c] 570
+16649 [main.c] 571
+16649 [main.c] 572 ---------------------------------------------------------------------
+16649 [main.c] 573 Starting new instance
+16649 [main.c] 574 ---------------------------------------------------------------------
+16649 [main.c] 577 Build of Mar 13 2014 at 01:28:12
+16649 [main.c] 590 Screen element initialisation...
+16649 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+16649 [main.c] 189 Number of thread detected --successfully-- : 2
+16649 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+16649 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+16649 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+16649 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+16649 [drawing.c] 557 Now screen lenght is :
+16649 [drawing.c] 558 145
+16649 [main.c] 374 Main menu : Wainting for a user choice...
+16649 [main.c] 471 Prospecting mode selected
+16649 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+16649 [signalmanagement.c] 165 Saving function : Saving context
+16649 [signalmanagement.c] 173 Saving function : output file opened successfully
+16649 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+16649 [main.c] 119 End of the program. See you. Release memory...
+16726 [main.c] 570
+16726 [main.c] 571
+16726 [main.c] 572 ---------------------------------------------------------------------
+16726 [main.c] 573 Starting new instance
+16726 [main.c] 574 ---------------------------------------------------------------------
+16726 [main.c] 577 Build of Mar 13 2014 at 01:28:12
+16726 [main.c] 590 Screen element initialisation...
+16726 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+16726 [main.c] 189 Number of thread detected --successfully-- : 2
+16726 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+16726 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+16726 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+16726 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+16726 [drawing.c] 557 Now screen lenght is :
+16726 [drawing.c] 558 145
+16726 [main.c] 374 Main menu : Wainting for a user choice...
+16726 [main.c] 471 Prospecting mode selected
+16726 [multithread.c] 184 Give up ! Dont know it this is a prime number or not
+16726 [multithread.c] 193 Computation takes --in seconds--: 9
+16726 [main.c] 490 New Mersenne order changed to : 37
+16726 [main.c] 374 Main menu : Wainting for a user choice...
+16726 [main.c] 506 Quit the program
+16726 [main.c] 119 End of the program. See you. Release memory...
+17285 [main.c] 574
+17285 [main.c] 575
+17285 [main.c] 576 ---------------------------------------------------------------------
+17285 [main.c] 577 Starting new instance
+17285 [main.c] 578 ---------------------------------------------------------------------
+17285 [main.c] 581 Build of Mar 13 2014 at 01:38:46
+17285 [main.c] 594 Screen element initialisation...
+17285 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+17285 [main.c] 189 Number of thread detected --successfully-- : 2
+17285 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+17285 [main.c] 246 C.LINE : Initialize program to a new order
+17285 [main.c] 252 C.LINE : New Mersenne order changed to : 19
+17285 [signalmanagement.c] 165 Saving function : Saving context
+17285 [signalmanagement.c] 173 Saving function : output file opened successfully
+17285 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+17285 [drawing.c] 557 Now screen lenght is :
+17285 [drawing.c] 558 145
+17285 [main.c] 378 Main menu : Wainting for a user choice...
+17285 [main.c] 510 Quit the program
+17285 [main.c] 119 End of the program. See you. Release memory...
+17326 [main.c] 574
+17326 [main.c] 575
+17326 [main.c] 576 ---------------------------------------------------------------------
+17326 [main.c] 577 Starting new instance
+17326 [main.c] 578 ---------------------------------------------------------------------
+17326 [main.c] 581 Build of Mar 13 2014 at 01:38:46
+17326 [main.c] 594 Screen element initialisation...
+17326 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+17326 [main.c] 189 Number of thread detected --successfully-- : 2
+17326 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+17326 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+17326 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+17326 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+17326 [drawing.c] 557 Now screen lenght is :
+17326 [drawing.c] 558 145
+17326 [main.c] 378 Main menu : Wainting for a user choice...
+17326 [main.c] 475 Prospecting mode selected
+17326 [multithread.c] 191 This is a prime number.
+17326 [multithread.c] 195 Computation takes --in seconds--: 0
+17326 [main.c] 494 New Mersenne order changed to : 23
+17326 [multithread.c] 181 This is not a prime number !
+17326 [multithread.c] 195 Computation takes --in seconds--: 1
+17326 [main.c] 494 New Mersenne order changed to : 29
+17326 [multithread.c] 186 Give up ! Dont know it this is a prime number or not
+17326 [multithread.c] 195 Computation takes --in seconds--: 6
+17326 [main.c] 494 New Mersenne order changed to : 31
+17326 [main.c] 378 Main menu : Wainting for a user choice...
+17326 [main.c] 510 Quit the program
+17326 [main.c] 119 End of the program. See you. Release memory...
+17379 [main.c] 574
+17379 [main.c] 575
+17379 [main.c] 576 ---------------------------------------------------------------------
+17379 [main.c] 577 Starting new instance
+17379 [main.c] 578 ---------------------------------------------------------------------
+17379 [main.c] 581 Build of Mar 13 2014 at 01:38:46
+17379 [main.c] 594 Screen element initialisation...
+17379 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+17379 [main.c] 189 Number of thread detected --successfully-- : 2
+17379 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+17379 [main.c] 246 C.LINE : Initialize program to a new order
+17379 [main.c] 252 C.LINE : New Mersenne order changed to : 19
+17379 [signalmanagement.c] 165 Saving function : Saving context
+17379 [signalmanagement.c] 173 Saving function : output file opened successfully
+17379 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+17379 [drawing.c] 557 Now screen lenght is :
+17379 [drawing.c] 558 145
+17379 [main.c] 378 Main menu : Wainting for a user choice...
+17379 [main.c] 510 Quit the program
+17379 [main.c] 119 End of the program. See you. Release memory...
+17413 [main.c] 574
+17413 [main.c] 575
+17413 [main.c] 576 ---------------------------------------------------------------------
+17413 [main.c] 577 Starting new instance
+17413 [main.c] 578 ---------------------------------------------------------------------
+17413 [main.c] 581 Build of Mar 13 2014 at 01:38:46
+17413 [main.c] 594 Screen element initialisation...
+17413 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+17413 [main.c] 189 Number of thread detected --successfully-- : 2
+17413 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+17413 [main.c] 317 C.LINE : Daemon mode selected. Starting prospecting mode.
+17413 [main.c] 54 Daemon : Start the processus... I am going to kill my father
+17413 [main.c] 70 Daemon : Kill my father. Done
+17413 [main.c] 70 Daemon : Kill my father. Done
+17413 [main.c] 79 Daemon : SID impossible to change
+17413 [main.c] 87 Daemon : All standart output closed. Submarine OK
+17413 [main.c] 119 End of the program. See you. Release memory...
+17413 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+17413 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+17413 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+17413 [drawing.c] 557 Now screen lenght is :
+17413 [drawing.c] 558 145
+17413 [main.c] 378 Main menu : Wainting for a user choice...
+17413 [main.c] 475 Prospecting mode selected
+17413 [multithread.c] 191 This is a prime number.
+17413 [multithread.c] 195 Computation takes --in seconds--: 0
+17413 [main.c] 494 New Mersenne order changed to : 23
+17413 [multithread.c] 181 This is not a prime number !
+17413 [multithread.c] 195 Computation takes --in seconds--: 1
+17413 [main.c] 494 New Mersenne order changed to : 29
+17413 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+17413 [signalmanagement.c] 165 Saving function : Saving context
+17413 [signalmanagement.c] 173 Saving function : output file opened successfully
+17413 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+17413 [main.c] 119 End of the program. See you. Release memory...

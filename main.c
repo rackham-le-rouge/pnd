@@ -239,6 +239,38 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
 
+				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
+				   than -m because -i can be used to setup the program, and installer are not going to care about the order */
+				if(!strcmp(argv[l_iTmp], "-i"))
+				{
+					LOG_WRITE("C.LINE : Initialize program to a new order")
+
+					if(isItAPrimeNumberULI(strtod(argv[l_iTmp + 1], NULL)) == TRUE)
+                                        {
+                                                /* And order is a prime number, thus it is allowed */
+                                                p_structCommon->iMersenneOrder = strtod(argv[l_iTmp + 1], NULL);
+                                                LOG_WRITE_STRING_LONG("C.LINE : New Mersenne order changed to : ", (long)p_structCommon->iMersenneOrder);
+                                        }
+                                        else
+                                        {
+                                                /* if order is not a prime number it not allowed. It is useless to waste time with it */
+                                                p_structCommon->iMersenneOrder = (double)DEFAULT_MERSENNE_ORDER;
+                                                LOG_WRITE_STRING_LONG("C.LINE : New Mersenne order --failed-- Keep the old value : \
+                                                ", (long)p_structCommon->iMersenneOrder);
+                                        }
+
+					/* Init the ThreadNumber value stored in the ThreadProgressionTable because, the saveCurrentContext
+					   function are going to save it, and the default value is 0, thus, at the next start, there is 0
+					   active thread and the program is waiting. Thus we save the detected thread number as default */
+					p_structCommon->iThreadProgressionTable[p_structCommon->iRow] = p_structCommon->iThreadNumber;
+					saveCurrentContext(MODE_SAVE, p_structCommon);
+
+					/* In order to kill the program just after setting values */
+					*p_bAutoAction = TRUE;
+					*p_iAutoActionChoice = 6;
+				}
+
+
 				/* Change speed of the program */
 				if(!strcmp(argv[l_iTmp], "-s"))
 				{
@@ -292,7 +324,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-s{speed toogle}] [[-m] [wanted mersenne order]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-s{speed toogle}] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}
@@ -312,150 +344,6 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/** Main
-  * @brief Main function of the program, this is the starting point
-  * @param argc : number of parameters gived to the program
-  * @param argv : 2D array to store all the parameters gived to the program
-  */
-int main(int argc, char** argv)
-{
-	char l_cBuffer[250];				/** Temp buffer to forge strings */
-	char l_cBuffer2[250];				/** Temp buffer to forge strings */
-	unsigned int l_iCol;				/** Temp variable to store screen's row */
-	unsigned int l_iRow;				/** Temp variable to store screen's col */
-	int l_iTmp;
-	char l_bAutoAction;				/** Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
-	int l_iAutoActionChoice;			/** Choice to do by the autoaction  routine */
-	structProgramInfo* structCommon;		/** To store all the program's data */
-
-	g_iCurrentPID = getpid();
-	l_iTmp = 0;
-	l_iRow = 0;
-	l_iCol = 0;
-	l_bAutoAction = FALSE;
-	l_iAutoActionChoice = -1;
-	structCommon = NULL;
-
-	LOG_WRITE(" ")
-	LOG_WRITE(" ")
-	LOG_WRITE("---------------------------------------------------------------------")
-	LOG_WRITE("                    Starting new instance")
-	LOG_WRITE("---------------------------------------------------------------------")
-
-	sprintf(l_cBuffer, "Build of %s at %s", __DATE__, __TIME__);
-	LOG_WRITE_STRING(l_cBuffer);
-
-	/* Start the graphic mode */
-	initscr();
-
-	/* Hide the cursor */
-	curs_set(0);
-
-	noecho();
-	cbreak();
-	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by Géo", ver, rev);
-
-	/* Initialisation of some graphical elements */
-	LOG_WRITE("Screen element initialisation...")
-	initColor();
-        getmaxyx(stdscr,l_iRow ,l_iCol);
-	initBar();
-
-	/* Check the screen size */
-	if(l_iRow < MIN_SCREEN_HEIGHT)
-	{
-		LOG_WRITE("Screen doesn't have enought Lines")
-		mvprintw(1,1,"Screen too small");
-		refresh();
-		getch();
-		endwin();
-		return ENOMSG;
-	}
-	if(l_iCol < MIN_SCREEN_LENGHT)
-	{
-		LOG_WRITE("Screen doesn't have enought Columns")
-		printf("Screen too small");
-		refresh();
-		getch();
-		endwin();
-		return ENOMSG;
-	}
-
-	initBar();
-
-
-	/* Don't ask Enter key in order to complete a getch() */
-	nodelay(stdscr, TRUE);
-
-
-	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because
-	l_cBuffer is too small */
-	for(l_iTmp=0; (signed)l_iTmp < (signed)l_iCol - (signed)strlen(l_cBuffer) ; l_iTmp++)
-	{
-		l_cBuffer2[l_iTmp] = ' ';
-		l_cBuffer2[l_iTmp+1] = '\0';
-	}
-	strcat(l_cBuffer2, l_cBuffer);
-	botText(l_cBuffer2);
-
-
-	/* Setting default values for the most important state variable of the program */
-	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
-
-	/* Init screen size */
-	structCommon->iRow = l_iRow;
-	structCommon->iCol = l_iCol;
-
-	/* We can use it only after setting the screen size */
-	setDefaultValueToTheProgramStructure(structCommon);
-
-	/* Configure program according to the command line */
-	extractConfigFromCommandLine(argc, argv, structCommon, &l_bAutoAction, &l_iAutoActionChoice);
-
-	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
-	   Thus, saveCurrentContext function can save all parameters and resume computing later */
-	saveCurrentContext(MODE_INIT, structCommon);
-
-	/* And now, try to load the previous config, let here if program have been killed */
-	saveCurrentContext(MODE_LOAD, structCommon);
-
-	/* Then, we can init the toogleSpeed part of the program */
-	toogleProgramSpeed(MODE_INIT, structCommon);
-
-	/* Initialize the killTheApp function - It copy pointer adress in a static variable */
-	killTheApp(structCommon);
-
-	/* Initialize progressbar */
-	drawLoadingBar(0, -1, 0, structCommon->iCol, 0);
-
-	/* Re-routing signals of the system */
-	initialisationOfTheSignal();
-
-	/* Print current mersenne order at the screen bottom */
-	drawCurrentMersenneOrder(structCommon);
-
-	if(structCommon->bLoaded == TRUE)
-	{
-		/* There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
-		l_bAutoAction = TRUE;
-		l_iAutoActionChoice = 4;
-	}
-
-	mainMenu(structCommon, &l_bAutoAction, &l_iAutoActionChoice);
-
-	killTheApp(NULL);
-}
 
 
 
@@ -632,4 +520,165 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 		}
 	}
 	return EXIT_SUCCESS;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Main
+  * @brief Main function of the program, this is the starting point
+  * @param argc : number of parameters gived to the program
+  * @param argv : 2D array to store all the parameters gived to the program
+  */
+int main(int argc, char** argv)
+{
+	char l_cBuffer[250];				/** Temp buffer to forge strings */
+	char l_cBuffer2[250];				/** Temp buffer to forge strings */
+	unsigned int l_iCol;				/** Temp variable to store screen's row */
+	unsigned int l_iRow;				/** Temp variable to store screen's col */
+	int l_iTmp;
+	char l_bAutoAction;				/** Autoaction do the selected choice wrote in autoactionchoice variable instead of wainting for a user choice */
+	int l_iAutoActionChoice;			/** Choice to do by the autoaction  routine */
+	structProgramInfo* structCommon;		/** To store all the program's data */
+
+	g_iCurrentPID = getpid();
+	l_iTmp = 0;
+	l_iRow = 0;
+	l_iCol = 0;
+	l_bAutoAction = FALSE;
+	l_iAutoActionChoice = -1;
+	structCommon = NULL;
+
+	LOG_WRITE(" ")
+	LOG_WRITE(" ")
+	LOG_WRITE("---------------------------------------------------------------------")
+	LOG_WRITE("                    Starting new instance")
+	LOG_WRITE("---------------------------------------------------------------------")
+
+	sprintf(l_cBuffer, "Build of %s at %s", __DATE__, __TIME__);
+	LOG_WRITE_STRING(l_cBuffer);
+
+	/* Start the graphic mode */
+	initscr();
+
+	/* Hide the cursor */
+	curs_set(0);
+
+	noecho();
+	cbreak();
+	sprintf(l_cBuffer, "PND - Ver %s - Rev %s - Dev by Géo", ver, rev);
+
+	/* Initialisation of some graphical elements */
+	LOG_WRITE("Screen element initialisation...")
+	initColor();
+        getmaxyx(stdscr,l_iRow ,l_iCol);
+	initBar();
+
+	/* Check the screen size */
+	if(l_iRow < MIN_SCREEN_HEIGHT)
+	{
+		LOG_WRITE("Screen doesn't have enought Lines")
+		mvprintw(1,1,"Screen too small");
+		refresh();
+		getch();
+		endwin();
+		return ENOMSG;
+	}
+	if(l_iCol < MIN_SCREEN_LENGHT)
+	{
+		LOG_WRITE("Screen doesn't have enought Columns")
+		printf("Screen too small");
+		refresh();
+		getch();
+		endwin();
+		return ENOMSG;
+	}
+
+	initBar();
+
+
+	/* Don't ask Enter key in order to complete a getch() */
+	nodelay(stdscr, TRUE);
+
+
+	/* Right message on the bottom bar -- We need to signed them all because there is a substraction. But it's useless because
+	l_cBuffer is too small */
+	for(l_iTmp=0; (signed)l_iTmp < (signed)l_iCol - (signed)strlen(l_cBuffer) ; l_iTmp++)
+	{
+		l_cBuffer2[l_iTmp] = ' ';
+		l_cBuffer2[l_iTmp+1] = '\0';
+	}
+	strcat(l_cBuffer2, l_cBuffer);
+	botText(l_cBuffer2);
+
+
+	/* Setting default values for the most important state variable of the program */
+	structCommon = (structProgramInfo*)malloc(1*sizeof(structProgramInfo));
+
+	/* Init screen size */
+	structCommon->iRow = l_iRow;
+	structCommon->iCol = l_iCol;
+
+	/* We can use it only after setting the screen size */
+	setDefaultValueToTheProgramStructure(structCommon);
+
+	/* Gives a copy of commonStruct adress to the last function executed if user kill this program. And to the toogle speed function.
+	   Thus, saveCurrentContext function can save all parameters and resume computing later
+	   Put it just before the extract command because the extract command can kill the program and ask to save parameters with calling
+	   saveCurrentContext, thus, this function needs to be initalised before */
+	saveCurrentContext(MODE_INIT, structCommon);
+
+	/* Configure program according to the command line */
+	extractConfigFromCommandLine(argc, argv, structCommon, &l_bAutoAction, &l_iAutoActionChoice);
+
+	/* And now, try to load the previous config, let here if program have been killed */
+	saveCurrentContext(MODE_LOAD, structCommon);
+
+	/* Then, we can init the toogleSpeed part of the program */
+	toogleProgramSpeed(MODE_INIT, structCommon);
+
+	/* Initialize the killTheApp function - It copy pointer adress in a static variable */
+	killTheApp(structCommon);
+
+	/* Initialize progressbar */
+	drawLoadingBar(0, -1, 0, structCommon->iCol, 0);
+
+	/* Re-routing signals of the system */
+	initialisationOfTheSignal();
+
+	/* Print current mersenne order at the screen bottom */
+	drawCurrentMersenneOrder(structCommon);
+
+	if(structCommon->bLoaded == TRUE)
+	{
+		/* There is a hot save file, and it was loaded -- We need to apply parameters and resume computing */
+		l_bAutoAction = TRUE;
+		l_iAutoActionChoice = 4;
+	}
+
+	mainMenu(structCommon, &l_bAutoAction, &l_iAutoActionChoice);
+
+	killTheApp(NULL);
 }

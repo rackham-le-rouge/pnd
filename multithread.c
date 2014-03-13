@@ -39,7 +39,9 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	time(&l_timeBegin);				/* Get current time */
 
 	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the
-	   place of the ThreadNumber */
+	   place of the ThreadNumber - This line is copy/pasted in main, in order to init this variable for the -i command line
+	   option calling - But we called it here each time because, if user have changed the number of active thread, we need to
+	   put actualize this key value */
 	p_structCommon->iThreadProgressionTable[p_structCommon->iRow] = l_iThreadNumber;
 
 	/*
