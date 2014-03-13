@@ -153,6 +153,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	/*p_structStructure->iRow = ;
 	p_structStructure->iCol = ;						Initialized in main */
+	p_structStructure->iWantedMRCheck = DEFAULT_MR_WANTED_CHECK;
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
 	p_structStructure->iThreadProgressionTable = (int*)malloc((p_structStructure->iRow + 1)*sizeof(int));	/* +1 because there is a
@@ -238,6 +239,10 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* Change thread number */
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
+
+				/* Change check number of the Miller Rabin algo */
+				p_structCommon->iWantedMRCheck = (!strcmp(argv[l_iTmp], "-c")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iWantedMRCheck;
+				if(!strcmp(argv[l_iTmp], "-c")) {LOG_WRITE_STRING_LONG("C.LINE : Change number of check per number with Miller Rabin to ", (long)p_structCommon->iWantedMRCheck)}
 
 				/* Change speed of the program */
 				if(!strcmp(argv[l_iTmp], "-s"))

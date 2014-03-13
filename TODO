@@ -29,3 +29,4 @@ g=give up / x=done / ' '=TODO
 [x]	Create a man page
 [x]	Add auto packaging to the makefile
 [ ]	Fix the .deb issue. There is an dependancies issue. Remove the libgmp10 and try to use libgmp3 instead of it
+[ ]	Add to the autosave function the algo used...

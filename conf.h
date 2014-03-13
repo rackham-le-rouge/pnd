@@ -105,6 +105,7 @@ typedef enum
 	enumBlanc =	11
 }g_enumJeuxDeCouleursDispo;
 
+#define DEFAULT_MR_WANTED_CHECK	20000		/* Default number of check for a Mersenne number by the miller rabin algo. Greater is this value, best is the security of the test */
 #define DEFAULT_MERSENNE_ORDER	31
 #define DEFAULT_MODERATION_TIME	50		/* If there is no moderation time defined by the command line, the default moderation
 						time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
@@ -192,6 +193,7 @@ typedef struct structProgramInfo_
 	int  iRow;
 	int* iThreadProgressionTable;
 	int  iModerationTime;						/* Wait a little between each test in order to slow down and avoid CPU overloadinf */
+	int  iWantedMRCheck;
 	unsigned char iThreadNumber;					/* we can put it in char, more than 256 thread is suspicious... */
 	char bIsComputing;
 	char bNeedToRedrawProgressBar;
