@@ -453,126 +453,148 @@ void storeAndCleanMPZNumber(mpz_t*  p_mpzNumber, char p_iAction)
 
 
 
-/**
+/** @brief
   * This function compute a statisitc algorithm in order to find if a number is
   * a pseudo prime number (certainly a prime number but it's not 100% proved)
   * or a normal number. If trhis function find a diviser, it's dead. But, if the function
   * doesn't, we are allowed to think that, maybee, this number is a prime number.
+  * Code provided by : http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
+  * @param p_mpzNumber : hypothetic prime number to check
+  * @param p_iSectionNumber : current thread
+  * @param p_iTotalSection : total number of active thread (unused here, putted in the prototype for compatibility issues)
+  * @param p_structStructure : all usefull informations about the program
+  * @return TRUE if the hypothetic prime number seem to be prime, or FALSE if it in not and we can prove it
+  *
   */
-
-int millerRabin(mpz_t p_mpzA, mpz_t p_mpzN)
+int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection __attribute__((unused)), structProgramInfo* p_structStructure)
 {
-	mpz_t p;
-	mpz_t e;
+	/* This code, and its dependancies are copied from http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
+	   thanks to them. This code is actually one of the GMP implementation of the Miller Rabin test. For any update
+	   check GMP project */
+	gmp_randstate_t rand_state;
+	gmp_randinit_default(rand_state);
+	gmp_randseed_ui (rand_state, time(NULL));
+
+	return miller_rabin(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
+}
+
+/**
+  * @brief This function just do some unary test on a prime number.
+  * Thanks to http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
+  * for the algorithm...
+  * @param p_mpzRandom : a random number gived in order to check a wide area of number. It is a probabilistic algo
+  * @param p_mpzNumber : hypothetic prime number to check
+  * @return TRUE if the number could be a prime number or FALSE if it is not and we are sure of that
+  *
+  */
+int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber)
+{
+	int i, s, result;
+	mpz_t a_to_power, d, n_minus_one;
+
+	mpz_init(n_minus_one);
+	mpz_sub_ui(n_minus_one, p_mpzNumber, 1);
+
+	s = 0;
+	mpz_init_set(d, n_minus_one);
+	while (mpz_even_p(d))
+	{
+		mpz_fdiv_q_2exp(d, d, 1);
+		s++;
+	}
+
+	mpz_init(a_to_power);
+	mpz_powm(a_to_power,p_mpzRandom, d, p_mpzNumber);
+	if (mpz_cmp_ui(a_to_power, 1) == 0)
+	{
+		result=TRUE;
+		goto exit;
+	}
+
+	for(i=0; i < s-1; i++)
+	{
+		if (mpz_cmp(a_to_power, n_minus_one) == 0)
+		{
+			result=TRUE;
+			goto exit;
+		}
+		mpz_powm_ui (a_to_power, a_to_power, 2,  p_mpzNumber);
+	}
+
+	if (mpz_cmp(a_to_power, n_minus_one) == 0)
+	{
+		result=TRUE;
+		goto exit;
+	}
+	result = FALSE;
+
+
+
+       exit:
+	mpz_clear(a_to_power);
+	mpz_clear(d);
+	mpz_clear(n_minus_one);
+	return result;
+}
+
+
+
+
+
+/**
+  * @brief
+  * This function monitor unary check on the supposed prime number. This function display the progress bar
+  * and manage how many check there is on a number per thread
+  * Thanks to http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d for
+  * the algorithm.
+  * @param p_mpz_Number : checked number, in mpz format
+  * @param rand_state : in order to manage the random in GMP
+  * @param p_structCommon : all usefull data on the program
+  * @param p_iSectionNumber : number of the section, it is actually the number of the currrent thread
+  * @return TRUE (if the number MAY BE prime) or FALSE if it is not and it is proved
+  */
+int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInfo* p_structCommon, int p_iSectionNumber)
+{
+	int l_iProgression;
+	int l_iOnePercent;
+
 	mpz_t a;
-	mpz_t m;
-	mpz_t i;
-	mpz_t k;
-	mpz_t tmp;
-	gmp_randstate_t localStatus;
-
-	mpz_init(p);
-	mpz_init(e);
-	mpz_init(m);
-	mpz_init(i);
+	int repeat;
 	mpz_init(a);
-	mpz_init(k);
-	mpz_init(tmp);
 
-	mpz_sub_ui(m,p_mpzN, 1);
-	mpz_set(e,m);
+	l_iOnePercent = p_structCommon->iWantedMRCheck / 100;
 
-	/* Random number */
-	gmp_randinit_default(localStatus);
-	mpz_urandomm (a, localStatus, p_mpzN);
-
-	mpz_set_ui(k,0);
-	for(;;)
+	for(repeat=0; repeat < p_structCommon->iWantedMRCheck; repeat++)
 	{
-		if(mpz_congruent_ui_p (e, 0, 2)) /* n congue c (d) <=>  e congue 0 (2) */
+
+		if( repeat % l_iOnePercent == 0)
 		{
-			break;
+			if(p_structCommon->bDead == TRUE)
+			{
+				return DONT_KNOW;
+			}
+
+			/* Compute percentage and avoid overflow of the int by putting the 'repeat' value in a long int */
+			l_iProgression = (repeat);
+			l_iProgression *= 100;
+			l_iProgression /= (p_structCommon->iWantedMRCheck+1);
+
+			#pragma omp critical (displayProgressBar)
+			{
+				drawLoadingBar(p_iSectionNumber + 1, l_iProgression, 100, -1, PROGRESS_BAR_COLOR);
+				p_structCommon->iThreadProgressionTable[p_iSectionNumber] = l_iProgression;
+			}
 		}
-		mpz_cdiv_q_ui(tmp,e,2);	/* e / 2 -> tmp */
-		mpz_set(e,tmp);		/* e = tmp; */
-		mpz_add_ui(k,k,1);	/* k++ */
-	}
 
-
-	/*mpz_powm (mpz_t rop, const mpz_t base, const mpz_t exp, const mpz_t mod);	Set rop to (base raised to exp) modulo mod. */
-	mpz_powm (p, a, e, p_mpzN);	/* there is also mpz_powm_sec but i don't know the difference with mpz_powm */
-
-	if(mpz_cmp_ui (p, 1) == 0)
-	{
-	LOG_WRITE("La 0")
-	mpz_clear(p);
-		mpz_clear(e);
-		mpz_clear(m);
-		mpz_clear(a);
-		mpz_clear(i);
-		mpz_clear(k);
-		mpz_clear(tmp);
-		gmp_randclear(localStatus);
-		mpz_clear(p_mpzA);
-		mpz_clear(p_mpzN);
-		return FALSE;
-	}
-
-	mpz_set_ui(i,0);
-	for(;;)
-	{
-		if(mpz_cmp(i,k) < 0)
+		do
 		{
-		LOG_WRITE("La bese")
-	mpz_clear(p);
-			mpz_clear(e);
-			mpz_clear(a);
-			mpz_clear(m);
-			mpz_clear(i);
-			mpz_clear(k);
-			mpz_clear(tmp);
+			mpz_urandomm(a, rand_state, p_mpzNumber);
+		} while (mpz_sgn(a) == 0);
 
-			gmp_randclear (localStatus);
-			mpz_clear(p_mpzA);
-			mpz_clear(p_mpzN);
-			return TRUE;
-		}
-		if(mpz_cmp(p,m) == 0)
+		if (miller_rabin_pass(a, p_mpzNumber) == FALSE)
 		{
-LOG_WRITE("La 1")
-			mpz_clear(p);
-			mpz_clear(e);
-			mpz_clear(a);
-			mpz_clear(m);
-			mpz_clear(i);
-			mpz_clear(k);
-			mpz_clear(tmp);
-
-			gmp_randclear (localStatus);
-			mpz_clear(p_mpzA);
-			mpz_clear(p_mpzN);
 			return FALSE;
 		}
-		if(mpz_cmp_ui(p,1) == 0)
-		{
-LOG_WRITE("La 2")
-			mpz_clear(p);
-			mpz_clear(e);
-			mpz_clear(m);
-			mpz_clear(a);
-			mpz_clear(i);
-			mpz_clear(k);
-			mpz_clear(tmp);
-
-			gmp_randclear (localStatus);
-			mpz_clear(p_mpzA);
-			mpz_clear(p_mpzN);
-			return TRUE;
-		}
-
-		/* p = (p*p)%n */
-		mpz_powm_ui(tmp,p,2,p_mpzN);
-		mpz_set(p,tmp);
-		mpz_add_ui(i,i,1);
 	}
+	return TRUE;
 }

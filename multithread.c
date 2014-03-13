@@ -133,7 +133,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 			 * the current part is l_iCurrentThread */
-			l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+			l_bResultOfPrimeFunction = isItAPrimeNumberMRMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
 
 			/* Dead flag is raised by the finder of the divider, the other threads remains in DONT_KNOW state.
 			   If there is a thread in FALSE, the other one are in DONT_KNOW, but if all threads are in DONT_KNOW state
