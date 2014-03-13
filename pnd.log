@@ -58858,3 +58858,684 @@ main.c 211 End of the program. See you
 25996 [main.c] 623 Quit the program
 25996 [main.c] 119 End of the program. See you. Release memory...
 >>>>>>> unstable
+29203 [main.c] 578
+29203 [main.c] 579
+29203 [main.c] 580 ---------------------------------------------------------------------
+29203 [main.c] 581 Starting new instance
+29203 [main.c] 582 ---------------------------------------------------------------------
+29203 [main.c] 585 Build of Mar 13 2014 at 08:32:33
+29203 [main.c] 598 Screen element initialisation...
+29203 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+29203 [main.c] 190 Number of thread detected --successfully-- : 2
+29203 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+29203 [main.c] 233 C.LINE : Change Mersenne order to 19
+29203 [main.c] 241 C.LINE : Change thread number to 20
+29203 [main.c] 229 C.LINE : Prospecting mode selected
+29203 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+29203 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+29203 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+29203 [drawing.c] 557 Now screen lenght is :
+29203 [drawing.c] 558 127
+29203 [main.c] 382 Main menu : Wainting for a user choice...
+29203 [main.c] 479 Prospecting mode selected
+29203 [multithread.c] 191 This is a prime number.
+29203 [multithread.c] 195 Computation takes --in seconds--: 2
+29203 [main.c] 498 New Mersenne order changed to : 23
+29203 [multithread.c] 181 This is not a prime number !
+29203 [multithread.c] 195 Computation takes --in seconds--: 0
+29203 [main.c] 498 New Mersenne order changed to : 29
+29203 [multithread.c] 181 This is not a prime number !
+29203 [multithread.c] 195 Computation takes --in seconds--: 1
+29203 [main.c] 498 New Mersenne order changed to : 31
+29203 [multithread.c] 191 This is a prime number.
+29203 [multithread.c] 195 Computation takes --in seconds--: 2
+29203 [main.c] 498 New Mersenne order changed to : 37
+29203 [multithread.c] 181 This is not a prime number !
+29203 [multithread.c] 195 Computation takes --in seconds--: 1
+29203 [main.c] 498 New Mersenne order changed to : 41
+29203 [multithread.c] 181 This is not a prime number !
+29203 [multithread.c] 195 Computation takes --in seconds--: 0
+29203 [main.c] 498 New Mersenne order changed to : 43
+29203 [multithread.c] 186 Give up ! Dont know it this is a prime number or not
+29203 [multithread.c] 195 Computation takes --in seconds--: 1
+29203 [main.c] 498 New Mersenne order changed to : 47
+29203 [main.c] 382 Main menu : Wainting for a user choice...
+29203 [main.c] 514 Quit the program
+29203 [main.c] 119 End of the program. See you. Release memory...
+30032 [main.c] 578
+30032 [main.c] 579
+30032 [main.c] 580 ---------------------------------------------------------------------
+30032 [main.c] 581 Starting new instance
+30032 [main.c] 582 ---------------------------------------------------------------------
+30032 [main.c] 585 Build of Mar 13 2014 at 08:32:33
+30032 [main.c] 598 Screen element initialisation...
+30032 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+30032 [main.c] 190 Number of thread detected --successfully-- : 2
+30032 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+30032 [main.c] 233 C.LINE : Change Mersenne order to 301
+30032 [main.c] 241 C.LINE : Change thread number to 20
+30032 [main.c] 229 C.LINE : Prospecting mode selected
+30032 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+30032 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+30032 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+30032 [drawing.c] 557 Now screen lenght is :
+30032 [drawing.c] 558 127
+30032 [main.c] 382 Main menu : Wainting for a user choice...
+30032 [main.c] 479 Prospecting mode selected
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 2
+30032 [main.c] 498 New Mersenne order changed to : 37
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 41
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 43
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 47
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 53
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 59
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 61
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 6
+30032 [main.c] 498 New Mersenne order changed to : 67
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 71
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 73
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 79
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 83
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 89
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 10
+30032 [main.c] 498 New Mersenne order changed to : 97
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 101
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 103
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 107
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 15
+30032 [main.c] 498 New Mersenne order changed to : 109
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 113
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 127
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 18
+30032 [main.c] 498 New Mersenne order changed to : 131
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 137
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 139
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 149
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 151
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 157
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 163
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 167
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 173
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 179
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 181
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 191
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 193
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 197
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 199
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 211
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 223
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 227
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 229
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 233
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 239
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 241
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 251
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 257
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 263
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 269
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 271
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 277
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 281
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 283
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 293
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 307
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 311
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 313
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 317
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 331
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 337
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 347
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 349
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 353
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 359
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 367
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 373
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 379
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 383
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 389
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 397
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 401
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 409
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 419
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 421
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 431
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 433
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 439
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 443
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 449
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 457
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 461
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 463
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 467
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 479
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 487
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 491
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 499
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 503
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 509
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 521
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 520
+30032 [main.c] 498 New Mersenne order changed to : 523
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 541
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 547
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 557
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 563
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 569
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 571
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 577
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 587
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 593
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 599
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 601
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 607
+30032 [multithread.c] 191 This is a prime number.
+30032 [multithread.c] 195 Computation takes --in seconds--: 728
+30032 [main.c] 498 New Mersenne order changed to : 613
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 617
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 619
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 631
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 641
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 643
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 647
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 653
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 659
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 661
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 673
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 677
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 683
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 691
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 701
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 709
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 719
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 727
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 733
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 739
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 743
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 751
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 757
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 761
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 769
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 773
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 787
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 797
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 809
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 811
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 821
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 823
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 827
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 829
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 839
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 853
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 857
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 859
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 863
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 877
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 881
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 883
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 887
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 907
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 911
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 919
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 929
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 937
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 941
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 947
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 953
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 967
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 971
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 977
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 983
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 991
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 997
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1009
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1013
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1019
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1021
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1031
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1033
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1039
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1049
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1051
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1061
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1063
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1069
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1087
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1091
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1093
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1097
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1103
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1109
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1117
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1123
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1129
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1151
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1153
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1163
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1171
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1181
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1187
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1193
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1201
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1213
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1217
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1223
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1229
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1231
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1237
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1249
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1259
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 1
+30032 [main.c] 498 New Mersenne order changed to : 1277
+30032 [multithread.c] 181 This is not a prime number !
+30032 [multithread.c] 195 Computation takes --in seconds--: 0
+30032 [main.c] 498 New Mersenne order changed to : 1279
+30032 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+30032 [signalmanagement.c] 165 Saving function : Saving context
+30032 [signalmanagement.c] 173 Saving function : output file opened successfully
+30032 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+30032 [main.c] 119 End of the program. See you. Release memory...
+30694 [main.c] 578
+30694 [main.c] 579
+30694 [main.c] 580 ---------------------------------------------------------------------
+30694 [main.c] 581 Starting new instance
+30694 [main.c] 582 ---------------------------------------------------------------------
+30694 [main.c] 585 Build of Mar 13 2014 at 08:32:33
+30694 [main.c] 598 Screen element initialisation...
+30694 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+30694 [main.c] 190 Number of thread detected --successfully-- : 2
+30694 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+30694 [main.c] 241 C.LINE : Change thread number to 20
+30694 [main.c] 229 C.LINE : Prospecting mode selected
+30694 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+30694 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+30694 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+30694 [drawing.c] 557 Now screen lenght is :
+30694 [drawing.c] 558 127
+30694 [main.c] 382 Main menu : Wainting for a user choice...
+30694 [main.c] 479 Prospecting mode selected
+30694 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+30694 [signalmanagement.c] 165 Saving function : Saving context
+30694 [signalmanagement.c] 173 Saving function : output file opened successfully
+30694 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+30694 [main.c] 119 End of the program. See you. Release memory...

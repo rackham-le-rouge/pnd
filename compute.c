@@ -577,7 +577,7 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 			/* Compute percentage and avoid overflow of the int by putting the 'repeat' value in a long int */
 			l_iProgression = (repeat);
 			l_iProgression *= 100;
-			l_iProgression /= (p_structCommon->iWantedMRCheck+1);
+			l_iProgression /= (p_structCommon->iWantedMRCheck - 1);
 
 			#pragma omp critical (displayProgressBar)
 			{
