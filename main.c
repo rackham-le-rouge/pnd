@@ -240,6 +240,10 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
 
+				/* Change check number of the Miller Rabin algo */
+				p_structCommon->iWantedMRCheck = (!strcmp(argv[l_iTmp], "-c")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iWantedMRCheck;
+				if(!strcmp(argv[l_iTmp], "-c")) {LOG_WRITE_STRING_LONG("C.LINE : Change number of check per number with Miller Rabin to ", (long)p_structCommon->iWantedMRCheck)}
+
 				/* Change speed of the program */
 				if(!strcmp(argv[l_iTmp], "-s"))
 				{
