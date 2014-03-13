@@ -59539,3 +59539,71 @@ main.c 211 End of the program. See you
 30694 [signalmanagement.c] 173 Saving function : output file opened successfully
 30694 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
 30694 [main.c] 119 End of the program. See you. Release memory...
+31852 [main.c] 578
+31852 [main.c] 579
+31852 [main.c] 580 ---------------------------------------------------------------------
+31852 [main.c] 581 Starting new instance
+31852 [main.c] 582 ---------------------------------------------------------------------
+31852 [main.c] 585 Build of Mar 13 2014 at 19:18:14
+31852 [main.c] 598 Screen element initialisation...
+31852 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+31852 [main.c] 190 Number of thread detected --successfully-- : 2
+31852 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+31852 [main.c] 233 C.LINE : Change Mersenne order to 607
+31852 [main.c] 229 C.LINE : Prospecting mode selected
+31852 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+31852 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+31852 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+31852 [drawing.c] 557 Now screen lenght is :
+31852 [drawing.c] 558 127
+31852 [main.c] 382 Main menu : Wainting for a user choice...
+31852 [main.c] 479 Prospecting mode selected
+31852 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+31852 [signalmanagement.c] 165 Saving function : Saving context
+31852 [signalmanagement.c] 173 Saving function : output file opened successfully
+31852 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+31852 [main.c] 119 End of the program. See you. Release memory...
+31883 [main.c] 578
+31883 [main.c] 579
+31883 [main.c] 580 ---------------------------------------------------------------------
+31883 [main.c] 581 Starting new instance
+31883 [main.c] 582 ---------------------------------------------------------------------
+31883 [main.c] 585 Build of Mar 13 2014 at 19:18:14
+31883 [main.c] 598 Screen element initialisation...
+31883 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+31883 [main.c] 190 Number of thread detected --successfully-- : 2
+31883 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+31883 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+31883 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+31883 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+31883 [drawing.c] 557 Now screen lenght is :
+31883 [drawing.c] 558 127
+31883 [main.c] 382 Main menu : Wainting for a user choice...
+31883 [main.c] 479 Prospecting mode selected
+31883 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+31883 [signalmanagement.c] 165 Saving function : Saving context
+31883 [signalmanagement.c] 173 Saving function : output file opened successfully
+31883 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+31883 [main.c] 119 End of the program. See you. Release memory...
+31912 [main.c] 578
+31912 [main.c] 579
+31912 [main.c] 580 ---------------------------------------------------------------------
+31912 [main.c] 581 Starting new instance
+31912 [main.c] 582 ---------------------------------------------------------------------
+31912 [main.c] 585 Build of Mar 13 2014 at 19:18:14
+31912 [main.c] 598 Screen element initialisation...
+31912 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+31912 [main.c] 190 Number of thread detected --successfully-- : 2
+31912 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+31912 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+31912 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+31912 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+31912 [drawing.c] 557 Now screen lenght is :
+31912 [drawing.c] 558 127
+31912 [main.c] 382 Main menu : Wainting for a user choice...
+31912 [main.c] 479 Prospecting mode selected
+31912 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+31912 [signalmanagement.c] 165 Saving function : Saving context
+31912 [signalmanagement.c] 173 Saving function : output file opened successfully
+31912 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+31912 [main.c] 119 End of the program. See you. Release memory...

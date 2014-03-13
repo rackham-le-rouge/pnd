@@ -564,7 +564,22 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 
 	l_iOnePercent = p_structCommon->iWantedMRCheck / 100;
 
-	for(repeat=0; repeat < p_structCommon->iWantedMRCheck; repeat++)
+	/* Init the default starting point of the loop - If there is an autoloading, the starting point is changed */
+	repeat = 0;
+
+	/* If there is an autoloading, we need to put old values of progression here */
+	if(p_structCommon->bLoaded)
+	{
+		/* We start with the previous percentage minus one in order to set a security area */
+		l_iProgression =  (p_structCommon->iThreadProgressionTable[p_iSectionNumber] > 0) ?
+				p_structCommon->iThreadProgressionTable[p_iSectionNumber] - 1 : 0;
+
+		/* We only saved the current percentage, thus, we need to recompute to repeat value */
+		repeat = l_iProgression * l_iOnePercent;
+	}
+
+
+	for(; repeat < p_structCommon->iWantedMRCheck; repeat++)
 	{
 
 		if( repeat % l_iOnePercent == 0)
