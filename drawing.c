@@ -496,6 +496,22 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
+		case MENU_INFO_STD_ALGO_SET:
+		{
+			strcpy(l_cBuffer, "STANDART ALGO");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "selected !");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
+		case MENU_INFO_MR_ALGO_SET:
+		{
+			strcpy(l_cBuffer, "MILLER-RABIN ALGO");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "selected !");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
 		case MENU_ABOUT:
 		{
 			drawIntro(p_structCommon->iRow,p_structCommon->iCol);

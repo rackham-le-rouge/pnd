@@ -59607,3 +59607,2667 @@ main.c 211 End of the program. See you
 31912 [signalmanagement.c] 173 Saving function : output file opened successfully
 31912 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
 31912 [main.c] 119 End of the program. See you. Release memory...
+714 [main.c] 588
+714 [main.c] 589
+714 [main.c] 590 ---------------------------------------------------------------------
+714 [main.c] 591 Starting new instance
+714 [main.c] 592 ---------------------------------------------------------------------
+714 [main.c] 595 Build of Mar 13 2014 at 22:45:01
+714 [main.c] 608 Screen element initialisation...
+714 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+714 [main.c] 191 Number of thread detected --successfully-- : 2
+714 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+714 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+714 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+714 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+714 [drawing.c] 557 Now screen lenght is :
+714 [drawing.c] 558 127
+714 [main.c] 383 Main menu : Wainting for a user choice...
+714 [main.c] 480 Prospecting mode selected
+714 [multithread.c] 197 Give up ! Dont know it this is a prime number or not
+714 [multithread.c] 206 Computation takes --in seconds--: 5
+714 [main.c] 499 New Mersenne order changed to : 613
+714 [main.c] 383 Main menu : Wainting for a user choice...
+714 [main.c] 522 Toogle used algorithm for main computation
+714 [main.c] 383 Main menu : Wainting for a user choice...
+714 [main.c] 412 Start function selected
+714 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+714 [signalmanagement.c] 165 Saving function : Saving context
+714 [signalmanagement.c] 173 Saving function : output file opened successfully
+714 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+714 [main.c] 119 End of the program. See you. Release memory...
+862 [main.c] 597
+862 [main.c] 598
+862 [main.c] 599 ---------------------------------------------------------------------
+862 [main.c] 600 Starting new instance
+862 [main.c] 601 ---------------------------------------------------------------------
+862 [main.c] 604 Build of Mar 13 2014 at 22:55:45
+862 [main.c] 617 Screen element initialisation...
+862 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+862 [main.c] 191 Number of thread detected --successfully-- : 2
+862 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+862 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+862 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+862 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+862 [drawing.c] 573 Now screen lenght is :
+862 [drawing.c] 574 127
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 522 Toogle used algorithm for main computation
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 421 Set a new order function selected
+862 [main.c] 443 New Mersenne order --failed-- Keep the old value : 31
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 421 Set a new order function selected
+862 [main.c] 437 New Mersenne order changed to : 613
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 412 Start function selected
+862 [multithread.c] 192 This is not a prime number !
+862 [multithread.c] 206 Computation takes --in seconds--: 0
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 412 Start function selected
+862 [multithread.c] 192 This is not a prime number !
+862 [multithread.c] 206 Computation takes --in seconds--: 1
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 452 Set new thread number function selected
+862 [main.c] 472 New thread number changed to : 20
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 412 Start function selected
+862 [multithread.c] 192 This is not a prime number !
+862 [multithread.c] 206 Computation takes --in seconds--: 0
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 421 Set a new order function selected
+862 [main.c] 437 New Mersenne order changed to : 607
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 412 Start function selected
+862 [multithread.c] 197 Give up ! Dont know it this is a prime number or not
+862 [multithread.c] 206 Computation takes --in seconds--: 15
+862 [main.c] 383 Main menu : Wainting for a user choice...
+862 [main.c] 515 Quit the program
+862 [main.c] 119 End of the program. See you. Release memory...
+1044 [main.c] 597
+1044 [main.c] 598
+1044 [main.c] 599 ---------------------------------------------------------------------
+1044 [main.c] 600 Starting new instance
+1044 [main.c] 601 ---------------------------------------------------------------------
+1044 [main.c] 604 Build of Mar 13 2014 at 22:55:45
+1044 [main.c] 617 Screen element initialisation...
+1044 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1044 [main.c] 191 Number of thread detected --successfully-- : 2
+1044 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+1044 [main.c] 330 C.LINE : Help is displayed
+1044 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+1044 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+1044 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1044 [drawing.c] 573 Now screen lenght is :
+1044 [drawing.c] 574 127
+1044 [main.c] 383 Main menu : Wainting for a user choice...
+1044 [main.c] 515 Quit the program
+1044 [main.c] 119 End of the program. See you. Release memory...
+1071 [main.c] 597
+1071 [main.c] 598
+1071 [main.c] 599 ---------------------------------------------------------------------
+1071 [main.c] 600 Starting new instance
+1071 [main.c] 601 ---------------------------------------------------------------------
+1071 [main.c] 604 Build of Mar 13 2014 at 22:55:45
+1071 [main.c] 617 Screen element initialisation...
+1071 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1071 [main.c] 191 Number of thread detected --successfully-- : 2
+1071 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+1071 [main.c] 234 C.LINE : Change Mersenne order to 607
+1071 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 400
+1071 [main.c] 230 C.LINE : Prospecting mode selected
+1071 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+1071 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+1071 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1071 [drawing.c] 573 Now screen lenght is :
+1071 [drawing.c] 574 127
+1071 [main.c] 383 Main menu : Wainting for a user choice...
+1071 [main.c] 480 Prospecting mode selected
+1071 [multithread.c] 202 This is a prime number.
+1071 [multithread.c] 206 Computation takes --in seconds--: 2
+1071 [main.c] 499 New Mersenne order changed to : 613
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 617
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 619
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 631
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 641
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 643
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 647
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 653
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 659
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 661
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 673
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 677
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 683
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 691
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 701
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 709
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 719
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 727
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 733
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 739
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 743
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 751
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 757
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 761
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 769
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 773
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 787
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 797
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 809
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 811
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 821
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 823
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 827
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 829
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 839
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 853
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 857
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 859
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 863
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 877
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 881
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 883
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 887
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 907
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 911
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 919
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 929
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 937
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 941
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 947
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 953
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 967
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 971
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 977
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 983
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 991
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 997
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1009
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1013
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1019
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1021
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1031
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1033
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1039
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1049
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1051
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1061
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1063
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1069
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1087
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1091
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1093
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1097
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1103
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1109
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1117
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1123
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1129
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1151
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1153
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1163
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1171
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1181
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1187
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1193
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1201
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1213
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1217
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1223
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1229
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1231
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1237
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1249
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1259
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1277
+1071 [multithread.c] 192 This is not a prime number !
+1071 [multithread.c] 206 Computation takes --in seconds--: 1
+1071 [main.c] 499 New Mersenne order changed to : 1279
+1071 [multithread.c] 197 Give up ! Dont know it this is a prime number or not
+1071 [multithread.c] 206 Computation takes --in seconds--: 0
+1071 [main.c] 499 New Mersenne order changed to : 1283
+1071 [main.c] 383 Main menu : Wainting for a user choice...
+1071 [main.c] 421 Set a new order function selected
+1071 [main.c] 437 New Mersenne order changed to : 1279
+1071 [main.c] 383 Main menu : Wainting for a user choice...
+1071 [main.c] 412 Start function selected
+1071 [multithread.c] 202 This is a prime number.
+1071 [multithread.c] 206 Computation takes --in seconds--: 12
+1071 [main.c] 383 Main menu : Wainting for a user choice...
+1071 [main.c] 522 Toogle used algorithm for main computation
+1071 [main.c] 383 Main menu : Wainting for a user choice...
+1071 [main.c] 515 Quit the program
+1071 [main.c] 119 End of the program. See you. Release memory...
+1665 [main.c] 597
+1665 [main.c] 598
+1665 [main.c] 599 ---------------------------------------------------------------------
+1665 [main.c] 600 Starting new instance
+1665 [main.c] 601 ---------------------------------------------------------------------
+1665 [main.c] 604 Build of Mar 13 2014 at 23:19:12
+1665 [main.c] 617 Screen element initialisation...
+1665 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1665 [main.c] 191 Number of thread detected --successfully-- : 2
+1665 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+1665 [main.c] 234 C.LINE : Change Mersenne order to 1279
+1665 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+1665 [main.c] 230 C.LINE : Prospecting mode selected
+1665 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+1665 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+1665 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1665 [drawing.c] 573 Now screen lenght is :
+1665 [drawing.c] 574 127
+1665 [main.c] 383 Main menu : Wainting for a user choice...
+1665 [main.c] 480 Prospecting mode selected
+1665 [main.c] 499 New Mersenne order changed to : 1283
+1665 [main.c] 499 New Mersenne order changed to : 1289
+1665 [main.c] 499 New Mersenne order changed to : 1291
+1665 [main.c] 499 New Mersenne order changed to : 1297
+1665 [main.c] 499 New Mersenne order changed to : 1301
+1665 [main.c] 499 New Mersenne order changed to : 1303
+1665 [main.c] 499 New Mersenne order changed to : 1307
+1665 [main.c] 499 New Mersenne order changed to : 1319
+1665 [main.c] 499 New Mersenne order changed to : 1321
+1665 [main.c] 499 New Mersenne order changed to : 1327
+1665 [main.c] 499 New Mersenne order changed to : 1361
+1665 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+1665 [main.c] 499 New Mersenne order changed to : 1367
+1665 [main.c] 383 Main menu : Wainting for a user choice...
+1665 [main.c] 515 Quit the program
+1665 [main.c] 119 End of the program. See you. Release memory...
+1773 [main.c] 597
+1773 [main.c] 598
+1773 [main.c] 599 ---------------------------------------------------------------------
+1773 [main.c] 600 Starting new instance
+1773 [main.c] 601 ---------------------------------------------------------------------
+1773 [main.c] 604 Build of Mar 13 2014 at 23:20:49
+1773 [main.c] 617 Screen element initialisation...
+1773 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1773 [main.c] 191 Number of thread detected --successfully-- : 2
+1773 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+1773 [main.c] 234 C.LINE : Change Mersenne order to 1279
+1773 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+1773 [main.c] 230 C.LINE : Prospecting mode selected
+1773 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+1773 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+1773 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1773 [drawing.c] 573 Now screen lenght is :
+1773 [drawing.c] 574 127
+1773 [main.c] 383 Main menu : Wainting for a user choice...
+1773 [main.c] 480 Prospecting mode selected
+1773 [multithread.c] 207 ================== YES ==================
+1773 [main.c] 499 New Mersenne order changed to : 1283
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1289
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1291
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1297
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1301
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1303
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1307
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1319
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1321
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1327
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1361
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1367
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1373
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1381
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1399
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1409
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1423
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1427
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1429
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1433
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1439
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1447
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1451
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1453
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1459
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1471
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1481
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1483
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1487
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1489
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1493
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1499
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1511
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1523
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1531
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1543
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1549
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1553
+1773 [multithread.c] 197 NO
+1773 [main.c] 499 New Mersenne order changed to : 1559
+1773 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+1773 [main.c] 499 New Mersenne order changed to : 1567
+1773 [main.c] 383 Main menu : Wainting for a user choice...
+1773 [main.c] 515 Quit the program
+1773 [main.c] 119 End of the program. See you. Release memory...
+1917 [main.c] 597
+1917 [main.c] 598
+1917 [main.c] 599 ---------------------------------------------------------------------
+1917 [main.c] 600 Starting new instance
+1917 [main.c] 601 ---------------------------------------------------------------------
+1917 [main.c] 604 Build of Mar 13 2014 at 23:21:53
+1917 [main.c] 617 Screen element initialisation...
+1917 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+1917 [main.c] 191 Number of thread detected --successfully-- : 2
+1917 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+1917 [main.c] 234 C.LINE : Change Mersenne order to 1279
+1917 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+1917 [main.c] 230 C.LINE : Prospecting mode selected
+1917 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+1917 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+1917 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+1917 [drawing.c] 573 Now screen lenght is :
+1917 [drawing.c] 574 127
+1917 [main.c] 383 Main menu : Wainting for a user choice...
+1917 [main.c] 480 Prospecting mode selected
+1917 [multithread.c] 207 ================== YES ==================
+1917 [main.c] 499 New Mersenne order changed to : 1283
+1917 [multithread.c] 197 NO
+1917 [main.c] 499 New Mersenne order changed to : 1289
+1917 [multithread.c] 197 NO
+1917 [main.c] 499 New Mersenne order changed to : 1291
+1917 [multithread.c] 197 NO
+1917 [main.c] 499 New Mersenne order changed to : 1297
+1917 [multithread.c] 197 NO
+1917 [main.c] 499 New Mersenne order changed to : 1301
+1917 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+1917 [main.c] 499 New Mersenne order changed to : 1303
+1917 [main.c] 383 Main menu : Wainting for a user choice...
+1917 [main.c] 515 Quit the program
+1917 [main.c] 119 End of the program. See you. Release memory...
+2149 [main.c] 597
+2149 [main.c] 598
+2149 [main.c] 599 ---------------------------------------------------------------------
+2149 [main.c] 600 Starting new instance
+2149 [main.c] 601 ---------------------------------------------------------------------
+2149 [main.c] 604 Build of Mar 13 2014 at 23:21:53
+2149 [main.c] 617 Screen element initialisation...
+2149 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2149 [main.c] 191 Number of thread detected --successfully-- : 2
+2149 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2149 [main.c] 234 C.LINE : Change Mersenne order to 1279
+2149 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+2149 [main.c] 230 C.LINE : Prospecting mode selected
+2149 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2149 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2149 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2149 [drawing.c] 573 Now screen lenght is :
+2149 [drawing.c] 574 127
+2149 [main.c] 383 Main menu : Wainting for a user choice...
+2149 [main.c] 480 Prospecting mode selected
+2149 [multithread.c] 207 ================== YES ==================
+2149 [main.c] 499 New Mersenne order changed to : 1283
+2149 [multithread.c] 197 NO
+2149 [main.c] 499 New Mersenne order changed to : 1289
+2149 [multithread.c] 197 NO
+2149 [main.c] 499 New Mersenne order changed to : 1291
+2149 [multithread.c] 197 NO
+2149 [main.c] 499 New Mersenne order changed to : 1297
+2149 [multithread.c] 197 NO
+2149 [main.c] 499 New Mersenne order changed to : 1301
+2149 [multithread.c] 197 NO
+2149 [main.c] 499 New Mersenne order changed to : 1303
+2149 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+2149 [main.c] 499 New Mersenne order changed to : 1307
+2149 [main.c] 383 Main menu : Wainting for a user choice...
+2149 [main.c] 515 Quit the program
+2149 [main.c] 119 End of the program. See you. Release memory...
+2193 [main.c] 597
+2193 [main.c] 598
+2193 [main.c] 599 ---------------------------------------------------------------------
+2193 [main.c] 600 Starting new instance
+2193 [main.c] 601 ---------------------------------------------------------------------
+2193 [main.c] 604 Build of Mar 13 2014 at 23:21:53
+2193 [main.c] 617 Screen element initialisation...
+2193 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2193 [main.c] 191 Number of thread detected --successfully-- : 2
+2193 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2193 [main.c] 234 C.LINE : Change Mersenne order to 1279
+2193 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+2193 [main.c] 230 C.LINE : Prospecting mode selected
+2193 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2193 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2193 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2193 [drawing.c] 573 Now screen lenght is :
+2193 [drawing.c] 574 127
+2193 [main.c] 383 Main menu : Wainting for a user choice...
+2193 [main.c] 480 Prospecting mode selected
+2193 [multithread.c] 207 ================== YES ==================
+2193 [main.c] 499 New Mersenne order changed to : 1283
+2193 [multithread.c] 197 NO
+2193 [main.c] 499 New Mersenne order changed to : 1289
+2193 [multithread.c] 197 NO
+2193 [main.c] 499 New Mersenne order changed to : 1291
+2193 [multithread.c] 197 NO
+2193 [main.c] 499 New Mersenne order changed to : 1297
+2193 [multithread.c] 197 NO
+2193 [main.c] 499 New Mersenne order changed to : 1301
+2193 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+2193 [main.c] 499 New Mersenne order changed to : 1303
+2193 [main.c] 383 Main menu : Wainting for a user choice...
+2193 [main.c] 515 Quit the program
+2193 [main.c] 119 End of the program. See you. Release memory...
+2251 [main.c] 597
+2251 [main.c] 598
+2251 [main.c] 599 ---------------------------------------------------------------------
+2251 [main.c] 600 Starting new instance
+2251 [main.c] 601 ---------------------------------------------------------------------
+2251 [main.c] 604 Build of Mar 13 2014 at 23:21:53
+2251 [main.c] 617 Screen element initialisation...
+2251 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2251 [main.c] 191 Number of thread detected --successfully-- : 2
+2251 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2251 [main.c] 234 C.LINE : Change Mersenne order to 1281
+2251 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+2251 [main.c] 230 C.LINE : Prospecting mode selected
+2251 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2251 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2251 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2251 [drawing.c] 573 Now screen lenght is :
+2251 [drawing.c] 574 127
+2251 [main.c] 383 Main menu : Wainting for a user choice...
+2251 [main.c] 480 Prospecting mode selected
+2251 [multithread.c] 207 ================== YES ==================
+2251 [main.c] 499 New Mersenne order changed to : 37
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 41
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 43
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 47
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 53
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 59
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 61
+2251 [multithread.c] 207 ================== YES ==================
+2251 [main.c] 499 New Mersenne order changed to : 67
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 71
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 73
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 79
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 83
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 89
+2251 [multithread.c] 207 ================== YES ==================
+2251 [main.c] 499 New Mersenne order changed to : 97
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 101
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 103
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 107
+2251 [multithread.c] 207 ================== YES ==================
+2251 [main.c] 499 New Mersenne order changed to : 109
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 113
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 127
+2251 [multithread.c] 207 ================== YES ==================
+2251 [main.c] 499 New Mersenne order changed to : 131
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 137
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 139
+2251 [multithread.c] 197 NO
+2251 [main.c] 499 New Mersenne order changed to : 149
+2251 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+2251 [main.c] 499 New Mersenne order changed to : 151
+2251 [main.c] 383 Main menu : Wainting for a user choice...
+2251 [main.c] 515 Quit the program
+2251 [main.c] 119 End of the program. See you. Release memory...
+2331 [main.c] 597
+2331 [main.c] 598
+2331 [main.c] 599 ---------------------------------------------------------------------
+2331 [main.c] 600 Starting new instance
+2331 [main.c] 601 ---------------------------------------------------------------------
+2331 [main.c] 604 Build of Mar 13 2014 at 23:21:53
+2331 [main.c] 617 Screen element initialisation...
+2331 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2331 [main.c] 191 Number of thread detected --successfully-- : 2
+2331 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2331 [main.c] 234 C.LINE : Change Mersenne order to 1281
+2331 [main.c] 277 C.LINE : Change number of check per number with Miller Rabin to 100
+2331 [main.c] 230 C.LINE : Prospecting mode selected
+2331 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2331 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2331 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2331 [drawing.c] 573 Now screen lenght is :
+2331 [drawing.c] 574 127
+2331 [main.c] 383 Main menu : Wainting for a user choice...
+2331 [main.c] 480 Prospecting mode selected
+2331 [multithread.c] 207 ================== YES ==================
+2331 [main.c] 499 New Mersenne order changed to : 37
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 41
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 43
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 47
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 53
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 59
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 61
+2331 [multithread.c] 207 ================== YES ==================
+2331 [main.c] 499 New Mersenne order changed to : 67
+2331 [multithread.c] 197 NO
+2331 [main.c] 499 New Mersenne order changed to : 71
+2331 [multithread.c] 202 Give up ! Dont know it this is a prime number or not
+2331 [main.c] 499 New Mersenne order changed to : 73
+2331 [main.c] 383 Main menu : Wainting for a user choice...
+2331 [main.c] 515 Quit the program
+2331 [main.c] 119 End of the program. See you. Release memory...
+2418 [main.c] 601
+2418 [main.c] 602
+2418 [main.c] 603 ---------------------------------------------------------------------
+2418 [main.c] 604 Starting new instance
+2418 [main.c] 605 ---------------------------------------------------------------------
+2418 [main.c] 608 Build of Mar 13 2014 at 23:39:30
+2418 [main.c] 621 Screen element initialisation...
+2418 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2418 [main.c] 192 Number of thread detected --successfully-- : 2
+2418 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2418 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2418 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2418 [main.c] 231 C.LINE : Prospecting mode selected
+2418 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2418 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2418 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2418 [drawing.c] 573 Now screen lenght is :
+2418 [drawing.c] 574 127
+2418 [main.c] 387 Main menu : Wainting for a user choice...
+2418 [main.c] 484 Prospecting mode selected
+2418 [multithread.c] 210 ================== YES ==================
+2418 [main.c] 503 New Mersenne order changed to : 37
+2418 [multithread.c] 197 NO
+2418 [main.c] 503 New Mersenne order changed to : 41
+2418 [multithread.c] 197 NO
+2418 [main.c] 503 New Mersenne order changed to : 43
+2418 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2418 [main.c] 503 New Mersenne order changed to : 47
+2418 [main.c] 387 Main menu : Wainting for a user choice...
+2418 [main.c] 519 Quit the program
+2418 [main.c] 119 End of the program. See you. Release memory...
+2457 [main.c] 601
+2457 [main.c] 602
+2457 [main.c] 603 ---------------------------------------------------------------------
+2457 [main.c] 604 Starting new instance
+2457 [main.c] 605 ---------------------------------------------------------------------
+2457 [main.c] 608 Build of Mar 13 2014 at 23:39:30
+2457 [main.c] 621 Screen element initialisation...
+2457 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2457 [main.c] 192 Number of thread detected --successfully-- : 2
+2457 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2457 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2457 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2457 [main.c] 231 C.LINE : Prospecting mode selected
+2457 [main.c] 246 C.LINE : Setting up the fast display mode
+2457 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2457 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2457 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2457 [drawing.c] 573 Now screen lenght is :
+2457 [drawing.c] 574 127
+2457 [main.c] 387 Main menu : Wainting for a user choice...
+2457 [main.c] 484 Prospecting mode selected
+2457 [multithread.c] 210 ================== YES ==================
+2457 [main.c] 503 New Mersenne order changed to : 37
+2457 [multithread.c] 197 NO
+2457 [main.c] 503 New Mersenne order changed to : 41
+2457 [multithread.c] 197 NO
+2457 [main.c] 503 New Mersenne order changed to : 43
+2457 [multithread.c] 197 NO
+2457 [main.c] 503 New Mersenne order changed to : 47
+2457 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2457 [main.c] 503 New Mersenne order changed to : 53
+2457 [main.c] 387 Main menu : Wainting for a user choice...
+2457 [main.c] 519 Quit the program
+2457 [main.c] 119 End of the program. See you. Release memory...
+2603 [main.c] 601
+2603 [main.c] 602
+2603 [main.c] 603 ---------------------------------------------------------------------
+2603 [main.c] 604 Starting new instance
+2603 [main.c] 605 ---------------------------------------------------------------------
+2603 [main.c] 608 Build of Mar 13 2014 at 23:49:55
+2603 [main.c] 621 Screen element initialisation...
+2603 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2603 [main.c] 192 Number of thread detected --successfully-- : 2
+2603 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2603 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2603 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2603 [main.c] 231 C.LINE : Prospecting mode selected
+2603 [main.c] 246 C.LINE : Setting up the fast display mode
+2603 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2603 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2603 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2603 [drawing.c] 573 Now screen lenght is :
+2603 [drawing.c] 574 127
+2603 [main.c] 387 Main menu : Wainting for a user choice...
+2603 [main.c] 484 Prospecting mode selected
+2603 [multithread.c] 210 ================== YES ==================
+2603 [main.c] 503 New Mersenne order changed to : 37
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 41
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 43
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 47
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 53
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 59
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 61
+2603 [multithread.c] 210 ================== YES ==================
+2603 [main.c] 503 New Mersenne order changed to : 67
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 71
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 73
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 79
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 83
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 89
+2603 [multithread.c] 210 ================== YES ==================
+2603 [main.c] 503 New Mersenne order changed to : 97
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 101
+2603 [multithread.c] 197 NO
+2603 [main.c] 503 New Mersenne order changed to : 103
+2603 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2603 [main.c] 503 New Mersenne order changed to : 107
+2603 [main.c] 387 Main menu : Wainting for a user choice...
+2603 [main.c] 519 Quit the program
+2603 [main.c] 119 End of the program. See you. Release memory...
+2671 [main.c] 601
+2671 [main.c] 602
+2671 [main.c] 603 ---------------------------------------------------------------------
+2671 [main.c] 604 Starting new instance
+2671 [main.c] 605 ---------------------------------------------------------------------
+2671 [main.c] 608 Build of Mar 13 2014 at 23:49:55
+2671 [main.c] 621 Screen element initialisation...
+2671 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2671 [main.c] 192 Number of thread detected --successfully-- : 2
+2671 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2671 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2671 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2671 [main.c] 231 C.LINE : Prospecting mode selected
+2671 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2671 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2671 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2671 [drawing.c] 573 Now screen lenght is :
+2671 [drawing.c] 574 127
+2671 [main.c] 387 Main menu : Wainting for a user choice...
+2671 [main.c] 484 Prospecting mode selected
+2671 [multithread.c] 210 ================== YES ==================
+2671 [main.c] 503 New Mersenne order changed to : 37
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 41
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 43
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 47
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 53
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 59
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 61
+2671 [multithread.c] 210 ================== YES ==================
+2671 [main.c] 503 New Mersenne order changed to : 67
+2671 [multithread.c] 197 NO
+2671 [main.c] 503 New Mersenne order changed to : 71
+2671 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2671 [main.c] 503 New Mersenne order changed to : 73
+2671 [main.c] 387 Main menu : Wainting for a user choice...
+2671 [main.c] 519 Quit the program
+2671 [main.c] 119 End of the program. See you. Release memory...
+2769 [main.c] 601
+2769 [main.c] 602
+2769 [main.c] 603 ---------------------------------------------------------------------
+2769 [main.c] 604 Starting new instance
+2769 [main.c] 605 ---------------------------------------------------------------------
+2769 [main.c] 608 Build of Mar 13 2014 at 23:52:32
+2769 [main.c] 621 Screen element initialisation...
+2769 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2769 [main.c] 192 Number of thread detected --successfully-- : 2
+2769 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2769 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2769 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2769 [main.c] 231 C.LINE : Prospecting mode selected
+2769 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2769 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2769 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2769 [drawing.c] 573 Now screen lenght is :
+2769 [drawing.c] 574 127
+2769 [main.c] 387 Main menu : Wainting for a user choice...
+2769 [main.c] 484 Prospecting mode selected
+2769 [multithread.c] 210 ================== YES ==================
+2769 [main.c] 503 New Mersenne order changed to : 37
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 41
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 43
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 47
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 53
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 59
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 61
+2769 [multithread.c] 210 ================== YES ==================
+2769 [main.c] 503 New Mersenne order changed to : 67
+2769 [multithread.c] 197 NO
+2769 [main.c] 503 New Mersenne order changed to : 71
+2769 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2769 [main.c] 503 New Mersenne order changed to : 73
+2769 [main.c] 387 Main menu : Wainting for a user choice...
+2769 [main.c] 519 Quit the program
+2769 [main.c] 119 End of the program. See you. Release memory...
+2819 [main.c] 601
+2819 [main.c] 602
+2819 [main.c] 603 ---------------------------------------------------------------------
+2819 [main.c] 604 Starting new instance
+2819 [main.c] 605 ---------------------------------------------------------------------
+2819 [main.c] 608 Build of Mar 13 2014 at 23:52:32
+2819 [main.c] 621 Screen element initialisation...
+2819 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2819 [main.c] 192 Number of thread detected --successfully-- : 2
+2819 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2819 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2819 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2819 [main.c] 231 C.LINE : Prospecting mode selected
+2819 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2819 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2819 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2819 [drawing.c] 573 Now screen lenght is :
+2819 [drawing.c] 574 127
+2819 [main.c] 387 Main menu : Wainting for a user choice...
+2819 [main.c] 484 Prospecting mode selected
+2819 [multithread.c] 210 ================== YES ==================
+2819 [main.c] 503 New Mersenne order changed to : 37
+2819 [multithread.c] 197 NO
+2819 [main.c] 503 New Mersenne order changed to : 41
+2819 [multithread.c] 197 NO
+2819 [main.c] 503 New Mersenne order changed to : 43
+2819 [multithread.c] 197 NO
+2819 [main.c] 503 New Mersenne order changed to : 47
+2819 [multithread.c] 197 NO
+2819 [main.c] 503 New Mersenne order changed to : 53
+2819 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2819 [main.c] 503 New Mersenne order changed to : 59
+2819 [main.c] 387 Main menu : Wainting for a user choice...
+2819 [main.c] 519 Quit the program
+2819 [main.c] 119 End of the program. See you. Release memory...
+2861 [main.c] 601
+2861 [main.c] 602
+2861 [main.c] 603 ---------------------------------------------------------------------
+2861 [main.c] 604 Starting new instance
+2861 [main.c] 605 ---------------------------------------------------------------------
+2861 [main.c] 608 Build of Mar 13 2014 at 23:52:32
+2861 [main.c] 621 Screen element initialisation...
+2861 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2861 [main.c] 192 Number of thread detected --successfully-- : 2
+2861 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2861 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2861 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2861 [main.c] 231 C.LINE : Prospecting mode selected
+2861 [main.c] 246 C.LINE : Setting up the fast display mode
+2861 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2861 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2861 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2861 [drawing.c] 573 Now screen lenght is :
+2861 [drawing.c] 574 127
+2861 [main.c] 387 Main menu : Wainting for a user choice...
+2861 [main.c] 484 Prospecting mode selected
+2861 [multithread.c] 210 ================== YES ==================
+2861 [main.c] 503 New Mersenne order changed to : 37
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 41
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 43
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 47
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 53
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 59
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 61
+2861 [multithread.c] 210 ================== YES ==================
+2861 [main.c] 503 New Mersenne order changed to : 67
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 71
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 73
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 79
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 83
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 89
+2861 [multithread.c] 210 ================== YES ==================
+2861 [main.c] 503 New Mersenne order changed to : 97
+2861 [multithread.c] 197 NO
+2861 [main.c] 503 New Mersenne order changed to : 101
+2861 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2861 [main.c] 503 New Mersenne order changed to : 103
+2861 [main.c] 387 Main menu : Wainting for a user choice...
+2861 [main.c] 519 Quit the program
+2861 [main.c] 119 End of the program. See you. Release memory...
+2924 [main.c] 601
+2924 [main.c] 602
+2924 [main.c] 603 ---------------------------------------------------------------------
+2924 [main.c] 604 Starting new instance
+2924 [main.c] 605 ---------------------------------------------------------------------
+2924 [main.c] 608 Build of Mar 13 2014 at 23:52:32
+2924 [main.c] 621 Screen element initialisation...
+2924 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2924 [main.c] 192 Number of thread detected --successfully-- : 2
+2924 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2924 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2924 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2924 [main.c] 231 C.LINE : Prospecting mode selected
+2924 [main.c] 246 C.LINE : Setting up the fast display mode
+2924 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2924 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2924 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2924 [drawing.c] 573 Now screen lenght is :
+2924 [drawing.c] 574 127
+2924 [main.c] 387 Main menu : Wainting for a user choice...
+2924 [main.c] 484 Prospecting mode selected
+2924 [multithread.c] 210 ================== YES ==================
+2924 [main.c] 503 New Mersenne order changed to : 37
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 41
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 43
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 47
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 53
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 59
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 61
+2924 [multithread.c] 210 ================== YES ==================
+2924 [main.c] 503 New Mersenne order changed to : 67
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 71
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 73
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 79
+2924 [multithread.c] 197 NO
+2924 [main.c] 503 New Mersenne order changed to : 83
+2924 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2924 [main.c] 503 New Mersenne order changed to : 89
+2924 [main.c] 387 Main menu : Wainting for a user choice...
+2924 [main.c] 519 Quit the program
+2924 [main.c] 119 End of the program. See you. Release memory...
+2981 [main.c] 601
+2981 [main.c] 602
+2981 [main.c] 603 ---------------------------------------------------------------------
+2981 [main.c] 604 Starting new instance
+2981 [main.c] 605 ---------------------------------------------------------------------
+2981 [main.c] 608 Build of Mar 13 2014 at 23:52:32
+2981 [main.c] 621 Screen element initialisation...
+2981 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+2981 [main.c] 192 Number of thread detected --successfully-- : 2
+2981 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+2981 [main.c] 235 C.LINE : Change Mersenne order to 1281
+2981 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+2981 [main.c] 231 C.LINE : Prospecting mode selected
+2981 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+2981 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+2981 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+2981 [drawing.c] 573 Now screen lenght is :
+2981 [drawing.c] 574 127
+2981 [main.c] 387 Main menu : Wainting for a user choice...
+2981 [main.c] 484 Prospecting mode selected
+2981 [multithread.c] 210 ================== YES ==================
+2981 [main.c] 503 New Mersenne order changed to : 37
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 41
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 43
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 47
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 53
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 59
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 61
+2981 [multithread.c] 210 ================== YES ==================
+2981 [main.c] 503 New Mersenne order changed to : 67
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 71
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 73
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 79
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 83
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 89
+2981 [multithread.c] 210 ================== YES ==================
+2981 [main.c] 503 New Mersenne order changed to : 97
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 101
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 103
+2981 [multithread.c] 197 NO
+2981 [main.c] 503 New Mersenne order changed to : 107
+2981 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+2981 [main.c] 503 New Mersenne order changed to : 109
+2981 [main.c] 387 Main menu : Wainting for a user choice...
+2981 [main.c] 519 Quit the program
+2981 [main.c] 119 End of the program. See you. Release memory...
+3742 [main.c] 601
+3742 [main.c] 602
+3742 [main.c] 603 ---------------------------------------------------------------------
+3742 [main.c] 604 Starting new instance
+3742 [main.c] 605 ---------------------------------------------------------------------
+3742 [main.c] 608 Build of Mar 14 2014 at 00:37:09
+3742 [main.c] 621 Screen element initialisation...
+3742 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3742 [main.c] 192 Number of thread detected --successfully-- : 2
+3742 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+3742 [main.c] 235 C.LINE : Change Mersenne order to 1281
+3742 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+3742 [main.c] 231 C.LINE : Prospecting mode selected
+3742 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+3742 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+3742 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3742 [drawing.c] 573 Now screen lenght is :
+3742 [drawing.c] 574 127
+3742 [main.c] 387 Main menu : Wainting for a user choice...
+3742 [main.c] 484 Prospecting mode selected
+3742 [multithread.c] 210 ================== YES ==================
+3742 [main.c] 503 New Mersenne order changed to : 37
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 41
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 43
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 47
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 53
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 59
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 61
+3742 [multithread.c] 210 ================== YES ==================
+3742 [main.c] 503 New Mersenne order changed to : 67
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 71
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 73
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 79
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 83
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 89
+3742 [multithread.c] 210 ================== YES ==================
+3742 [main.c] 503 New Mersenne order changed to : 97
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 101
+3742 [multithread.c] 197 NO
+3742 [main.c] 503 New Mersenne order changed to : 103
+3742 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+3742 [main.c] 503 New Mersenne order changed to : 107
+3742 [main.c] 387 Main menu : Wainting for a user choice...
+3742 [main.c] 519 Quit the program
+3742 [main.c] 119 End of the program. See you. Release memory...
+3818 [main.c] 601
+3818 [main.c] 602
+3818 [main.c] 603 ---------------------------------------------------------------------
+3818 [main.c] 604 Starting new instance
+3818 [main.c] 605 ---------------------------------------------------------------------
+3818 [main.c] 608 Build of Mar 14 2014 at 00:37:09
+3818 [main.c] 621 Screen element initialisation...
+3818 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3818 [main.c] 192 Number of thread detected --successfully-- : 2
+3818 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+3818 [main.c] 235 C.LINE : Change Mersenne order to 1281
+3818 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+3818 [main.c] 231 C.LINE : Prospecting mode selected
+3818 [main.c] 246 C.LINE : Setting up the fast display mode
+3818 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+3818 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+3818 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3818 [drawing.c] 573 Now screen lenght is :
+3818 [drawing.c] 574 127
+3818 [main.c] 387 Main menu : Wainting for a user choice...
+3818 [main.c] 484 Prospecting mode selected
+3818 [multithread.c] 210 ================== YES ==================
+3818 [main.c] 503 New Mersenne order changed to : 37
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 41
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 43
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 47
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 53
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 59
+3818 [multithread.c] 197 NO
+3818 [main.c] 503 New Mersenne order changed to : 61
+3818 [multithread.c] 210 ================== YES ==================
+3818 [main.c] 503 New Mersenne order changed to : 67
+3818 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+3818 [main.c] 503 New Mersenne order changed to : 71
+3818 [main.c] 387 Main menu : Wainting for a user choice...
+3818 [main.c] 519 Quit the program
+3818 [main.c] 119 End of the program. See you. Release memory...
+3915 [main.c] 601
+3915 [main.c] 602
+3915 [main.c] 603 ---------------------------------------------------------------------
+3915 [main.c] 604 Starting new instance
+3915 [main.c] 605 ---------------------------------------------------------------------
+3915 [main.c] 608 Build of Mar 14 2014 at 00:39:32
+3915 [main.c] 621 Screen element initialisation...
+3915 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3915 [main.c] 192 Number of thread detected --successfully-- : 2
+3915 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+3915 [main.c] 235 C.LINE : Change Mersenne order to 1281
+3915 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+3915 [main.c] 231 C.LINE : Prospecting mode selected
+3915 [main.c] 246 C.LINE : Setting up the fast display mode
+3915 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+3915 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+3915 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3915 [drawing.c] 573 Now screen lenght is :
+3915 [drawing.c] 574 127
+3915 [main.c] 387 Main menu : Wainting for a user choice...
+3915 [main.c] 484 Prospecting mode selected
+3915 [multithread.c] 210 ================== YES ==================
+3915 [main.c] 503 New Mersenne order changed to : 37
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 41
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 43
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 47
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 53
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 59
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 61
+3915 [multithread.c] 210 ================== YES ==================
+3915 [main.c] 503 New Mersenne order changed to : 67
+3915 [multithread.c] 197 NO
+3915 [main.c] 503 New Mersenne order changed to : 71
+3915 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+3915 [main.c] 503 New Mersenne order changed to : 73
+3915 [main.c] 387 Main menu : Wainting for a user choice...
+3915 [main.c] 519 Quit the program
+3915 [main.c] 119 End of the program. See you. Release memory...
+3966 [main.c] 601
+3966 [main.c] 602
+3966 [main.c] 603 ---------------------------------------------------------------------
+3966 [main.c] 604 Starting new instance
+3966 [main.c] 605 ---------------------------------------------------------------------
+3966 [main.c] 608 Build of Mar 14 2014 at 00:39:32
+3966 [main.c] 621 Screen element initialisation...
+3966 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+3966 [main.c] 192 Number of thread detected --successfully-- : 2
+3966 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+3966 [main.c] 235 C.LINE : Change Mersenne order to 1281
+3966 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+3966 [main.c] 231 C.LINE : Prospecting mode selected
+3966 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+3966 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+3966 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+3966 [drawing.c] 573 Now screen lenght is :
+3966 [drawing.c] 574 127
+3966 [main.c] 387 Main menu : Wainting for a user choice...
+3966 [main.c] 484 Prospecting mode selected
+3966 [multithread.c] 210 ================== YES ==================
+3966 [main.c] 503 New Mersenne order changed to : 37
+3966 [multithread.c] 197 NO
+3966 [main.c] 503 New Mersenne order changed to : 41
+3966 [multithread.c] 197 NO
+3966 [main.c] 503 New Mersenne order changed to : 43
+3966 [multithread.c] 197 NO
+3966 [main.c] 503 New Mersenne order changed to : 47
+3966 [multithread.c] 197 NO
+3966 [main.c] 503 New Mersenne order changed to : 53
+3966 [multithread.c] 197 NO
+3966 [main.c] 503 New Mersenne order changed to : 59
+3966 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+3966 [main.c] 503 New Mersenne order changed to : 61
+3966 [main.c] 387 Main menu : Wainting for a user choice...
+3966 [main.c] 519 Quit the program
+3966 [main.c] 119 End of the program. See you. Release memory...
+4010 [main.c] 601
+4010 [main.c] 602
+4010 [main.c] 603 ---------------------------------------------------------------------
+4010 [main.c] 604 Starting new instance
+4010 [main.c] 605 ---------------------------------------------------------------------
+4010 [main.c] 608 Build of Mar 14 2014 at 00:39:32
+4010 [main.c] 621 Screen element initialisation...
+4010 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+4010 [main.c] 192 Number of thread detected --successfully-- : 2
+4010 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+4010 [main.c] 235 C.LINE : Change Mersenne order to 1281
+4010 [main.c] 281 C.LINE : Change number of check per number with Miller Rabin to 100
+4010 [main.c] 231 C.LINE : Prospecting mode selected
+4010 [main.c] 246 C.LINE : Setting up the fast display mode
+4010 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+4010 [signalmanagement.c] 258 Load function : There is no context saved. Default values are going to be loaded
+4010 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+4010 [drawing.c] 573 Now screen lenght is :
+4010 [drawing.c] 574 127
+4010 [main.c] 387 Main menu : Wainting for a user choice...
+4010 [main.c] 484 Prospecting mode selected
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 37
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 41
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 43
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 47
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 53
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 59
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 61
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 67
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 71
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 73
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 79
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 83
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 89
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 97
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 101
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 103
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 107
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 109
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 113
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 127
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 131
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 137
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 139
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 149
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 151
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 157
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 163
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 167
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 173
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 179
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 181
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 191
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 193
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 197
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 199
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 211
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 223
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 227
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 229
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 233
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 239
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 241
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 251
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 257
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 263
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 269
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 271
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 277
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 281
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 283
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 293
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 307
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 311
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 313
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 317
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 331
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 337
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 347
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 349
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 353
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 359
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 367
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 373
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 379
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 383
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 389
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 397
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 401
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 409
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 419
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 421
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 431
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 433
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 439
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 443
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 449
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 457
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 461
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 463
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 467
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 479
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 487
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 491
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 499
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 503
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 509
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 521
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 523
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 541
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 547
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 557
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 563
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 569
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 571
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 577
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 587
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 593
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 599
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 601
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 607
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 613
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 617
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 619
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 631
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 641
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 643
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 647
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 653
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 659
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 661
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 673
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 677
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 683
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 691
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 701
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 709
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 719
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 727
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 733
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 739
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 743
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 751
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 757
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 761
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 769
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 773
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 787
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 797
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 809
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 811
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 821
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 823
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 827
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 829
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 839
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 853
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 857
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 859
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 863
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 877
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 881
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 883
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 887
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 907
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 911
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 919
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 929
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 937
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 941
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 947
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 953
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 967
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 971
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 977
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 983
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 991
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 997
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1009
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1013
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1019
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1021
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1031
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1033
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1039
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1049
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1051
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1061
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1063
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1069
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1087
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1091
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1093
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1097
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1103
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1109
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1117
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1123
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1129
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1151
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1153
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1163
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1171
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1181
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1187
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1193
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1201
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1213
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1217
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1223
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1229
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1231
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1237
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1249
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1259
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1277
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1279
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 1283
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1289
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1291
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1297
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1301
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1303
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1307
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1319
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1321
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1327
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1361
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1367
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1373
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1381
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1399
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1409
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1423
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1427
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1429
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1433
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1439
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1447
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1451
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1453
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1459
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1471
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1481
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1483
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1487
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1489
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1493
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1499
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1511
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1523
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1531
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1543
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1549
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1553
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1559
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1567
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1571
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1579
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1583
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1597
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1601
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1607
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1609
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1613
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1619
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1621
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1627
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1637
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1657
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1663
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1667
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1669
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1693
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1697
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1699
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1709
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1721
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1723
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1733
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1741
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1747
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1753
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1759
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1777
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1783
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1787
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1789
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1801
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1811
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1823
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1831
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1847
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1861
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1867
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1871
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1873
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1877
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1879
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1889
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1901
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1907
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1913
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1931
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1933
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1949
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1951
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1973
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1979
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1987
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1993
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1997
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 1999
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2003
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2011
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2017
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2027
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2029
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2039
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2053
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2063
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2069
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2081
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2083
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2087
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2089
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2099
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2111
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2113
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2129
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2131
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2137
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2141
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2143
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2153
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2161
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2179
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2203
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 2207
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2213
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2221
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2237
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2239
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2243
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2251
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2267
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2269
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2273
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2281
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 2287
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2293
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2297
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2309
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2311
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2333
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2339
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2341
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2347
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2351
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2357
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2371
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2377
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2381
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2383
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2389
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2393
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2399
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2411
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2417
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2423
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2437
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2441
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2447
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2459
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2467
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2473
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2477
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2503
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2521
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2531
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2539
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2543
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2549
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2551
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2557
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2579
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2591
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2593
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2609
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2617
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2621
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2633
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2647
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2657
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2659
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2663
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2671
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2677
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2683
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2687
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2689
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2693
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2699
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2707
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2711
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2713
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2719
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2729
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2731
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2741
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2749
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2753
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2767
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2777
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2789
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2791
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2797
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2801
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2803
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2819
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2833
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2837
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2843
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2851
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2857
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2861
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2879
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2887
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2897
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2903
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2909
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2917
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2927
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2939
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2953
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2957
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2963
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2969
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2971
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 2999
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3001
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3011
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3019
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3023
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3037
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3041
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3049
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3061
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3067
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3079
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3083
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3089
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3109
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3119
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3121
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3137
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3163
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3167
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3169
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3181
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3187
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3191
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3203
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3209
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3217
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 3221
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3229
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3251
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3253
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3257
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3259
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3271
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3299
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3301
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3307
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3313
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3319
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3323
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3329
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3331
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3343
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3347
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3359
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3361
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3371
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3373
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3389
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3391
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3407
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3413
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3433
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3449
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3457
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3461
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3463
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3467
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3469
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3491
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3499
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3511
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3517
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3527
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3529
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3533
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3539
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3541
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3547
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3557
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3559
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3571
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3581
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3583
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3593
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3607
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3613
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3617
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3623
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3631
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3637
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3643
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3659
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3671
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3673
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3677
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3691
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3697
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3701
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3709
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3719
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3727
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3733
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3739
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3761
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3767
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3769
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3779
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3793
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3797
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3803
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3821
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3823
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3833
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3847
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3851
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3853
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3863
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3877
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3881
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3889
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3907
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3911
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3917
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3919
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3923
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3929
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3931
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3943
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3947
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3967
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 3989
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4001
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4003
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4007
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4013
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4019
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4021
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4027
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4049
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4051
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4057
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4073
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4079
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4091
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4093
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4099
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4111
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4127
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4129
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4133
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4139
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4153
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4157
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4159
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4177
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4201
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4211
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4217
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4219
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4229
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4231
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4241
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4243
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4253
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 4259
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4261
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4271
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4273
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4283
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4289
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4297
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4327
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4337
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4339
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4349
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4357
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4363
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4373
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4391
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4397
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4409
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4421
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4423
+4010 [multithread.c] 210 ================== YES ==================
+4010 [main.c] 503 New Mersenne order changed to : 4441
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4447
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4451
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4457
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4463
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4481
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4483
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4493
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4507
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4513
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4517
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4519
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4523
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4547
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4549
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4561
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4567
+4010 [multithread.c] 96 One thread added by user during computing. New thread number : 3
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4583
+4010 [multithread.c] 96 One thread added by user during computing. New thread number : 4
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4591
+4010 [multithread.c] 96 One thread added by user during computing. New thread number : 5
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4597
+4010 [multithread.c] 96 One thread added by user during computing. New thread number : 6
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4603
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4621
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4637
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4639
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4643
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4649
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4651
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4657
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4663
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4673
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4679
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4691
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4703
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4721
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4723
+4010 [multithread.c] 197 NO
+4010 [main.c] 503 New Mersenne order changed to : 4729
+4010 [multithread.c] 205 Give up ! Dont know it this is a prime number or not
+4010 [main.c] 503 New Mersenne order changed to : 4733
+4010 [main.c] 387 Main menu : Wainting for a user choice...
+4010 [main.c] 519 Quit the program
+4010 [main.c] 119 End of the program. See you. Release memory...

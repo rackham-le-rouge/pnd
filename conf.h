@@ -67,6 +67,8 @@
 #define MENU_ABOUT			5
 #define MENU_GIVE_UP_SEARCH		6
 #define MENU_WAIT_CHECK_MERSENNE_ORDER	7
+#define MENU_INFO_STD_ALGO_SET		8
+#define MENU_INFO_MR_ALGO_SET		9
 
 #define MODE_SAVE			0
 #define MODE_INIT			1
@@ -92,6 +94,12 @@
 #define COLOR_ELEMENT_FG	COLOR_BLACK
 #define GRAPHIC_MODE		0			/* 1 background is colored 0 background id black and letter is colored */
 
+
+/* Kind of algo used */
+#define ALGO_MILLER_RABIN               1
+#define ALGO_STD                        2
+
+
 typedef enum
 {
 	enumNoir = 	3,
@@ -111,7 +119,7 @@ typedef enum
 						time is applied if user want to toogle the ModerationTime function with SIGUSR1 calling */
 #define USEC_BETWEEN_KEY_CHECK	500000		/* be carefull !!! if you put a lower value, there is a risk of weird character spawning 
 						on the screen */
-#define USEC_BETWEEN_AUTO_SEARCH 2000000
+#define USEC_BETWEEN_AUTO_SEARCH 500000
 
 /* Debug part - Lots of usefull macro */
 #define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; 				\
@@ -185,21 +193,30 @@ typedef enum
   * Member 'bAutoSearch' contains a flag to say if user wants an auto search or not
   * @var structProgramInfo_::bLoaded
   * Member 'bLoaded' contains a flag to say if current config is loaded from a hotsave file or not
+  * @var structProgramInfo_::iWantedMRCheck
+  * Member 'iWantedMRCheck' contains number of wanted check per tested number and per thread in case of Miller Rabin algo
+  * @var structProgramInfo_::bFastDisp
+  * Member 'bFastDisp' is a flag setting up the fast display of message in autosearch mode. Setted by command line. FALSE by default
+  * @var structProgramInfo_::iUsedAlgo
+  * Member 'iUsedAlgo' contains value from -128 to +127 in order to store the kind of algo used during computation. There is
+  * two avaible values : ALGO_MILLER_RABIN and ALGO_STD. And you can switch in the main menu by using the 7 touch function.
   */
 typedef struct structProgramInfo_
 {
-	int iMersenneOrder;
-	int  iCol;
-	int  iRow;
-	int* iThreadProgressionTable;
-	int  iModerationTime;						/* Wait a little between each test in order to slow down and avoid CPU overloadinf */
-	int  iWantedMRCheck;
-	unsigned char iThreadNumber;					/* we can put it in char, more than 256 thread is suspicious... */
-	char bIsComputing;
-	char bNeedToRedrawProgressBar;
-	char bDead;							/* when at least one thread found at least one divider */
-	char bAutoSearch;
-	char bLoaded;
+        int iMersenneOrder;
+        int  iCol;
+        int  iRow;
+        int* iThreadProgressionTable;
+        int  iModerationTime;                                           /* Wait a little between each test in order to slow down and avoid CPU overloadinf */
+        int  iWantedMRCheck;
+        unsigned char iThreadNumber;                                    /* we can put it in char, more than 256 thread is suspicious... */
+        char bIsComputing;
+        char bNeedToRedrawProgressBar;
+        char bDead;                                                     /* when at least one thread found at least one divider */
+        char bAutoSearch;
+        char bLoaded;
+        char iUsedAlgo;
+	char bFastDisp;
 }structProgramInfo;
 
 

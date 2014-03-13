@@ -27,8 +27,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	unsigned long int l_iSeconds;			/** seconds needed to check one mersenne number */
 	unsigned int l_iUSecBetweenTwoAutoSearch;	/** for the waiting function, in order to free the CPU during a long computation */
 	char l_bQKeyPressed;				/** Used by keyboard handler, to check and do things */
-	time_t l_timeBegin;				/** Begin of the computation */
-	time_t l_timeEnd;				/** End of the computation */
+	time_t __attribute__((unused))l_timeBegin;	/** Begin of the computation */
+	time_t __attribute__((unused))l_timeEnd;	/** End of the computation */
 
 	l_iThreadNumber = p_structCommon->iThreadNumber;
 	p_structCommon->bIsComputing = TRUE;
@@ -36,7 +36,10 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	l_iUSecBetweenTwoAutoSearch = USEC_BETWEEN_AUTO_SEARCH;
 	l_bQKeyPressed = FALSE;
 	l_iSeconds = 0;
+
+	#ifdef DEBUG_VERBOSE
 	time(&l_timeBegin);				/* Get current time */
+	#endif
 
 	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the
 	   place of the ThreadNumber - This line is copy/pasted in main, in order to init this variable for the -i command line
@@ -133,7 +136,18 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 
 			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 			 * the current part is l_iCurrentThread */
-			l_bResultOfPrimeFunction = isItAPrimeNumberMRMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+			if(p_structCommon->iUsedAlgo == ALGO_MILLER_RABIN)
+			{
+				l_bResultOfPrimeFunction = isItAPrimeNumberMRMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+			}
+			else if(p_structCommon->iUsedAlgo == ALGO_STD)
+			{
+				l_bResultOfPrimeFunction = isItAPrimeNumberMultiThread(l_mpzPrimeNumberToTest, l_iCurrentThread, l_iThreadNumber, p_structCommon);
+			}
+			else
+			{
+				LOG_WRITE("/!\\ Warning : There is no algo selected !!")
+			}
 
 			/* Dead flag is raised by the finder of the divider, the other threads remains in DONT_KNOW state.
 			   If there is a thread in FALSE, the other one are in DONT_KNOW, but if all threads are in DONT_KNOW state
@@ -173,13 +187,18 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
+	#ifdef DEBUG_VERBOSE
 	time(&l_timeEnd);				/* Get end time used to find how long computing takes */
 	l_iSeconds = difftime(l_timeEnd, l_timeBegin);
+	#endif
 
 	if(p_structCommon->bDead == TRUE && l_bQKeyPressed == FALSE)
 	{
-		LOG_WRITE("This is not a prime number !")
-		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER, p_structCommon);
+		LOG_WRITE("NO")
+		if(p_structCommon->bFastDisp == FALSE)
+		{
+			drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_NOT_A_PRIME_NUMBER, p_structCommon);
+		}
 	}
 	else if(p_structCommon->bDead == TRUE && l_bQKeyPressed == TRUE)
 	{
@@ -188,11 +207,13 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	}
 	else
 	{
-		LOG_WRITE("This is a prime number.")
+		LOG_WRITE("================== YES ==================")
 		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
 	}
 
+	#ifdef DEBUG_VERBOSE
 	LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
+	#endif
 
 	/* Desactivate the loadedConf mode --when all progression are loaded from a hotsave file */
 	p_structCommon->bLoaded = FALSE;
@@ -206,6 +227,16 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	}
 	else
 	{
-		usleep(l_iUSecBetweenTwoAutoSearch);
+		if(p_structCommon->bFastDisp == FALSE)
+		{
+			usleep(l_iUSecBetweenTwoAutoSearch);
+		}
+		else
+		{
+			if(p_structCommon->bDead == FALSE)
+			{
+				usleep(l_iUSecBetweenTwoAutoSearch);
+			}
+		}
 	}
 }

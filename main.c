@@ -151,8 +151,10 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bIsComputing = FALSE;
 	p_structStructure->bNeedToRedrawProgressBar = FALSE;
 	p_structStructure->bDead = FALSE;
+	p_structStructure->bFastDisp = FALSE;
 	/*p_structStructure->iRow = ;
 	p_structStructure->iCol = ;						Initialized in main */
+	p_structStructure->iUsedAlgo = ALGO_MILLER_RABIN;
 	p_structStructure->iWantedMRCheck = DEFAULT_MR_WANTED_CHECK;
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
@@ -239,6 +241,9 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* Change thread number */
 				p_structCommon->iThreadNumber = (!strcmp(argv[l_iTmp], "-t")) ? atoi(argv[l_iTmp + 1]) : p_structCommon->iThreadNumber;
 				if(!strcmp(argv[l_iTmp], "-t")) {LOG_WRITE_STRING_LONG("C.LINE : Change thread number to ", (long)p_structCommon->iThreadNumber)}
+
+				/* Set the fast display mode */
+				if(!strcmp(argv[l_iTmp], "-f")) {p_structCommon->bFastDisp = TRUE; LOG_WRITE("C.LINE : Setting up the fast display mode")}
 
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
 				   than -m because -i can be used to setup the program, and installer are not going to care about the order */
@@ -328,7 +333,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-s{speed toogle}] [[-c] [wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] [-s{speed toogle}] [[-c] [wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}
@@ -396,7 +401,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			l_iTmp = getch();
 			l_iTmp -= 48;
 
-			l_bAsk = (l_iTmp > 0 && l_iTmp < 7) ? FALSE : TRUE;
+			l_bAsk = (l_iTmp > 0 && l_iTmp < 10) ? FALSE : TRUE;
 		}
 		nodelay(stdscr, TRUE);
 
@@ -513,6 +518,24 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				/* User want to quit the program */
 				LOG_WRITE("Quit the program")
 				l_bQuitProgram = TRUE;
+				break;
+			}
+			case 7:
+			{
+				/* Toogle algorithm between Miller Rabin (default) and standart algo */
+				LOG_WRITE("Toogle used algorithm for main computation")
+				p_structCommon->iUsedAlgo = (p_structCommon->iUsedAlgo == ALGO_MILLER_RABIN) ?
+							ALGO_STD :
+							ALGO_MILLER_RABIN;
+				if(p_structCommon->iUsedAlgo == ALGO_STD)
+				{
+					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_INFO_STD_ALGO_SET, p_structCommon);
+				}
+				else
+				{
+					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_INFO_MR_ALGO_SET, p_structCommon);
+				}
+				usleep(USEC_BETWEEN_AUTO_SEARCH);
 				break;
 			}
 			default:
