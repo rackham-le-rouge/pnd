@@ -458,14 +458,24 @@ void storeAndCleanMPZNumber(mpz_t*  p_mpzNumber, char p_iAction)
   * a pseudo prime number (certainly a prime number but it's not 100% proved)
   * or a normal number. If trhis function find a diviser, it's dead. But, if the function
   * doesn't, we are allowed to think that, maybee, this number is a prime number.
+  * Code provided by : http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
+  * @param p_mpzNumber : hypothetic prime number to check
+  * @param p_iSectionNumber : current thread
+  * @param p_iTotalSection : total number of active thread (unused here, putted in the prototype for compatibility issues)
+  * @param p_structStructure : all usefull informations about the program
+  * @return TRUE if the hypothetic prime number seem to be prime, or FALSE if it in not and we can prove it
+  *
   */
 int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_iTotalSection __attribute__((unused)), structProgramInfo* p_structStructure)
 {
-    gmp_randstate_t rand_state;
-    gmp_randinit_default(rand_state);
-    gmp_randseed_ui (rand_state, time(NULL));
+	/* This code, and its dependancies are copied from http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
+	   thanks to them. This code is actually one of the GMP implementation of the Miller Rabin test. For any update
+	   check GMP project */
+	gmp_randstate_t rand_state;
+	gmp_randinit_default(rand_state);
+	gmp_randseed_ui (rand_state, time(NULL));
 
-    return miller_rabin(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
+	return miller_rabin(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
 }
 
 /**
