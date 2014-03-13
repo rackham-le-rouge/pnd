@@ -153,6 +153,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	/*p_structStructure->iRow = ;
 	p_structStructure->iCol = ;						Initialized in main */
+	p_structStructure->iWantedMRCheck = DEFAULT_MR_WANTED_CHECK;
 	p_structStructure->iModerationTime = 0;
 	p_structStructure->bLoaded = DONT_KNOW;
 	p_structStructure->iThreadProgressionTable = (int*)malloc((p_structStructure->iRow + 1)*sizeof(int));	/* +1 because there is a
