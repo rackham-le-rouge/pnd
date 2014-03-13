@@ -4,7 +4,7 @@
 .SH NAME
 PND \- multrithreaded and optimized program to find prime numbers. This program only test Mersenne numbers (2^n - 1) and can work alone until it find something...
 .SH SYNOPSIS
-pnd [-h] [-a] [-d] [-s] [-m Mersenne_number] [-t wanted_threads_number] [-w wanted_moderation_time]
+pnd [-h] [-a] [-d] [-s] [-c Wanted_check_per_number] [-i Mersenne_order] [-m Mersenne_order] [-t wanted_threads_number] [-w wanted_moderation_time]
 .SH DESCRIPTION
 pnd is a program aiming to compute and find new prime number. This tool uses GMP in order to provide arbitrary precision numbers, thus, searching is unlimited. Moreover, this program use openMP in order to share work between a wanted thread number. On recent computers, this function could be really nice to use.
 .SH OPTIONS
@@ -25,6 +25,9 @@ Speed toogle
 You have choice between speed definded by
 .B -w
 option or maximal speed. You can toogle with this option.
+.B
+.IP -c
+Check number. For the Miller-Rabin algo only ! How many check do you want for an hypothetic prime number (per thread). Thus, to have all check on this hypothetic prime number, you need to multiply by ThreadNumber. Greater this number is, best is the prediction about the prime number.
 .B
 .IP -m
 Mersenne order. Put right after the wanted Mersenne order. Default Mersenne order is set in config.h.
