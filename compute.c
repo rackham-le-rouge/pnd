@@ -475,7 +475,14 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
 	gmp_randinit_default(rand_state);
 	gmp_randseed_ui (rand_state, time(NULL));
 
-	return miller_rabin(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
+	if(p_structStructure->bFastMode == TRUE)
+	{
+		return miller_rabin_nographic(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
+	}
+	else
+	{
+		return miller_rabin(p_mpzNumber, rand_state, p_structStructure, p_iSectionNumber);
+	}
 }
 
 /**
@@ -611,5 +618,55 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 			return FALSE;
 		}
 	}
+	return TRUE;
+}
+
+
+
+
+
+
+/**
+  * @brief
+  * Difference is the remove of all graphic parts. For the really fast computation cycle and daemon mode
+  * This function monitor unary check on the supposed prime number. This function display the progress bar
+  * and manage how many check there is on a number per thread
+  * Thanks to http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d for
+  * the algorithm.
+  * @param p_mpz_Number : checked number, in mpz format
+  * @param rand_state : in order to manage the random in GMP
+  * @param p_structCommon : all usefull data on the program
+  * @param p_iSectionNumber : unused but still here for compatibility reasons (we need to keep quite the same prototype)
+  * @return TRUE (if the number MAY BE prime) or FALSE if it is not and it is proved
+  */
+int miller_rabin_nographic(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInfo* p_structCommon, int p_iSectionNumber __attribute__((unused)))
+{
+	mpz_t a;
+	int repeat;
+	mpz_init(a);
+
+	/* Init the default starting point of the loop - If there is an autoloading, the starting point is changed */
+	repeat = 0;
+
+	/* We put the check here to avoid to check it each time in the loop. But, you can't stop the program
+	   during it execution, you need to wait the end of the current number testing */
+	if(p_structCommon->bDead == TRUE)
+	{
+		return DONT_KNOW;
+	}
+
+	for(; repeat < p_structCommon->iWantedMRCheck; repeat++)
+	{
+		do
+		{
+			mpz_urandomm(a, rand_state, p_mpzNumber);
+		} while (mpz_sgn(a) == 0);
+
+		if (miller_rabin_pass(a, p_mpzNumber) == FALSE)
+		{
+			return FALSE;
+		}
+	}
+
 	return TRUE;
 }

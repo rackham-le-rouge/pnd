@@ -27,8 +27,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	unsigned long int l_iSeconds;			/** seconds needed to check one mersenne number */
 	unsigned int l_iUSecBetweenTwoAutoSearch;	/** for the waiting function, in order to free the CPU during a long computation */
 	char l_bQKeyPressed;				/** Used by keyboard handler, to check and do things */
-	time_t __attribute__((unused))l_timeBegin;	/** Begin of the computation */
-	time_t __attribute__((unused))l_timeEnd;	/** End of the computation */
+	time_t __attribute__((unused))l_timeBegin;	/** May be not used -- Begin of the computation */
+	time_t __attribute__((unused))l_timeEnd;	/** May be not used -- End of the computation */
 
 	l_iThreadNumber = p_structCommon->iThreadNumber;
 	p_structCommon->bIsComputing = TRUE;
@@ -134,6 +134,12 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			}
 			#endif
 
+
+			/******************************************
+					COMPUTATION
+			*******************************************/
+
+
 			/* Using a special function in order to work in multithread. All calculation are splitted in l_iThreadNumber parts, and
 			 * the current part is l_iCurrentThread */
 			if(p_structCommon->iUsedAlgo == ALGO_MILLER_RABIN)
@@ -148,6 +154,10 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			{
 				LOG_WRITE("/!\\ Warning : There is no algo selected !!")
 			}
+
+
+
+
 
 			/* Dead flag is raised by the finder of the divider, the other threads remains in DONT_KNOW state.
 			   If there is a thread in FALSE, the other one are in DONT_KNOW, but if all threads are in DONT_KNOW state

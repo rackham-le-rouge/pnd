@@ -217,6 +217,7 @@ typedef struct structProgramInfo_
         char bLoaded;
         char iUsedAlgo;
 	char bFastDisp;
+	char bFastMode;
 }structProgramInfo;
 
 
