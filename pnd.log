@@ -63222,3 +63222,2281 @@ main.c 211 End of the program. See you
 9457 [main.c] 507 New Mersenne order changed to : 5417
 9457 [multithread.c] 207 NO
 9457 [main.c] 507 New Mersenne order changed to : 5419
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5431
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5437
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5441
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5443
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5449
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5471
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5477
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5479
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5483
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5501
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5503
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5507
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5519
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5521
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5527
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5531
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5557
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5563
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5569
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5573
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5581
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5591
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5623
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5639
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5641
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5647
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5651
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5653
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5657
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5659
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5669
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5683
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5689
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5693
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5701
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5711
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5717
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5737
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5741
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5743
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5749
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5779
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5783
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5791
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5801
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5807
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5813
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5821
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5827
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5839
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5843
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5849
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5851
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5857
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5861
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5867
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5869
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5879
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5881
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5897
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5903
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5923
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5927
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5939
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5953
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5981
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 5987
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6007
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6011
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6029
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6037
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6043
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6047
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6053
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6067
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6073
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6079
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6089
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6091
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6101
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6113
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6121
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6131
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6133
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6143
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6151
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6163
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6173
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6197
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6199
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6203
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6211
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6217
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6221
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6229
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6247
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6257
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6263
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6269
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6271
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6277
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6287
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6299
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6301
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6311
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6317
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6323
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6329
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6337
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6343
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6353
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6359
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6361
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6367
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6373
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6379
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6389
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6397
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6421
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6427
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6449
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6451
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6469
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6473
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6481
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6491
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6521
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6529
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6547
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6551
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6553
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6563
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6569
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6571
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6577
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6581
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6599
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6607
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6619
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6637
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6653
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6659
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6661
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6673
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6679
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6689
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6691
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6701
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6703
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6709
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6719
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6733
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6737
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6761
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6763
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6779
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6781
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6791
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6793
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6803
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6823
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6827
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6829
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6833
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6841
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6857
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6863
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6869
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6871
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6883
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6899
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6907
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6911
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6917
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6947
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6949
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6959
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6961
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6967
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6971
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6977
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6983
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6991
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 6997
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7001
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7013
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7019
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7027
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7039
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7043
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7057
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7069
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7079
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7103
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7109
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7121
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7127
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7129
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7151
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7159
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7177
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7187
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7193
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7207
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7211
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7213
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7219
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7229
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7237
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7243
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7247
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7253
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7283
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7297
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7307
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7309
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7321
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7331
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7333
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7349
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7351
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7369
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7393
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7411
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7417
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7433
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7451
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7457
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7459
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7477
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7481
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7487
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7489
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7499
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7507
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7517
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7523
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7529
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7537
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7541
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7547
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7549
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7559
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7561
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7573
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7577
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7583
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7589
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7591
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7603
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7607
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7621
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7639
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7643
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7649
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7669
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7673
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7681
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7687
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7691
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7699
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7703
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7717
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7723
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7727
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7741
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7753
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7757
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7759
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7789
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7793
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7817
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7823
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7829
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7841
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7853
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7867
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7873
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7877
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7879
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7883
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7901
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7907
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7919
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7927
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7933
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7937
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7949
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7951
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7963
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 7993
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8009
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8011
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8017
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8039
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8053
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8059
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8069
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8081
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8087
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8089
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8093
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8101
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8111
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8117
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8123
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8147
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8161
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8167
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8171
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8179
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8191
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8209
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8219
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8221
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8231
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8233
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8237
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8243
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8263
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8269
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8273
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8287
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8291
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8293
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8297
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8311
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8317
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8329
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8353
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8363
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8369
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8377
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8387
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8389
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8419
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8423
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8429
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8431
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8443
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8447
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8461
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8467
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8501
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8513
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8521
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8527
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8537
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8539
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8543
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8563
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8573
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8581
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8597
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8599
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8609
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8623
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8627
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8629
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8641
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8647
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8663
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8669
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8677
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8681
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8689
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8693
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8699
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8707
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8713
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8719
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8731
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8737
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8741
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8747
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8753
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8761
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8779
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8783
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8803
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8807
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8819
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8821
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8831
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8837
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8839
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8849
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8861
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8863
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8867
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8887
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8893
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8923
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8929
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8933
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8941
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8951
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8963
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8969
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8971
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 8999
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9001
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9007
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9011
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9013
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9029
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9041
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9043
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9049
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9059
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9067
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9091
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9103
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9109
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9127
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9133
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9137
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9151
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9157
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9161
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9173
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9181
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9187
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9199
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9203
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9209
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9221
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9227
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9239
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9241
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9257
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9277
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9281
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9283
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9293
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9311
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9319
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9323
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9337
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9341
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9343
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9349
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9371
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9377
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9391
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9397
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9403
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9413
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9419
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9421
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9431
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9433
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9437
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9439
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9461
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9463
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9467
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9473
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9479
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9491
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9497
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9511
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9521
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9533
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9539
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9547
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9551
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9587
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9601
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9613
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9619
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9623
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9629
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9631
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9643
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9649
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9661
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9677
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9679
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9689
+9457 [multithread.c] 220 ================== YES ==================
+9457 [main.c] 507 New Mersenne order changed to : 9697
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9719
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9721
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9733
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9739
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9743
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9749
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9767
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9769
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9781
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9787
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9791
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9803
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9811
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9817
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9829
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9833
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9839
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9851
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9857
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9859
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9871
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9883
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9887
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9901
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9907
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9923
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9929
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9931
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9941
+9457 [multithread.c] 220 ================== YES ==================
+9457 [main.c] 507 New Mersenne order changed to : 9949
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9967
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 9973
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10007
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10009
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10037
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10039
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10061
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10067
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10069
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10079
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10091
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10093
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10099
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10103
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10111
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10133
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10139
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10141
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10151
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10159
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10163
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10169
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10177
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10181
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10193
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10211
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10223
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10243
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10247
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10253
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10259
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10267
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10271
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10273
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10289
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10301
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10303
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10313
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10321
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10331
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10333
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10337
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10343
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10357
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10369
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10391
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10399
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10427
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10429
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10433
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10453
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10457
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10459
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10463
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10477
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10487
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10499
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10501
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10513
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10529
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10531
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10559
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10567
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10589
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10597
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10601
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10607
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10613
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10627
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10631
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10639
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10651
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10657
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10663
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10667
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10687
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10691
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10709
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10711
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10723
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10729
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10733
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10739
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10753
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10771
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10781
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10789
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10799
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10831
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10837
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10847
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10853
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10859
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10861
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10867
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10883
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10889
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10891
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10903
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10909
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10937
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10939
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10949
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10957
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10973
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10979
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10987
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 10993
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11003
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11027
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11047
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11057
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11059
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11069
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11071
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11083
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11087
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11093
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11113
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11117
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11119
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11131
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11149
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11159
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11161
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11171
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11173
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11177
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11197
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11213
+9457 [multithread.c] 220 ================== YES ==================
+9457 [main.c] 507 New Mersenne order changed to : 11239
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11243
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11251
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11257
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11261
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11273
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11279
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11287
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11299
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11311
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11317
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11321
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11329
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11351
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11353
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11369
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11383
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11393
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11399
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11411
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11423
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11437
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11443
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11447
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11467
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11471
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11483
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11489
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11491
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11497
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11503
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11519
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11527
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11549
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11551
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11579
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11587
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11593
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11597
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11617
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11621
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11633
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11657
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11677
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11681
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11689
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11699
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11701
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11717
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11719
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11731
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11743
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11777
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11779
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11783
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11789
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11801
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11807
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11813
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11821
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11827
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11831
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11833
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11839
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11863
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11867
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11887
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11897
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11903
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11909
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11923
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11927
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11933
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11939
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11941
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11953
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11959
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11969
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11971
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11981
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 11987
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12007
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12011
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12037
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12041
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12043
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12049
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12071
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12073
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12097
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12101
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12107
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12109
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12113
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12119
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12143
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12149
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12157
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12161
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12163
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12197
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12203
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12211
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12227
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12239
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12241
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12251
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12253
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12263
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12269
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12277
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12281
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12289
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12301
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12323
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12329
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12343
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12347
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12373
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12377
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12379
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12391
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12401
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12409
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12413
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12421
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12433
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12437
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12451
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12457
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12473
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12479
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12487
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12491
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12497
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12503
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12511
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12517
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12527
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12539
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12541
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12547
+9457 [multithread.c] 207 NO
+9457 [main.c] 507 New Mersenne order changed to : 12553
+9457 [signalmanagement.c] 97 Sigterm or sigint send against me. Saving context
+9457 [signalmanagement.c] 165 Saving function : Saving context
+9457 [signalmanagement.c] 173 Saving function : output file opened successfully
+9457 [signalmanagement.c] 283 Anormal end of the program... Hope to see you again !
+9457 [main.c] 119 End of the program. See you. Release memory...
+12877 [main.c] 605
+12877 [main.c] 606
+12877 [main.c] 607 ---------------------------------------------------------------------
+12877 [main.c] 608 Starting new instance
+12877 [main.c] 609 ---------------------------------------------------------------------
+12877 [main.c] 612 Build of Mar 14 2014 at 09:33:32
+12877 [main.c] 625 Screen element initialisation...
+12877 [main.c] 149 Writing the default configuration in the common stuctProgramInfo
+12877 [main.c] 193 Number of thread detected --successfully-- : 2
+12877 [signalmanagement.c] 159 Saving function : Init of commonstruct pointer
+12877 [main.c] 236 C.LINE : Change Mersenne order to 1877
+12877 [main.c] 250 C.LINE : Setting up the fast mode
+12877 [main.c] 247 C.LINE : Setting up the fast display mode
+12877 [main.c] 232 C.LINE : Prospecting mode selected
+12877 [main.c] 240 C.LINE : Change moderation time to 0
+12877 [main.c] 285 C.LINE : Change number of check per number with Miller Rabin to 10
+12877 [signalmanagement.c] 201 Load function : Try to load context, if it exist
+12877 [signalmanagement.c] 205 Load function : there is a context saved. Loading...
+12877 [signalmanagement.c] 119 Init structCommon pointer for the toogling function
+12877 [drawing.c] 573 Now screen lenght is :
+12877 [drawing.c] 574 127
+12877 [main.c] 391 Main menu : Wainting for a user choice...
+12877 [main.c] 488 Prospecting mode selected
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12569
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12577
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12583
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12589
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12601
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12611
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12613
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12619
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12637
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12641
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12647
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12653
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12659
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12671
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12689
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12697
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12703
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12713
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12721
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12739
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12743
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12757
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12763
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12781
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12791
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12799
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12809
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12821
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12823
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12829
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12841
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12853
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12889
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12893
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12899
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12907
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12911
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12917
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12919
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12923
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12941
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12953
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12959
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12967
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12973
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12979
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 12983
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13001
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13003
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13007
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13009
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13033
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13037
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13043
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13049
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13063
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13093
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13099
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13103
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13109
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13121
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13127
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13147
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13151
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13159
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13163
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13171
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13177
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13183
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13187
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13217
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13219
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13229
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13241
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13249
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13259
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13267
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13291
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13297
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13309
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13313
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13327
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13331
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13337
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13339
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13367
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13381
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13397
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13399
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13411
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13417
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13421
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13441
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13451
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13457
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13463
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13469
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13477
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13487
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13499
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13513
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13523
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13537
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13553
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13567
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13577
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13591
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13597
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13613
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13619
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13627
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13633
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13649
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13669
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13679
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13681
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13687
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13691
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13693
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13697
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13709
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13711
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13721
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13723
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13729
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13751
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13757
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13759
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13763
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13781
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13789
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13799
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13807
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13829
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13831
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13841
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13859
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13873
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13877
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13879
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13883
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13901
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13903
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13907
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13913
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13921
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13931
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13933
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13963
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13967
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13997
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 13999
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14009
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14011
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14029
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14033
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14051
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14057
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14071
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14081
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14083
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14087
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14107
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14143
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14149
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14153
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14159
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14173
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14177
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14197
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14207
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14221
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14243
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14249
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14251
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14281
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14293
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14303
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14321
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14323
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14327
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14341
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14347
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14369
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14387
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14389
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14401
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14407
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14411
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14419
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14423
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14431
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14437
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14447
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14449
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14461
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14479
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14489
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14503
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14519
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14533
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14537
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14543
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14549
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14551
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14557
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14561
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14563
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14591
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14593
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14621
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14627
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14629
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14633
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14639
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14653
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14657
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14669
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14683
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14699
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14713
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14717
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14723
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14731
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14737
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14741
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14747
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14753
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14759
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14767
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14771
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14779
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14783
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14797
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14813
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14821
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14827
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14831
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14843
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14851
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14867
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14869
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14879
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14887
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14891
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14897
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14923
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14929
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14939
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14947
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14951
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14957
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14969
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 14983
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15013
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15017
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15031
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15053
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15061
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15073
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15077
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15083
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15091
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15101
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15107
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15121
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15131
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15137
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15139
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15149
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15161
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15173
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15187
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15193
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15199
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15217
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15227
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15233
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15241
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15259
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15263
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15269
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15271
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15277
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15287
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15289
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15299
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15307
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15313
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15319
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15329
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15331
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15349
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15359
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15361
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15373
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15377
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15383
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15391
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15401
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15413
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15427
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15439
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15443
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15451
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15461
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15467
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15473
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15493
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15497
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15511
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15527
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15541
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15551
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15559
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15569
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15581
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15583
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15601
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15607
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15619
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15629
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15641
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15643
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15647
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15649
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15661
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15667
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15671
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15679
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15683
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15727
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15731
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15733
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15737
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15739
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15749
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15761
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15767
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15773
+12877 [multithread.c] 207 NO
+12877 [main.c] 507 New Mersenne order changed to : 15787
