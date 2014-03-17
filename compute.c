@@ -412,6 +412,7 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 /**
   * @brief
   * Memorize all mpz number, and clean them all at the end of the program
+  * ---> DEPRECATED <---
   * /!\ Respect the folowing order :
   *
   * storeAndCleanMPZNumber(&my_first_mpz_number, MODE_ADD)\n
