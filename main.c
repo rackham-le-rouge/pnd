@@ -341,7 +341,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] [-F{fast mode}] [-s{speed toogle}] [[-c] [wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] [-F{fast mode}] [-s{speed toogle}] [-time{print computation time}] [[-c] [wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}
