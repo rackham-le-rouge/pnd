@@ -493,7 +493,11 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				p_structCommon->bAutoSearch = TRUE;
 
 				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
-				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_MERSENNE_ORDER, p_structCommon);
+
+				if(p_structCommon->bFastDisp == TRUE)
+				{
+					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_MERSENNE_ORDER, p_structCommon);
+				}
 
 				while(p_structCommon->bAutoSearch == TRUE)
 				{
