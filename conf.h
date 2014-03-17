@@ -69,6 +69,7 @@
 #define MENU_WAIT_CHECK_MERSENNE_ORDER	7
 #define MENU_INFO_STD_ALGO_SET		8
 #define MENU_INFO_MR_ALGO_SET		9
+#define MENU_MERSENNE_ORDER		10
 
 #define MODE_SAVE			0
 #define MODE_INIT			1
@@ -218,6 +219,7 @@ typedef struct structProgramInfo_
         char iUsedAlgo;
 	char bFastDisp;
 	char bFastMode;
+	char bPrintTime;
 }structProgramInfo;
 
 

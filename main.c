@@ -153,6 +153,7 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	p_structStructure->bDead = FALSE;
 	p_structStructure->bFastDisp = FALSE;
 	p_structStructure->bFastMode = FALSE;
+	p_structStructure->bPrintTime = FALSE;
 	/*p_structStructure->iRow = ;
 	p_structStructure->iCol = ;						Initialized in main */
 	p_structStructure->iUsedAlgo = ALGO_MILLER_RABIN;
@@ -246,7 +247,10 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* Set the fast display mode */
 				if(!strcmp(argv[l_iTmp], "-f")) {p_structCommon->bFastDisp = TRUE; LOG_WRITE("C.LINE : Setting up the fast display mode")}
 
-				/* Set the fast display mode */
+				/* Set the print time mode */
+				if(!strcmp(argv[l_iTmp], "-time")) {p_structCommon->bPrintTime = TRUE; LOG_WRITE("C.LINE : Now, i print the computation time")}
+
+				/* Set the fast mode */
 				if(!strcmp(argv[l_iTmp], "-F")) {p_structCommon->bFastMode = TRUE; LOG_WRITE("C.LINE : Setting up the fast mode")}
 
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
@@ -488,14 +492,23 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				LOG_WRITE("Prospecting mode selected")
 				p_structCommon->bAutoSearch = TRUE;
 
+				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+				drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_MERSENNE_ORDER, p_structCommon);
+
 				while(p_structCommon->bAutoSearch == TRUE)
 				{
-					eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+					if(p_structCommon->bFastDisp == FALSE)
+					{
+						eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
+					}
 					createAllComputingThreads(p_structCommon);
 
 					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to
 					check. For really great number this computation can take some time. Thus, we display a message */
-					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
+					if(p_structCommon->bFastDisp == FALSE)
+					{
+						drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
+					}
 
 					/* Jump to the new mersenne number -- This new order needs to be prime in order to have a
 					chance to give a prime mersenne numnber */

@@ -1,5 +1,6 @@
-\hypertarget{compute_8h}{\section{compute.\-h File Reference}
-\label{compute_8h}\index{compute.\-h@{compute.\-h}}
+\hypertarget{compute_8h}{
+\section{compute.h File Reference}
+\label{compute_8h}\index{compute.h@{compute.h}}
 }
 
 
@@ -9,20 +10,33 @@ All computing functions of the program  Computation functions, the brain of the 
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-char \hyperlink{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}{is\-It\-A\-Prime\-Number\-M\-P\-Z} (mpz\-\_\-t p\-\_\-mpz\-Number)
-\begin{DoxyCompactList}\small\item\em In the miller-\/rabin algorithm we only can use prime number. These numbers are not really long, thus there is no need to improve this algorithm. We just need to know if the number is a prime number, and after we can do 2$^\wedge$\-N -\/ 1 and start the big computing. \end{DoxyCompactList}\item 
-char \hyperlink{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}{is\-It\-A\-Prime\-Number\-U\-L\-I} (double p\-\_\-d\-Number)
-\begin{DoxyCompactList}\small\item\em And the unsigned long int version of the previous function. In order to test mersenne order we don't need G\-M\-P because order will remains under M\-A\-X of unsigned long int This function is deprecated because it use double type. \end{DoxyCompactList}\item 
-int \hyperlink{compute_8h_a91f6d6cfb21bf7e1f1c53ed8cab26051}{miller\-Rabin} (mpz\-\_\-t p\-\_\-mpz\-A, mpz\-\_\-t p\-\_\-mpz\-N)
-\item 
-int \hyperlink{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}{is\-It\-A\-Prime\-Number\-Multi\-Thread} (mpz\-\_\-t p\-\_\-mpz\-Number, int p\-\_\-i\-Section\-Number, int p\-\_\-i\-Total\-Section, \hyperlink{structstructProgramInfo__}{struct\-Program\-Info} $\ast$p\-\_\-struct\-Structure)
-\begin{DoxyCompactList}\small\item\em An other basic function in order to find if it is a prime number. \end{DoxyCompactList}\item 
-void \hyperlink{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}{store\-And\-Clean\-M\-P\-Z\-Number} (mpz\-\_\-t $\ast$p\-\_\-mpz\-Number, char p\-\_\-i\-Action)
-\begin{DoxyCompactList}\small\item\em Memorize all mpz number, and clean them all at the end of the program /!\textbackslash{} Respect the folowing order \-: \end{DoxyCompactList}\item 
-\hypertarget{compute_8h_ab87521a75ef827a85807f89a6c10629a}{double {\bfseries sqrt} (double x)}\label{compute_8h_ab87521a75ef827a85807f89a6c10629a}
+char \hyperlink{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}{isItAPrimeNumberMPZ} (mpz\_\-t p\_\-mpzNumber)
+\begin{DoxyCompactList}\small\item\em In the miller-\/rabin algorithm we only can use prime number. These numbers are not really long, thus there is no need to improve this algorithm. We just need to know if the number is a prime number, and after we can do 2$^\wedge$N -\/ 1 and start the big computing. \item\end{DoxyCompactList}\item 
+char \hyperlink{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}{isItAPrimeNumberULI} (double p\_\-dNumber)
+\begin{DoxyCompactList}\small\item\em And the unsigned long int version of the previous function. In order to test mersenne order we don't need GMP because order will remains under MAX of unsigned long int This function is deprecated because it use double type. \item\end{DoxyCompactList}\item 
+int \hyperlink{compute_8h_a75a413afa630cb2fc8a712de3300d402}{isItAPrimeNumberMRMultiThread} (mpz\_\-t p\_\-mpzNumber, int p\_\-iSectionNumber, int p\_\-iTotalSection \_\-\_\-attribute\_\-\_\-((unused)), \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structStructure)
+\begin{DoxyCompactList}\small\item\em This function compute a statisitc algorithm in order to find if a number is a pseudo prime number (certainly a prime number but it's not 100\% proved) or a normal number. If trhis function find a diviser, it's dead. But, if the function doesn't, we are allowed to think that, maybee, this number is a prime number. Code provided by : \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d.}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d.} \item\end{DoxyCompactList}\item 
+int \hyperlink{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}{isItAPrimeNumberMultiThread} (mpz\_\-t p\_\-mpzNumber, int p\_\-iSectionNumber, int p\_\-iTotalSection, \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structStructure)
+\begin{DoxyCompactList}\small\item\em An other basic function in order to find if it is a prime number. \item\end{DoxyCompactList}\item 
+void \hyperlink{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}{storeAndCleanMPZNumber} (mpz\_\-t $\ast$p\_\-mpzNumber, char p\_\-iAction)
+\begin{DoxyCompactList}\small\item\em Memorize all mpz number, and clean them all at the end of the program /!$\backslash$ Respect the folowing order : \item\end{DoxyCompactList}\item 
+\hypertarget{compute_8h_ab87521a75ef827a85807f89a6c10629a}{
+double {\bfseries sqrt} (double x)}
+\label{compute_8h_ab87521a75ef827a85807f89a6c10629a}
 
 \item 
-\hypertarget{compute_8h_a29bbc8c7c604b6ac900702edfba3f978}{double {\bfseries fmod} (double numer, double denom)}\label{compute_8h_a29bbc8c7c604b6ac900702edfba3f978}
+\hypertarget{compute_8h_a29bbc8c7c604b6ac900702edfba3f978}{
+double {\bfseries fmod} (double numer, double denom)}
+\label{compute_8h_a29bbc8c7c604b6ac900702edfba3f978}
+
+\item 
+int \hyperlink{compute_8h_ab1bad96302d9a52368df50e2f71fdeca}{miller\_\-rabin\_\-pass} (mpz\_\-t p\_\-mpzRandom, mpz\_\-t p\_\-mpzNumber)
+\begin{DoxyCompactList}\small\item\em This function just do some unary test on a prime number. Thanks to \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d} for the algorithm... \item\end{DoxyCompactList}\item 
+int \hyperlink{compute_8h_a77f8fc7edee1f4834c276979fbf26fe8}{miller\_\-rabin} (mpz\_\-t p\_\-mpzNumber, gmp\_\-randstate\_\-t rand\_\-state, \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structCommon, int p\_\-iSectionNumber)
+\begin{DoxyCompactList}\small\item\em This function monitor unary check on the supposed prime number. This function display the progress bar and manage how many check there is on a number per thread Thanks to \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d} for the algorithm. \item\end{DoxyCompactList}\item 
+\hypertarget{compute_8h_a1497287674bb2c14d89c5a7d40c1bee9}{
+int {\bfseries miller\_\-rabin\_\-nographic} (mpz\_\-t p\_\-mpzNumber, gmp\_\-randstate\_\-t rand\_\-state, \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structCommon, int p\_\-iSectionNumber)}
+\label{compute_8h_a1497287674bb2c14d89c5a7d40c1bee9}
 
 \end{DoxyCompactItemize}
 
@@ -34,117 +48,130 @@ All computing functions of the program  Computation functions, the brain of the 
 1/2014  Beerware (rev 42) 
 \end{DoxyDate}
 \begin{DoxyAuthor}{Author}
-Jerome G\-R\-A\-R\-D -\/ A bored engineering student... 
+Jerome GRARD -\/ A bored engineering student... 
 \end{DoxyAuthor}
 
 
 \subsection{Function Documentation}
-\hypertarget{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}{\index{compute.\-h@{compute.\-h}!is\-It\-A\-Prime\-Number\-M\-P\-Z@{is\-It\-A\-Prime\-Number\-M\-P\-Z}}
-\index{is\-It\-A\-Prime\-Number\-M\-P\-Z@{is\-It\-A\-Prime\-Number\-M\-P\-Z}!compute.h@{compute.\-h}}
-\subsubsection[{is\-It\-A\-Prime\-Number\-M\-P\-Z}]{\setlength{\rightskip}{0pt plus 5cm}char is\-It\-A\-Prime\-Number\-M\-P\-Z (
-\begin{DoxyParamCaption}
-\item[{mpz\-\_\-t}]{p\-\_\-mpz\-Number}
-\end{DoxyParamCaption}
-)}}\label{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}
+\hypertarget{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}{
+\index{compute.h@{compute.h}!isItAPrimeNumberMPZ@{isItAPrimeNumberMPZ}}
+\index{isItAPrimeNumberMPZ@{isItAPrimeNumberMPZ}!compute.h@{compute.h}}
+\subsubsection[{isItAPrimeNumberMPZ}]{\setlength{\rightskip}{0pt plus 5cm}char isItAPrimeNumberMPZ (mpz\_\-t {\em p\_\-mpzNumber})}}
+\label{compute_8h_a27b6f6411a7cbd37edf8bde48e7ef3c7}
 
 
-In the miller-\/rabin algorithm we only can use prime number. These numbers are not really long, thus there is no need to improve this algorithm. We just need to know if the number is a prime number, and after we can do 2$^\wedge$\-N -\/ 1 and start the big computing. 
+In the miller-\/rabin algorithm we only can use prime number. These numbers are not really long, thus there is no need to improve this algorithm. We just need to know if the number is a prime number, and after we can do 2$^\wedge$N -\/ 1 and start the big computing. 
 
 Simple prime number testing -\/$>$ check all number since sqrt(n) is reached 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-mpz\-Number} & \-: number to test \\
-\hline
-\end{DoxyParams}
+\item[{\em p\_\-mpzNumber}]: number to test \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-T\-R\-U\-E (if the number is prime) or F\-A\-L\-S\-E 
+TRUE (if the number is prime) or FALSE 
 \end{DoxyReturn}
+
+
 returned number of the function
 
 sqrt of tested number because we test all numbers from sqrt to the number itself
 
-to check all numbers \hypertarget{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}{\index{compute.\-h@{compute.\-h}!is\-It\-A\-Prime\-Number\-Multi\-Thread@{is\-It\-A\-Prime\-Number\-Multi\-Thread}}
-\index{is\-It\-A\-Prime\-Number\-Multi\-Thread@{is\-It\-A\-Prime\-Number\-Multi\-Thread}!compute.h@{compute.\-h}}
-\subsubsection[{is\-It\-A\-Prime\-Number\-Multi\-Thread}]{\setlength{\rightskip}{0pt plus 5cm}int is\-It\-A\-Prime\-Number\-Multi\-Thread (
-\begin{DoxyParamCaption}
-\item[{mpz\-\_\-t}]{p\-\_\-mpz\-Number, }
-\item[{int}]{p\-\_\-i\-Section\-Number, }
-\item[{int}]{p\-\_\-i\-Total\-Section, }
-\item[{{\bf struct\-Program\-Info} $\ast$}]{p\-\_\-struct\-Structure}
-\end{DoxyParamCaption}
-)}}\label{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}
+to check all numbers 
+
+\hypertarget{compute_8h_a75a413afa630cb2fc8a712de3300d402}{
+\index{compute.h@{compute.h}!isItAPrimeNumberMRMultiThread@{isItAPrimeNumberMRMultiThread}}
+\index{isItAPrimeNumberMRMultiThread@{isItAPrimeNumberMRMultiThread}!compute.h@{compute.h}}
+\subsubsection[{isItAPrimeNumberMRMultiThread}]{\setlength{\rightskip}{0pt plus 5cm}int isItAPrimeNumberMRMultiThread (mpz\_\-t {\em p\_\-mpzNumber}, \/  int {\em p\_\-iSectionNumber}, \/  int p\_\-iTotalSection  {\em \_\-\_\-attribute\_\-\_\-}(unused), \/  {\bf structProgramInfo} $\ast$ {\em p\_\-structStructure})}}
+\label{compute_8h_a75a413afa630cb2fc8a712de3300d402}
+
+
+This function compute a statisitc algorithm in order to find if a number is a pseudo prime number (certainly a prime number but it's not 100\% proved) or a normal number. If trhis function find a diviser, it's dead. But, if the function doesn't, we are allowed to think that, maybee, this number is a prime number. Code provided by : \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d.}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d.} 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em p\_\-mpzNumber}]: hypothetic prime number to check \item[{\em p\_\-iSectionNumber}]: current thread \item[{\em p\_\-iTotalSection}]: total number of active thread (unused here, putted in the prototype for compatibility issues) \item[{\em p\_\-structStructure}]: all usefull informations about the program \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+TRUE if the hypothetic prime number seem to be prime, or FALSE if it in not and we can prove it 
+\end{DoxyReturn}
+\hypertarget{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}{
+\index{compute.h@{compute.h}!isItAPrimeNumberMultiThread@{isItAPrimeNumberMultiThread}}
+\index{isItAPrimeNumberMultiThread@{isItAPrimeNumberMultiThread}!compute.h@{compute.h}}
+\subsubsection[{isItAPrimeNumberMultiThread}]{\setlength{\rightskip}{0pt plus 5cm}int isItAPrimeNumberMultiThread (mpz\_\-t {\em p\_\-mpzNumber}, \/  int {\em p\_\-iSectionNumber}, \/  int {\em p\_\-iTotalSection}, \/  {\bf structProgramInfo} $\ast$ {\em p\_\-structStructure})}}
+\label{compute_8h_a3df02d6892782cb3beae28c7b6542ff3}
 
 
 An other basic function in order to find if it is a prime number. 
 
 This one is design to be used with multithread calls. We are able to split all computation in some many parts in order to execute each one in their own thread.
 
-But it is still the same poor algo than the function is\-It\-A\-Prime\-Number and thus, there is any optimisation here... 
+But it is still the same poor algo than the function isItAPrimeNumber and thus, there is any optimisation here... 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-mpz\-Number} & \-: number to test in G\-M\-P format \\
-\hline
-{\em p\-\_\-i\-Section\-Number} & \-: we have N threads, thus N sections. Numbers between p\-\_\-mpz\-Number and sqrt(p\-\_\-mpz\-Number) are divided in N section. This parameter select the section to compute. One function like this one per thread is executed. And there is N threads \\
-\hline
-{\em p\-\_\-i\-Total\-Section} & \-: number of sections, thus, number of computing threads \\
-\hline
-{\em p\-\_\-struct\-Structure} & \-: all interesting data of the program \\
-\hline
-\end{DoxyParams}
+\item[{\em p\_\-mpzNumber}]: number to test in GMP format \item[{\em p\_\-iSectionNumber}]: we have N threads, thus N sections. Numbers between p\_\-mpzNumber and sqrt(p\_\-mpzNumber) are divided in N section. This parameter select the section to compute. One function like this one per thread is executed. And there is N threads \item[{\em p\_\-iTotalSection}]: number of sections, thus, number of computing threads \item[{\em p\_\-structStructure}]: all interesting data of the program \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-T\-R\-U\-E or F\-A\-L\-S\-E 
+TRUE or FALSE 
 \end{DoxyReturn}
-\hypertarget{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}{\index{compute.\-h@{compute.\-h}!is\-It\-A\-Prime\-Number\-U\-L\-I@{is\-It\-A\-Prime\-Number\-U\-L\-I}}
-\index{is\-It\-A\-Prime\-Number\-U\-L\-I@{is\-It\-A\-Prime\-Number\-U\-L\-I}!compute.h@{compute.\-h}}
-\subsubsection[{is\-It\-A\-Prime\-Number\-U\-L\-I}]{\setlength{\rightskip}{0pt plus 5cm}char is\-It\-A\-Prime\-Number\-U\-L\-I (
-\begin{DoxyParamCaption}
-\item[{double}]{p\-\_\-d\-Number}
-\end{DoxyParamCaption}
-)}}\label{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}
+\hypertarget{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}{
+\index{compute.h@{compute.h}!isItAPrimeNumberULI@{isItAPrimeNumberULI}}
+\index{isItAPrimeNumberULI@{isItAPrimeNumberULI}!compute.h@{compute.h}}
+\subsubsection[{isItAPrimeNumberULI}]{\setlength{\rightskip}{0pt plus 5cm}char isItAPrimeNumberULI (double {\em p\_\-dNumber})}}
+\label{compute_8h_a7d1402e94a5fa6e482c9db699c6b01be}
 
 
-And the unsigned long int version of the previous function. In order to test mersenne order we don't need G\-M\-P because order will remains under M\-A\-X of unsigned long int This function is deprecated because it use double type. 
+And the unsigned long int version of the previous function. In order to test mersenne order we don't need GMP because order will remains under MAX of unsigned long int This function is deprecated because it use double type. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-d\-Number} & \-: number to test in double format \\
-\hline
-\end{DoxyParams}
+\item[{\em p\_\-dNumber}]: number to test in double format \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-T\-R\-U\-E (if the number is prime) or F\-A\-L\-S\-E 
+TRUE (if the number is prime) or FALSE 
 \end{DoxyReturn}
-\hypertarget{compute_8h_a91f6d6cfb21bf7e1f1c53ed8cab26051}{\index{compute.\-h@{compute.\-h}!miller\-Rabin@{miller\-Rabin}}
-\index{miller\-Rabin@{miller\-Rabin}!compute.h@{compute.\-h}}
-\subsubsection[{miller\-Rabin}]{\setlength{\rightskip}{0pt plus 5cm}int miller\-Rabin (
-\begin{DoxyParamCaption}
-\item[{mpz\-\_\-t}]{p\-\_\-mpz\-A, }
-\item[{mpz\-\_\-t}]{p\-\_\-mpz\-N}
-\end{DoxyParamCaption}
-)}}\label{compute_8h_a91f6d6cfb21bf7e1f1c53ed8cab26051}
-This function compute a statisitc algorithm in order to find if a number is a pseudo prime number (certainly a prime number but it's not 100\% proved) or a normal number. If trhis function find a diviser, it's dead. But, if the function doesn't, we are allowed to think that, maybee, this number is a prime number. \hypertarget{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}{\index{compute.\-h@{compute.\-h}!store\-And\-Clean\-M\-P\-Z\-Number@{store\-And\-Clean\-M\-P\-Z\-Number}}
-\index{store\-And\-Clean\-M\-P\-Z\-Number@{store\-And\-Clean\-M\-P\-Z\-Number}!compute.h@{compute.\-h}}
-\subsubsection[{store\-And\-Clean\-M\-P\-Z\-Number}]{\setlength{\rightskip}{0pt plus 5cm}void store\-And\-Clean\-M\-P\-Z\-Number (
-\begin{DoxyParamCaption}
-\item[{mpz\-\_\-t $\ast$}]{p\-\_\-mpz\-Number, }
-\item[{char}]{p\-\_\-i\-Action}
-\end{DoxyParamCaption}
-)}}\label{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}
+\hypertarget{compute_8h_a77f8fc7edee1f4834c276979fbf26fe8}{
+\index{compute.h@{compute.h}!miller\_\-rabin@{miller\_\-rabin}}
+\index{miller\_\-rabin@{miller\_\-rabin}!compute.h@{compute.h}}
+\subsubsection[{miller\_\-rabin}]{\setlength{\rightskip}{0pt plus 5cm}int miller\_\-rabin (mpz\_\-t {\em p\_\-mpzNumber}, \/  gmp\_\-randstate\_\-t {\em rand\_\-state}, \/  {\bf structProgramInfo} $\ast$ {\em p\_\-structCommon}, \/  int {\em p\_\-iSectionNumber})}}
+\label{compute_8h_a77f8fc7edee1f4834c276979fbf26fe8}
 
 
-Memorize all mpz number, and clean them all at the end of the program /!\textbackslash{} Respect the folowing order \-: 
+This function monitor unary check on the supposed prime number. This function display the progress bar and manage how many check there is on a number per thread Thanks to \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d} for the algorithm. 
 
-store\-And\-Clean\-M\-P\-Z\-Number(\&my\-\_\-first\-\_\-mpz\-\_\-number, M\-O\-D\-E\-\_\-\-A\-D\-D)\par
- store\-And\-Clean\-M\-P\-Z\-Number(\&my\-\_\-second\-\_\-mpz\-\_\-number, M\-O\-D\-E\-\_\-\-A\-D\-D)\par
+
+\begin{DoxyParams}{Parameters}
+\item[{\em p\_\-mpz\_\-Number}]: checked number, in mpz format \item[{\em rand\_\-state}]: in order to manage the random in GMP \item[{\em p\_\-structCommon}]: all usefull data on the program \item[{\em p\_\-iSectionNumber}]: number of the section, it is actually the number of the currrent thread \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+TRUE (if the number MAY BE prime) or FALSE if it is not and it is proved 
+\end{DoxyReturn}
+\hypertarget{compute_8h_ab1bad96302d9a52368df50e2f71fdeca}{
+\index{compute.h@{compute.h}!miller\_\-rabin\_\-pass@{miller\_\-rabin\_\-pass}}
+\index{miller\_\-rabin\_\-pass@{miller\_\-rabin\_\-pass}!compute.h@{compute.h}}
+\subsubsection[{miller\_\-rabin\_\-pass}]{\setlength{\rightskip}{0pt plus 5cm}int miller\_\-rabin\_\-pass (mpz\_\-t {\em p\_\-mpzRandom}, \/  mpz\_\-t {\em p\_\-mpzNumber})}}
+\label{compute_8h_ab1bad96302d9a52368df50e2f71fdeca}
+
+
+This function just do some unary test on a prime number. Thanks to \href{http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d}{\tt http://en.literateprograms.org/Miller-\/Rabin\_\-primality\_\-test\_\-\%28C,\_\-GMP\%29\#chunk\%20def:compute\%20s\%20and\%20d} for the algorithm... 
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em p\_\-mpzRandom}]: a random number gived in order to check a wide area of number. It is a probabilistic algo \item[{\em p\_\-mpzNumber}]: hypothetic prime number to check \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+TRUE if the number could be a prime number or FALSE if it is not and we are sure of that 
+\end{DoxyReturn}
+\hypertarget{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}{
+\index{compute.h@{compute.h}!storeAndCleanMPZNumber@{storeAndCleanMPZNumber}}
+\index{storeAndCleanMPZNumber@{storeAndCleanMPZNumber}!compute.h@{compute.h}}
+\subsubsection[{storeAndCleanMPZNumber}]{\setlength{\rightskip}{0pt plus 5cm}void storeAndCleanMPZNumber (mpz\_\-t $\ast$ {\em p\_\-mpzNumber}, \/  char {\em p\_\-iAction})}}
+\label{compute_8h_a37f4ff3bd4d9f72003efeac5f3f5cc98}
+
+
+Memorize all mpz number, and clean them all at the end of the program /!$\backslash$ Respect the folowing order : 
+
+storeAndCleanMPZNumber(\&my\_\-first\_\-mpz\_\-number, MODE\_\-ADD)\par
+ storeAndCleanMPZNumber(\&my\_\-second\_\-mpz\_\-number, MODE\_\-ADD)\par
  ....and so on....\par
- store\-And\-Clean\-M\-P\-Z\-Number(\&my\-\_\-last\-\_\-mpz\-\_\-number, M\-O\-D\-E\-\_\-\-A\-D\-D)\par
- store\-And\-Clean\-M\-P\-Z\-Number(\-N\-U\-L\-L, M\-O\-D\-E\-\_\-\-C\-L\-E\-A\-N)\par
+ storeAndCleanMPZNumber(\&my\_\-last\_\-mpz\_\-number, MODE\_\-ADD)\par
+ storeAndCleanMPZNumber(NULL, MODE\_\-CLEAN)\par
  \par
  
 \begin{DoxyParams}{Parameters}
-{\em $\ast$p\-\_\-mpz\-Number} & \-: pointer to number to add if we are in the storage mode \\
-\hline
-{\em p\-\_\-i\-Mode} & \-: wanted mode \-: add a new number (M\-O\-D\-E\-\_\-\-A\-D\-D), clean all (M\-O\-D\-E\-\_\-\-C\-L\-E\-A\-N) or init (M\-O\-D\-E\-\_\-\-I\-N\-I\-T) of the first segment... \\
-\hline
-\end{DoxyParams}
+\item[{\em $\ast$p\_\-mpzNumber}]: pointer to number to add if we are in the storage mode \item[{\em p\_\-iMode}]: wanted mode : add a new number (MODE\_\-ADD), clean all (MODE\_\-CLEAN) or init (MODE\_\-INIT) of the first segment... \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-T\-R\-U\-E (if the number is prime) or F\-A\-L\-S\-E
+TRUE (if the number is prime) or FALSE
 \end{DoxyReturn}
-F\-I\-X\-M\-E \-: This function don't work yet. Seg fault at the third mpz\-\_\-clean execution with mode 4 and default values. 
+FIXME : This function don't work yet. Seg fault at the third mpz\_\-clean execution with mode 4 and default values. 

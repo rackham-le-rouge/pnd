@@ -35,12 +35,12 @@ EXEC=pnd
 
 all: $(EXEC)
 allc: mrproper $(EXEC)
-full: $(EXEC) documentation package
-installation: $(EXEC) documentation
+full: mrproper $(EXEC) documentation package
+installation: mrproper $(EXEC) documentation
 
 
 pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
-	@$(CC) -o $@ $^ $(LDFLAGS)
+	@$(CC) -O2 -o $@ $^ $(LDFLAGS)
 	@echo [LD] $@
 
 documentation:

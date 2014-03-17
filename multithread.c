@@ -37,9 +37,10 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	l_bQKeyPressed = FALSE;
 	l_iSeconds = 0;
 
-	#ifdef DEBUG_VERBOSE
-	time(&l_timeBegin);				/* Get current time */
-	#endif
+	if(p_structCommon->bPrintTime == TRUE)
+	{
+		time(&l_timeBegin);				/* Get current time */
+	}
 
 	/* there is iRow lines, and iRow+1 integers in the table, thus the last one is [iRow]. And we choose that it is the
 	   place of the ThreadNumber - This line is copy/pasted in main, in order to init this variable for the -i command line
@@ -186,7 +187,8 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 			}
 			#endif
 		}
-	p_structCommon->bIsComputing = FALSE;
+		mpz_clear(l_mpzPrimeNumberToTest);
+		p_structCommon->bIsComputing = FALSE;
 	}
 
 	/*
@@ -197,10 +199,12 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	 ****************************************
 	 */
 
-	#ifdef DEBUG_VERBOSE
-	time(&l_timeEnd);				/* Get end time used to find how long computing takes */
-	l_iSeconds = difftime(l_timeEnd, l_timeBegin);
-	#endif
+	if(p_structCommon->bPrintTime == TRUE)
+	{
+		time(&l_timeEnd);				/* Get end time used to find how long computing takes */
+		l_iSeconds = difftime(l_timeEnd, l_timeBegin);
+		LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
+	}
 
 	if(p_structCommon->bDead == TRUE && l_bQKeyPressed == FALSE)
 	{
@@ -218,12 +222,11 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	else
 	{
 		LOG_WRITE("================== YES ==================")
-		drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
+		if(p_structCommon->bFastDisp == FALSE)
+		{
+			drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_THIS_IS_A_PRIME_NUMBER, p_structCommon);
+		}
 	}
-
-	#ifdef DEBUG_VERBOSE
-	LOG_WRITE_STRING_LONG("Computation takes --in seconds--: ", l_iSeconds)
-	#endif
 
 	/* Desactivate the loadedConf mode --when all progression are loaded from a hotsave file */
 	p_structCommon->bLoaded = FALSE;

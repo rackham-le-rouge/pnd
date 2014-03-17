@@ -512,6 +512,16 @@ void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo*
 			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
 			break;
 		}
+		case MENU_MERSENNE_ORDER:
+		{
+			strcpy(l_cBuffer, "Fast computation");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "selected ! Press Q");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			strcpy(l_cBuffer, "and wait to escape.");
+			drawSentence(p_iCol + 2, p_iRow++, l_cBuffer, enumJaune);
+			break;
+		}
 		case MENU_ABOUT:
 		{
 			drawIntro(p_structCommon->iRow,p_structCommon->iCol);

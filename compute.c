@@ -51,7 +51,12 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 
 	/* Check if this an odd number */
 	l_bReturnOfFunction = mpz_divisible_ui_p(p_mpzNumber, (unsigned long int)2);
-	if(l_bReturnOfFunction)	{return FALSE;}			/* else, we continue... */
+	if(l_bReturnOfFunction)
+	{
+		mpz_clear(l_mpzSQRT);
+		mpz_clear(l_mpzIterator);
+		return FALSE;
+	}	/* else, we continue... */
 
 
 	/* Start to divide by all people between the number his own sqrt */
@@ -69,9 +74,14 @@ char isItAPrimeNumberMPZ(mpz_t p_mpzNumber)
 									    SQRT > Iterator */
 		if(l_bReturnOfFunction > 0)
 		{
+			mpz_clear(l_mpzSQRT);
+			mpz_clear(l_mpzIterator);
 			return TRUE;
 		}
 	}
+	mpz_clear(l_mpzSQRT);
+	mpz_clear(l_mpzIterator);
+
 	return FALSE;
 }
 
@@ -267,6 +277,16 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			{
 				if(p_structStructure->bDead == TRUE)
 				{
+					mpz_clear(l_mpzBeginOfSearchArea);
+					mpz_clear(l_mpzEndOfSearchArea);
+					mpz_clear(l_mpzSQRT);
+					mpz_clear(l_mpzIterator);
+					mpz_clear(l_mpzArea);
+					mpz_clear(l_mpzCurrentPosition);
+					mpz_clear(l_mpzPercent);
+					mpz_clear(l_mpzOnePercent);
+					mpz_clear(l_mpzTmp);
+					mpz_clear(l_mpzRefreshCounter);
 					return DONT_KNOW;
 				}
 
@@ -294,6 +314,16 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator);
 			if(l_bReturnOfFunction > 0)
 			{
+				mpz_clear(l_mpzBeginOfSearchArea);
+				mpz_clear(l_mpzEndOfSearchArea);
+				mpz_clear(l_mpzSQRT);
+				mpz_clear(l_mpzIterator);
+				mpz_clear(l_mpzArea);
+				mpz_clear(l_mpzCurrentPosition);
+				mpz_clear(l_mpzPercent);
+				mpz_clear(l_mpzOnePercent);
+				mpz_clear(l_mpzTmp);
+				mpz_clear(l_mpzRefreshCounter);
 				return TRUE;
 			}
 		}
@@ -308,6 +338,16 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			{
 				if(p_structStructure->bDead == TRUE)
 				{
+					mpz_clear(l_mpzBeginOfSearchArea);
+					mpz_clear(l_mpzEndOfSearchArea);
+					mpz_clear(l_mpzSQRT);
+					mpz_clear(l_mpzIterator);
+					mpz_clear(l_mpzArea);
+					mpz_clear(l_mpzCurrentPosition);
+					mpz_clear(l_mpzPercent);
+					mpz_clear(l_mpzOnePercent);
+					mpz_clear(l_mpzTmp);
+					mpz_clear(l_mpzRefreshCounter);
 					return DONT_KNOW;
 				}
 
@@ -334,10 +374,30 @@ int isItAPrimeNumberMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p_i
 			l_bReturnOfFunction = mpz_cmp(l_mpzBeginOfSearchArea, l_mpzIterator);
 			if(l_bReturnOfFunction > 0)
 			{
+				mpz_clear(l_mpzBeginOfSearchArea);
+				mpz_clear(l_mpzEndOfSearchArea);
+				mpz_clear(l_mpzSQRT);
+				mpz_clear(l_mpzIterator);
+				mpz_clear(l_mpzArea);
+				mpz_clear(l_mpzCurrentPosition);
+				mpz_clear(l_mpzPercent);
+				mpz_clear(l_mpzOnePercent);
+				mpz_clear(l_mpzTmp);
+				mpz_clear(l_mpzRefreshCounter);
 				return TRUE;
 			}
 		}
 	}
+	mpz_clear(l_mpzBeginOfSearchArea);
+	mpz_clear(l_mpzEndOfSearchArea);
+	mpz_clear(l_mpzSQRT);
+	mpz_clear(l_mpzIterator);
+	mpz_clear(l_mpzArea);
+	mpz_clear(l_mpzCurrentPosition);
+	mpz_clear(l_mpzPercent);
+	mpz_clear(l_mpzOnePercent);
+	mpz_clear(l_mpzTmp);
+	mpz_clear(l_mpzRefreshCounter);
 	return FALSE;
 }
 
@@ -426,7 +486,7 @@ void storeAndCleanMPZNumber(mpz_t*  p_mpzNumber, char p_iAction)
 		{
 			if(structAnchor == NULL) {break;}
 			LOG_WRITE("Clean all mpz values")
-			structPiece = structAnchor;
+ 			structPiece = structAnchor;
 			do{
 				mpz_clear(*(structPiece->mpzNumber));
 				free(structPiece);
@@ -496,7 +556,7 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
   */
 int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber)
 {
-	int i, s, result;
+	int i, s;
 	mpz_t a_to_power, d, n_minus_one;
 
 	mpz_init(n_minus_one);
@@ -514,34 +574,35 @@ int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber)
 	mpz_powm(a_to_power,p_mpzRandom, d, p_mpzNumber);
 	if (mpz_cmp_ui(a_to_power, 1) == 0)
 	{
-		result=TRUE;
-		goto exit;
+		mpz_clear(a_to_power);
+		mpz_clear(d);
+		mpz_clear(n_minus_one);
+		return TRUE;
 	}
 
 	for(i=0; i < s-1; i++)
 	{
 		if (mpz_cmp(a_to_power, n_minus_one) == 0)
 		{
-			result=TRUE;
-			goto exit;
+			mpz_clear(a_to_power);
+			mpz_clear(d);
+			mpz_clear(n_minus_one);
+			return TRUE;
 		}
 		mpz_powm_ui (a_to_power, a_to_power, 2,  p_mpzNumber);
 	}
 
 	if (mpz_cmp(a_to_power, n_minus_one) == 0)
 	{
-		result=TRUE;
-		goto exit;
+		mpz_clear(a_to_power);
+		mpz_clear(d);
+		mpz_clear(n_minus_one);
+		return TRUE;
 	}
-	result = FALSE;
-
-
-
-       exit:
 	mpz_clear(a_to_power);
 	mpz_clear(d);
 	mpz_clear(n_minus_one);
-	return result;
+	return FALSE;
 }
 
 
@@ -593,6 +654,7 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 		{
 			if(p_structCommon->bDead == TRUE)
 			{
+				mpz_clear(a);
 				return DONT_KNOW;
 			}
 
@@ -615,9 +677,11 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 
 		if (miller_rabin_pass(a, p_mpzNumber) == FALSE)
 		{
+			mpz_clear(a);
 			return FALSE;
 		}
 	}
+	mpz_clear(a);
 	return TRUE;
 }
 
@@ -652,6 +716,7 @@ int miller_rabin_nographic(mpz_t p_mpzNumber, gmp_randstate_t rand_state, struct
 	   during it execution, you need to wait the end of the current number testing */
 	if(p_structCommon->bDead == TRUE)
 	{
+		mpz_clear(a);
 		return DONT_KNOW;
 	}
 
@@ -664,9 +729,10 @@ int miller_rabin_nographic(mpz_t p_mpzNumber, gmp_randstate_t rand_state, struct
 
 		if (miller_rabin_pass(a, p_mpzNumber) == FALSE)
 		{
+			mpz_clear(a);
 			return FALSE;
 		}
 	}
-
+	mpz_clear(a);
 	return TRUE;
 }

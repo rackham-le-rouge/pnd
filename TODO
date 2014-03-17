@@ -31,4 +31,6 @@ g=give up / x=done / ' '=TODO
 [x]	Add command line initialisaton of the order
 [ ]	Stabilize changin speed of the program
 [ ]	Fix the .deb issue. There is an dependancies issue. Remove the libgmp10 and try to use libgmp3 instead of it
-[ ]	Add to the autosave function the algo used...
+[g]	Add to the autosave function the algo used...
+[x]	There is a problem about mpz_clear function -> sometimes there is a segfault and sometimes not. Function parameters isn't released
+[ ]	Add wait function in miller rabin function

@@ -4,7 +4,7 @@
 .SH NAME
 PND \- multrithreaded and optimized program to find prime numbers. This program only test Mersenne numbers (2^n - 1) and can work alone until it find something...
 .SH SYNOPSIS
-pnd [-h] [-a] [-f] [-F] [-d] [-s] [-c Wanted_check_per_number] [-i Mersenne_order] [-m Mersenne_order] [-t wanted_threads_number] [-w wanted_moderation_time]
+pnd [-h] [-a] [-f] [-F] [-d] [-s] [-time] [-c Wanted_check_per_number] [-i Mersenne_order] [-m Mersenne_order] [-t wanted_threads_number] [-w wanted_moderation_time]
 .SH DESCRIPTION
 pnd is a program aiming to compute and find new prime number. This tool uses GMP in order to provide arbitrary precision numbers, thus, searching is unlimited. Moreover, this program use openMP in order to share work between a wanted thread number. On recent computers, this function could be really nice to use.
 .SH OPTIONS
@@ -32,6 +32,9 @@ Speed toogle
 You have choice between speed definded by
 .B -w
 option or maximal speed. You can toogle with this option.
+.B
+.IP -time
+Print the computation time after each Mersenne number check.
 .B
 .IP -c
 Check number. For the Miller-Rabin algo only ! How many check do you want for an hypothetic prime number (per thread). Thus, to have all check on this hypothetic prime number, you need to multiply by ThreadNumber. Greater this number is, best is the prediction about the prime number.
@@ -94,6 +97,24 @@ just need to erase it.
 
 
 
+.SH HOTSAVE FUNCTION
+This function is activated when pnd received SIGTERM or SIGINT. This function save the current context and restore it at the
+next start. Hotsave function save many parameters in order to restore the right context, but this function don't save them
+all. Thus, some command line parameters (sended at the restart of pnd) could be overwritted by the saved context. the saved
+parameters are :
+
+.br
+Current line number (because line number is the max thread number allowed)
+.br
+Current Mersenne order (it overwrite the parameter of the -m option)
+.br
+Current moderation time (it overwrite the parameter of the -w option)
+.br
+Current thread number (thread who are currently working)
+
+All other parameters can be set with the command line at the next start. It can be used to change some parameters during
+an automatic search without losing your progression.
+
 .SH EXAMPLES
 .IP
 $ ./pnd		Start pnd with its ncurse GUI
@@ -103,11 +124,12 @@ $ ./pnd -m 19 -t 20 Start pnd with its GUI to check only Mersenne number with or
 $ ./pnd -a -m 19 -t 20 Do the same, but continue after 19 to the next avaible Mersenne order (it must be a prime number)
 .br
 $ ./pnd -d -t 20 Use 20 threads, use the default Mersenne order (you can set it in config.h) and run as a deamon. So, you can't see it. The program are just overload your CPU... -d implies -a : program are going to continue computing until its murder
-
+.br
+$ ./pnd -f -F -c 5 -a Is the fastest configuration. You can add a -d
 
 
 .SH SEE ALSO
-ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave
+ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave, http://en.literateprograms.org/
 
 .SH BUGS
 We are using ncurses and multithreading, thus, there is some funcy little things.

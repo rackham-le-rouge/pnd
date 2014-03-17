@@ -1,102 +1,87 @@
-\hypertarget{signalmanagement_8h}{\section{signalmanagement.\-h File Reference}
-\label{signalmanagement_8h}\index{signalmanagement.\-h@{signalmanagement.\-h}}
+\hypertarget{signalmanagement_8h}{
+\section{signalmanagement.h File Reference}
+\label{signalmanagement_8h}\index{signalmanagement.h@{signalmanagement.h}}
 }
 
 
-Declare functions of \hyperlink{signalmanagement_8c}{signalmanagement.\-c} and import other functions used in this source code  In order to catch and act just after signal sending. So, we can have the time to save parameter just before kill.  
+Declare functions of \hyperlink{signalmanagement_8c}{signalmanagement.c} and import other functions used in this source code  In order to catch and act just after signal sending. So, we can have the time to save parameter just before kill.  
 
 
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}{initialisation\-Of\-The\-Signal} (void)
-\begin{DoxyCompactList}\small\item\em initialisation of the signal routing, in order to handle the S\-I\-G\-T\-E\-R\-M, S\-I\-G\-I\-N\-T and some S\-I\-G\-U\-S\-R \end{DoxyCompactList}\item 
-void \hyperlink{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}{signal\-Handler} (int p\-\_\-i\-Signal\-No)
-\begin{DoxyCompactList}\small\item\em Signal handler. When signal is launched -\/$>$ this function is called. \end{DoxyCompactList}\item 
-\hypertarget{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}{void \hyperlink{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}{common\-Signal\-Ending} (void)}\label{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}
+void \hyperlink{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}{initialisationOfTheSignal} (void)
+\begin{DoxyCompactList}\small\item\em initialisation of the signal routing, in order to handle the SIGTERM, SIGINT and some SIGUSR \item\end{DoxyCompactList}\item 
+void \hyperlink{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}{signalHandler} (int p\_\-iSignalNo)
+\begin{DoxyCompactList}\small\item\em Signal handler. When signal is launched -\/$>$ this function is called. \item\end{DoxyCompactList}\item 
+\hypertarget{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}{
+void \hyperlink{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}{commonSignalEnding} (void)}
+\label{signalmanagement_8h_a6cb8dbf42b71117d0133ebafd2ffe51b}
 
-\begin{DoxyCompactList}\small\item\em Commong signal ending \-: close the graphic screen and quit the program. \end{DoxyCompactList}\item 
-void \hyperlink{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}{save\-Current\-Context} (char p\-\_\-c\-Mode, \hyperlink{structstructProgramInfo__}{struct\-Program\-Info} $\ast$p\-\_\-struct\-Common)
-\begin{DoxyCompactList}\small\item\em Saving function, this function needs to be initialized in order to set the adress of the common structure This function is also called by main in order to get back the old context. I put it here to let these functions gathered in order to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is only used by and for signal handling. If the program close properly, there is no need to save the context. \end{DoxyCompactList}\item 
-void \hyperlink{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}{toogle\-Program\-Speed} (char p\-\_\-c\-Mode, \hyperlink{structstructProgramInfo__}{struct\-Program\-Info} $\ast$p\-\_\-struct\-Common)
-\begin{DoxyCompactList}\small\item\em Function called in order to toogle computation speed. User use this function when program is in deamon mode. There is no G\-U\-I, thus, signal are the only way. \end{DoxyCompactList}\item 
-\hypertarget{signalmanagement_8h_a4539db972bcf3dd8c8b429af0dc3789d}{int {\bfseries kill} (pid\-\_\-t pid, int sig)}\label{signalmanagement_8h_a4539db972bcf3dd8c8b429af0dc3789d}
+\begin{DoxyCompactList}\small\item\em Commong signal ending : close the graphic screen and quit the program. \item\end{DoxyCompactList}\item 
+void \hyperlink{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}{saveCurrentContext} (char p\_\-cMode, \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structCommon)
+\begin{DoxyCompactList}\small\item\em Saving function, this function needs to be initialized in order to set the adress of the common structure This function is also called by main in order to get back the old context. I put it here to let these functions gathered in order to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is only used by and for signal handling. If the program close properly, there is no need to save the context. \item\end{DoxyCompactList}\item 
+void \hyperlink{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}{toogleProgramSpeed} (char p\_\-cMode, \hyperlink{structstructProgramInfo__}{structProgramInfo} $\ast$p\_\-structCommon)
+\begin{DoxyCompactList}\small\item\em Function called in order to toogle computation speed. User use this function when program is in deamon mode. There is no GUI, thus, signal are the only way. \item\end{DoxyCompactList}\item 
+\hypertarget{signalmanagement_8h_a4539db972bcf3dd8c8b429af0dc3789d}{
+int {\bfseries kill} (pid\_\-t pid, int sig)}
+\label{signalmanagement_8h_a4539db972bcf3dd8c8b429af0dc3789d}
 
 \end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-Declare functions of \hyperlink{signalmanagement_8c}{signalmanagement.\-c} and import other functions used in this source code  In order to catch and act just after signal sending. So, we can have the time to save parameter just before kill. pnd \begin{DoxyDate}{Date}
+Declare functions of \hyperlink{signalmanagement_8c}{signalmanagement.c} and import other functions used in this source code  In order to catch and act just after signal sending. So, we can have the time to save parameter just before kill. pnd \begin{DoxyDate}{Date}
 1/2014  Beerware (rev 42) 
 \end{DoxyDate}
 \begin{DoxyAuthor}{Author}
-Jerome G\-R\-A\-R\-D -\/ A bored engineering student... 
+Jerome GRARD -\/ A bored engineering student... 
 \end{DoxyAuthor}
 
 
 \subsection{Function Documentation}
-\hypertarget{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}{\index{signalmanagement.\-h@{signalmanagement.\-h}!initialisation\-Of\-The\-Signal@{initialisation\-Of\-The\-Signal}}
-\index{initialisation\-Of\-The\-Signal@{initialisation\-Of\-The\-Signal}!signalmanagement.h@{signalmanagement.\-h}}
-\subsubsection[{initialisation\-Of\-The\-Signal}]{\setlength{\rightskip}{0pt plus 5cm}void initialisation\-Of\-The\-Signal (
-\begin{DoxyParamCaption}
-\item[{void}]{}
-\end{DoxyParamCaption}
-)}}\label{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}
+\hypertarget{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}{
+\index{signalmanagement.h@{signalmanagement.h}!initialisationOfTheSignal@{initialisationOfTheSignal}}
+\index{initialisationOfTheSignal@{initialisationOfTheSignal}!signalmanagement.h@{signalmanagement.h}}
+\subsubsection[{initialisationOfTheSignal}]{\setlength{\rightskip}{0pt plus 5cm}void initialisationOfTheSignal (void)}}
+\label{signalmanagement_8h_a1202c551009bb8705a7596ed002db28c}
 
 
-initialisation of the signal routing, in order to handle the S\-I\-G\-T\-E\-R\-M, S\-I\-G\-I\-N\-T and some S\-I\-G\-U\-S\-R 
+initialisation of the signal routing, in order to handle the SIGTERM, SIGINT and some SIGUSR 
 
-\hypertarget{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}{\index{signalmanagement.\-h@{signalmanagement.\-h}!save\-Current\-Context@{save\-Current\-Context}}
-\index{save\-Current\-Context@{save\-Current\-Context}!signalmanagement.h@{signalmanagement.\-h}}
-\subsubsection[{save\-Current\-Context}]{\setlength{\rightskip}{0pt plus 5cm}void save\-Current\-Context (
-\begin{DoxyParamCaption}
-\item[{char}]{p\-\_\-c\-Mode, }
-\item[{{\bf struct\-Program\-Info} $\ast$}]{p\-\_\-struct\-Common}
-\end{DoxyParamCaption}
-)}}\label{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}
+\hypertarget{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}{
+\index{signalmanagement.h@{signalmanagement.h}!saveCurrentContext@{saveCurrentContext}}
+\index{saveCurrentContext@{saveCurrentContext}!signalmanagement.h@{signalmanagement.h}}
+\subsubsection[{saveCurrentContext}]{\setlength{\rightskip}{0pt plus 5cm}void saveCurrentContext (char {\em p\_\-cMode}, \/  {\bf structProgramInfo} $\ast$ {\em p\_\-structCommon})}}
+\label{signalmanagement_8h_a01957ade5d6dc65a7090d7206ab03ad3}
 
 
 Saving function, this function needs to be initialized in order to set the adress of the common structure This function is also called by main in order to get back the old context. I put it here to let these functions gathered in order to be more understandable. Even if it is not the right file name (basically reserved for signal handling). But io functions is only used by and for signal handling. If the program close properly, there is no need to save the context. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-c\-Mode} & \-: M\-O\-D\-E\-\_\- I\-N\-I\-T or M\-O\-D\-E\-\_\- S\-A\-V\-E or M\-O\-D\-E\-\_\- L\-O\-A\-D in order to select the right mode \\
-\hline
-{\em p\-\_\-struct\-Common} & \-: all usefull data about this program \\
-\hline
-\end{DoxyParams}
-\hypertarget{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}{\index{signalmanagement.\-h@{signalmanagement.\-h}!signal\-Handler@{signal\-Handler}}
-\index{signal\-Handler@{signal\-Handler}!signalmanagement.h@{signalmanagement.\-h}}
-\subsubsection[{signal\-Handler}]{\setlength{\rightskip}{0pt plus 5cm}void signal\-Handler (
-\begin{DoxyParamCaption}
-\item[{int}]{p\-\_\-i\-Signal\-No}
-\end{DoxyParamCaption}
-)}}\label{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}
+\item[{\em p\_\-cMode}]: MODE\_\- INIT or MODE\_\- SAVE or MODE\_\- LOAD in order to select the right mode \item[{\em p\_\-structCommon}]: all usefull data about this program \end{DoxyParams}
+\hypertarget{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}{
+\index{signalmanagement.h@{signalmanagement.h}!signalHandler@{signalHandler}}
+\index{signalHandler@{signalHandler}!signalmanagement.h@{signalmanagement.h}}
+\subsubsection[{signalHandler}]{\setlength{\rightskip}{0pt plus 5cm}void signalHandler (int {\em p\_\-iSignalNo})}}
+\label{signalmanagement_8h_adfd4e57c44a56518beea2fe9f866a394}
 
 
 Signal handler. When signal is launched -\/$>$ this function is called. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-i\-Signal\-No} & \-: number of the signal sended \\
-\hline
-\end{DoxyParams}
-\hypertarget{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}{\index{signalmanagement.\-h@{signalmanagement.\-h}!toogle\-Program\-Speed@{toogle\-Program\-Speed}}
-\index{toogle\-Program\-Speed@{toogle\-Program\-Speed}!signalmanagement.h@{signalmanagement.\-h}}
-\subsubsection[{toogle\-Program\-Speed}]{\setlength{\rightskip}{0pt plus 5cm}void toogle\-Program\-Speed (
-\begin{DoxyParamCaption}
-\item[{char}]{p\-\_\-c\-Mode, }
-\item[{{\bf struct\-Program\-Info} $\ast$}]{p\-\_\-struct\-Common}
-\end{DoxyParamCaption}
-)}}\label{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}
+\item[{\em p\_\-iSignalNo}]: number of the signal sended \end{DoxyParams}
+\hypertarget{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}{
+\index{signalmanagement.h@{signalmanagement.h}!toogleProgramSpeed@{toogleProgramSpeed}}
+\index{toogleProgramSpeed@{toogleProgramSpeed}!signalmanagement.h@{signalmanagement.h}}
+\subsubsection[{toogleProgramSpeed}]{\setlength{\rightskip}{0pt plus 5cm}void toogleProgramSpeed (char {\em p\_\-cMode}, \/  {\bf structProgramInfo} $\ast$ {\em p\_\-structCommon})}}
+\label{signalmanagement_8h_acc9b0902be3e368c3a92d435eab2a227}
 
 
-Function called in order to toogle computation speed. User use this function when program is in deamon mode. There is no G\-U\-I, thus, signal are the only way. 
+Function called in order to toogle computation speed. User use this function when program is in deamon mode. There is no GUI, thus, signal are the only way. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em p\-\_\-c\-Mode} & \-: M\-O\-D\-E\-\_\- I\-N\-I\-T or M\-O\-D\-E\-\_\- T\-O\-O\-G\-L\-E in order to toogle speed of the program \\
-\hline
-{\em p\-\_\-struct\-Common} & \-: all usefull data about this program \\
-\hline
-\end{DoxyParams}
+\item[{\em p\_\-cMode}]: MODE\_\- INIT or MODE\_\- TOOGLE in order to toogle speed of the program \item[{\em p\_\-structCommon}]: all usefull data about this program \end{DoxyParams}
