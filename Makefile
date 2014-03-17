@@ -30,7 +30,7 @@ CFLAGS=-fopenmp -W -Waggregate-return -Wall -Warray-bounds -Wbad-function-cast -
                  -Wunused-parameter -Wunused-value -Wunused-variable -Wvla -Wvolatile-register-var              \
                  -Wwrite-strings -fno-common -fstack-protector-all -pedantic -std=c99 -Wstrict-aliasing=3	
 
-LDFLAGS=-lncurses -ansi -lgmp -lm -fopenmp
+LDFLAGS=-lncurses -ansi -lgmp -lm -fopenmp -O2
 EXEC=pnd
 
 all: $(EXEC)
@@ -40,7 +40,7 @@ installation: mrproper $(EXEC) documentation
 
 
 pnd: drawing.o compute.o multithread.o signalmanagement.o main.o
-	@$(CC) -O2 -o $@ $^ $(LDFLAGS)
+	@$(CC) -o $@ $^ $(LDFLAGS)
 	@echo [LD] $@
 
 documentation:
