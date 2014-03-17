@@ -32,8 +32,8 @@ double sqrt  (double x);
 double fmod  (double numer     , double denom);
 
 /* To make the en.literateprograms.org code integration */
-int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber);
 int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInfo* p_structCommon, int p_iSectionNumber );
 int miller_rabin_nographic(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInfo* p_structCommon, int p_iSectionNumber);
+int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber);
 
 #endif

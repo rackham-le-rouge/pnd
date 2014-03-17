@@ -548,6 +548,7 @@ int isItAPrimeNumberMRMultiThread(mpz_t p_mpzNumber, int p_iSectionNumber, int p
 
 /**
   * @brief This function just do some unary test on a prime number.
+  * This function is the no-graphic version of the miller_rabin_pass
   * Thanks to http://en.literateprograms.org/Miller-Rabin_primality_test_%28C,_GMP%29#chunk%20def:compute%20s%20and%20d
   * for the algorithm...
   * @param p_mpzRandom : a random number gived in order to check a wide area of number. It is a probabilistic algo
@@ -610,6 +611,8 @@ int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber)
 
 
 
+
+
 /**
   * @brief
   * This function monitor unary check on the supposed prime number. This function display the progress bar
@@ -630,8 +633,7 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 	mpz_t a;
 	int repeat;
 	mpz_init(a);
-
-	l_iOnePercent = p_structCommon->iWantedMRCheck / 100;
+	l_iOnePercent = (p_structCommon->iWantedMRCheck < 100) ? 1 : p_structCommon->iWantedMRCheck / 100;
 
 	/* Init the default starting point of the loop - If there is an autoloading, the starting point is changed */
 	repeat = 0;
@@ -650,7 +652,6 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 
 	for(; repeat < p_structCommon->iWantedMRCheck; repeat++)
 	{
-
 		if( repeat % l_iOnePercent == 0)
 		{
 			if(p_structCommon->bDead == TRUE)
@@ -663,7 +664,6 @@ int miller_rabin(mpz_t p_mpzNumber, gmp_randstate_t rand_state, structProgramInf
 			l_iProgression = (repeat);
 			l_iProgression *= 100;
 			l_iProgression /= (p_structCommon->iWantedMRCheck - 1);
-
 			#pragma omp critical (displayProgressBar)
 			{
 				drawLoadingBar(p_iSectionNumber + 1, l_iProgression, 100, -1, PROGRESS_BAR_COLOR);
