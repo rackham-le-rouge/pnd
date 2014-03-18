@@ -5,3 +5,4 @@ multithread.o
 pnd
 signalmanagement.o
 pnd.log
+pnd.hotsave
