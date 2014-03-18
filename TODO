@@ -33,4 +33,4 @@ g=give up / x=done / ' '=TODO
 [ ]	Fix the .deb issue. There is an dependancies issue. Remove the libgmp10 and try to use libgmp3 instead of it
 [g]	Add to the autosave function the algo used...
 [x]	There is a problem about mpz_clear function -> sometimes there is a segfault and sometimes not. Function parameters isn't released
-[ ]	Add wait function in miller rabin function
+[g]	Add wait function in miller rabin function - because it's the power function who takes all computation time. Impossible to control it
