@@ -4,4 +4,4 @@ main.o
 multithread.o
 pnd
 signalmanagement.o
-
+pnd.log
