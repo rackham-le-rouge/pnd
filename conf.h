@@ -121,6 +121,8 @@ typedef enum
 #define USEC_BETWEEN_KEY_CHECK	500000		/* be carefull !!! if you put a lower value, there is a risk of weird character spawning 
 						on the screen */
 #define USEC_BETWEEN_AUTO_SEARCH 500000
+#define INSTALLATION_WATCHDOG	100		/* try INSTALLATION_WATCHDOG odd number after the submitted one (with -i option 
+						and quit if there is any prime number among these */
 
 /* Debug part - Lots of usefull macro */
 #define CPOINT		if(TRACE_EXEC) {char __macroTemporaryBufferCP[50]; 				\

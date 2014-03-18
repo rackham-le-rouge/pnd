@@ -210,7 +210,8 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
   */
 void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAutoActionChoice)
 {
-	int l_iTmp;
+	int l_iTmp, l_iWatchDog;
+	int l_dWantBecomePrimeNumber;
 	pid_t l_iPid;				/** Supposed pid of the other pnd process, for the change speed case  */
 	pid_t l_iChangeSpeedOfThisPID;		/** We are sure that is this PID */
 	FILE* l_fileReturnOfCommand;
@@ -218,6 +219,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 
 
 	l_iPid = 0;
+	l_iWatchDog = 0;
 	l_iChangeSpeedOfThisPID = 0;
 
 	if(argc > 1)
@@ -258,19 +260,30 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				if(!strcmp(argv[l_iTmp], "-i"))
 				{
 					LOG_WRITE("C.LINE : Initialize program to a new order")
+					l_dWantBecomePrimeNumber = strtod(argv[l_iTmp + 1], NULL);
 
-					if(isItAPrimeNumberULI(strtod(argv[l_iTmp + 1], NULL)) == TRUE)
+					/* Make it odd before all */
+					l_dWantBecomePrimeNumber += (l_dWantBecomePrimeNumber % 2 == 0) ? 1 : 0;
+
+					while(isItAPrimeNumberULI(l_dWantBecomePrimeNumber) == FALSE  \
+								   && l_iWatchDog < INSTALLATION_WATCHDOG)
                                         {
-                                                /* And order is a prime number, thus it is allowed */
-                                                p_structCommon->iMersenneOrder = strtod(argv[l_iTmp + 1], NULL);
-                                                LOG_WRITE_STRING_LONG("C.LINE : New Mersenne order changed to : ", (long)p_structCommon->iMersenneOrder);
-                                        }
-                                        else
-                                        {
+						l_dWantBecomePrimeNumber += 2;
+						l_iWatchDog++;
+					}
+
+					if(l_iWatchDog == INSTALLATION_WATCHDOG)
+					{
                                                 /* if order is not a prime number it not allowed. It is useless to waste time with it */
                                                 p_structCommon->iMersenneOrder = (double)DEFAULT_MERSENNE_ORDER;
                                                 LOG_WRITE_STRING_LONG("C.LINE : New Mersenne order --failed-- Keep the old value : \
                                                 ", (long)p_structCommon->iMersenneOrder);
+                                        }
+                                        else
+                                        {
+                                        	/* And order is a prime number, thus it is allowed */
+	                                        p_structCommon->iMersenneOrder = (double)l_dWantBecomePrimeNumber;
+	                                        LOG_WRITE_STRING_LONG("C.LINE : New Mersenne order changed to : ", (long)p_structCommon->iMersenneOrder);
                                         }
 
 					/* Init the ThreadNumber value stored in the ThreadProgressionTable because, the saveCurrentContext
