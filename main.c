@@ -507,14 +507,14 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 
 				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 
-				if(p_structCommon->bFastDisp == TRUE)
+				if(p_structCommon->bFastMode == TRUE)
 				{
 					drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_MERSENNE_ORDER, p_structCommon);
 				}
 
 				while(p_structCommon->bAutoSearch == TRUE)
 				{
-					if(p_structCommon->bFastDisp == FALSE)
+					if(p_structCommon->bFastDisp == FALSE && p_structCommon->bFastMode == FALSE)
 					{
 						eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 					}
@@ -522,7 +522,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 
 					/* We are now going to find the new Mersenne order. It needs to be prime, thus, we need to
 					check. For really great number this computation can take some time. Thus, we display a message */
-					if(p_structCommon->bFastDisp == FALSE)
+					if(p_structCommon->bFastDisp == FALSE && p_structCommon->bFastMode == FALSE)
 					{
 						drawSubMenu(p_structCommon->iRow, p_structCommon->iCol, MENU_WAIT_CHECK_MERSENNE_ORDER, p_structCommon);
 					}
