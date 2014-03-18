@@ -119,8 +119,6 @@ void killTheApp(structProgramInfo* p_structCommon)
         		LOG_WRITE("End of the program. See you. Release memory...");
         		endwin();
 
-			storeAndCleanMPZNumber(NULL, MODE_CLEAN);
-
         		/* Clean */
         		free(l_structCommon->iThreadProgressionTable);
         		free(l_structCommon);
