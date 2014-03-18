@@ -253,7 +253,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				if(!strcmp(argv[l_iTmp], "-time")) {p_structCommon->bPrintTime = TRUE; LOG_WRITE("C.LINE : Now, i print the computation time")}
 
 				/* Set the fast mode */
-				if(!strcmp(argv[l_iTmp], "-F")) {p_structCommon->bFastMode = TRUE; LOG_WRITE("C.LINE : Setting up the fast mode")}
+				if(!strcmp(argv[l_iTmp], "-F")) {p_structCommon->bFastMode = TRUE;p_structCommon->bFastDisp = TRUE; LOG_WRITE("C.LINE : Setting up the fast mode")}
 
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
 				   than -m because -i can be used to setup the program, and installer are not going to care about the order */

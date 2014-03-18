@@ -21,7 +21,7 @@ Fast display mode. If the number is not prime, there is no message on screen and
 .B
 .IP -F
 Fastmode. For Miller-Rabin only. Throw away all displaying stuff, time counting and other useless things and compute as
-fast as possible. The current Mersenne order is still displayed at the screen bottom.
+fast as possible. The current Mersenne order is still displayed at the screen bottom. Fastmode implies FastDisp (-f)
 .B
 .IP -d
 Turn program into a daemon. Thus, program is like a submarine : you can see it only in process
