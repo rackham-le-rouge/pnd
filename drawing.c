@@ -284,6 +284,12 @@ void drawMainMenu(int p_iRow, int p_iCol)
 {
 	char* l_cBuffer = (char*)malloc(21*sizeof(char));
 
+	if(l_cBuffer == NULL)
+	{
+			perror("Not enought memory - Stop all now");
+			exit(ENOMEM);
+	}
+
         start_color();                          	/* start color mode */
 
 	/* this color pair seem to be useless... */
@@ -350,6 +356,12 @@ void drawMainMenu(int p_iRow, int p_iCol)
 void drawSubMenu(int p_iRow, int p_iCol, int p_iMenuSelector, structProgramInfo* p_structCommon)
 {
 	char* l_cBuffer = (char*)malloc(21*sizeof(char));
+
+	if(l_cBuffer == NULL)
+	{
+			perror("Not enought memory - Stop all now");
+			exit(ENOMEM);
+	}
 
         start_color();                          	/* start color mode */
 
@@ -666,6 +678,12 @@ void drawCurrentMersenneOrder(structProgramInfo* structCommon)
 {
 	char* l_cBuffer;
 	l_cBuffer = (char*)malloc(structCommon->iCol*sizeof(char));
+
+	if(l_cBuffer == NULL)
+	{
+			perror("Not enought memory - Stop all now");
+			exit(ENOMEM);
+	}
 
 	snprintf(l_cBuffer, (structCommon->iCol - 1)*sizeof(char), "Current Mersenne order : %d   ", structCommon->iMersenneOrder);
 

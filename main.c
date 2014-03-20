@@ -162,6 +162,11 @@ void setDefaultValueToTheProgramStructure(structProgramInfo* p_structStructure)
 	number to save how many threads works. p_structStructure->iRow is used because it is the max threads number, wa can't display more
 	threads progression, thus, the limit is the lines number  */
 
+	if(p_structStructure->iThreadProgressionTable == NULL)
+	{
+		perror("Not enought memory - Cannot create progression table - Stop all NOW !");
+		exit(ENOMEM);
+	}
 
 
 	/* bAutoSearch is not initialized here. Init is in main, just after argv analysing */
