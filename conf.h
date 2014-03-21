@@ -206,13 +206,15 @@ typedef enum
   */
 typedef struct structProgramInfo_
 {
-        int iMersenneOrder;
+        int  iMersenneOrder;
         int  iCol;
         int  iRow;
-        int* iThreadProgressionTable;
         int  iModerationTime;                                           /* Wait a little between each test in order to slow down and avoid CPU overloadinf */
         int  iWantedMRCheck;
+        int* iThreadProgressionTable;
+	unsigned char paddingA[8];
         unsigned char iThreadNumber;                                    /* we can put it in char, more than 256 thread is suspicious... */
+	unsigned char paddingB[31];
         char bIsComputing;
         char bNeedToRedrawProgressBar;
         char bDead;                                                     /* when at least one thread found at least one divider */
@@ -222,7 +224,8 @@ typedef struct structProgramInfo_
 	char bFastDisp;
 	char bFastMode;
 	char bPrintTime;
-}structProgramInfo;
+	unsigned char paddingC[23];
+}__attribute__((aligned(4),packed)) structProgramInfo;
 
 
 /**
