@@ -265,7 +265,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				if(!strcmp(argv[l_iTmp], "-u")) {*p_bAutoAction = TRUE; *p_iAutoActionChoice = 1; LOG_WRITE("C.LINE : Test one number and quit")}
 
 				/* Set the unitary test mode */
-				if(!strcmp(argv[l_iTmp], "-clear")) {remove("pnd.hotsave"); LOG_WRITE("C.LINE : Remove the hotsave file")}
+				if(!strcmp(argv[l_iTmp], "-clear")) {*p_bAutoAction = TRUE; *p_iAutoActionChoice = 6; remove("pnd.hotsave"); LOG_WRITE("C.LINE : Remove the hotsave file")}
 
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
 				   than -m because -i can be used to setup the program, and installer are not going to care about the order */
