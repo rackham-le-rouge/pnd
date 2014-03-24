@@ -261,6 +261,9 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* Set the fast mode */
 				if(!strcmp(argv[l_iTmp], "-F")) {p_structCommon->bFastMode = TRUE;p_structCommon->bFastDisp = TRUE; LOG_WRITE("C.LINE : Setting up the fast mode")}
 
+				/* Set the unitary test mode */
+				if(!strcmp(argv[l_iTmp], "-u")) {*p_bAutoAction = TRUE; *p_iAutoActionChoice = 1; LOG_WRITE("C.LINE : Test one number and quit")}
+
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
 				   than -m because -i can be used to setup the program, and installer are not going to care about the order */
 				if(!strcmp(argv[l_iTmp], "-i"))
@@ -360,7 +363,12 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				{
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
-					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] [-F{fast mode}] [-s{speed toogle}] [-time{print computation time}] [[-c] [wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] [wanted mersenne order and start]] [[-t] [wanted number of threads]] [[-w] [moderation time]]\n");
+					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] \
+						[-F{fast mode}] [-u{test one number and quit}] [-s{speed toogle}] \
+						[-time{print computation time}] [[-c] \
+						[wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] \
+						[wanted mersenne order and start]] [[-t] [wanted number of threads]] \
+						[[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}
@@ -432,8 +440,6 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 		}
 		nodelay(stdscr, TRUE);
 
-		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice; *p_bAutoAction = FALSE;}
-
 		/* user loop -> here we have all of actions associated to a menu */
 		switch(l_iTmp)
 		{
@@ -444,6 +450,12 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				p_structCommon->bAutoSearch = FALSE;
 				eraseWorkingScreen(p_structCommon->iRow, p_structCommon->iCol);
 				createAllComputingThreads(p_structCommon);
+
+				/* If there is an autoaction on this mode, it is to test only one number and quit */
+				if(*p_bAutoAction == TRUE)
+				{
+					l_bQuitProgram = TRUE;
+				}
 				break;
 			}
 			case 2:
@@ -585,6 +597,8 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				break;
 			}
 		}
+
+		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice; *p_bAutoAction = FALSE;}
 	}
 	return EXIT_SUCCESS;
 }
