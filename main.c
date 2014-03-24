@@ -350,7 +350,7 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* No windows displayed. submarine mode */
 				p_structCommon->bAutoSearch = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : p_structCommon->bAutoSearch;
 				*p_bAutoAction = (!strcmp(argv[l_iTmp], "-d")) ? TRUE : *p_bAutoAction;
-				*p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : *p_iAutoActionChoice;
+				if(*p_iAutoActionChoice != 1) { *p_iAutoActionChoice = (!strcmp(argv[l_iTmp], "-d")) ? 4 : *p_iAutoActionChoice;}
 				if(!strcmp(argv[l_iTmp], "-d"))
 				{
 					LOG_WRITE("C.LINE : Daemon mode selected. Starting prospecting mode.");
@@ -439,6 +439,8 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 			l_bAsk = (l_iTmp > 0 && l_iTmp < 10) ? FALSE : TRUE;
 		}
 		nodelay(stdscr, TRUE);
+
+		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice;}
 
 		/* user loop -> here we have all of actions associated to a menu */
 		switch(l_iTmp)
@@ -597,8 +599,7 @@ char mainMenu(structProgramInfo* p_structCommon, char* p_bAutoAction, int* p_iAu
 				break;
 			}
 		}
-
-		if(*p_bAutoAction == TRUE) {l_iTmp = *p_iAutoActionChoice; *p_bAutoAction = FALSE;}
+		if(*p_bAutoAction == TRUE) {*p_bAutoAction = FALSE;}
 	}
 	return EXIT_SUCCESS;
 }

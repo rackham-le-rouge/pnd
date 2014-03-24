@@ -232,13 +232,7 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 	p_structCommon->bLoaded = FALSE;
 
 	/* Ask user key press and if we are in auto search, leave the message 2 seconds and quit */
-	if(p_structCommon->bAutoSearch == FALSE)
-	{
-		nodelay(stdscr, FALSE);
-		getch();
-		nodelay(stdscr, TRUE);
-	}
-	else
+	if(p_structCommon->bAutoSearch == TRUE)
 	{
 		if(p_structCommon->bFastDisp == FALSE)
 		{
@@ -251,5 +245,15 @@ void createAllComputingThreads(structProgramInfo* p_structCommon)
 				usleep(l_iUSecBetweenTwoAutoSearch);
 			}
 		}
+	}
+	else if(p_structCommon->bAutoSearch == FALSE && p_structCommon->bFastDisp == TRUE)
+	{
+		usleep(l_iUSecBetweenTwoAutoSearch);
+	}
+	else
+	{
+		nodelay(stdscr, FALSE);
+		getch();
+		nodelay(stdscr, TRUE);
 	}
 }

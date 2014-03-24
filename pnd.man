@@ -131,7 +131,10 @@ $ ./pnd -a -m 19 -t 20 Do the same, but continue after 19 to the next avaible Me
 $ ./pnd -d -t 20 Use 20 threads, use the default Mersenne order (you can set it in config.h) and run as a deamon. So, you can't see it. The program are just overload your CPU... -d implies -a : program are going to continue computing until its murder
 .br
 $ ./pnd -f -F -c 5 -a Is the fastest configuration. You can add a -d
-
+.br
+$ ./pnd -f -F -d -m 23333 -u Test if Mersenne order 23333 gives a prime number and quit in the daemon mode (without screen output)
+.br
+$ ./pnd -m -u 23333 Test if Mersenne order 23333 gives a prime number, display the result and ask to quit.
 
 .SH SEE ALSO
 ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave, http://en.literateprograms.org/
