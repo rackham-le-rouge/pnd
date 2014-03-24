@@ -67,6 +67,9 @@ int daemonizeMe(structProgramInfo* p_structCommon)
 		killTheApp(p_structCommon);
 	}
 
+	/* Set the new PID */
+	g_iCurrentPID = getpid();
+
 	LOG_WRITE("Daemon : Kill my father. Done")
 	/* Change umask to forget the parent's one */
 	umask(0);
