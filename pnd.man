@@ -149,8 +149,6 @@ ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave, http://en.literateprograms
 We are using ncurses and multithreading, thus, there is some funcy little things.
 .IP "Keyboard" 
 During computation, kerboard is scanned, but, you need to put some time between two keyboard check. On the otherwise, there is some weird character on the screen. This time have been set by me, and you can change it in config.h
-.IP "Memory leak" 
-Today, because of multithread and several calling to some computing functions using GMP numbers, i can't clear them properly. Program wants to clean them once, at the end, and there is a function to clean them all at the end, but i can't use it now because there is a mysterious segfault in it after the 2nd clear.
 .IP "Speed toogle" 
 After three toogling, program crash.
 
