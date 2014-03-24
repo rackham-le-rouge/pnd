@@ -447,7 +447,7 @@ int miller_rabin_pass(mpz_t p_mpzRandom, mpz_t p_mpzNumber)
 	}
 
 	mpz_init(a_to_power);
-	mpz_powm(a_to_power,p_mpzRandom, d, p_mpzNumber);
+	mpz_powm(a_to_power,p_mpzRandom, d, p_mpzNumber);	/* The longuest operation */
 	if (mpz_cmp_ui(a_to_power, 1) == 0)
 	{
 		mpz_clear(a_to_power);
