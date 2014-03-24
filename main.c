@@ -264,6 +264,9 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 				/* Set the unitary test mode */
 				if(!strcmp(argv[l_iTmp], "-u")) {*p_bAutoAction = TRUE; *p_iAutoActionChoice = 1; LOG_WRITE("C.LINE : Test one number and quit")}
 
+				/* Set the unitary test mode */
+				if(!strcmp(argv[l_iTmp], "-clear")) {remove("pnd.hotsave"); LOG_WRITE("C.LINE : Remove the hotsave file")}
+
 				/* Do an initialisation of the program to a specified order  - This function check if the order is good rather
 				   than -m because -i can be used to setup the program, and installer are not going to care about the order */
 				if(!strcmp(argv[l_iTmp], "-i"))
@@ -364,11 +367,11 @@ void extractConfigFromCommandLine(int argc, char** argv, structProgramInfo* p_st
 					LOG_WRITE("C.LINE : Help is displayed")
 					endwin();
 					printf("PND - Command line use : pnd [-h{help}] [-a{auto}] [-d{daemon}] [-f{fast display mode}] \
-						[-F{fast mode}] [-u{test one number and quit}] [-s{speed toogle}] \
-						[-time{print computation time}] [[-c] \
-						[wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] \
-						[wanted mersenne order and start]] [[-t] [wanted number of threads]] \
-						[[-w] [moderation time]]\n");
+[-F{fast mode}] [-u{test one number and quit}] [-s{speed toogle}] [-clear{remove hotsave file}] \
+[-time{print computation time}] [[-c] \
+[wanted_check_in_MR_algo]] [[-i] [mersenne order, save and quit]] [[-m] \
+[wanted mersenne order and start]] [[-t] [wanted number of threads]] \
+[[-w] [moderation time]]\n");
 					*p_bAutoAction = TRUE;
 					*p_iAutoActionChoice = 6;
 				}

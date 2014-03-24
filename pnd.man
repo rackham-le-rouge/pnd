@@ -4,7 +4,7 @@
 .SH NAME
 PND \- multrithreaded and optimized program to find prime numbers. This program only test Mersenne numbers (2^n - 1) and can work alone until it find something...
 .SH SYNOPSIS
-pnd [-h] [-a] [-f] [-F] [-d] [-s] [u] [-time] [-c Wanted_check_per_number] [-i Mersenne_order] [-m Mersenne_order] [-t wanted_threads_number] [-w wanted_moderation_time]
+pnd [-h] [-a] [-f] [-F] [-d] [-s] [u] [-time] [-clear] [-c Wanted_check_per_number] [-i Mersenne_order] [-m Mersenne_order] [-t wanted_threads_number] [-w wanted_moderation_time]
 .SH DESCRIPTION
 pnd is a program aiming to compute and find new prime number. This tool uses GMP in order to provide arbitrary precision numbers, thus, searching is unlimited. Moreover, this program use openMP in order to share work between a wanted thread number. On recent computers, this function could be really nice to use.
 .SH OPTIONS
@@ -40,6 +40,10 @@ This mode is to test only one number (the one defined by
 .B
 .IP -time
 Print the computation time after each Mersenne number check.
+.B
+.IP -clear
+Remove the hotsave file in order to avoid to load old context on the next start.
+.B This parameter needs to be in first place in the command line.
 .B
 .IP -c
 Check number. For the Miller-Rabin algo only ! How many check do you want for an hypothetic prime number (per thread). Thus, to have all check on this hypothetic prime number, you need to multiply by ThreadNumber. Greater this number is, best is the prediction about the prime number.
@@ -135,6 +139,8 @@ $ ./pnd -f -F -c 5 -a Is the fastest configuration. You can add a -d
 $ ./pnd -f -F -d -m 23333 -u Test if Mersenne order 23333 gives a prime number and quit in the daemon mode (without screen output)
 .br
 $ ./pnd -m -u 23333 Test if Mersenne order 23333 gives a prime number, display the result and ask to quit.
+.br
+$ ./pnd -clear -d -f -F -m 23333 Remove the old context file, and start another computation in order to find if the order 23333 gives prime or not.
 
 .SH SEE ALSO
 ncurses, openmp, gmp, pnd.log, config.h, pnd.hotsave, http://en.literateprograms.org/
